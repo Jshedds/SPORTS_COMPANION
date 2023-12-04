@@ -1,4 +1,5 @@
 class SportsController < ApplicationController
+  before_action :set_sport, only: %i[show edit update destroy]
   skip_before_action :authenticate_user!, only: :index
 
   def index
@@ -6,7 +7,7 @@ class SportsController < ApplicationController
   end
 
   def show
-    @sport = Sport.find(params[:id])
+    # @sport = Sport.find(params[:id])
   end
 
   def new
@@ -24,12 +25,14 @@ class SportsController < ApplicationController
   end
 
   def edit
-    @sport = Sport.find(params[:id])
+    # @sport = Sport.find(params[:id])
+
     # might need to call admin/user here
   end
 
   def update
-    @sport = Sport.find(params[:id])
+    # @sport = Sport.find(params[:id])
+
     # might need to call admin/user here
     if @sport.update(sport_params)
       redirect_to @sport, notice: "Sport was succesfully updated"
@@ -39,7 +42,8 @@ class SportsController < ApplicationController
   end
 
   def destroy
-    @sport = Sport.find(params[:id])
+    # @sport = Sport.find(params[:id])
+
     # might need to call admin/user here
     @sport.destroy!
     redirect_to sports_path, notice: "Sport was succesfully deleted", status: :see_other

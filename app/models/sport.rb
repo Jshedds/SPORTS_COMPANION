@@ -1,6 +1,7 @@
 class Sport < ApplicationRecord
   # has_many SOMETHINGSOMETHING dependent: :destroy
   has_one :equipment_need, :history, :overview, :rule, :terminology
+  has_one :chatroom
   has_many :positions
 
   validates :name, presence: true, uniqueness: true

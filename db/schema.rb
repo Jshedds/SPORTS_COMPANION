@@ -60,6 +60,31 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_112843) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["sport_id"], name: "index_rules_on_sport_id"
+ActiveRecord::Schema[7.1].define(version: 2023_12_05_103311) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "descriptions", force: :cascade do |t|
+    t.text "overview_of_position"
+    t.text "primary_objectives"
+    t.text "strengths"
+    t.text "weaknesses"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "famous_players", force: :cascade do |t|
+    t.integer "appearances"
+    t.integer "trophies_won"
+    t.string "teams_countries"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "positions", force: :cascade do |t|
+    t.string "position_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "sports", force: :cascade do |t|

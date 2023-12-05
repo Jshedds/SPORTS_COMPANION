@@ -41,6 +41,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_141143) do
     t.string "teams_countries"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "name"
   end
 
   create_table "favourites", force: :cascade do |t|
@@ -78,6 +79,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_141143) do
     t.string "position_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "positions_tag"
   end
 
   create_table "rules", force: :cascade do |t|

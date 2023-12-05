@@ -1,1 +1,7 @@
 <h1>List of all Sports</h1>
+
+<% @sports.each do |sport| %>
+  <%= link_to sport_path(sport) do %>
+    <h3><%= sport.name %></h3>
+  <% end %>
+<% end %>

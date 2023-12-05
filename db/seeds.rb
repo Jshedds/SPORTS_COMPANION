@@ -33,8 +33,8 @@ football = {
 }
 
 puts "Creating new sports..."
-[bball, soccer, rugby, football]. each do |attributes|
-sport = Sport.create!(attributes)
-puts "Created #{sport.name}"
+[bball, soccer, rugby, football].each do |attributes|
+  sport = Sport.create!(attributes)
+  puts "Created #{sport.name}"
 end
 puts "finished"

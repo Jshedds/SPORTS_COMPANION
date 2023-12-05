@@ -10,9 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_05_142108) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_05_152909) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "chatrooms", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "descriptions", force: :cascade do |t|
     t.text "overview_of_position"
@@ -63,6 +69,16 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_142108) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["sport_id"], name: "index_histories_on_sport_id"
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.string "content"
+    t.bigint "chatroom_id", null: false
+    t.bigint "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["chatroom_id"], name: "index_messages_on_chatroom_id"
+    t.index ["user_id"], name: "index_messages_on_user_id"
   end
 
   create_table "overviews", force: :cascade do |t|
@@ -119,6 +135,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_142108) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "username"
+    t.string "nickname"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
@@ -127,6 +144,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_142108) do
   add_foreign_key "favourites", "sports"
   add_foreign_key "favourites", "users"
   add_foreign_key "histories", "sports"
+  add_foreign_key "messages", "chatrooms"
+  add_foreign_key "messages", "users"
   add_foreign_key "overviews", "sports"
   add_foreign_key "rules", "sports"
   add_foreign_key "terminologies", "sports"

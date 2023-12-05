@@ -5,6 +5,7 @@ class Sport < ApplicationRecord
   has_one :overview
   has_one :rule
   has_one :terminology
+  has_one :chatroom
   has_many :positions
 
   validates :name, presence: true, uniqueness: true

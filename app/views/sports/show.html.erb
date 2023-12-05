@@ -1,4 +1,7 @@
-<h1>Display of single Sport</h1>
+<h1><%= @sport.name %></h1>
+<%= simple_form_for [@sport, @favourite] do |f| %>
+<%= f.submit "❤️" %>
+<% end %>
 <%= link_to "edit this sport", edit_sport_path%>
 
 <%= link_to "All sports", sports_path%>

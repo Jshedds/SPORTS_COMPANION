@@ -8,6 +8,7 @@ class SportsController < ApplicationController
 
   def show
     # @sport = Sport.find(params[:id])
+    @favourite = Favourite.new
   end
 
   def new
@@ -16,7 +17,6 @@ class SportsController < ApplicationController
 
   def create
     @sport = Sport.new(sport_params)
-    # might need to call admin/user here
     if @sport.save
       redirect_to @sport
     else

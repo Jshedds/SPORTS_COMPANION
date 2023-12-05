@@ -1,5 +1,7 @@
 class Position < ApplicationRecord
-  has_one :descriptions
+  has_one :description
   has_many :famous_players
-  delegate :position_name, to: :sports
+
+  delegate :appearances, :trophies_won, :teams_countries, :name, to: :famous_player
+  delegate :overview_of_position, :primary_objectives, :strengths, :weaknesses, to: :description
 end

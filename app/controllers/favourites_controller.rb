@@ -1,8 +1,14 @@
 class FavouritesController < ApplicationController
   def create
-    @favourite = Favourite.new(favourite_params)
-    @sport = Sport.find(params[:id])
+    @favourite = Favourite.new
+    @sport = Sport.find(params[:sport_id])
     @favourite.sport = @sport
+    @favourite.user = current_user
+    if @favourite.save
+      redirect_to sport_path(@sport)
+    else
+      redirect_to sports_path
+    end
   end
 
   private

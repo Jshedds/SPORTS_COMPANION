@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_05_104840) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_05_112843) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,12 +21,90 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_104840) do
     t.datetime "updated_at", null: false
     t.index ["sports_id"], name: "index_favourites_on_sports_id"
     t.index ["user_id"], name: "index_favourites_on_user_id"
+
+  create_table "descriptions", force: :cascade do |t|
+    t.text "overview_of_position"
+    t.text "primary_objectives"
+    t.text "strengths"
+    t.text "weaknesses"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "equipment_needs", force: :cascade do |t|
+    t.string "footwear"
+    t.string "required_equipment"
+    t.text "safety_gear"
+    t.text "infrastructure"
+    t.string "clothing"
+    t.bigint "sport_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sport_id"], name: "index_equipment_needs_on_sport_id"
+  end
+
+  create_table "famous_players", force: :cascade do |t|
+    t.integer "appearances"
+    t.integer "trophies_won"
+    t.string "teams_countries"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "histories", force: :cascade do |t|
+    t.date "invented"
+    t.string "creator"
+    t.string "country_of_origin"
+    t.string "most_successful_teams"
+    t.text "milestones"
+    t.bigint "sport_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sport_id"], name: "index_histories_on_sport_id"
+  end
+
+  create_table "overviews", force: :cascade do |t|
+    t.text "short_description"
+    t.text "game_objective"
+    t.string "governing_body_url"
+    t.bigint "sport_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sport_id"], name: "index_overviews_on_sport_id"
+  end
+
+  create_table "positions", force: :cascade do |t|
+    t.string "position_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "rules", force: :cascade do |t|
+    t.string "game_duration"
+    t.text "scoring"
+    t.integer "player_per_team"
+    t.integer "referees"
+    t.text "most_important_rules"
+    t.text "field_size"
+    t.string "field_type"
+    t.bigint "sport_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sport_id"], name: "index_rules_on_sport_id"
   end
 
   create_table "sports", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "terminologies", force: :cascade do |t|
+    t.text "most_important_terms"
+    t.bigint "sport_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sport_id"], name: "index_terminologies_on_sport_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -44,4 +122,9 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_05_104840) do
 
   add_foreign_key "favourites", "sports", column: "sports_id"
   add_foreign_key "favourites", "users"
+  add_foreign_key "equipment_needs", "sports"
+  add_foreign_key "histories", "sports"
+  add_foreign_key "overviews", "sports"
+  add_foreign_key "rules", "sports"
+  add_foreign_key "terminologies", "sports"
 end

@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   resources :sports do
+    resources :favourites, only: %i[create]
     resources :equipment_needs, only: %i[create update]
     resources :histories, only: %i[create update]
     resources :overviews, only: %i[create update]

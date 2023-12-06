@@ -1,22 +1,25 @@
 class SportsController < ApplicationController
   before_action :set_sport, only: %i[show edit update destroy]
-  skip_before_action :authenticate_user!, only: :index
+  # skip_before_action :authenticate_user!, only: %i[index show]
 
   def index
-    @sports = Sport.all
+    @sports = policy_scope(Sport)
   end
 
   def show
     # @sport = Sport.find(params[:id])
     @favourite = Favourite.new
+    authorize @sport
   end
 
   def new
     @sport = Sport.new
+    authorize @sport
   end
 
   def create
     @sport = Sport.new(sport_params)
+    authorize @sport
     if @sport.save
       redirect_to @sport
     else
@@ -26,14 +29,12 @@ class SportsController < ApplicationController
 
   def edit
     # @sport = Sport.find(params[:id])
-
-    # might need to call admin/user here
+    authorize @sport
   end
 
   def update
     # @sport = Sport.find(params[:id])
-
-    # might need to call admin/user here
+    authorize @sport
     if @sport.update(sport_params)
       redirect_to @sport, notice: "Sport was succesfully updated"
     else
@@ -43,8 +44,7 @@ class SportsController < ApplicationController
 
   def destroy
     # @sport = Sport.find(params[:id])
-
-    # might need to call admin/user here
+    authorize @sport
     @sport.destroy!
     redirect_to sports_path, notice: "Sport was succesfully deleted", status: :see_other
   end

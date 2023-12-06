@@ -29,8 +29,19 @@ rugby = {
 }
 
 football = {
-  name: "American Football"
-}
+  name: "American Football",
+  overview_attributes: {
+    short_description: "tackle people",
+    game_objective: "score tds",
+    governing_body_url: "nfl.com"
+  },
+  # positions: {
+  #   description_attributes: {
+  #     overview_of_position: "blabla",
+  #     primary_objectives: "blabla",
+  #     strengths: "blabla",
+  #     weaknesses: "blabla"
+  }
 
 puts "Creating new sports..."
 [bball, soccer, rugby, football].each do |attributes|

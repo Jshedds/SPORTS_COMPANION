@@ -1,3 +1,3 @@
 json.array! @sports do |sport|
-  json.extract! sport, :id, :name
+  json.extract! sport, :id, :name, :overview
 end

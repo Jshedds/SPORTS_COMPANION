@@ -4,7 +4,6 @@ before_action :set_sport, only: [:show, :update, :destroy]
 
   def index
     @sports = policy_scope(Sport)
-    authorize @sport
   end
 
   def show
@@ -19,6 +18,7 @@ before_action :set_sport, only: [:show, :update, :destroy]
     else
       render_error
     end
+  end
 
     def create
       @sport = Sport.new(sport_params)
@@ -28,6 +28,7 @@ before_action :set_sport, only: [:show, :update, :destroy]
         render :show, status: :created
       else
         render_error
+      end
     end
 
     def destroy
@@ -36,7 +37,6 @@ before_action :set_sport, only: [:show, :update, :destroy]
       # head :no_content
       render json: { message: "It worked!"}
     end
-  end
 
   private
 

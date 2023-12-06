@@ -1,12 +1,13 @@
 class Sport < ApplicationRecord
   # has_many SOMETHINGSOMETHING dependent: :destroy
-  has_one :equipment_need
-  has_one :history
-  has_one :overview
-  has_one :rule
-  has_one :terminology
-  has_one :chatroom
-  has_many :positions
+  has_one :equipment_need, dependent: :destroy
+  has_one :history, dependent: :destroy
+  has_one :overview, dependent: :destroy
+  has_one :rule, dependent: :destroy
+  has_one :terminology, dependent: :destroy
+  has_one :chatroom, dependent: :destroy
+  has_many :positions, dependent: :destroy
+  has_many :favourites, dependent: :destroy
 
   validates :name, presence: true, uniqueness: true
 
@@ -16,4 +17,5 @@ class Sport < ApplicationRecord
   delegate :short_description, :game_objective, :governing_body_url, to: :overview
   delegate :invented, :creator, :country_of_origin, :most_successful_teams, :milestones, to: :history
   delegate :position_name, :positions_tag, to: :position
+  accepts_nested_attributes_for :overview
 end

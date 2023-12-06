@@ -98,6 +98,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_154927) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "positions_tag"
+    t.bigint "sport_id"
+    t.index ["sport_id"], name: "index_positions_on_sport_id"
   end
 
   create_table "rules", force: :cascade do |t|
@@ -137,6 +139,9 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_154927) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "username"
+    t.string "authentication_token", limit: 30
+    t.boolean "admin", default: false, null: false
+    t.index ["authentication_token"], name: "index_users_on_authentication_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
@@ -149,6 +154,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_154927) do
   add_foreign_key "messages", "chatrooms"
   add_foreign_key "messages", "users"
   add_foreign_key "overviews", "sports"
+  add_foreign_key "positions", "sports"
   add_foreign_key "rules", "sports"
   add_foreign_key "terminologies", "sports"
 end

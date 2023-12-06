@@ -11,10 +11,10 @@
 puts "Cleaning the database...."
 Sport.destroy_all
 User.destroy_all
-User.create!(email: "colerner@me.com", password: "123456", username: "Conny")
-User.create!(email: "jamie@jamie.com", password: "123456", username: "Jamie")
-User.create!(email: "thomas@thomas.com", password: "123456", username: "Thomas")
-User.create!(email: "bruno@bruno.com", password: "123456", username: "Bruno")
+User.create!(email: "colerner@me.com", password: "123456", admin: true, username: "Conny")
+User.create!(email: "jamie@jamie.com", password: "123456", admin: true, username: "Jamie")
+User.create!(email: "thomas@thomas.com", password: "123456", admin: true, username: "Thomas")
+User.create!(email: "bruno@bruno.com", password: "123456", admin: true, username: "Bruno")
 
 bball = {
   name: "Basketball"
@@ -30,8 +30,19 @@ rugby = {
 }
 
 football = {
-  name: "American Football"
-}
+  name: "American Football",
+  overview_attributes: {
+    short_description: "tackle people",
+    game_objective: "score tds",
+    governing_body_url: "nfl.com"
+  },
+  # positions: {
+  #   description_attributes: {
+  #     overview_of_position: "blabla",
+  #     primary_objectives: "blabla",
+  #     strengths: "blabla",
+  #     weaknesses: "blabla"
+  }
 
 puts "Creating new sports..."
 [bball, soccer, rugby, football].each do |attributes|

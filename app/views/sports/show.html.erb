@@ -2,7 +2,7 @@
 <%= simple_form_for [@sport, @favourite] do |f| %>
 <%= f.submit "❤️" %>
 <% end %>
-<%= link_to "edit this sport", edit_sport_path%>
+<%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
 
 <%= link_to "All sports", sports_path%>
 

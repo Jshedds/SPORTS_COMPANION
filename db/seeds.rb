@@ -11,10 +11,10 @@
 puts "Cleaning the database...."
 Sport.destroy_all
 User.destroy_all
-User.create!(email: "colerner@me.com", password: "123456")
-User.create!(email: "jamie@jamie.com", password: "123456")
-User.create!(email: "thomas@thomas.com", password: "123456")
-User.create!(email: "bruno@bruno.com", password: "123456")
+User.create!(email: "colerner@me.com", password: "123456", admin: true)
+User.create!(email: "jamie@jamie.com", password: "123456", admin: true)
+User.create!(email: "thomas@thomas.com", password: "123456", admin: true)
+User.create!(email: "bruno@bruno.com", password: "123456", admin: true)
 
 bball = {
   name: "Basketball"

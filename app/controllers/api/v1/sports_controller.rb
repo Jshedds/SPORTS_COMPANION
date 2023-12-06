@@ -1,20 +1,40 @@
 class Api::V1::SportsController < Api::V1::BaseController
 acts_as_token_authentication_handler_for User, except: [ :index, :show ]
-before_action :set_sport, only: [:show, :update]
+before_action :set_sport, only: [:show, :update, :destroy]
 
   def index
     @sports = policy_scope(Sport)
+    authorize @sport
   end
 
   def show
+    authorize @sport
   end
 
   def update
     @sport.update(sport_params)
+    authorize @sport
     if @sport.update(sport_params)
       render :show
     else
       render_error
+    end
+
+    def create
+      @sport = Sport.new(sport_params)
+      @sport.user = current_user
+      authorize @sport
+      if @sport.save
+        render :show, status: :created
+      else
+        render_error
+    end
+
+    def destroy
+      authorize @sport
+      @sport.destroy
+      # head :no_content
+      render json: { message: "It worked!"}
     end
   end
 

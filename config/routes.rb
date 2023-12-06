@@ -24,4 +24,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   get "dashboard", to: "users#show", as: "dashboard"
+
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :sports, only: [:index, :show, :update]
+    end
+  end
 end

@@ -16,6 +16,6 @@ class Sport < ApplicationRecord
   delegate :game_duration, :scoring, :player_per_team, :referees, :most_important_rules, :field_size, :field_type, to: :rule
   delegate :short_description, :game_objective, :governing_body_url, to: :overview
   delegate :invented, :creator, :country_of_origin, :most_successful_teams, :milestones, to: :history
-  delegate :position_name, :positions_tag, to: :position
-  accepts_nested_attributes_for :overview
+  delegate :positions_name, :positions_tag, to: :position
+  accepts_nested_attributes_for :overview, :equipment_need, :history, :positions
 end

@@ -36,13 +36,32 @@ football = {
     game_objective: "score tds",
     governing_body_url: "nfl.com"
   },
-  # positions: {
-  #   description_attributes: {
-  #     overview_of_position: "blabla",
-  #     primary_objectives: "blabla",
-  #     strengths: "blabla",
-  #     weaknesses: "blabla"
+  equipment_need_attributes: {
+    footwear: "fill here",
+    required_equipment: "fill here",
+    safety_gear: "fill here",
+    infrastructure: "fill here",
+    clothing: "fill here"
+  },
+  history_attributes: {
+    invented: 2.days.ago,
+    creator: "fill here",
+    country_of_origin: "fill here",
+    most_successful_teams: "fill here",
+    milestones: "fill here"
+  },
+  positions_attributes: { "0" => {
+    positions_name: "fill here",
+    positions_tag: "fill here",
+    }
+    description_attributes: {
+      overview_of_position: "blabla",
+      primary_objectives: "blabla",
+      strengths: "blabla",
+      weaknesses: "blabla"
+    }
   }
+}
 
 puts "Creating new sports..."
 [bball, soccer, rugby, football].each do |attributes|

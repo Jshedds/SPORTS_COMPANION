@@ -382,13 +382,13 @@ RUGBY_UNION = {
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Fullback",
+      positions_tag: "FB15",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Last line of defense, positioned behind the main defensive line",
+        primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
+        strengths: "High ball catching, kicking, positional play",
+        weaknesses: "Physical duels, tackling in open play"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -398,13 +398,13 @@ RUGBY_UNION = {
       }}
     },
     "1" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Right Wing",
+      positions_tag: "RW14",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Speedy winger positioned on the right flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -414,13 +414,13 @@ RUGBY_UNION = {
       }}
     },
     "2" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Right Center",
+      positions_tag: "RC13",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -430,13 +430,13 @@ RUGBY_UNION = {
       }}
     },
     "3" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Fly-half",
+      positions_tag: "FH10",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Key playmaker, responsible for directing the team's attack",
+        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
+        strengths: "Kicking accuracy, tactical awareness, playmaking",
+        weaknesses: "Physical tackling, pressure situations"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -446,13 +446,13 @@ RUGBY_UNION = {
       }}
     },
     "4" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Scrum-half",
+      positions_tag: "SH9",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
+        primary_objectives: "Quick distribution, organizing forwards, defensive work",
+        strengths: "Passing accuracy, speed, game management",
+        weaknesses: "Physical challenges, tackling largers opponents"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -462,13 +462,13 @@ RUGBY_UNION = {
       }}
     },
     "5" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Left Center",
+      positions_tag: "LC12",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -478,13 +478,13 @@ RUGBY_UNION = {
       }}
     },
     "6" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Left Wing",
+      positions_tag: "LW11",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Speedy winger positioned on the left flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -494,13 +494,13 @@ RUGBY_UNION = {
       }}
     },
     "7" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Fly-half",
+      positions_tag: "FH10",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Key playmaker, responsible for directing the team's attack",
+        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
+        strengths: "Kicking accuracy, tactical awareness, playmaking",
+        weaknesses: "Physical tackling, pressure situations"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -510,13 +510,13 @@ RUGBY_UNION = {
       }}
     },
     "8" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Number Eight",
+      positions_tag: "N8",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Back-row forward, often the primary ball carrier",
+        primary_objectives: "Running with the ball, supporting in the open play, leading the forward pack",
+        strengths: "Ball-carrying, lineout work, leadership",
+        weaknesses: "Defensive responsiblities, breakdown challenges"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -526,13 +526,13 @@ RUGBY_UNION = {
       }}
     },
     "9" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Flanker",
+      positions_tag: "F6",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
+        primary_objectives: "Tackling, competing for the ball, supporting in open play",
+        strengths: "Tackling, breakdown work, agility",
+        weaknesses: "Ball-carrying, lineout challenges"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -542,13 +542,13 @@ RUGBY_UNION = {
       }}
     },
     "10" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Lock",
+      positions_tag: "L5",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -558,13 +558,13 @@ RUGBY_UNION = {
       }}
     },
     "11" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Lock",
+      positions_tag: "L4",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -574,13 +574,13 @@ RUGBY_UNION = {
       }}
     },
     "12" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Prop",
+      positions_tag: "P3",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Front-row forward, provides stability in scrums",
+        primary_objectives: "Scrummaging, supporting in open play, tackling",
+        strengths: "Scrummaging technique, physicality, work rate",
+        weaknesses: "Mobility, ball-handling"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -590,13 +590,13 @@ RUGBY_UNION = {
       }}
     },
     "13" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Hooker",
+      positions_tag: "H2",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Front-row forward, throws the ball into lineouts",
+        primary_objectives: "Lineout throwing, scrummaging, tackling",
+        strengths: "Lineout accuracy, physicality, set-piece play",
+        weaknesses: "Open-play mobility, ball-carrying"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -606,13 +606,13 @@ RUGBY_UNION = {
       }}
     },
     "14" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Prop",
+      positions_tag: "P1",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Front-row forward, provides stability in scrums",
+        primary_objectives: "Scrummaging, supporting in open play, tackling",
+        strengths: "Scrummaging technique, physicality, work rate",
+        weaknesses: "Mobility, ball-handling"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",

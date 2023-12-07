@@ -1,6 +1,6 @@
 <h1><%= @sport.name %></h1>
-<%= simple_form_for [@sport, @favourite] do |f| %>
-<%= f.submit "❤️" %>
+  <%= simple_form_for [@sport, @favourite] do |f| %>
+    <%= f.submit "❤️" %>
 <% end %>
 <h4><STRONG>OVERVIEW</STRONG></h4>
 <%= render "overviews/overview" %>

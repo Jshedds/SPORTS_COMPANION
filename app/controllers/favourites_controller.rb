@@ -1,4 +1,6 @@
 class FavouritesController < ApplicationController
+  before_action :authenticate_user!
+
   def create
     @favourite = Favourite.new
     @sport = Sport.find(params[:sport_id])
@@ -9,6 +11,11 @@ class FavouritesController < ApplicationController
       redirect_to sport_path(@sport), notice: "#{@sport.name} has successfully been added to your favourites"
     else
       redirect_to sports_path
+    end
+
+    def destroy
+      @favourite
+      @favourite.destroy
     end
   end
 

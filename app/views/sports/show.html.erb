@@ -2,7 +2,20 @@
 <%= simple_form_for [@sport, @favourite] do |f| %>
 <%= f.submit "❤️" %>
 <% end %>
+<h4><STRONG>OVERVIEW</STRONG></h4>
+<%= render "overviews/overview" %>
+<%= link_to "Positions", sport_positions_path(@sport) %>
+<h4><STRONG>RULES</STRONG></h4>
+<%= render "rules/rule" %>
+<h4><STRONG>TERMINOLOGY</STRONG></h4>
+<%= render "terminologies/terminology" %>
+<h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+<%= render "equipment_needs/equipment_need" %>
+<h4><STRONG>HISTORY</STRONG></h4>
+<%= render "histories/history" %>
+<br>
+<%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
 
 <%= link_to "edit this sport", edit_sport_path if current_user && policy(Sport).edit?%>
-
-<%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
+<%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
+<%= link_to "All sports", sports_path%>

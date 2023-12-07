@@ -89,35 +89,35 @@ BASKETBALL = {
 FOOTBALL = {
   name: "Football",
   overview_attributes: {
-    short_description: "tackle people",
-    game_objective: "score tds",
-    governing_body_url: "nfl.com"
+    short_description: "Score goals",
+    game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
+    governing_body_url: "fifa.com"
   },
   equipment_need_attributes: {
-    footwear: "fill here",
-    required_equipment: "fill here",
-    safety_gear: "fill here",
-    infrastructure: "fill here",
-    clothing: "fill here"
+    footwear: "Studded football boots",
+    required_equipment: "Matching strips",
+    safety_gear: "Shin pads and padded gloves (for goalkeepers)",
+    infrastructure: "A football pitch",
+    clothing: "Matching shirts, shorts and socks"
   },
   history_attributes: {
-    invented: 2.days.ago,
-    creator: "fill here",
-    country_of_origin: "fill here",
-    most_successful_teams: "fill here",
+    invented: "There aree a lot of depictions to multiple football-like sports played by anciet civilizations but the starting concept of modern football was invented in 1862.",
+    creator: "J. C. Thring",
+    country_of_origin: "England",
+    most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
     milestones: "fill here"
   },
   terminology_attributes: {
-    most_important_terms: "fill here",
+    most_important_terms: "Goal, offside, foul, penalty",
   },
   rule_attributes: {
-    game_duration: "fill here",
-    scoring: "fill here",
-    player_per_team: 0,
-    referees: 0,
+    game_duration: "90 minutes plus compensation",
+    scoring: "The ball enters the goal",
+    player_per_team: 11,
+    referees: 4,
     most_important_rules: "fill here",
     field_size: "fill here",
-    field_type: "fill here",
+    field_type: "Natural grass or plastic grass",
   },
   positions_attributes: { "0" => {
     positions_name: "fill here",

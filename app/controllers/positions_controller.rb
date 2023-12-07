@@ -1,10 +1,12 @@
 class PositionsController < ApplicationController
   def index
-    @sport = Sport.find(params[:id])
+    @positions = policy_scope(Position)
+    @sport = Sport.find(params[:sport_id])
     @positions = Position.all
   end
 
   def show
+    authorize @position
   end
 
   def create

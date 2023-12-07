@@ -31,7 +31,7 @@ BASKETBALL = {
     clothing: "Any type of sports clothing will do"
   },
   history_attributes: {
-    invented:  1891,
+    invented: "Year: 1891",
     creator: "James Naismith",
     country_of_origin: "United States of America",
     most_successful_teams: "Los Angeles Lakers, Boston Celtics, Chicago Bulls",
@@ -49,22 +49,41 @@ BASKETBALL = {
     field_size: "Rectangular shaped measuring 91 feet long and 50 feet wide",
     field_type: "polished wood",
   },
-  positions_attributes: { "0" => {
-    positions_name: "Point Guards, Shooting Guard, Small Forward, Power Forward, Center",
-    positions_tag: "PG, SG, SF, PF, C",
-    description_attributes: {
-      overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-      primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-      strengths: "Best ball handles, passer and decision maker on the team",
-      weaknesses: "Most often the smallest player on the floor"
-    },
-    famous_players_attributes: { "0" => {
-      name: "Earvin 'Magic' Johnson",
-      appearances: 906,
-      trophies_won: 5,
-      teams_countries: "LA Lakers, Team USA"
-    }}
-  }}
+
+    positions_attributes: { "0" => {
+      positions_name: "Point Guards, Shooting Guard, Small Forward, Power Forward, Center",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+      }
+
+      # {
+      #   positions_name: "Point Guard",
+      #   positions_tag: "PG",
+      #   description_attributes: {
+      #     overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+      #     primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+      #     strengths: "Best ball handles, passer and decision maker on the team",
+      #     weaknesses: "Most often the smallest player on the floor"
+      #   },
+      #   famous_players_attributes: { "0" => {
+      #     name: "Earvin 'Magic' Johnson",
+      #     appearances: 906,
+      #     trophies_won: 5,
+      #     teams_countries: "LA Lakers, Team USA"
+      #   }}
+      # }
+    }
 }
 
 FOOTBALL = {
@@ -121,22 +140,22 @@ FOOTBALL = {
 RUGBY_UNION = {
   name: "Rugby Union",
   overview_attributes: {
-    short_description: "tackle people",
-    game_objective: "score tds",
-    governing_body_url: "nfl.com"
+    short_description: "Rugby is a game played at all ages and abilities where 2 teams face off and try to score more points than each other. There are 8 forwards and 7 backs on each team as standard. The team that has possession can only pass the ball backwards or can kick tactically to move around the field.",
+    game_objective: "To score more points through tries, conversions, penalties and drop goals than the other team.",
+    governing_body_url: "www.world.rugby"
   },
   equipment_need_attributes: {
-    footwear: "fill here",
-    required_equipment: "fill here",
-    safety_gear: "fill here",
-    infrastructure: "fill here",
-    clothing: "fill here"
+    footwear: "Rugby boots that have studs on the bottom for grip",
+    required_equipment: "A rugby pitch and a rugby ball",
+    safety_gear: "Mouthguards, shoulder pads, headguards are all optional",
+    infrastructure: "A field with marked lines and a set of posts at either end at the beginning of the try line",
+    clothing: "Rugby shorts, jersey, and long socks."
   },
   history_attributes: {
-    invented: 2.days.ago,
-    creator: "fill here",
-    country_of_origin: "fill here",
-    most_successful_teams: "fill here",
+    invented: "Year: 1823",
+    creator: "William Webb Ellis",
+    country_of_origin: "England",
+    most_successful_teams: "International: South Africa, 4 world championships, European: Toulouse, ",
     milestones: "fill here"
   },
   terminology_attributes: {

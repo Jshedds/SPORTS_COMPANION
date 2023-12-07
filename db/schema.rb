@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_07_105417) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_07_125601) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -66,7 +66,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_07_105417) do
   end
 
   create_table "histories", force: :cascade do |t|
-    t.date "invented"
+    t.string "invented"
     t.string "creator"
     t.string "country_of_origin"
     t.string "most_successful_teams"

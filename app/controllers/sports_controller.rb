@@ -10,7 +10,8 @@ class SportsController < ApplicationController
   def show
     # @sport = Sport.find(params[:id])
     @favourite = Favourite.new
-    @sport = policy_scope(Sport)
+    @sport = Sport.find(params[:id])
+    authorize @sport
   end
 
   def new

@@ -169,61 +169,61 @@ FOOTBALL = {
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Goalkeeper",
+      positions_tag: "GK",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Last line of defense, prevents the opponent from scoring",
+        primary_objectives: "Stopping shots, organizing the defense, distributing the ball",
+        strengths: "Shot-stopping, command of the penalty area, distribution",
+        weaknesses: "Vulnerable to one-on-one situations, handling crosses"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Manuel Neuer",
+        appearances: 508,
+        trophies_won: 13,
+        teams_countries: "Bayern Munich, Germany"
       }}
     },
     "1" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Right-back",
+      positions_tag: "RB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Defender on the right side of the backline",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing",
+        strengths: "Tackling, positional awareness, crossing",
+        weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Dani Alves",
+        appearances: 118,
+        trophies_won: 2,
+        teams_countries: "Barcelona, Brazil"
       }}
     },
     "2" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Center-back",
+      positions_tag: "CB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Central defender, anchors the defense",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
+        strengths: "Aerial ability, tackling, leadership",
+        weaknesses: "Pace, one-on-one situations"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Giorgio Chiellini",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "3" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Left-back",
+      positions_tag: "LB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Defender on the left side of the backline",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing",
+        strengths: "Tackling, positional awareness, crossing",
+        weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -233,13 +233,13 @@ FOOTBALL = {
       }}
     },
     "4" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Defensive Midfielder",
+      positions_tag: "CDM",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Midfielder with a focus on defensive duties",
+        primary_objectives: "Breaking up opposition attacks, shielding the defense",
+        strengths: "Tackling, ball-winning, passing",
+        weaknesses: "Limited goal-scoring, attacking contribution"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -249,13 +249,13 @@ FOOTBALL = {
       }}
     },
     "5" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Central Midfielder",
+      positions_tag: "CM",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Midfielder inovlved in both defensive and attacking play",
+        primary_objectives: "Distrubiting the ball, controlling the tempo, joining attacks",
+        strengths: "Passing, vision, work rate",
+        weaknesses: "Limited goal-scoring, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -265,13 +265,13 @@ FOOTBALL = {
       }}
     },
     "6" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Attacking Midfielder",
+      positions_tag: "CAM",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Midfielder focused on creating scoring opportunities",
+        primary_objectives: "Playmaking, scoring goals, providing assists",
+        strengths: "Dribbling, creativity, goal-scoring",
+        weaknesses: "Defensive responsiblities, physical duels"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -281,13 +281,13 @@ FOOTBALL = {
       }}
     },
     "7" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Right Winger",
+      positions_tag: "RW",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Forward positioned on the right flank",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
+        strengths: "Pace, dribbling, cutting inside",
+        weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -297,13 +297,13 @@ FOOTBALL = {
       }}
     },
     "8" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Striker",
+      positions_tag: "ST",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Primary goal-scorer, positioned centrally",
+        primary_objectives: "Scoring goals, creating space, linking up play",
+        strengths: "Finishing, positioning, physicality",
+        weaknesses: "Defensive responsibilities, marking by defenders"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -313,13 +313,13 @@ FOOTBALL = {
       }}
     },
     "9" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Left Winger",
+      positions_tag: "LW",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Forward positioned on the left flank",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
+        strengths: "Pace, dribbling, cutting inside",
+        weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",
@@ -329,13 +329,13 @@ FOOTBALL = {
       }}
     },
     "10" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Center-back",
+      positions_tag: "CB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Central defender, anchors the defense",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
+        strengths: "Aerial ability, tackling, leadership",
+        weaknesses: "Pace, one-on-one situations"
       },
       famous_players_attributes: { "0" => {
         name: "Earvin 'Magic' Johnson",

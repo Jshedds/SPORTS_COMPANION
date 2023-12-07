@@ -5,14 +5,13 @@ class PositionsController < ApplicationController
   end
 
   def show
-
   end
 
   def create
-
+    authorize @position
   end
 
   def update
-
+    authorize @position
   end
 end

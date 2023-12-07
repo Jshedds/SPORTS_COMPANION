@@ -4,9 +4,11 @@
 <% end %>
 
 <%= render "terminologies/terminology" %>
+<%= render "" %>
 
+<%= link_to "edit this sport", edit_sport_path if current_user && policy(Sport).edit?%>
 <%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
 <%= link_to "All sports", sports_path%>
-<%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
 
-<button type="button" class ="btn">
+
+<%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>

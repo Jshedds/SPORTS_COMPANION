@@ -153,10 +153,6 @@ FOOTBALL = {
     creator: "J. C. Thring",
     country_of_origin: "England",
     most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
-    invented: "Year: 1891",
-    creator: "fill here",
-    country_of_origin: "fill here",
-    most_successful_teams: "fill here",
     milestones: "fill here"
   },
   terminology_attributes: {

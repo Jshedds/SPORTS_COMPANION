@@ -742,16 +742,16 @@ AMERICAN_FOOTBALL = {
       positions_name: "Wide Reciver - Z",
       positions_tag: "WR-Z",
       description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
-        strengths: "",
-        weaknesses: ""
+        overview_of_position: "Versatile receiver, lines up in various positions, including the slot",
+        primary_objectives: "Running various routes, catching passes in traffic, YAC (yards after catch)",
+        strengths: "Agility, route-running, versatility",
+        weaknesses: "Physical coverage by defenders"
       },
       famous_players_attributes: { "0" => {
-        name: "",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: ""
+        name: "Larry Fitzgerald",
+        appearances: 263,
+        trophies_won: 0,
+        teams_countries: "Arizona Cardinals"
       }}
     },
     "6" => {
@@ -903,111 +903,111 @@ AMERICAN_FOOTBALL = {
       positions_tag: "ROLB",
       description_attributes: {
         overview_of_position: "Linebacker on the right side, versatile player in run support and pass coverage",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        primary_objectives: "Tackling runners, pass coverage, edge containment",
+        strengths: "Speed, tackling ability, coverage skills",
+        weaknesses: "Physical blockers, quick releases by receivers"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Von Miller",
+        appearances: 134,
+        trophies_won: 2,
+        teams_countries: "Denver Broncos, Los Angeles Rams, Buffalo Bills"
       }}
     },
     "16" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Middle Linebacker",
+      positions_tag: "MLB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Central Linebacker, often the leader of the defense, involved in various tasks",
+        primary_objectives: "Tackling, play-calling, coverage responsibilities",
+        strengths: "Tackling ability, football IQ, leadership",
+        weaknesses: "Coverage against agile receivers"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Luke Kuechly",
+        appearances: 118,
+        trophies_won: 0,
+        teams_countries: "Carolina Panthers"
       }}
     },
     "17" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Left Outside Linebacker",
+      positions_tag: "LOLB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Linebacker on the left side of the defense, versatile role",
+        primary_objectives: "Coverage, pass rushing, run defense",
+        strengths: "Versatility, coverage skills, tackling",
+        weaknesses: "Facing strong right tackles, shedding blocks"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Lawrence Taylor",
+        appearances: 184,
+        trophies_won: 2,
+        teams_countries: "New York Giants"
       }}
     },
     "18" => {
-      positions_name: " Small Forward",
-      positions_tag: "SF",
+      positions_name: "Left Cornerback",
+      positions_tag: "LCB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Covers the left side of the field, often against the opponent's top reciever",
+        primary_objectives: "Man-to-man coverage, interceptions, preventing receptions (pass breakups)",
+        strengths: "Speed, agility, coverage skills",
+        weaknesses: "Physical battles with receivers, risk of pass interference"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Richard Sherman",
+        appearances: 139,
+        trophies_won: 1,
+        teams_countries: "Seattle Seahawks, San Francisco 49ers"
       }}
     },
     "19" => {
-      positions_name: "Power Forward",
-      positions_tag: "PF",
+      positions_name: "Right Cornerback",
+      positions_tag: "RCB",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Covers the right side of the field, often against the opponent's top receiver",
+        primary_objectives: "Man-to-man coverage, interceptions, preventing receptions (pass breakups)",
+        strengths: "Speed, agility, coverage skills",
+        weaknesses: "Physical battles with receivers, risk of pass interference"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Darrelle Revis",
+        appearances: 145,
+        trophies_won: 1,
+        teams_countries: "New York Jets, New England Patriots"
       }}
     },
     "20" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Free Safety",
+      positions_tag: "FS",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Defends against deep passes, often plays a centerfield role",
+        primary_objectives: "Pass coverage, interceptions, preventing long passes",
+        strengths: "Ball-hawking skills, tackling ability",
+        weaknesses: "Balancing run support and pass coverage"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Earl Thomas",
+        appearances: 140,
+        trophies_won: 1,
+        teams_countries: "Seattle Seahawks"
       }}
     },
     "21" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Strong Safety",
+      positions_tag: "SS",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Defends against the run and provides additional support in pass coverage",
+        primary_objectives: "Run support, tackling, coverage responsibilties",
+        strengths: "Tackling ability, physicality, football IQ",
+        weaknesses: "Coverage against agile tight ends, deep pass coverage"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Troy Polamalu",
+        appearances: 158,
+        trophies_won: 2,
+        teams_countries: "Pittsburgh Steelers"
       }}
     }
   }

@@ -20,6 +20,10 @@ Rails.application.routes.draw do
     resources :chatrooms, only: :show do
       resources :messages, only: :create
     end
+    resources :positions, only: %i[index show create update] do
+      resources :descriptions, only: %i[create update]
+      resources :famous_players, only: %i[create update]
+    end
   end
   # Defines the root path route ("/")
   # root "posts#index"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_06_170104) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_07_105417) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -29,6 +29,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_170104) do
     t.text "weaknesses"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "position_id"
+    t.index ["position_id"], name: "index_descriptions_on_position_id"
   end
 
   create_table "equipment_needs", force: :cascade do |t|
@@ -50,6 +52,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_170104) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
+    t.bigint "position_id"
+    t.index ["position_id"], name: "index_famous_players_on_position_id"
   end
 
   create_table "favourites", force: :cascade do |t|
@@ -147,7 +151,9 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_06_170104) do
   end
 
   add_foreign_key "chatrooms", "sports"
+  add_foreign_key "descriptions", "positions"
   add_foreign_key "equipment_needs", "sports"
+  add_foreign_key "famous_players", "positions"
   add_foreign_key "favourites", "sports"
   add_foreign_key "favourites", "users"
   add_foreign_key "histories", "sports"

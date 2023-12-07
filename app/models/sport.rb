@@ -8,6 +8,7 @@ class Sport < ApplicationRecord
   has_one :chatroom, dependent: :destroy
   has_many :positions, dependent: :destroy
   has_many :favourites, dependent: :destroy
+  has_many :descriptions, :through => :positions
 
   validates :name, presence: true, uniqueness: true
 
@@ -17,5 +18,6 @@ class Sport < ApplicationRecord
   delegate :short_description, :game_objective, :governing_body_url, to: :overview
   delegate :invented, :creator, :country_of_origin, :most_successful_teams, :milestones, to: :history
   delegate :positions_name, :positions_tag, to: :position
-  accepts_nested_attributes_for :overview, :equipment_need, :history, :positions
+
+  accepts_nested_attributes_for :overview, :equipment_need, :history, :positions, :terminology, :rule
 end

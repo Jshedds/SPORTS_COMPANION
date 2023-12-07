@@ -36,7 +36,7 @@ BASKETBALL = {
     creator: "James Naismith",
     country_of_origin: "United States of America",
     most_successful_teams: "Los Angeles Lakers, Boston Celtics, Chicago Bulls",
-    milestones: "1892 -> the first official game of basketball is played at the YMCA gym in Albany, New York. 1949 -> the BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 -> The ‘Dream Team’ wins the Olympics in Barcelona"
+    milestones: "1892 -> the first official game of basketball is played at the YMCA gym in Albany, New York. 1949 -> the BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 -> The 'Dream Team' wins the Olympics in Barcelona"
   },
   terminology_attributes: {
     most_important_terms: "Air ball -> An unblocked shot that fails to hit the the rim or backboard. Block -> to tip or deflect a players shot. Rebound -> to catch the ball after a missed field goal attempt. Assist -> a pass to a teammate who immediately scores a basket. Steal -> to gain possession of the ball from the opposing team by intercepting a pass. Free throw -> an unopposed attempt to score a basket from the free throw line, usually after a foul was commited",
@@ -61,7 +61,7 @@ BASKETBALL = {
           weaknesses: "Most often the smallest player on the floor"
         },
         famous_players_attributes: { "0" => {
-          name: "Earvin ‘Magic’ Johnson",
+          name: "Earvin 'Magic' Johnson",
           appearances: 906,
           trophies_won: 5,
           teams_countries: "LA Lakers, Team USA"
@@ -72,7 +72,7 @@ BASKETBALL = {
         positions_tag: "SG",
         description_attributes: {
           overview_of_position: "Typically responsible for scoring points by taking shots, especially from long range",
-          primary_objectives: "Excel in scoring, often a team’s primary perimeter shooter",
+          primary_objectives: "Excel in scoring, often a team's primary perimeter shooter",
           strengths: "Strong shooting skills, often quick and agile",
           weaknesses: "May not be as involved in playmaking as a point guard"
         },
@@ -88,7 +88,7 @@ BASKETBALL = {
         positions_tag: "SF",
         description_attributes: {
           overview_of_position: "Versatile player who can contribute both offensively and defensively",
-          primary_objectives: "Score points, rebound, and assist teammates; often considered a team’s most well-rounded player",
+          primary_objectives: "Score points, rebound, and assist teammates; often considered a team's most well-rounded player",
           strengths: "Balanced skills in scoring, rebounding, and defense",
           weaknesses: "May not specialize in a specific aspect of the game"
         },
@@ -125,7 +125,7 @@ BASKETBALL = {
           weaknesses: "May lack the agility and perimeter skills of smaller players"
         },
         famous_players_attributes: { "0" => {
-          name: "Shaquille O’Neal",
+          name: "Shaquille O'Neal",
           appearances: 1207,
           trophies_won: 4,
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
@@ -137,35 +137,35 @@ BASKETBALL = {
 FOOTBALL = {
   name: "Football",
   overview_attributes: {
-    short_description: "tackle people",
-    game_objective: "score tds",
-    governing_body_url: "nfl.com"
+    short_description: "Score goals",
+    game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
+    governing_body_url: "fifa.com"
   },
   equipment_need_attributes: {
-    footwear: "fill here",
-    required_equipment: "fill here",
-    safety_gear: "fill here",
-    infrastructure: "fill here",
-    clothing: "fill here"
+    footwear: "Studded football boots",
+    required_equipment: "Matching strips",
+    safety_gear: "Shin pads and padded gloves (for goalkeepers)",
+    infrastructure: "A football pitch",
+    clothing: "Matching shirts, shorts and socks"
   },
   history_attributes: {
-    invented: "Year: 1891",
-    creator: "fill here",
-    country_of_origin: "fill here",
-    most_successful_teams: "fill here",
+    invented: "There aree a lot of depictions to multiple football-like sports played by anciet civilizations but the starting concept of modern football was invented in 1862.",
+    creator: "J. C. Thring",
+    country_of_origin: "England",
+    most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
     milestones: "fill here"
   },
   terminology_attributes: {
-    most_important_terms: "fill here",
+    most_important_terms: "Goal, offside, foul, penalty",
   },
   rule_attributes: {
-    game_duration: "fill here",
-    scoring: "fill here",
-    player_per_team: 0,
-    referees: 0,
+    game_duration: "90 minutes plus compensation",
+    scoring: "The ball enters the goal",
+    player_per_team: 11,
+    referees: 4,
     most_important_rules: "fill here",
     field_size: "fill here",
-    field_type: "fill here",
+    field_type: "Natural grass or plastic grass",
   },
   positions_attributes: {
     "0" => {

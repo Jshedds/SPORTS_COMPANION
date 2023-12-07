@@ -5,6 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   validates :username, presence: true, uniqueness: true
 
+  has_many :favourites
+
   acts_as_token_authenticatable
   #authenticates user
 end

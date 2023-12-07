@@ -3,8 +3,9 @@
 <%= f.submit "❤️" %>
 <% end %>
 
-<%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
+<%= render "terminologies/terminology" %>
 
+<%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
 <%= link_to "All sports", sports_path%>
 <%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
 

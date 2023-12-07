@@ -159,34 +159,34 @@ FOOTBALL = {
     most_important_terms: "Goal, offside, foul, penalty",
   },
   rule_attributes: {
-    game_duration: "90 minutes plus compensation",
+    game_duration: "Two 45 minutes halves plus compensation",
     scoring: "The ball enters the goal",
     player_per_team: 11,
     referees: 4,
-    most_important_rules: "fill here",
-    field_size: "fill here",
-    field_type: "Natural grass or plastic grass",
+    most_important_rules: "A match consists of two 45 minutes halves with a 15 minute rest period in between. Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player allowed to handle the ball within the 16,5 meters) and a minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
+    field_size: "A pitch can be a minimum of 45 meters in width and 90 meters in length, and a maximum of 90 meters width and 120 meters length.",
+    field_type: "Natural or artificial grass",
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Point Guard",
-      positions_tag: "PG",
+      positions_name: "Goalkeeper",
+      positions_tag: "GK",
       description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+        overview_of_position: "Expected to stop shots from the opposing team. Only player allowed to use his hands.",
+        primary_objectives: "Stoping shots from opposing team.",
+        strengths: "Grabbing the ball or shove it away from goal.",
+        weaknesses: "Cannot use hands outside the box, generally weaker using the feet."
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        name: "Oliver Kahn",
+        appearances: 864,
+        trophies_won: 17,
+        teams_countries: "Bayern Munich, Germany"
       }}
     },
     "1" => {
-      positions_name: "Shooting Guard",
-      positions_tag: "SG",
+      positions_name: "Center back",
+      positions_tag: "CB",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",

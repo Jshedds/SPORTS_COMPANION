@@ -6,7 +6,7 @@ class User < ApplicationRecord
   validates :username, presence: true, uniqueness: true
 
   has_many :favourites
-  
+
+  # authenticates user
   acts_as_token_authenticatable
-  #authenticates user
 end

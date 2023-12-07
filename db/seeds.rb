@@ -61,7 +61,7 @@ BASKETBALL = {
           weaknesses: "Most often the smallest player on the floor"
         },
         famous_players_attributes: { "0" => {
-          name: "Earvin 'Magic' Johnson",
+          famous_player_name: "Earvin 'Magic' Johnson",
           appearances: 906,
           trophies_won: 5,
           teams_countries: "LA Lakers, Team USA"
@@ -77,7 +77,7 @@ BASKETBALL = {
           weaknesses: "May not be as involved in playmaking as a point guard"
         },
         famous_players_attributes: { "0" => {
-          name: "Michael Jordan",
+          famous_player_name: "Michael Jordan",
           appearances: 1072,
           trophies_won: 6,
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
@@ -93,7 +93,7 @@ BASKETBALL = {
           weaknesses: "May not specialize in a specific aspect of the game"
         },
         famous_players_attributes: { "0" => {
-          name: "Lebron James",
+          famous_player_name: "Lebron James",
           appearances: 1310,
           trophies_won: 4,
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
@@ -109,7 +109,7 @@ BASKETBALL = {
           weaknesses: "May not have the agility or perimeter skills of smaller players"
         },
         famous_players_attributes: { "0" => {
-          name: "Tim Duncan",
+          famous_player_name: "Tim Duncan",
           appearances: 1392,
           trophies_won: 5,
           teams_countries: "San Antonio Spurs, Team USA"
@@ -125,7 +125,7 @@ BASKETBALL = {
           weaknesses: "May lack the agility and perimeter skills of smaller players"
         },
         famous_players_attributes: { "0" => {
-          name: "Shaquille O'Neal",
+          famous_player_name: "Shaquille O'Neal",
           appearances: 1207,
           trophies_won: 4,
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
@@ -169,7 +169,7 @@ FOOTBALL = {
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Point Guard",
+      positions_name: "Goalkeeper",
       positions_tag: "PG",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -178,7 +178,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -194,7 +194,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -210,7 +210,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -226,7 +226,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -242,7 +242,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -258,7 +258,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -274,7 +274,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -290,7 +290,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -306,7 +306,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -322,14 +322,14 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "10" => {
-      positions_name: "Center",
+      positions_name: "Striker",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -338,7 +338,7 @@ FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -382,7 +382,7 @@ RUGBY_UNION = {
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Point Guard",
+      positions_name: "Loosehead Prop",
       positions_tag: "PG",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -391,14 +391,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "1" => {
-      positions_name: "Shooting Guard",
+      positions_name: "Hooker",
       positions_tag: "SG",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -407,14 +407,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "2" => {
-      positions_name: " Small Forward",
+      positions_name: "Tighthead Prop",
       positions_tag: "SF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -423,14 +423,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "3" => {
-      positions_name: "Power Forward",
+      positions_name: "Second Row",
       positions_tag: "PF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -439,14 +439,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "4" => {
-      positions_name: "Center",
+      positions_name: "Second Row",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -455,14 +455,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "5" => {
-      positions_name: "Point Guard",
+      positions_name: "Blindside Flanker",
       positions_tag: "PG",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -471,14 +471,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "6" => {
-      positions_name: "Shooting Guard",
+      positions_name: "Openside Flanker",
       positions_tag: "SG",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -487,14 +487,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "7" => {
-      positions_name: " Small Forward",
+      positions_name: "Number 8",
       positions_tag: "SF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -503,14 +503,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "8" => {
-      positions_name: "Power Forward",
+      positions_name: "Scrum Half",
       positions_tag: "PF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -519,14 +519,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "9" => {
-      positions_name: "Center",
+      positions_name: "Stand Off",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -535,14 +535,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "10" => {
-      positions_name: "Center",
+      positions_name: "Left Wing",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -551,14 +551,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "11" => {
-      positions_name: " Small Forward",
+      positions_name: "Inside Centre",
       positions_tag: "SF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -567,14 +567,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "12" => {
-      positions_name: "Power Forward",
+      positions_name: "Outside Centre",
       positions_tag: "PF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -583,14 +583,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "13" => {
-      positions_name: "Center",
+      positions_name: "Right Wing",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -599,14 +599,14 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
       }}
     },
     "14" => {
-      positions_name: "Center",
+      positions_name: "Fullback",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
@@ -615,7 +615,7 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -668,7 +668,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -684,7 +684,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -700,7 +700,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -716,7 +716,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -732,7 +732,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -748,7 +748,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -764,7 +764,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -780,7 +780,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -796,7 +796,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -812,7 +812,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -828,7 +828,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -844,7 +844,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -860,7 +860,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -876,7 +876,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -892,7 +892,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -908,7 +908,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -924,7 +924,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -940,7 +940,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -956,7 +956,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -972,7 +972,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -988,7 +988,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -1004,7 +1004,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Earvin 'Magic' Johnson",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"

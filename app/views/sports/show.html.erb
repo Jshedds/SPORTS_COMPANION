@@ -17,5 +17,6 @@
 <%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
 
 <%= link_to "edit this sport", edit_sport_path if current_user && policy(Sport).edit?%>
-<%= link_to "edit this sport", edit_sport_path if policy(Sport).edit?%>
 <%= link_to "All sports", sports_path%>
+
+<%= render "famous_players/famous_player" %>

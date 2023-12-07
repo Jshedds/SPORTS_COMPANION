@@ -9,6 +9,7 @@
 #   end
 
 puts "Cleaning the database...."
+Chatroom.destroy_all
 Sport.destroy_all
 User.destroy_all
 User.create!(email: "colerner@me.com", password: "123456", admin: true, username: "Conny")
@@ -17,7 +18,7 @@ User.create!(email: "thomas@thomas.com", password: "123456", admin: true, userna
 User.create!(email: "bruno@bruno.com", password: "123456", admin: true, username: "Bruno")
 
 BASKETBALL = {
-  name: "Basketball",
+  name:"Basketball",
   overview_attributes: {
     short_description: "Two teams of five throw the ball (basketball) into a hoop to score points. The ball can be moved around by dribbling or passing the ball",
     game_objective: "Score more points than your opponent by throwing the ball into a hoop",
@@ -26,7 +27,7 @@ BASKETBALL = {
   equipment_need_attributes: {
     footwear: "Any pair of sport shoes will do",
     required_equipment: "A court and basketball",
-    safety_gear: "Gum shields and face masks are optional",
+    safety_gear: "Mouthguard and face masks are optional",
     infrastructure: "Court with a basket",
     clothing: "Any type of sports clothing will do"
   },
@@ -35,7 +36,7 @@ BASKETBALL = {
     creator: "James Naismith",
     country_of_origin: "United States of America",
     most_successful_teams: "Los Angeles Lakers, Boston Celtics, Chicago Bulls",
-    milestones: "1892 -> the first official game of basketball is played at the YMCA gym in Albany, New York. 1949 -> the BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 -> The 'Dream Team' wins the Olympics in Barcelona"
+    milestones: "1892 -> the first official game of basketball is played at the YMCA gym in Albany, New York. 1949 -> the BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 -> The ‘Dream Team’ wins the Olympics in Barcelona"
   },
   terminology_attributes: {
     most_important_terms: "Air ball -> An unblocked shot that fails to hit the the rim or backboard. Block -> to tip or deflect a players shot. Rebound -> to catch the ball after a missed field goal attempt. Assist -> a pass to a teammate who immediately scores a basket. Steal -> to gain possession of the ball from the opposing team by intercepting a pass. Free throw -> an unopposed attempt to score a basket from the free throw line, usually after a foul was commited",
@@ -47,42 +48,89 @@ BASKETBALL = {
     referees: 3,
     most_important_rules: "The ball can only be moved by either dribbling (bouncing the ball) or passing the ball. Each team has 24 seconds to at leasst take a shot at the basket, after that the ball is turned over to the opposing team. After each successfull basket the ball is turned over to the opposing team. Fouls commited are accumulated, if a player reaches 6 fouls he is ejected from the game",
     field_size: "Rectangular shaped measuring 91 feet long and 50 feet wide",
-    field_type: "polished wood",
+    field_type: "Polished Wood",
   },
-
-    positions_attributes: { "0" => {
-      positions_name: "Point Guards, Shooting Guard, Small Forward, Power Forward, Center",
-      positions_tag: "SG",
-      description_attributes: {
-        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-        strengths: "Best ball handles, passer and decision maker on the team",
-        weaknesses: "Most often the smallest player on the floor"
+    positions_attributes: {
+      "0" => {
+        positions_name: "Point Guard",
+        positions_tag: "PG",
+        description_attributes: {
+          overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+          primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+          strengths: "Best ball handles, passer and decision maker on the team",
+          weaknesses: "Most often the smallest player on the floor"
+        },
+        famous_players_attributes: { "0" => {
+          name: "Earvin ‘Magic’ Johnson",
+          appearances: 906,
+          trophies_won: 5,
+          teams_countries: "LA Lakers, Team USA"
+        }}
       },
-      famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
-      }}
+      "1" => {
+        positions_name: "Shooting Guard",
+        positions_tag: "SG",
+        description_attributes: {
+          overview_of_position: "Typically responsible for scoring points by taking shots, especially from long range",
+          primary_objectives: "Excel in scoring, often a team’s primary perimeter shooter",
+          strengths: "Strong shooting skills, often quick and agile",
+          weaknesses: "May not be as involved in playmaking as a point guard"
+        },
+        famous_players_attributes: { "0" => {
+          name: "Michael Jordan",
+          appearances: 1072,
+          trophies_won: 6,
+          teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
+        }}
+      },
+      "2" => {
+        positions_name: "Small Forward",
+        positions_tag: "SF",
+        description_attributes: {
+          overview_of_position: "Versatile player who can contribute both offensively and defensively",
+          primary_objectives: "Score points, rebound, and assist teammates; often considered a team’s most well-rounded player",
+          strengths: "Balanced skills in scoring, rebounding, and defense",
+          weaknesses: "May not specialize in a specific aspect of the game"
+        },
+        famous_players_attributes: { "0" => {
+          name: "Lebron James",
+          appearances: 1310,
+          trophies_won: 4,
+          teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
+        }}
+      },
+      "3" => {
+        positions_name: "Power Forward",
+        positions_tag: "PF",
+        description_attributes: {
+          overview_of_position: "Typically a strong and physical player who plays close to the basket",
+          primary_objectives: "Score points in the post, rebound, and provide interior defense",
+          strengths: "Strong, rebounder, and capable of scoring in and around the paint",
+          weaknesses: "May not have the agility or perimeter skills of smaller players"
+        },
+        famous_players_attributes: { "0" => {
+          name: "Tim Duncan",
+          appearances: 1392,
+          trophies_won: 5,
+          teams_countries: "San Antonio Spurs, Team USA"
+        }}
+      },
+      "4" => {
+        positions_name: "Center",
+        positions_tag: "C",
+        description_attributes: {
+          overview_of_position: "Typically the tallest player on the team, responsible for scoring near the basket and protecting the rim",
+          primary_objectives: "Score point in the post, block shots, and grab rebounds",
+          strengths: "Tall and physically imposing, strong in the paint",
+          weaknesses: "May lack the agility and perimeter skills of smaller players"
+        },
+        famous_players_attributes: { "0" => {
+          name: "Shaquille O’Neal",
+          appearances: 1207,
+          trophies_won: 4,
+          teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
+        }}
       }
-
-      # {
-      #   positions_name: "Point Guard",
-      #   positions_tag: "PG",
-      #   description_attributes: {
-      #     overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-      #     primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-      #     strengths: "Best ball handles, passer and decision maker on the team",
-      #     weaknesses: "Most often the smallest player on the floor"
-      #   },
-      #   famous_players_attributes: { "0" => {
-      #     name: "Earvin 'Magic' Johnson",
-      #     appearances: 906,
-      #     trophies_won: 5,
-      #     teams_countries: "LA Lakers, Team USA"
-      #   }}
-      # }
     }
 }
 
@@ -101,7 +149,7 @@ FOOTBALL = {
     clothing: "fill here"
   },
   history_attributes: {
-    invented: 2.days.ago,
+    invented: "Year: 1891",
     creator: "fill here",
     country_of_origin: "fill here",
     most_successful_teams: "fill here",
@@ -119,22 +167,184 @@ FOOTBALL = {
     field_size: "fill here",
     field_type: "fill here",
   },
-  positions_attributes: { "0" => {
-    positions_name: "fill here",
-    positions_tag: "fill here",
-    description_attributes: {
-      overview_of_position: "blabla",
-      primary_objectives: "blabla",
-      strengths: "blabla",
-      weaknesses: "blabla"
+  positions_attributes: {
+    "0" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
     },
-    famous_players_attributes: { "0" => {
-      name: "fill here",
-      appearances: 0,
-      trophies_won: 0,
-      teams_countries: "fill here"
-    }}
-  }}
+    "1" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "2" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "3" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "4" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "5" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "6" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "7" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "8" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "9" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "10" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    }
+  }
 }
 
 RUGBY_UNION = {
@@ -155,37 +365,263 @@ RUGBY_UNION = {
     invented: "Year: 1823",
     creator: "William Webb Ellis",
     country_of_origin: "England",
-    most_successful_teams: "International: South Africa, 4 world championships, European: Toulouse, ",
-    milestones: "fill here"
+    most_successful_teams: "International: South Africa, 4 world championships, European/Champions Cup: Toulouse, 5 titles, Super Rugby: Crusaders, 12 titles ",
+    milestones: "The first international rugby union match took place between Scotland and England on 27th of March 1871 at Raeburn Place, Edinburgh, Scotland. The sport turned professional in 1995."
   },
   terminology_attributes: {
     most_important_terms: "fill here",
   },
   rule_attributes: {
-    game_duration: "fill here",
-    scoring: "fill here",
+    game_duration: "80 minutes at professional level",
+    scoring: "5 points for a try, 2 for a conversion",
     player_per_team: 0,
     referees: 0,
     most_important_rules: "fill here",
     field_size: "fill here",
     field_type: "fill here",
   },
-  positions_attributes: { "0" => {
-    positions_name: "fill here",
-    positions_tag: "fill here",
-    description_attributes: {
-      overview_of_position: "blabla",
-      primary_objectives: "blabla",
-      strengths: "blabla",
-      weaknesses: "blabla"
+  positions_attributes: {
+    "0" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
     },
-    famous_players_attributes: { "0" => {
-      name: "fill here",
-      appearances: 0,
-      trophies_won: 0,
-      teams_countries: "fill here"
-    }}
-  }}
+    "1" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "2" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "3" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "4" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "5" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "6" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "7" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "8" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "9" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "10" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "11" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "12" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "13" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "14" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    }
+  }
 }
 
 AMERICAN_FOOTBALL = {
@@ -221,22 +657,360 @@ AMERICAN_FOOTBALL = {
     field_size: "fill here",
     field_type: "fill here"
   },
-  positions_attributes: { "0" => {
-    positions_name: "fill here",
-    positions_tag: "fill here",
-    description_attributes: {
-      overview_of_position: "blabla",
-      primary_objectives: "blabla",
-      strengths: "blabla",
-      weaknesses: "blabla"
+  positions_attributes: {
+    "0" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
     },
-    famous_players_attributes: { "0" => {
-      name: "fill here",
-      appearances: 0,
-      trophies_won: 0,
-      teams_countries: "fill here"
-    }}
-  }}
+    "1" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "2" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "3" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "4" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "5" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "6" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "7" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "8" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "9" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "10" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "11" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "12" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "13" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "14" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "15" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "16" => {
+      positions_name: "Point Guard",
+      positions_tag: "PG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "17" => {
+      positions_name: "Shooting Guard",
+      positions_tag: "SG",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "18" => {
+      positions_name: " Small Forward",
+      positions_tag: "SF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "19" => {
+      positions_name: "Power Forward",
+      positions_tag: "PF",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "20" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    },
+    "21" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
+        primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
+        strengths: "Best ball handles, passer and decision maker on the team",
+        weaknesses: "Most often the smallest player on the floor"
+      },
+      famous_players_attributes: { "0" => {
+        name: "Earvin 'Magic' Johnson",
+        appearances: 906,
+        trophies_won: 5,
+        teams_countries: "LA Lakers, Team USA"
+      }}
+    }
+  }
 }
 
 puts "Creating new sports..."

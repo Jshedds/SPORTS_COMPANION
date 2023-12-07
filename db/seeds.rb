@@ -369,21 +369,21 @@ RUGBY_UNION = {
     milestones: "The first international rugby union match took place between Scotland and England on 27th of March 1871 at Raeburn Place, Edinburgh, Scotland. The sport turned professional in 1995."
   },
   terminology_attributes: {
-    most_important_terms: "fill here",
+    most_important_terms: "Knock-on: When the ball is dropped forward and touches another player or the ground, Forward Pass: When a player passes the ball to another player but it travels forward, Scrum: When a knock-on has occured the game restarts with a scrum where the forward from each team come together and compete for the ball, Lineout: When the ball goes out of play at the edge of the pitch, a number of players usually forwards, restart the game by the hooker throwing the ball in to a player who gets lifted, the opposition can compete, Penalty: When a team commits a foul act the referee penalises them,"
   },
   rule_attributes: {
     game_duration: "80 minutes at professional level",
-    scoring: "5 points for a try, 2 for a conversion",
-    player_per_team: 0,
-    referees: 0,
+    scoring: " When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
+    player_per_team: 15,
+    referees: 3,
     most_important_rules: "fill here",
-    field_size: "fill here",
-    field_type: "fill here",
+    field_size: "100m long, 70m wide",
+    field_type: "Primarily grass, but can also be played on artificial grass"
   },
   positions_attributes: {
     "0" => {
       positions_name: "Loosehead Prop",
-      positions_tag: "PG",
+      positions_tag: "LH",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",

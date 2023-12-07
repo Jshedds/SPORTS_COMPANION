@@ -16,12 +16,18 @@ Rails.application.routes.draw do
     resources :overviews, only: %i[create update]
     resources :rules, only: %i[create update]
     resources :terminologies, only: %i[create update]
-    resources :chatrooms, only: :show
-  end
-  resources :chatrooms, only: :show do
-    resources :messages, only: :create
+    get "chatroom", to: "chatrooms#show", as: "chatroom"
+    resources :chatrooms, only: :show do
+      resources :messages, only: :create
+    end
   end
   # Defines the root path route ("/")
   # root "posts#index"
   get "dashboard", to: "users#show", as: "dashboard"
+
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :sports, only: [:index, :show, :update, :create, :destroy]
+    end
+  end
 end

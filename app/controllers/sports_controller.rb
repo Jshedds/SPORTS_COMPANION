@@ -1,14 +1,16 @@
 class SportsController < ApplicationController
   before_action :set_sport, only: %i[show edit update destroy]
-  # skip_before_action :authenticate_user!, only: %i[index show]
+  skip_before_action :authenticate_user!, only: %i[index show]
 
   def index
+    # @sports = Sport.all
     @sports = policy_scope(Sport)
   end
 
   def show
     # @sport = Sport.find(params[:id])
     @favourite = Favourite.new
+    @sport = Sport.find(params[:id])
     authorize @sport
   end
 

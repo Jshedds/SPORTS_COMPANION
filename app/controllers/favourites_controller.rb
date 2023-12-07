@@ -12,16 +12,12 @@ class FavouritesController < ApplicationController
     else
       redirect_to sports_path
     end
-
-    def destroy
-      @favourite
-      @favourite.destroy
-    end
   end
 
-  private
-
-  def favourite_params
-    params.require(:favourite).permit
+  def destroy
+    @favourite = Favourite.find(params[:id])
+    authorize @favourite
+    @favourite.destroy
+    # redirect_to sport_path(@sport), notice: "#{@sport.name} has successfully been removed from your favourites"
   end
 end

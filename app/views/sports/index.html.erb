@@ -1,6 +1,10 @@
-<div class="admin-add-btn">
-  <%= link_to "add a sport", new_sport_path if current_user && policy(Sport).new? %>
-</div>
+<% if current_user && policy(Sport).new? %>
+  <div class="admin-add-btn">
+    <%= link_to new_sport_path do %>
+      <%= render_icon "admin_add" %>
+    <% end %>
+  </div>
+<% end %>
 
 <% @sports.each do |sport| %>
   <%= link_to sport_path(sport) do %>

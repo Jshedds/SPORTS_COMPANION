@@ -54,8 +54,11 @@ gem "sassc-rails"
 #API Authentication
 gem 'simple_token_authentication'
 
-# added cloudinary
-gem
+# added cloudinary for image uploading
+gem "cloudinary"
+
+# added pundit gem for authorization
+gem "pundit"
 
 # added dotenv-rails gem
 gem "dotenv-rails", groups: [:development, :test]
@@ -83,6 +86,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-# added pundit gem for authorization
-gem "pundit"

@@ -391,15 +391,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Tendai Mtawarira",
+        appearances: 117,
+        trophies_won: 1,
+        teams_countries: "South Africa, Sharks"
       }}
     },
     "1" => {
       positions_name: "Hooker",
-      positions_tag: "SG",
+      positions_tag: "H",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -407,15 +407,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Keith Wood",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Ireland, Munster"
       }}
     },
     "2" => {
       positions_name: "Tighthead Prop",
-      positions_tag: "SF",
+      positions_tag: "TH",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -423,15 +423,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Adam Jones",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Wales, Ospreys"
       }}
     },
     "3" => {
       positions_name: "Second Row",
-      positions_tag: "PF",
+      positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -439,15 +439,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Martin Johnson",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "England, Leicester Tigers"
       }}
     },
     "4" => {
       positions_name: "Second Row",
-      positions_tag: "C",
+      positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -455,15 +455,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Eben Etzebeth",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "South Africa, Sharks, Toulon"
       }}
     },
     "5" => {
       positions_name: "Blindside Flanker",
-      positions_tag: "PG",
+      positions_tag: "BF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -471,15 +471,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Siya Kolisi",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "South Africa, Sharks, Racing "
       }}
     },
     "6" => {
       positions_name: "Openside Flanker",
-      positions_tag: "SG",
+      positions_tag: "OF",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -487,15 +487,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Richie Mccaw",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "New Zealand, Crusaders"
       }}
     },
     "7" => {
       positions_name: "Number 8",
-      positions_tag: "SF",
+      positions_tag: "N8",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -503,15 +503,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Sergio Parisse",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Italy, Stade Francais, "
       }}
     },
     "8" => {
       positions_name: "Scrum Half",
-      positions_tag: "PF",
+      positions_tag: "SH",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -519,15 +519,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Antoine Dupont",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "France, Toulouse"
       }}
     },
     "9" => {
       positions_name: "Stand Off",
-      positions_tag: "C",
+      positions_tag: "SO",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -535,15 +535,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Dan Carter",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Dan Carter, Crusaders, Racing "
       }}
     },
     "10" => {
       positions_name: "Left Wing",
-      positions_tag: "C",
+      positions_tag: "LW",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -551,15 +551,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Jonah Lomu",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "New Zealand, "
       }}
     },
     "11" => {
       positions_name: "Inside Centre",
-      positions_tag: "SF",
+      positions_tag: "IC",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -567,15 +567,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Ma'a Nonu",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "New Zealand, Hurricanes, "
       }}
     },
     "12" => {
       positions_name: "Outside Centre",
-      positions_tag: "PF",
+      positions_tag: "OC",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -583,15 +583,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Brian O'Driscoll",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Ireland, Leinster"
       }}
     },
     "13" => {
       positions_name: "Right Wing",
-      positions_tag: "C",
+      positions_tag: "RW",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -599,15 +599,15 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Bryan Habana",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "South Africa, Toulon, "
       }}
     },
     "14" => {
       positions_name: "Fullback",
-      positions_tag: "C",
+      positions_tag: "FB",
       description_attributes: {
         overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
         primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
@@ -615,10 +615,10 @@ RUGBY_UNION = {
         weaknesses: "Most often the smallest player on the floor"
       },
       famous_players_attributes: { "0" => {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Stuart Hogg",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
       }}
     }
   }

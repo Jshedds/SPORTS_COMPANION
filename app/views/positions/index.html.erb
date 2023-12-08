@@ -2,4 +2,4 @@
   <%= link_to position.positions_name, sport_position_path(@sport, position) %>
 <% end %>
 <br>
-<%= link_to @sport.name, sport_path(@sport) %>
+<%= link_to "Back to #{@sport.name}", sport_path(@sport) %>

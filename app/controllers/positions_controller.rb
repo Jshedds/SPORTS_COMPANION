@@ -8,6 +8,7 @@ class PositionsController < ApplicationController
   end
 
   def show
+    @sport = Sport.find(params[:sport_id])
     @position = Position.find(params[:id])
     authorize @position
   end

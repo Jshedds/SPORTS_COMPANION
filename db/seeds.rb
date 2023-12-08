@@ -62,8 +62,8 @@ BASKETBALL = {
         },
         famous_players_attributes: { "0" => {
           famous_player_name: "Earvin 'Magic' Johnson",
-          appearances: 906,
-          trophies_won: 5,
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Team USA"
         }}
       },
@@ -78,8 +78,8 @@ BASKETBALL = {
         },
         famous_players_attributes: { "0" => {
           famous_player_name: "Michael Jordan",
-          appearances: 1072,
-          trophies_won: 6,
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
         }}
       },
@@ -94,8 +94,8 @@ BASKETBALL = {
         },
         famous_players_attributes: { "0" => {
           famous_player_name: "Lebron James",
-          appearances: 1310,
-          trophies_won: 4,
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
         }}
       },
@@ -110,8 +110,8 @@ BASKETBALL = {
         },
         famous_players_attributes: { "0" => {
           famous_player_name: "Tim Duncan",
-          appearances: 1392,
-          trophies_won: 5,
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "San Antonio Spurs, Team USA"
         }}
       },
@@ -126,8 +126,8 @@ BASKETBALL = {
         },
         famous_players_attributes: { "0" => {
           famous_player_name: "Shaquille O'Neal",
-          appearances: 1207,
-          trophies_won: 4,
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
         }}
       }
@@ -179,8 +179,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -195,8 +195,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -211,8 +211,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -227,8 +227,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -243,8 +243,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -259,8 +259,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -275,8 +275,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -291,8 +291,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -307,8 +307,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -323,8 +323,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -339,8 +339,8 @@ FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     }
@@ -392,8 +392,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Tendai Mtawarira",
-        appearances: 117,
-        trophies_won: 1,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks"
       }}
     },
@@ -408,8 +408,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Keith Wood",
-        appearances: 67,
-        trophies_won: 0,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
       }}
     },
@@ -424,8 +424,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Adam Jones",
-        appearances: 906,
-        trophies_won: 0,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
       }}
     },
@@ -440,8 +440,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Martin Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, England, Leicester Tigers"
       }}
     },
@@ -456,8 +456,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Eben Etzebeth",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
       }}
     },
@@ -472,8 +472,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Siya Kolisi",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks, Racing "
       }}
     },
@@ -488,8 +488,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Richie Mccaw",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "New Zealand, Crusaders"
       }}
     },
@@ -504,8 +504,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Sergio Parisse",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Italy, Stade Francais, "
       }}
     },
@@ -520,8 +520,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Antoine Dupont",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "France, Toulouse"
       }}
     },
@@ -536,8 +536,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Dan Carter",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Dan Carter, Crusaders, Racing "
       }}
     },
@@ -552,8 +552,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Jonah Lomu",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "New Zealand, "
       }}
     },
@@ -568,8 +568,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Ma'a Nonu",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "New Zealand, Hurricanes, "
       }}
     },
@@ -584,8 +584,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Brian O'Driscoll",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Ireland, Leinster"
       }}
     },
@@ -600,8 +600,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Bryan Habana",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "South Africa, Toulon, "
       }}
     },
@@ -616,8 +616,8 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Stuart Hogg",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
       }}
     }
@@ -669,8 +669,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -685,8 +685,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -701,8 +701,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -717,8 +717,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -733,8 +733,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -749,8 +749,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -765,8 +765,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -781,8 +781,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -797,8 +797,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -813,8 +813,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -829,8 +829,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -845,8 +845,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -861,8 +861,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -877,8 +877,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -893,8 +893,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -909,8 +909,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -925,8 +925,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -941,8 +941,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -957,8 +957,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -973,8 +973,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -989,8 +989,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -1005,8 +1005,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     }

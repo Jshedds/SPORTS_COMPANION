@@ -1,2 +1,7 @@
-<h1><%= @position.positions_name %></h1>
+<p><strong>POSITION NAME:</strong> <%= @sport.positions_name %></p>
+<h4><STRONG>DESCRIPTION</STRONG></h4>
+<%= render "descriptions/description" %>
+<h4><STRONG>FAMOUS PLAYER</STRONG></h4>
+<%= render "famous_players/famous_player" %>
+
 <%= link_to "Return to positions", sport_positions_path %>

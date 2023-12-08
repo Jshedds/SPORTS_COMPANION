@@ -1,6 +1,6 @@
 #video-container {
   // position: relative;
-  // overflow: hidden;
+  // overflow: visible;
   width: 100vw;
   height: 100vh;
 }
@@ -15,8 +15,8 @@
   position: absolute;
   top: 5%;
   left: 50%;
-  text-align: center;
+  // text-align: center;
   color: white;
-  font-size: 10px;
+  // font-size: 10px;
   text-shadow: 15px 15px 20px black;
 }

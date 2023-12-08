@@ -391,7 +391,7 @@ RUGBY_UNION = {
         weaknesses: "Physical duels, tackling in open play"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Stuart Hogg",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -407,7 +407,7 @@ RUGBY_UNION = {
         weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Bryan Habana",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -455,7 +455,7 @@ RUGBY_UNION = {
         weaknesses: "Physical challenges, tackling largers opponents"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Antoine Dupont",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -487,7 +487,7 @@ RUGBY_UNION = {
         weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Jonah Lomu",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -519,7 +519,7 @@ RUGBY_UNION = {
         weaknesses: "Defensive responsiblities, breakdown challenges"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Sergio Parisse",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"
@@ -599,7 +599,7 @@ RUGBY_UNION = {
         weaknesses: "Open-play mobility, ball-carrying"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
+        name: "Keith Wood",
         appearances: 906,
         trophies_won: 5,
         teams_countries: "LA Lakers, Team USA"

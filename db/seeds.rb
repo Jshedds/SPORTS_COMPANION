@@ -408,9 +408,9 @@ RUGBY_UNION = {
       },
       famous_players_attributes: { "0" => {
         famous_player_name: "Keith Wood",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "Ireland, Munster"
+        appearances: 67,
+        trophies_won: 0,
+        teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
       }}
     },
     "2" => {
@@ -425,8 +425,8 @@ RUGBY_UNION = {
       famous_players_attributes: { "0" => {
         famous_player_name: "Adam Jones",
         appearances: 906,
-        trophies_won: 5,
-        teams_countries: "Wales, Ospreys"
+        trophies_won: 0,
+        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
       }}
     },
     "3" => {
@@ -442,7 +442,7 @@ RUGBY_UNION = {
         famous_player_name: "Martin Johnson",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "England, Leicester Tigers"
+        teams_countries: "British & Irish Lions, England, Leicester Tigers"
       }}
     },
     "4" => {
@@ -458,7 +458,7 @@ RUGBY_UNION = {
         famous_player_name: "Eben Etzebeth",
         appearances: 906,
         trophies_won: 5,
-        teams_countries: "South Africa, Sharks, Toulon"
+        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
       }}
     },
     "5" => {

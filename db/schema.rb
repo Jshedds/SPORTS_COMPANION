@@ -18,8 +18,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_07_180018) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "sport_id"
-    t.index ["sport_id"], name: "index_chatrooms_on_sport_id"
   end
 
   create_table "descriptions", force: :cascade do |t|
@@ -150,7 +148,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_07_180018) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "chatrooms", "sports"
   add_foreign_key "descriptions", "positions"
   add_foreign_key "equipment_needs", "sports"
   add_foreign_key "famous_players", "positions"

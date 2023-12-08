@@ -1,4 +1,3 @@
-<h1>List of all Sports</h1>
 <%= link_to "add a sport", new_sport_path if current_user && policy(Sport).new? %>
 
 <% @sports.each do |sport| %>

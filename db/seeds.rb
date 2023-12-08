@@ -61,9 +61,9 @@ BASKETBALL = {
           weaknesses: "Most often the smallest player on the floor"
         },
         famous_players_attributes: { "0" => {
-          name: "Earvin 'Magic' Johnson",
-          appearances: 906,
-          trophies_won: 5,
+          famous_player_name: "Earvin 'Magic' Johnson",
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Team USA"
         }}
       },
@@ -77,9 +77,9 @@ BASKETBALL = {
           weaknesses: "May not be as involved in playmaking as a point guard"
         },
         famous_players_attributes: { "0" => {
-          name: "Michael Jordan",
-          appearances: 1072,
-          trophies_won: 6,
+          famous_player_name: "Michael Jordan",
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
         }}
       },
@@ -93,9 +93,9 @@ BASKETBALL = {
           weaknesses: "May not specialize in a specific aspect of the game"
         },
         famous_players_attributes: { "0" => {
-          name: "Lebron James",
-          appearances: 1310,
-          trophies_won: 4,
+          famous_player_name: "Lebron James",
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
         }}
       },
@@ -109,9 +109,9 @@ BASKETBALL = {
           weaknesses: "May not have the agility or perimeter skills of smaller players"
         },
         famous_players_attributes: { "0" => {
-          name: "Tim Duncan",
-          appearances: 1392,
-          trophies_won: 5,
+          famous_player_name: "Tim Duncan",
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "San Antonio Spurs, Team USA"
         }}
       },
@@ -125,9 +125,9 @@ BASKETBALL = {
           weaknesses: "May lack the agility and perimeter skills of smaller players"
         },
         famous_players_attributes: { "0" => {
-          name: "Shaquille O'Neal",
-          appearances: 1207,
-          trophies_won: 4,
+          famous_player_name: "Shaquille O'Neal",
+          individual_milestones: "fill here",
+          team_trophies_won: "fill here",
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
         }}
       }
@@ -178,9 +178,9 @@ FOOTBALL = {
         weaknesses: "Vulnerable to one-on-one situations, handling crosses"
       },
       famous_players_attributes: { "0" => {
-        name: "Manuel Neuer",
-        appearances: 508,
-        trophies_won: 13,
+        famous_player_name: "Manuel Neuer",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Bayern Munich, Germany"
       }}
     },
@@ -194,9 +194,9 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_players_attributes: { "0" => {
-        name: "Dani Alves",
-        appearances: 118,
-        trophies_won: 2,
+        famous_player_name: "Dani Alves",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "Barcelona, Brazil"
       }}
     },
@@ -210,9 +210,9 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_players_attributes: { "0" => {
-        name: "Giorgio Chiellini",
-        appearances: 906,
-        trophies_won: 5,
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        famous_player_name: "Giorgio Chiellini",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -226,9 +226,9 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -242,9 +242,9 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, attacking contribution"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -258,9 +258,9 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -274,9 +274,9 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical duels"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -290,9 +290,9 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -306,9 +306,9 @@ FOOTBALL = {
         weaknesses: "Defensive responsibilities, marking by defenders"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -322,9 +322,9 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     },
@@ -338,9 +338,9 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
       }}
     }
@@ -369,21 +369,21 @@ RUGBY_UNION = {
     milestones: "The first international rugby union match took place between Scotland and England on 27th of March 1871 at Raeburn Place, Edinburgh, Scotland. The sport turned professional in 1995."
   },
   terminology_attributes: {
-    most_important_terms: "fill here",
+    most_important_terms: "Knock-on: When the ball is dropped forward and touches another player or the ground, Forward Pass: When a player passes the ball to another player but it travels forward, Scrum: When a knock-on has occured the game restarts with a scrum where the forward from each team come together and compete for the ball, Lineout: When the ball goes out of play at the edge of the pitch, a number of players usually forwards, restart the game by the hooker throwing the ball in to a player who gets lifted, the opposition can compete, Penalty: When a team commits a foul act the referee penalises them,"
   },
   rule_attributes: {
     game_duration: "80 minutes at professional level",
-    scoring: "5 points for a try, 2 for a conversion",
-    player_per_team: 0,
-    referees: 0,
+    scoring: " When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
+    player_per_team: 15,
+    referees: 3,
     most_important_rules: "fill here",
-    field_size: "fill here",
-    field_type: "fill here",
+    field_size: "100m long, 70m wide",
+    field_type: "Primarily grass, but can also be played on artificial grass"
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Fullback",
-      positions_tag: "FB15",
+      positions_name: "Loosehead Prop",
+      positions_tag: "LH",
       description_attributes: {
         overview_of_position: "Last line of defense, positioned behind the main defensive line",
         primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
@@ -391,15 +391,15 @@ RUGBY_UNION = {
         weaknesses: "Physical duels, tackling in open play"
       },
       famous_players_attributes: { "0" => {
-        name: "Stuart Hogg",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Tendai Mtawarira",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "South Africa, Sharks"
       }}
     },
     "1" => {
-      positions_name: "Right Wing",
-      positions_tag: "RW14",
+      positions_name: "Hooker",
+      positions_tag: "H",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the right flank",
         primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
@@ -407,15 +407,15 @@ RUGBY_UNION = {
         weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
-        name: "Bryan Habana",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Keith Wood",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
       }}
     },
     "2" => {
-      positions_name: "Right Center",
-      positions_tag: "RC13",
+      positions_name: "Tighthead Prop",
+      positions_tag: "TH",
       description_attributes: {
         overview_of_position: "Midfielder in the backline, often part of attacking plays",
         primary_objectives: "Creating attacking opportunities, defending against opposition centers",
@@ -423,15 +423,15 @@ RUGBY_UNION = {
         weaknesses: "Physical collisions, tackling in open play"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Adam Jones",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
       }}
     },
     "3" => {
-      positions_name: "Fly-half",
-      positions_tag: "FH10",
+      positions_name: "Second Row",
+      positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Key playmaker, responsible for directing the team's attack",
         primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
@@ -439,15 +439,15 @@ RUGBY_UNION = {
         weaknesses: "Physical tackling, pressure situations"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Martin Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "British & Irish Lions, England, Leicester Tigers"
       }}
     },
     "4" => {
-      positions_name: "Scrum-half",
-      positions_tag: "SH9",
+      positions_name: "Second Row",
+      positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
         primary_objectives: "Quick distribution, organizing forwards, defensive work",
@@ -455,15 +455,15 @@ RUGBY_UNION = {
         weaknesses: "Physical challenges, tackling largers opponents"
       },
       famous_players_attributes: { "0" => {
-        name: "Antoine Dupont",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Eben Etzebeth",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
       }}
     },
     "5" => {
-      positions_name: "Left Center",
-      positions_tag: "LC12",
+      positions_name: "Blindside Flanker",
+      positions_tag: "BF",
       description_attributes: {
         overview_of_position: "Midfielder in the backline, often part of attacking plays",
         primary_objectives: "Creating attacking opportunities, defending against opposition centers",
@@ -471,15 +471,15 @@ RUGBY_UNION = {
         weaknesses: "Physical collisions, tackling in open play"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Siya Kolisi",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "South Africa, Sharks, Racing "
       }}
     },
     "6" => {
-      positions_name: "Left Wing",
-      positions_tag: "LW11",
+      positions_name: "Openside Flanker",
+      positions_tag: "OF",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the left flank",
         primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
@@ -487,15 +487,15 @@ RUGBY_UNION = {
         weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_players_attributes: { "0" => {
-        name: "Jonah Lomu",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Richie Mccaw",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "New Zealand, Crusaders"
       }}
     },
     "7" => {
-      positions_name: "Fly-half",
-      positions_tag: "FH10",
+      positions_name: "Number 8",
+      positions_tag: "N8",
       description_attributes: {
         overview_of_position: "Key playmaker, responsible for directing the team's attack",
         primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
@@ -503,15 +503,15 @@ RUGBY_UNION = {
         weaknesses: "Physical tackling, pressure situations"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Sergio Parisse",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "Italy, Stade Francais, "
       }}
     },
     "8" => {
-      positions_name: "Number Eight",
-      positions_tag: "N8",
+      positions_name: "Scrum Half",
+      positions_tag: "SH",
       description_attributes: {
         overview_of_position: "Back-row forward, often the primary ball carrier",
         primary_objectives: "Running with the ball, supporting in the open play, leading the forward pack",
@@ -519,15 +519,15 @@ RUGBY_UNION = {
         weaknesses: "Defensive responsiblities, breakdown challenges"
       },
       famous_players_attributes: { "0" => {
-        name: "Sergio Parisse",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Antoine Dupont",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "France, Toulouse"
       }}
     },
     "9" => {
-      positions_name: "Flanker",
-      positions_tag: "F6",
+      positions_name: "Stand Off",
+      positions_tag: "SO",
       description_attributes: {
         overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
         primary_objectives: "Tackling, competing for the ball, supporting in open play",
@@ -535,15 +535,15 @@ RUGBY_UNION = {
         weaknesses: "Ball-carrying, lineout challenges"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Dan Carter",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "Dan Carter, Crusaders, Racing "
       }}
     },
     "10" => {
-      positions_name: "Lock",
-      positions_tag: "L5",
+      positions_name: "Left Wing",
+      positions_tag: "LW",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",
         primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
@@ -551,15 +551,15 @@ RUGBY_UNION = {
         weaknesses: "Mobility, open-play speed"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Jonah Lomu",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "New Zealand, "
       }}
     },
     "11" => {
-      positions_name: "Lock",
-      positions_tag: "L4",
+      positions_name: "Inside Centre",
+      positions_tag: "IC",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",
         primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
@@ -567,15 +567,15 @@ RUGBY_UNION = {
         weaknesses: "Mobility, open-play speed"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Ma'a Nonu",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "New Zealand, Hurricanes, "
       }}
     },
     "12" => {
-      positions_name: "Prop",
-      positions_tag: "P3",
+      positions_name: "Outside Centre",
+      positions_tag: "OC",
       description_attributes: {
         overview_of_position: "Front-row forward, provides stability in scrums",
         primary_objectives: "Scrummaging, supporting in open play, tackling",
@@ -583,15 +583,15 @@ RUGBY_UNION = {
         weaknesses: "Mobility, ball-handling"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Brian O'Driscoll",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "Ireland, Leinster"
       }}
     },
     "13" => {
-      positions_name: "Hooker",
-      positions_tag: "H2",
+      positions_name: "Right Wing",
+      positions_tag: "RW",
       description_attributes: {
         overview_of_position: "Front-row forward, throws the ball into lineouts",
         primary_objectives: "Lineout throwing, scrummaging, tackling",
@@ -599,15 +599,15 @@ RUGBY_UNION = {
         weaknesses: "Open-play mobility, ball-carrying"
       },
       famous_players_attributes: { "0" => {
-        name: "Keith Wood",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Bryan Habana",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "South Africa, Toulon, "
       }}
     },
     "14" => {
-      positions_name: "Prop",
-      positions_tag: "P1",
+      positions_name: "Fullback",
+      positions_tag: "FB",
       description_attributes: {
         overview_of_position: "Front-row forward, provides stability in scrums",
         primary_objectives: "Scrummaging, supporting in open play, tackling",
@@ -615,10 +615,10 @@ RUGBY_UNION = {
         weaknesses: "Mobility, ball-handling"
       },
       famous_players_attributes: { "0" => {
-        name: "Earvin 'Magic' Johnson",
-        appearances: 906,
-        trophies_won: 5,
-        teams_countries: "LA Lakers, Team USA"
+        famous_player_name: "Stuart Hogg",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
       }}
     }
   }
@@ -668,9 +668,9 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Vulnerable to sacks, heavy defensive pressure"
       },
       famous_players_attributes: { "0" => {
-        name: "Tom Brady",
-        appearances: 310,
-        trophies_won: 7,
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers"
       }}
     },
@@ -688,6 +688,10 @@ AMERICAN_FOOTBALL = {
         appearances: 164,
         trophies_won: 1,
         teams_countries: "Minnesota Vikings, Arizona Cardinals, Washington Football Team, Detroit Lions"
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
       }}
     },
     "2" => {
@@ -700,10 +704,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Balancing blocking and receiving responsibilities"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Rob Gronkowski",
         appearances: 140,
         trophies_won: 4,
         teams_countries: "New England Patriots, Tampa Bay Buccaneers"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "3" => {
@@ -716,10 +727,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical press coverage, double-teams"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "DeAndre Hopkins",
         appearances: 121,
         trophies_won: 0,
         teams_countries: "Houston Texans, Arizona Cardinals, Tennessee Titans"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "4" => {
@@ -732,10 +750,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical coverage, risk of heavy hits in traffic"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Julian Edelman",
         appearances: 137,
         trophies_won: 3,
         teams_countries: "New England Patriots"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "5" => {
@@ -748,10 +773,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical coverage by defenders"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Larry Fitzgerald",
         appearances: 263,
         trophies_won: 0,
         teams_countries: "Arizona Cardinals"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "6" => {
@@ -764,10 +796,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing elite edge rushers, speed rushers"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Anthony Munoz",
         appearances: 185,
         trophies_won: 0,
         teams_countries: "Cincinatti Bengals"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "7" => {
@@ -780,10 +819,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing powerful defensive tackles, interior pass rush"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Quenton Nelson",
         appearances: 48,
         trophies_won: 0,
         teams_countries: "Indianapolis Colts"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "8" => {
@@ -796,10 +842,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Powerful nose tackles, bull rush from defensive tackles"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Jason Kelce",
         appearances: 136,
         trophies_won: 1,
         teams_countries: "Philadelphia Eagles"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "9" => {
@@ -812,10 +865,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing powerful defensive tackles, interior pass rush"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Zack Martin",
         appearances: 95,
         trophies_won: 0,
         teams_countries: "Dallas Cowboys"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "10" => {
@@ -828,10 +888,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing elite edge rushers, speed rushers"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Orlando Pace",
         appearances: 169,
         trophies_won: 1,
         teams_countries: "St. Louis Rams, Chicago Bears"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "11" => {
@@ -844,10 +911,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Double-team blocking, containment responsiblities"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Reggie White",
         appearances: 232,
         trophies_won: 1,
         teams_countries: "Philadelphia Eagles, Green Bay Packers"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "12" => {
@@ -860,10 +934,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Double-team blocking, lateral movenemtn"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Aaron Donald",
         appearances: 117,
         trophies_won: 2,
         teams_countries: "Los Angeles Rams"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "13" => {
@@ -876,10 +957,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Double-team blocking, lateral movement"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Damon Harrison",
         appearances: 131,
         trophies_won: 0,
         teams_countries: "New York Giants, Detroit Lions"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "14" => {
@@ -892,10 +980,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Double-team blocking, containment responsiblities"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "J.J. Watt",
         appearances: 128,
         trophies_won: 0,
         teams_countries: "Houston Texans, Arizona Cardinals"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "15" => {
@@ -908,10 +1003,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical blockers, quick releases by receivers"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Von Miller",
         appearances: 134,
         trophies_won: 2,
         teams_countries: "Denver Broncos, Los Angeles Rams, Buffalo Bills"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "16" => {
@@ -924,10 +1026,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Coverage against agile receivers"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Luke Kuechly",
         appearances: 118,
         trophies_won: 0,
         teams_countries: "Carolina Panthers"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "17" => {
@@ -940,10 +1049,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing strong right tackles, shedding blocks"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Lawrence Taylor",
         appearances: 184,
         trophies_won: 2,
         teams_countries: "New York Giants"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "18" => {
@@ -956,10 +1072,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical battles with receivers, risk of pass interference"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Richard Sherman",
         appearances: 139,
         trophies_won: 1,
         teams_countries: "Seattle Seahawks, San Francisco 49ers"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "19" => {
@@ -972,10 +1095,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical battles with receivers, risk of pass interference"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Darrelle Revis",
         appearances: 145,
         trophies_won: 1,
         teams_countries: "New York Jets, New England Patriots"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "20" => {
@@ -988,10 +1118,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Balancing run support and pass coverage"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Earl Thomas",
         appearances: 140,
         trophies_won: 1,
         teams_countries: "Seattle Seahawks"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     },
     "21" => {
@@ -1004,10 +1141,17 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Coverage against agile tight ends, deep pass coverage"
       },
       famous_players_attributes: { "0" => {
+<<<<<<< HEAD
         name: "Troy Polamalu",
         appearances: 158,
         trophies_won: 2,
         teams_countries: "Pittsburgh Steelers"
+=======
+        famous_player_name: "Earvin 'Magic' Johnson",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "LA Lakers, Team USA"
+>>>>>>> master
       }}
     }
   }

@@ -60,12 +60,12 @@ BASKETBALL = {
           strengths: "Best ball handles, passer and decision maker on the team",
           weaknesses: "Most often the smallest player on the floor"
         },
-        famous_players_attributes: { "0" => {
+        famous_player_attributes: {
           famous_player_name: "Earvin 'Magic' Johnson",
           individual_milestones: "fill here",
           team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Team USA"
-        }}
+        }
       },
       "1" => {
         positions_name: "Shooting Guard",
@@ -76,12 +76,12 @@ BASKETBALL = {
           strengths: "Strong shooting skills, often quick and agile",
           weaknesses: "May not be as involved in playmaking as a point guard"
         },
-        famous_players_attributes: { "0" => {
+        famous_player_attributes: {
           famous_player_name: "Michael Jordan",
           individual_milestones: "fill here",
           team_trophies_won: "fill here",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
-        }}
+        }
       },
       "2" => {
         positions_name: "Small Forward",
@@ -92,12 +92,12 @@ BASKETBALL = {
           strengths: "Balanced skills in scoring, rebounding, and defense",
           weaknesses: "May not specialize in a specific aspect of the game"
         },
-        famous_players_attributes: { "0" => {
+        famous_player_attributes: {
           famous_player_name: "Lebron James",
           individual_milestones: "fill here",
           team_trophies_won: "fill here",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
-        }}
+        }
       },
       "3" => {
         positions_name: "Power Forward",
@@ -108,12 +108,12 @@ BASKETBALL = {
           strengths: "Strong, rebounder, and capable of scoring in and around the paint",
           weaknesses: "May not have the agility or perimeter skills of smaller players"
         },
-        famous_players_attributes: { "0" => {
+        famous_player_attributes: {
           famous_player_name: "Tim Duncan",
           individual_milestones: "fill here",
           team_trophies_won: "fill here",
           teams_countries: "San Antonio Spurs, Team USA"
-        }}
+        }
       },
       "4" => {
         positions_name: "Center",
@@ -124,12 +124,12 @@ BASKETBALL = {
           strengths: "Tall and physically imposing, strong in the paint",
           weaknesses: "May lack the agility and perimeter skills of smaller players"
         },
-        famous_players_attributes: { "0" => {
+        famous_player_attributes: {
           famous_player_name: "Shaquille O'Neal",
           individual_milestones: "fill here",
           team_trophies_won: "fill here",
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
-        }}
+        }
       }
     }
 }
@@ -177,12 +177,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "1" => {
       positions_name: "Shooting Guard",
@@ -193,12 +193,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "2" => {
       positions_name: " Small Forward",
@@ -209,12 +209,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "3" => {
       positions_name: "Power Forward",
@@ -225,12 +225,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "4" => {
       positions_name: "Center",
@@ -241,12 +241,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "5" => {
       positions_name: "Point Guard",
@@ -257,12 +257,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "6" => {
       positions_name: "Shooting Guard",
@@ -273,12 +273,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "7" => {
       positions_name: " Small Forward",
@@ -289,12 +289,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "8" => {
       positions_name: "Power Forward",
@@ -305,12 +305,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "9" => {
       positions_name: "Center",
@@ -321,12 +321,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "10" => {
       positions_name: "Striker",
@@ -337,12 +337,12 @@ FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     }
   }
 }
@@ -390,12 +390,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Tendai Mtawarira",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks"
-      }}
+      }
     },
     "1" => {
       positions_name: "Hooker",
@@ -406,12 +406,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Keith Wood",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
-      }}
+      }
     },
     "2" => {
       positions_name: "Tighthead Prop",
@@ -422,12 +422,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Adam Jones",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
-      }}
+      }
     },
     "3" => {
       positions_name: "Second Row",
@@ -438,12 +438,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Martin Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "British & Irish Lions, England, Leicester Tigers"
-      }}
+      }
     },
     "4" => {
       positions_name: "Second Row",
@@ -454,12 +454,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Eben Etzebeth",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
-      }}
+      }
     },
     "5" => {
       positions_name: "Blindside Flanker",
@@ -470,12 +470,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Siya Kolisi",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "South Africa, Sharks, Racing "
-      }}
+      }
     },
     "6" => {
       positions_name: "Openside Flanker",
@@ -486,12 +486,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Richie Mccaw",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "New Zealand, Crusaders"
-      }}
+      }
     },
     "7" => {
       positions_name: "Number 8",
@@ -502,12 +502,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Sergio Parisse",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Italy, Stade Francais, "
-      }}
+      }
     },
     "8" => {
       positions_name: "Scrum Half",
@@ -518,12 +518,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Antoine Dupont",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "France, Toulouse"
-      }}
+      }
     },
     "9" => {
       positions_name: "Stand Off",
@@ -534,12 +534,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Dan Carter",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Dan Carter, Crusaders, Racing "
-      }}
+      }
     },
     "10" => {
       positions_name: "Left Wing",
@@ -550,12 +550,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Jonah Lomu",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "New Zealand, "
-      }}
+      }
     },
     "11" => {
       positions_name: "Inside Centre",
@@ -566,12 +566,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Ma'a Nonu",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "New Zealand, Hurricanes, "
-      }}
+      }
     },
     "12" => {
       positions_name: "Outside Centre",
@@ -582,12 +582,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Brian O'Driscoll",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Ireland, Leinster"
-      }}
+      }
     },
     "13" => {
       positions_name: "Right Wing",
@@ -598,12 +598,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Bryan Habana",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "South Africa, Toulon, "
-      }}
+      }
     },
     "14" => {
       positions_name: "Fullback",
@@ -614,12 +614,12 @@ RUGBY_UNION = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Stuart Hogg",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
-      }}
+      }
     }
   }
 }
@@ -667,12 +667,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "1" => {
       positions_name: "Shooting Guard",
@@ -683,12 +683,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "2" => {
       positions_name: " Small Forward",
@@ -699,12 +699,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "3" => {
       positions_name: "Power Forward",
@@ -715,12 +715,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "4" => {
       positions_name: "Center",
@@ -731,12 +731,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "5" => {
       positions_name: "Point Guard",
@@ -747,12 +747,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "6" => {
       positions_name: "Shooting Guard",
@@ -763,12 +763,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "7" => {
       positions_name: " Small Forward",
@@ -779,12 +779,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "8" => {
       positions_name: "Power Forward",
@@ -795,12 +795,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "9" => {
       positions_name: "Center",
@@ -811,12 +811,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "10" => {
       positions_name: "Center",
@@ -827,12 +827,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "11" => {
       positions_name: "Point Guard",
@@ -843,12 +843,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "12" => {
       positions_name: "Shooting Guard",
@@ -859,12 +859,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "13" => {
       positions_name: " Small Forward",
@@ -875,12 +875,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "14" => {
       positions_name: "Power Forward",
@@ -891,12 +891,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "15" => {
       positions_name: "Center",
@@ -907,12 +907,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "16" => {
       positions_name: "Point Guard",
@@ -923,12 +923,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "17" => {
       positions_name: "Shooting Guard",
@@ -939,12 +939,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "18" => {
       positions_name: " Small Forward",
@@ -955,12 +955,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "19" => {
       positions_name: "Power Forward",
@@ -971,12 +971,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "20" => {
       positions_name: "Center",
@@ -987,12 +987,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     },
     "21" => {
       positions_name: "Center",
@@ -1003,12 +1003,12 @@ AMERICAN_FOOTBALL = {
         strengths: "Best ball handles, passer and decision maker on the team",
         weaknesses: "Most often the smallest player on the floor"
       },
-      famous_players_attributes: { "0" => {
+      famous_player_attributes: {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
-      }}
+      }
     }
   }
 }

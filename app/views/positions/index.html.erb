@@ -1,6 +1,8 @@
 
+<ul>
   <% @sport.positions.each do |position| %>
-    <%= link_to position.positions_name, sport_position_path(@sport, position) %>
+    <li><%= link_to position.positions_name, sport_position_path(@sport, position) %></li>
   <% end %>
+</ul>
 <br>
 <%= link_to "Back to #{@sport.name}", sport_path(@sport) %>

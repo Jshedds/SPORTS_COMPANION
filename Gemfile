@@ -54,6 +54,9 @@ gem "sassc-rails"
 #API Authentication
 gem 'simple_token_authentication'
 
+# added cloudinary
+gem
+
 # added dotenv-rails gem
 gem "dotenv-rails", groups: [:development, :test]
 

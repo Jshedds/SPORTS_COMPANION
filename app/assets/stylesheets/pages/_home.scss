@@ -1,7 +1,6 @@
-
 #video-container {
-  position: relative;
-  overflow: hidden;
+  // position: relative;
+  // overflow: hidden;
   width: 100vw;
   height: 100vh;
 }
@@ -14,9 +13,10 @@
 
 #title-text-overlay {
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
   text-align: center;
   color: white;
-  font-size: 60px;
+  font-size: 10px;
+  text-shadow: 15px 15px 20px black;
 }

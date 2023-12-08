@@ -1,4 +1,4 @@
-class FavouritePolicy < ApplicationPolicy
+class FamousPlayerPolicy < ApplicationPolicy
   class Scope < Scope
     # NOTE: Be explicit about which records you allow access to!
     def resolve
@@ -7,10 +7,10 @@ class FavouritePolicy < ApplicationPolicy
   end
 
   def create?
-    true
+    user.admin?
   end
 
-  def destroy?
-    true
+  def update?
+    user.admin?
   end
 end

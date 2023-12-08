@@ -1,0 +1,13 @@
+<h1> My dashboard </h1>
+
+<h4> My Favourites </h4>
+
+<% if @favourites.exists? %>
+  <% @favourites.each do |favourite| %>
+    <%= link_to favourite.sport.name, sport_path(favourite.sport) %>
+      <% end %>
+    <% else %>
+      <%= "No favourites added yet" %>
+      <%= link_to "start adding favourites", sports_path%>
+<% end %>
+

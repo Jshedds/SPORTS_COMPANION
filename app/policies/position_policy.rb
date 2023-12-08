@@ -1,4 +1,4 @@
-class FavouritePolicy < ApplicationPolicy
+class PositionPolicy < ApplicationPolicy
   class Scope < Scope
     # NOTE: Be explicit about which records you allow access to!
     def resolve
@@ -6,11 +6,19 @@ class FavouritePolicy < ApplicationPolicy
     end
   end
 
-  def create?
+  def index?
     true
   end
 
-  def destroy?
+  def show?
     true
+  end
+
+  def create?
+    user.admin?
+  end
+
+  def update?
+    user.admin?
   end
 end

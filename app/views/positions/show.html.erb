@@ -9,6 +9,6 @@
   <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
 </div>
   <%= render "famous_players/famous_player" %>
-<%= link_to "Back to Positions", sport_positions_path %>
+  <%= link_to render_icon("back"), sport_path(@sport) %>
 <br>
 <%= link_to "Back to #{@sport.name}", sport_path(@sport) %>

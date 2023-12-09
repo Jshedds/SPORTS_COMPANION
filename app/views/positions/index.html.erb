@@ -4,5 +4,4 @@
     <li><%= link_to position.positions_name, sport_position_path(@sport, position) %></li>
   <% end %>
 </ul>
-<%= link_to "Back to #{@sport.name}", sport_path(@sport) %>
-
+  <%= link_to render_icon("back"), sport_path(@sport) %>

@@ -1,5 +1,5 @@
 <div class="container chatroom" data-controller="chatroom-subscription" data-chatroom-subscription-chatroom-name-value="<%= @chatroom.name %>">
-  <h1>#<%= @chatroom.name %></h1>
+  <h1><%= @chatroom.name %></h1>
 
   <div class="messages" data-chatroom-subscription-target="messages">
     <% @chatroom.messages.each do |message| %>
@@ -23,5 +23,6 @@
       <%= f.submit "Send", class: "btn btn-primary mb-3" %>
     <% end %>
   </div>
-  <%= link_to "Back to #{@sport.name}", sport_path(@sport) %>
+  <%= link_to render_icon("back"), sport_path(@sport) %>
+  <%= link_to render_icon("all_sports"), sports_path %>
 </div>

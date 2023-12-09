@@ -10,6 +10,12 @@
       <%= link_to render_icon("rugby"), sport_path(favourite.sport) %>
     <% elsif favourite.sport.name == "American Football" %>
       <%= link_to render_icon("american_foot"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Baseball" %>
+      <%= link_to render_icon("baseball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Volleyball" %>
+      <%= link_to render_icon("volleyball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Ice Hockey" %>
+      <%= link_to render_icon("icehockey"), sport_path(favourite.sport) %>
     <% end %>
   <% end %>
 <% else %>

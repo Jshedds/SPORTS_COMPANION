@@ -1,13 +1,18 @@
-<h1> My dashboard </h1>
-
-<h4> My Favourites </h4>
+<h4> My <%= render_icon("favourite") =%></h4>
 
 <% if @favourites.exists? %>
   <% @favourites.each do |favourite| %>
-    <%= link_to favourite.sport.name, sport_path(favourite.sport) %>
-      <% end %>
-    <% else %>
-      <%= "No favourites added yet" %>
-      <%= link_to "start adding favourites", sports_path%>
-<% end %>
-
+    <% if favourite.sport.name == "Basketball" %>
+      <%= link_to render_icon("bball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Football" %>
+      <%= link_to render_icon("football"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Rugby Union" %>
+      <%= link_to render_icon("rugby"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "American Football" %>
+      <%= link_to render_icon("american_foot"), sport_path(favourite.sport) %>
+    <% end %>
+  <% end %>
+<% else %>
+  <%= "No favourites added yet" %>
+    <%= link_to "start adding favourites", sports_path %>
+<% end%>

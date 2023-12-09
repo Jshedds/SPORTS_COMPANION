@@ -1,7 +1,15 @@
-
-<ul>
-  <% @sport.positions.each do |position| %>
-    <li><%= link_to position.positions_name, sport_position_path(@sport, position) %></li>
+<div class="positions-container">
+  <% if @sport.name == "Basketball" %>
+    <%  court_bg_image = 'bball_court.jpg' %>
+      <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
   <% end %>
-</ul>
-  <%= link_to render_icon("back"), sport_path(@sport) %>
+
+  <div class="positions">
+    <ul>
+      <% @sport.positions.each do |position| %>
+        <li><%= link_to position.positions_name, sport_position_path(@sport, position) %></li>
+      <% end %>
+    </ul>
+      <%= link_to render_icon("back"), sport_path(@sport) %>
+  </div>
+</div>

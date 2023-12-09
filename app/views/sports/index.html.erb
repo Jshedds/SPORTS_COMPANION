@@ -1,7 +1,7 @@
 <% if current_user && policy(Sport).new? %>
   <div class="admin-add-btn">
     <%= link_to new_sport_path do %>
-      <%= render_icon "admin_add" %>
+      <%= render_icon "add" %>
     <% end %>
   </div>
 <% end %>

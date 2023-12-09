@@ -1341,88 +1341,88 @@ Volleyball = {
     player_per_team: 6,
     referees: 2,
     most_important_rules: "A match is typically played best out of five sets. Each team can have a maximum of six players on the court at a time. Points are scored by successfully sending the ball into the opponent's court, and each rally begins with a serve. The team that wins a rally is awarded a point and the right to serve. Players must rotate positions after each point. Substitutions are allowed but follow specific rules. The team that first scores 25 point (with some variations) and is leading by at least two points wins a set. The first team to win three sets wins the match.",
-    field_size: "200 by 85 feet",
-    field_type: "ice rink",
+    field_size: "18 meters by 9 meters",
+    field_type: "Hardwood, synthetic, court tile",
   },
   positions_attributes: {
     "0" => {
-      positions_name: "Goaltender",
-      positions_tag: "G",
+      positions_name: "Setter",
+      positions_tag: "S",
       description_attributes: {
-        overview_of_position: "Last line of defense, prevents the opponent from scoring",
-        primary_objectives: "Stopping shots, directing rebounds, controlling the crease",
-        strengths: "Goaltending reflexes, positioning, puck handling",
-        weaknesses: "Vulnerable to screen situations, lateral movement"
+        overview_of_position: "Quarterback of the team, sets up the attack",
+        primary_objectives: "Setting the ball accurately, orchestrating the offense",
+        strengths: "Setting technique, decision-making, teamwork",
+        weaknesses: "Defensive responsibilities, blocking"
       },
       famous_player_attributes: {
-        famous_player_name: "Patrick Roy",
-        individual_milestones: "4-time Stanley Cup champion, 3-time Conn Smythe Trophy winner",
-        team_trophies_won: "Montreal Canadiens, Colorado Avalanche",
-        teams_countries: "Canada"
+        famous_player_name: "Karch Kiraly",
+        individual_milestones: "3-time Olympic gold medalist, 3-time World Champion",
+        team_trophies_won: "United States",
+        teams_countries: "United States"
       }
     },
     "1" => {
-      positions_name: "Defenseman",
-      positions_tag: "D",
+      positions_name: "Outside Hitter",
+      positions_tag: "OH",
       description_attributes: {
-        overview_of_position: "Defender, protects the goaltender and initiates offensive plays",
-        primary_objectives: "Blocking shots, breaking up plays, moving the puck up the ice",
-        strengths: "Defensive awareness, physical play, shot blocking",
-        weaknesses: "Skating speed, offensive production"
+        overview_of_position: "Attacker positioned on the left side of the net",
+        primary_objectives: "Spiking, blocking, digging",
+        strengths: "Powerful spike, agility, all-around skills",
+        weaknesses: "Defensive responsibilties, blocking consistency"
       },
       famous_player_attributes: {
-        famous_player_name: "Bobby Orr",
-        individual_milestones: "8-time Norris Trophy winner, 2-time Stanley Cup Champion",
-        team_trophies_won: "Boston Bruins",
-        teams_countries: "Canada"
+        famous_player_name: "Giba",
+        individual_milestones: "3-time Olympic gold medalist, 8-time World Champion",
+        team_trophies_won: "Brazil",
+        teams_countries: "Brazil"
       }
     },
     "2" => {
-      positions_name: "Center",
-      positions_tag: "C",
+      positions_name: "Middle Blocker",
+      positions_tag: "MB",
       description_attributes: {
-        overview_of_position: "Plays in the middle of the forward line, involved in both ends of the ice",
-        primary_objectives: "Faceoffs, playmaking, two-way play",
-        strengths: "Faceoff skills, passing, defensive responsibilties",
-        weaknesses: "Limited physicality, goal-scoring inconsistency"
+        overview_of_position: "Defensive and offensive player at the net",
+        primary_objectives: "Blocking, quick attacks, defending against spikes",
+        strengths: "Blocking ability, quick footwork, net presence",
+        weaknesses: "Lateral movement, offensive variablity"
       },
       famous_player_attributes: {
-        famous_player_name: "Wayne Gretzky",
-        individual_milestones: "All-time leading scorer, 4-time Stanley Cup champion",
-        team_trophies_won: "Edmonton Oilers, Los Angeles Kings",
-        teams_countries: "Canada"
+        famous_player_name: "Dmitriy Muserskiy",
+        individual_milestones: "2-time Olympic gold medalist, 3-time World Champion",
+        team_trophies_won: "Russia",
+        teams_countries: "Russia"
       }
     },
     "3" => {
-      positions_name: "Right Wing",
-      positions_tag: "RW",
+      positions_name: "Opposite Hitter",
+      positions_tag: "Opp",
       description_attributes: {
-        overview_of_position: "Forward positioned on the right side",
-        primary_objectives: "Scoring goals, providing assists, forechecking",
-        strengths: "Goal-scoring, shooting accuracy, physical play",
-        weaknesses: "Defensive responsiblities, consistency"
+        overview_of_position: "Attacker positioned on the right side of the net",
+        primary_objectives: "Spiking, blocking, serving",
+        strengths: "Versatile attacks, powerful serves, blocking",
+        weaknesses: "Defensive responsibilties, blocking consistency"
       },
       famous_player_attributes: {
-        famous_player_name: "Jaromir Jagr",
-        individual_milestones: "2-time Stanley Cup champion, 5-time Art Ross Trophy winner",
-        team_trophies_won: "Pittsburgh Penguins",
-        teams_countries: "Czech Republic"
+        famous_player_name: "Tsvetan Sokolov",
+        individual_milestones: "Olympic silver medalist, World Championship silver medalist",
+        team_trophies_won: "Bulgaria",
+        teams_countries: "Bulgaria"
       }
     },
     "4" => {
-      positions_name: "Left Wing",
-      positions_tag: "LW",
+      positions_name: "Libero",
+      positions_tag: "L",
       description_attributes: {
-        overview_of_position: "Forward positioned on the left side",
-        primary_objectives: "Scoring goals, providing assists, forechecking",
-        strengths: "Goal-scoring, shooting accuracy, physical play",
-        weaknesses: "Defensive responsibilties, consistency"
+        overview_of_position: "Defensive specialist, wears a different color jersey",
+        primary_objectives: "Passing, digging, serve reception",
+        strengths: "Defensive skills, agility, court awareness",
+        weaknesses: "Limited attacking, height restrictions"
       },
       famous_player_attributes: {
-        famous_player_name: "Luc Robitaille",
-        individual_milestones: "1-time Stanley Cup champion, 1-time Calder Trophy winner",
-        team_trophies_won: "Los Angeles Kings",
-        teams_countries: "Canada"
+        famous_player_name: "Sergio Santos",
+        individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
+        team_trophies_won: "Brazil",
+        teams_countries: "Brazil"
       }
     }
   }

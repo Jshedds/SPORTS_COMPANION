@@ -1012,6 +1012,187 @@ AMERICAN_FOOTBALL = {
     }
   }
 }
+
+Baseball = {
+  name: "Baseball",
+  overview_attributes: {
+    short_description: "Score runs",
+    game_objective: "The aim of baseball is to score more runs than your opponent in a 9-inning playing time frame. The match is split into two halves - the top and bottom of each inning. After the first 9 innings, the team with the most runs wins.",
+    governing_body_url: "mlb.com"
+  },
+  equipment_need_attributes: {
+    footwear: "Baseball cleats",
+    required_equipment: "Baseball bat, glove, uniform",
+    safety_gear: "Protective helmet, shin guards",
+    infrastructure: "Baseball field with bases",
+    clothing: "Team uniform, baseball cap"
+  },
+  history_attributes: {
+    invented: "The modern concept of baseball was developed in the 19th century, with its roots traced back to various bat-and-ball games",
+    creator: "Alexander Cartwright",
+    country_of_origin: "United States",
+    most_successful_teams: "New York Yankees, Boston Red Sox, Los Angeles Dodgers, San Francisco Giants, St. Louis Cardinals",
+    milestones: "The first World Series was played in 1903, and Babe Ruth became the first player to hit 60 home runs in a season in 1927"
+  },
+  terminology_attributes: {
+    most_important_terms: "Home run, strikeout, inning, pitcher, batter",
+  },
+  rule_attributes: {
+    game_duration: "Nine innings",
+    scoring: "Runs are scored by touching four bases in order",
+    player_per_team: 9,
+    referees: 4,
+    most_important_rules: "A game consists of nine innings, and each inning consists of two halves (top and bottom). Ech team has nine players on the field at a time, including a pitcher, catcher, infielders, and outfilders, The team with the most runs at the end of nine innings wins. The pitcher throws the ball to the batter, who tries to hit it and reach base. The defensive team tries to prevent the offensive team from scoring runs. If a batter gets four balls (pitches out of the strike zone), they get to walk to first base. If a batter gets three strikes (swings and misses or hits a foul ball), they are out. If a batted is caught on the fly, the batter is also out. The game may go into extra innings if the score is tied after nine innings.",
+    field_size: "Various",
+    field_type: "grass, turf",
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Pitcher",
+      positions_tag: "P",
+      description_attributes: {
+        overview_of_position: "Throws the ball to the batter",
+        primary_objectives: "Striking out batters, preventing runs",
+        strengths: "Pitching accuracy, variety of pitches",
+        weaknesses: "Pitch count, vulnerability to hits"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Babe Ruth",
+        individual_milestones: "Set the record for most home runs in a season (60) in 1927",
+        team_trophies_won: "7-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees, Boston Red Sox"
+      }
+    },
+    "1" => {
+      positions_name: "Catcher",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Receives pitches from the pitcher",
+        primary_objectives: "Catching pitches, throwing out baserunners",
+        strengths: "Catching ability, arm strength",
+        weaknesses: "Physical toll, squatting for extended periods"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Johnny Bench",
+        individual_milestones: "10-time Gold Glove Award winner",
+        team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
+        teams_countries: "Cincinnati Reds"
+      }
+    },
+    "2" => {
+      positions_name: "First Baseman",
+      positions_tag: "1B",
+      description_attributes: {
+        overview_of_position: "Defends the area around first base",
+        primary_objectives: "Fielding throws, catching, tagging runners",
+        strengths: "Fielding skills, tall reach",
+        weaknesses: "Limited mobility, defensive responsiblities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Lou Gehrig",
+        individual_milestones: "2-time MVP, 7-time All-Star",
+        team_trophies_won: "6-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees"
+      }
+    },
+    "3" => {
+      positions_name: "Second Baseman",
+      positions_tag: "2B",
+      description_attributes: {
+        overview_of_position: "Defends the area around second base",
+        primary_objectives: "Double plays, fielding grounders",
+        strengths: "Agility, quick reflexes",
+        weaknesses: "Limited throwing distance, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Joe Morgan",
+        individual_milestones: "2-time MVP, 10-time All-Star",
+        team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
+        teams_countries: "Cincinnati Reds"
+      }
+    },
+    "4" => {
+      positions_name: "Shortstop",
+      positions_tag: "SS",
+      description_attributes: {
+        overview_of_position: "Defends the area between second and third base",
+        primary_objectives: "Fielding grounders, covering second base",
+        strengths: "Quickness, agility, strong arm",
+        weaknesses: "Limited throwing distance, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Derek Jeter",
+        individual_milestones: "14-time All-Star, 5-time Gold Glove Award winner",
+        team_trophies_won: "5-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees"
+      }
+    },
+    "5" => {
+      positions_name: "Third Baseman",
+      positions_tag: "3B",
+      description_attributes: {
+        overview_of_position: "Defends the area around third base",
+        primary_objectives: "Fielding line drives, throwing out runners",
+        strengths: "Strong arm, reaction time",
+        weaknesses: "Limited range, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Mike Schmidt",
+        individual_milestones: "3-time MVP, 10-time Gold Glove Award winner",
+        team_trophies_won: "1-time World Series champion with the Philadelphia Phillies",
+        teams_countries: "Philadelphia Phillies"
+      }
+    },
+    "6" => {
+      positions_name: "Left Fielder",
+      positions_tag: "LF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in the left field",
+        primary_objectives: "Catching fly balls, throwing to bases",
+        strengths: "Speed, outfield coverage",
+        weaknesses: "Limited throwing accuracy, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Barry Bonds",
+        individual_milestones: "7-time MVP, all-time home run leader",
+        team_trophies_won: "1-time World Series champion with the San Francisco Giants",
+        teams_countries: "San Francisco Giants, Pittsburgh Pirates"
+      }
+    },
+    "7" => {
+      positions_name: "Center Fielder",
+      positions_tag: "CF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in center field",
+        primary_objectives: "Catching fly balls, covering outfield",
+        strengths: "Speed, tracking fly balls",
+        weaknesses: "Limited throwing accuracy, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Willie Mays",
+        individual_milestones: "24-time All-Star, 12-time Gold Glove Award winner",
+        team_trophies_won: "1-time World Series champion with the New York/San Francisco Giants",
+        teams_countries: "New York/San Francisco Giants"
+      }
+    },
+    "8" => {
+      positions_name: "Right Fielder",
+      positions_tag: "RF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in right field",
+        primary_objectives: "Catching fly balls, throwing to bases",
+        strengths: "Strong throwing arm, outfield coverage",
+        weaknesses: "Limited speed, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Hank Aaron",
+        individual_milestones: "All-time home run leader until 2007",
+        team_trophies_won: "1-time World Series champion with the Milwaukee/Atlanta Braves",
+        teams_countries: "Milwaukee/Atlanta Braves"
+      }
+    }
+  }
+}
 puts "Creating new sports..."
 [BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL].each do |attributes|
   sport = Sport.create!(attributes)

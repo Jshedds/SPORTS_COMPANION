@@ -12,6 +12,7 @@ puts "Cleaning the database...."
 Chatroom.destroy_all
 Sport.destroy_all
 User.destroy_all
+puts "Cleaning done!"
 User.create!(email: "colerner@me.com", password: "123456", admin: true, username: "Conny")
 User.create!(email: "jamie@jamie.com", password: "123456", admin: true, username: "Jamie")
 User.create!(email: "thomas@thomas.com", password: "123456", admin: true, username: "Thomas")
@@ -1432,11 +1433,12 @@ puts "Creating new sports..."
   sport = Sport.create!(attributes)
   puts "Created #{sport.name}"
 end
-puts "Finished"
+puts "Finished!"
 
-puts 'Creating Chatroom...'
+puts 'Creating new Chatrooms...'
 Sport.all.each do |sport|
   Chatroom.create(name: "#{sport.name} chatroom", sport_id: sport.id)
   puts "Created #{sport.name} chatroom"
 end
-puts "Finsihed"
+puts "Finished!"
+

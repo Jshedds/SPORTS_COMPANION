@@ -488,7 +488,7 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Richie Mccaw",
-        individual_milestones: "148 New Zealand Appearances - 110 as captain, World Rugby Hall of Fame",
+        individual_milestones: "148 New Zealand Appearances - 110 as captain",
         team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
         teams_countries: "New Zealand, Crusaders, Canterbury"
       }
@@ -536,9 +536,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Dan Carter",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Dan Carter, Crusaders, Racing "
+        individual_milestones: "112 New Zealand Appearances, 2005/2012/2015 World Rugby Player of the Year, All time International Rugby Leading Points Scorer",
+        team_trophies_won: "2011 & 2015 World Cup, 9 Tri Nations/Rugby Championship Titles, 13 Bledisloe Cups British & Irish Lions Series, 3x Super Rugby Titles, 1x Top 14 Title, 1x Top League Title",
+        teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury"
       }
     },
     "10" => {
@@ -552,9 +552,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Jonah Lomu",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, "
+        individual_milestones: "73 New Zealand Appearances, 1995 World Cup player of the tournament. Often attributed as the first true superstar of rugby.",
+        team_trophies_won: "1998 Commonwealth Games Gold, New Zealand 7's",
+        teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues"
       }
     },
     "11" => {
@@ -568,9 +568,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Ma'a Nonu",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, Hurricanes, "
+        individual_milestones: "103 New Zealand Appearances",
+        team_trophies_won: "2011 & 2015 World Cups, 5 Tri Nations/Rugby Championships, 8 Bledisloe Cups, 1x Super Rugby Title, 1x Top 14 Title",
+        teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams "
       }
     },
     "12" => {
@@ -584,8 +584,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Brian O'Driscoll",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "133 Ireland Appearances, 8 British & Irish Lions Appearances, British & Irish Lions Captain 2005 & Six Nations all Time Top Try Scorer",
+        team_trophies_won: "2013 British & Irish Lions Series, 2x Six Nations Titles (1 Grand Slam), 3x European Cups, 1x European Challenge Cups & 4x League Titles",
         teams_countries: "Ireland, Leinster"
       }
     },
@@ -601,7 +601,7 @@ RUGBY_UNION = {
       famous_player_attributes: {
         famous_player_name: "Bryan Habana",
         individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        team_trophies_won: "",
         teams_countries: "South Africa, Toulon, "
       }
     },

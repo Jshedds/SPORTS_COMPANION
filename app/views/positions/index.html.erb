@@ -1,7 +1,25 @@
 <div class="positions-container">
   <% if @sport.name == "Basketball" %>
-    <%  court_bg_image = 'bball_court.jpg' %>
-      <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+      <%  court_bg_image = 'bball_court.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Football" %>
+      <%  court_bg_image = 'soccer_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "American Football" %>
+      <%  court_bg_image = 'american_football_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Rugby Union" %>
+      <%  court_bg_image = 'rugby_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Baseball" %>
+      <%  court_bg_image = 'baseball_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Icehockey" %>
+      <%  court_bg_image = 'icehockey_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Volleyball" %>
+      <%  court_bg_image = 'soccer_pitch.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
   <% end %>
 
   <div class="positions">

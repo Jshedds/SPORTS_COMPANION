@@ -14,14 +14,14 @@
     <% background_image = 'soccer.jpg' %>
     <% elsif sport.name == "Rugby Union" %>
     <% background_image = 'rugby.jpg' %>
+    <% elsif sport.name == "Volleyball" %>
+    <% background_image = 'volleyball.jpg' %>
     <% elsif sport.name == "American Football" %>
     <% background_image = 'football.jpg' %>
     <% elsif sport.name == "Baseball" %>
     <% background_image = 'baseball.jpg' %>
     <% elsif sport.name == "Icehockey" %>
     <% background_image = 'icehockey.jpg' %>
-    <% elsif sport.name == "Volleyball" %>
-    <% background_image = 'volleyball.jpg' %>
   <% end %>
     <div class="sport-image" style="background-image: url(<%= image_path background_image %>)"><h3><%= sport.name %></h3></div>
   <% end %>

@@ -17,7 +17,7 @@
       <% if current_user && policy(Sport).edit? %>
         <div class="edit-btn">
           <%= link_to edit_sport_path do %>
-            <%= render_icon "admin_edit" %>
+            <%= render_icon "edit" %>
           <% end %>
         </div>
       <% end %>

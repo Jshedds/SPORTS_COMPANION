@@ -1,4 +1,11 @@
-<h4> My <%= render_icon("favourite") =%></h4>
+<div class="profile">
+  <h1><%= @current_user.username %>'s Profile</h1>
+    <div class="edit">
+      <%= render_icon "edit" %>
+    </div>
+</div>
+
+<h4> My <%= render_icon("favourite") =%> Sports</h4>
 
 <% if @favourites.exists? %>
   <% @favourites.each do |favourite| %>
@@ -19,6 +26,8 @@
     <% end %>
   <% end %>
 <% else %>
-  <%= "No favourites added yet" %>
-    <%= link_to "start adding favourites", sports_path %>
+  <%= "You haven't added any favourites yet" %>
+    <%= link_to sports_path do %>
+      <%=  render_icon "add" %>
+      <% end %>
 <% end%>

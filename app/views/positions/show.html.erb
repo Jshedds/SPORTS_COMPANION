@@ -9,6 +9,20 @@
   <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
 </div>
   <%= render "famous_players/famous_player" %>
-  <%= link_to render_icon("back"), sport_path(@sport) %>
+  <%= link_to render_icon("back"), sport_positions_path(@sport) %>
 <br>
-<%= link_to "Back to #{@sport.name}", sport_path(@sport) %>
+  <% if @sport.name == "Basketball" %>
+    <%= link_to render_icon("bball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Football" %>
+    <%= link_to render_icon("football"), sport_path(@sport) %>
+  <% elsif @sport.name == "American Football" %>
+    <%= link_to render_icon("american_foot"), sport_path(@sport) %>
+  <% elsif @sport.name == "Rugby Union" %>
+    <%= link_to render_icon("rugby"), sport_path(@sport) %>
+  <% elsif @sport.name == "Volleyball" %>
+    <%= link_to render_icon("volleyball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Baseball" %>
+    <%= link_to render_icon("baseball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Icehockey" %>
+    <%= link_to render_icon("icehockey"), sport_path(@sport) %>
+  <% end %>

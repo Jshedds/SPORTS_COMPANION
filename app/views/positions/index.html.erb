@@ -23,11 +23,19 @@
   <% end %>
 
   <div class="positions">
-    <ul>
-      <% @sport.positions.each do |position| %>
-        <li><%= link_to position.positions_name, sport_position_path(@sport, position) %></li>
+    <% @sport.positions.each do |position| %>
+      <% if @sport.name == "Basketball" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "bball_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Football" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "soccer_jersey" %>
+        <% end %>
       <% end %>
-    </ul>
-      <%= link_to render_icon("back"), sport_path(@sport) %>
+    <% end %>
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
   </div>
 </div>

@@ -1441,4 +1441,3 @@ Sport.all.each do |sport|
   puts "Created #{sport.name} chatroom"
 end
 puts "Finished!"
-

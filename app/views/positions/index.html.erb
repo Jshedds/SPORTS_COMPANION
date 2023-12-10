@@ -14,11 +14,11 @@
     <% elsif @sport.name == "Baseball" %>
       <%  court_bg_image = 'baseball_pitch.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Icehockey" %>
+    <% elsif @sport.name == "Ice Hockey" %>
       <%  court_bg_image = 'icehockey_pitch.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
     <% elsif @sport.name == "Volleyball" %>
-      <%  court_bg_image = 'soccer_pitch.jpg' %>
+      <%  court_bg_image = 'volleyball_court.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
   <% end %>
 
@@ -31,6 +31,26 @@
       <% elsif @sport.name == "Football" %>
         <%= link_to sport_position_path(@sport, position) do %>
           <%= render_icon "soccer_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Baseball" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "baseball_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "American Football" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "amer_football_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Ice Hockey" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "icehockey_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Volleyball" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "volleyball_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Rugby Union" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "rugby_jersey" %>
         <% end %>
       <% end %>
     <% end %>

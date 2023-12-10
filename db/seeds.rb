@@ -600,9 +600,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Bryan Habana",
-        individual_milestones: "fill here",
-        team_trophies_won: "",
-        teams_countries: "South Africa, Toulon, "
+        individual_milestones: "124 South Africa Appearances, 67 International Tries & 3x South Africa Rugby Union Player of the Year",
+        team_trophies_won: "2007 World Cup, British & Irish Lions Series, 2x Currie Cup, 2x Super Rugby Title, 1x Tri-Nations Title, 2x European Champions Cup, 1x Top 14 Title",
+        teams_countries: "South Africa, Toulon, Bulls, Stormers "
       }
     },
     "14" => {
@@ -616,8 +616,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Stuart Hogg",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "100 Scotland Appearances, 2 British & Irish Lions Appearances, Six Nations Player of the Championship 2016 & 2017, Scotland Captain, Scotland's record try scorer",
+        team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
       }
     }

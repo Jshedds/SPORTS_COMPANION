@@ -140,7 +140,7 @@ FOOTBALL = {
   overview_attributes: {
     short_description: "Score goals",
     game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
-    governing_body_url: "fifa.com"
+    governing_body_url: "https://www.fifa.com/fifaplus/en"
   },
   equipment_need_attributes: {
     footwear: "Studded football boots",
@@ -353,7 +353,7 @@ RUGBY_UNION = {
   overview_attributes: {
     short_description: "Rugby is a game played at all ages and abilities where 2 teams face off and try to score more points than each other. There are 8 forwards and 7 backs on each team as standard. The team that has possession can only pass the ball backwards or can kick tactically to move around the field.",
     game_objective: "To score more points through tries, conversions, penalties and drop goals than the other team.",
-    governing_body_url: "www.world.rugby"
+    governing_body_url: "https://www.world.rugby/"
   },
   equipment_need_attributes: {
     footwear: "Rugby boots that have studs on the bottom for grip",
@@ -1019,7 +1019,7 @@ BASEBALL = {
   overview_attributes: {
     short_description: "Score runs",
     game_objective: "The aim of baseball is to score more runs than your opponent in a 9-inning playing time frame. The match is split into two halves - the top and bottom of each inning. After the first 9 innings, the team with the most runs wins.",
-    governing_body_url: "mlb.com"
+    governing_body_url: "https://www.mlb.com/"
   },
   equipment_need_attributes: {
     footwear: "Baseball cleats",
@@ -1200,7 +1200,7 @@ ICE_HOCKEY = {
   overview_attributes: {
     short_description: "Score goals on ice",
     game_objective: "The aim of hockey is to score more goals than your opponent in a 60-minute playing time frame. The match is split into three periods of 20 minutes each. After the first and second periods, there is a 15-minute intermission. The team with the most goals at the end of the game wins.",
-    governing_body_url: "iihf.com"
+    governing_body_url: "https://www.iihf.com/"
   },
   equipment_need_attributes: {
     footwear: "Ice hockey skates",
@@ -1317,7 +1317,7 @@ VOLLEYBALL = {
   overview_attributes: {
     short_description: "Score points by sending the ball over the net",
     game_objective: "The aim of volleyball is to score more points than your opponent by successfully sending the ball over the net and into the opponent's court. A match is typically played best out of five sets, and each set is played of 25 points (with some variations).",
-    governing_body_url: "fivb.com"
+    governing_body_url: "https://www.fivb.com/"
   },
   equipment_need_attributes: {
     footwear: "Volleyball shoes",

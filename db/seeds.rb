@@ -1013,7 +1013,7 @@ AMERICAN_FOOTBALL = {
   }
 }
 
-Baseball = {
+BASEBALL = {
   name: "Baseball",
   overview_attributes: {
     short_description: "Score runs",
@@ -1194,7 +1194,7 @@ Baseball = {
   }
 }
 
-Ice Hockey = {
+ICE_HOCKEY = {
   name: "Ice Hockey",
   overview_attributes: {
     short_description: "Score goals on ice",
@@ -1311,7 +1311,7 @@ Ice Hockey = {
   }
 }
 
-Volleyball = {
+VOLLEYBALL = {
   name: "Volleyball",
   overview_attributes: {
     short_description: "Score points by sending the ball over the net",
@@ -1428,13 +1428,15 @@ Volleyball = {
   }
 }
 puts "Creating new sports..."
-[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL].each do |attributes|
+[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL].each do |attributes|
   sport = Sport.create!(attributes)
   puts "Created #{sport.name}"
 end
-puts "finished"
+puts "Finished"
 
 puts 'Creating Chatroom...'
 Sport.all.each do |sport|
   Chatroom.create(name: "#{sport.name} chatroom", sport_id: sport.id)
+  puts "Created #{sport.name} chatroom"
 end
+puts "Finsihed"

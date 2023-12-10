@@ -1012,6 +1012,421 @@ AMERICAN_FOOTBALL = {
     }
   }
 }
+
+Baseball = {
+  name: "Baseball",
+  overview_attributes: {
+    short_description: "Score runs",
+    game_objective: "The aim of baseball is to score more runs than your opponent in a 9-inning playing time frame. The match is split into two halves - the top and bottom of each inning. After the first 9 innings, the team with the most runs wins.",
+    governing_body_url: "mlb.com"
+  },
+  equipment_need_attributes: {
+    footwear: "Baseball cleats",
+    required_equipment: "Baseball bat, glove, uniform",
+    safety_gear: "Protective helmet, shin guards",
+    infrastructure: "Baseball field with bases",
+    clothing: "Team uniform, baseball cap"
+  },
+  history_attributes: {
+    invented: "The modern concept of baseball was developed in the 19th century, with its roots traced back to various bat-and-ball games",
+    creator: "Alexander Cartwright",
+    country_of_origin: "United States",
+    most_successful_teams: "New York Yankees, Boston Red Sox, Los Angeles Dodgers, San Francisco Giants, St. Louis Cardinals",
+    milestones: "The first World Series was played in 1903, and Babe Ruth became the first player to hit 60 home runs in a season in 1927"
+  },
+  terminology_attributes: {
+    most_important_terms: "Home run, strikeout, inning, pitcher, batter",
+  },
+  rule_attributes: {
+    game_duration: "Nine innings",
+    scoring: "Runs are scored by touching four bases in order",
+    player_per_team: 9,
+    referees: 4,
+    most_important_rules: "A game consists of nine innings, and each inning consists of two halves (top and bottom). Ech team has nine players on the field at a time, including a pitcher, catcher, infielders, and outfilders, The team with the most runs at the end of nine innings wins. The pitcher throws the ball to the batter, who tries to hit it and reach base. The defensive team tries to prevent the offensive team from scoring runs. If a batter gets four balls (pitches out of the strike zone), they get to walk to first base. If a batter gets three strikes (swings and misses or hits a foul ball), they are out. If a batted is caught on the fly, the batter is also out. The game may go into extra innings if the score is tied after nine innings.",
+    field_size: "Various",
+    field_type: "grass, turf",
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Pitcher",
+      positions_tag: "P",
+      description_attributes: {
+        overview_of_position: "Throws the ball to the batter",
+        primary_objectives: "Striking out batters, preventing runs",
+        strengths: "Pitching accuracy, variety of pitches",
+        weaknesses: "Pitch count, vulnerability to hits"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Babe Ruth",
+        individual_milestones: "Set the record for most home runs in a season (60) in 1927",
+        team_trophies_won: "7-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees, Boston Red Sox"
+      }
+    },
+    "1" => {
+      positions_name: "Catcher",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Receives pitches from the pitcher",
+        primary_objectives: "Catching pitches, throwing out baserunners",
+        strengths: "Catching ability, arm strength",
+        weaknesses: "Physical toll, squatting for extended periods"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Johnny Bench",
+        individual_milestones: "10-time Gold Glove Award winner",
+        team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
+        teams_countries: "Cincinnati Reds"
+      }
+    },
+    "2" => {
+      positions_name: "First Baseman",
+      positions_tag: "1B",
+      description_attributes: {
+        overview_of_position: "Defends the area around first base",
+        primary_objectives: "Fielding throws, catching, tagging runners",
+        strengths: "Fielding skills, tall reach",
+        weaknesses: "Limited mobility, defensive responsiblities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Lou Gehrig",
+        individual_milestones: "2-time MVP, 7-time All-Star",
+        team_trophies_won: "6-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees"
+      }
+    },
+    "3" => {
+      positions_name: "Second Baseman",
+      positions_tag: "2B",
+      description_attributes: {
+        overview_of_position: "Defends the area around second base",
+        primary_objectives: "Double plays, fielding grounders",
+        strengths: "Agility, quick reflexes",
+        weaknesses: "Limited throwing distance, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Joe Morgan",
+        individual_milestones: "2-time MVP, 10-time All-Star",
+        team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
+        teams_countries: "Cincinnati Reds"
+      }
+    },
+    "4" => {
+      positions_name: "Shortstop",
+      positions_tag: "SS",
+      description_attributes: {
+        overview_of_position: "Defends the area between second and third base",
+        primary_objectives: "Fielding grounders, covering second base",
+        strengths: "Quickness, agility, strong arm",
+        weaknesses: "Limited throwing distance, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Derek Jeter",
+        individual_milestones: "14-time All-Star, 5-time Gold Glove Award winner",
+        team_trophies_won: "5-time World Series champion with the New York Yankees",
+        teams_countries: "New York Yankees"
+      }
+    },
+    "5" => {
+      positions_name: "Third Baseman",
+      positions_tag: "3B",
+      description_attributes: {
+        overview_of_position: "Defends the area around third base",
+        primary_objectives: "Fielding line drives, throwing out runners",
+        strengths: "Strong arm, reaction time",
+        weaknesses: "Limited range, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Mike Schmidt",
+        individual_milestones: "3-time MVP, 10-time Gold Glove Award winner",
+        team_trophies_won: "1-time World Series champion with the Philadelphia Phillies",
+        teams_countries: "Philadelphia Phillies"
+      }
+    },
+    "6" => {
+      positions_name: "Left Fielder",
+      positions_tag: "LF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in the left field",
+        primary_objectives: "Catching fly balls, throwing to bases",
+        strengths: "Speed, outfield coverage",
+        weaknesses: "Limited throwing accuracy, defensive responsibilties"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Barry Bonds",
+        individual_milestones: "7-time MVP, all-time home run leader",
+        team_trophies_won: "1-time World Series champion with the San Francisco Giants",
+        teams_countries: "San Francisco Giants, Pittsburgh Pirates"
+      }
+    },
+    "7" => {
+      positions_name: "Center Fielder",
+      positions_tag: "CF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in center field",
+        primary_objectives: "Catching fly balls, covering outfield",
+        strengths: "Speed, tracking fly balls",
+        weaknesses: "Limited throwing accuracy, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Willie Mays",
+        individual_milestones: "24-time All-Star, 12-time Gold Glove Award winner",
+        team_trophies_won: "1-time World Series champion with the New York/San Francisco Giants",
+        teams_countries: "New York/San Francisco Giants"
+      }
+    },
+    "8" => {
+      positions_name: "Right Fielder",
+      positions_tag: "RF",
+      description_attributes: {
+        overview_of_position: "Outfielder positioned in right field",
+        primary_objectives: "Catching fly balls, throwing to bases",
+        strengths: "Strong throwing arm, outfield coverage",
+        weaknesses: "Limited speed, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Hank Aaron",
+        individual_milestones: "All-time home run leader until 2007",
+        team_trophies_won: "1-time World Series champion with the Milwaukee/Atlanta Braves",
+        teams_countries: "Milwaukee/Atlanta Braves"
+      }
+    }
+  }
+}
+
+Ice Hockey = {
+  name: "Ice Hockey",
+  overview_attributes: {
+    short_description: "Score goals on ice",
+    game_objective: "The aim of hockey is to score more goals than your opponent in a 60-minute playing time frame. The match is split into three periods of 20 minutes each. After the first and second periods, there is a 15-minute intermission. The team with the most goals at the end of the game wins.",
+    governing_body_url: "iihf.com"
+  },
+  equipment_need_attributes: {
+    footwear: "Ice hockey skates",
+    required_equipment: "Hockey stick, puck, protective gear (helmet, pads, gloves)",
+    safety_gear: "Face mask, mouthguard",
+    infrastructure: "Hockey rink with goals",
+    clothing: "Team jersey, shorts, socks"
+  },
+  history_attributes: {
+    invented: "Modern ice hockey has its roots in various stick-and-ball games played in the 19th century. The first organized game took place in 1875",
+    creator: "James Creighton",
+    country_of_origin: "Canada",
+    most_successful_teams: "Montreal Canadiens, Detroit Red Wings, Toronto Maple Leafs, Boston Bruins, Chicago Blackhawks",
+    milestones: "The first NHL season was held in 1917, and Wayne Gretzky became the all-time leading scorer in 1989"
+  },
+  terminology_attributes: {
+    most_important_terms: "Goal, assist, power play, penalty kill",
+  },
+  rule_attributes: {
+    game_duration: "Three 20-minute periods",
+    scoring: "The puck enters the goal",
+    player_per_team: 6,
+    referees: 4,
+    most_important_rules: "A game consists of three 20-minute periods with intermission in between. Each team has six players on the ice, including one goaltender. The team with the most goals at the end of the game wins. The puck must fully cross the goal line to count as a goal. Players can be penalized for various infractions, leading to power plays or penalty kills. Icing and offside are important rules in determining play stoppages. Overtime and shootouts may be used to break ties in certain situations.",
+    field_size: "200 by 85 feet",
+    field_type: "ice rink",
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Goaltender",
+      positions_tag: "G",
+      description_attributes: {
+        overview_of_position: "Last line of defense, prevents the opponent from scoring",
+        primary_objectives: "Stopping shots, directing rebounds, controlling the crease",
+        strengths: "Goaltending reflexes, positioning, puck handling",
+        weaknesses: "Vulnerable to screen situations, lateral movement"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Patrick Roy",
+        individual_milestones: "4-time Stanley Cup champion, 3-time Conn Smythe Trophy winner",
+        team_trophies_won: "Montreal Canadiens, Colorado Avalanche",
+        teams_countries: "Canada"
+      }
+    },
+    "1" => {
+      positions_name: "Defenseman",
+      positions_tag: "D",
+      description_attributes: {
+        overview_of_position: "Defender, protects the goaltender and initiates offensive plays",
+        primary_objectives: "Blocking shots, breaking up plays, moving the puck up the ice",
+        strengths: "Defensive awareness, physical play, shot blocking",
+        weaknesses: "Skating speed, offensive production"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Bobby Orr",
+        individual_milestones: "8-time Norris Trophy winner, 2-time Stanley Cup Champion",
+        team_trophies_won: "Boston Bruins",
+        teams_countries: "Canada"
+      }
+    },
+    "2" => {
+      positions_name: "Center",
+      positions_tag: "C",
+      description_attributes: {
+        overview_of_position: "Plays in the middle of the forward line, involved in both ends of the ice",
+        primary_objectives: "Faceoffs, playmaking, two-way play",
+        strengths: "Faceoff skills, passing, defensive responsibilties",
+        weaknesses: "Limited physicality, goal-scoring inconsistency"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Wayne Gretzky",
+        individual_milestones: "All-time leading scorer, 4-time Stanley Cup champion",
+        team_trophies_won: "Edmonton Oilers, Los Angeles Kings",
+        teams_countries: "Canada"
+      }
+    },
+    "3" => {
+      positions_name: "Right Wing",
+      positions_tag: "RW",
+      description_attributes: {
+        overview_of_position: "Forward positioned on the right side",
+        primary_objectives: "Scoring goals, providing assists, forechecking",
+        strengths: "Goal-scoring, shooting accuracy, physical play",
+        weaknesses: "Defensive responsiblities, consistency"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Jaromir Jagr",
+        individual_milestones: "2-time Stanley Cup champion, 5-time Art Ross Trophy winner",
+        team_trophies_won: "Pittsburgh Penguins",
+        teams_countries: "Czech Republic"
+      }
+    },
+    "4" => {
+      positions_name: "Left Wing",
+      positions_tag: "LW",
+      description_attributes: {
+        overview_of_position: "Forward positioned on the left side",
+        primary_objectives: "Scoring goals, providing assists, forechecking",
+        strengths: "Goal-scoring, shooting accuracy, physical play",
+        weaknesses: "Defensive responsibilties, consistency"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Luc Robitaille",
+        individual_milestones: "1-time Stanley Cup champion, 1-time Calder Trophy winner",
+        team_trophies_won: "Los Angeles Kings",
+        teams_countries: "Canada"
+      }
+    }
+  }
+}
+
+Volleyball = {
+  name: "Volleyball",
+  overview_attributes: {
+    short_description: "Score points by sending the ball over the net",
+    game_objective: "The aim of volleyball is to score more points than your opponent by successfully sending the ball over the net and into the opponent's court. A match is typically played best out of five sets, and each set is played of 25 points (with some variations).",
+    governing_body_url: "fivb.com"
+  },
+  equipment_need_attributes: {
+    footwear: "Volleyball shoes",
+    required_equipment: "Volleyball, knee pads, team uniform",
+    safety_gear: "Ankle braces",
+    infrastructure: "Volleyball court with net",
+    clothing: "Jersey, shorts, socks"
+  },
+  history_attributes: {
+    invented: "Modern volleyball was invented in 1895 by William G. Morgan, combining elements of basketball, baseball, tennis, and handball",
+    creator: "William G. Morgan",
+    country_of_origin: "United States",
+    most_successful_teams: "Brazil, United States, Russia, Italy, Cuba",
+    milestones: "Volleyball was introduced to the Olympic Games in 1964"
+  },
+  terminology_attributes: {
+    most_important_terms: "Serve, spike, block, dig",
+  },
+  rule_attributes: {
+    game_duration: "Best out of five sets, played to 25 points (some variations)",
+    scoring: "Points are scored by successfully sending the ball into the opponent's court",
+    player_per_team: 6,
+    referees: 2,
+    most_important_rules: "A match is typically played best out of five sets. Each team can have a maximum of six players on the court at a time. Points are scored by successfully sending the ball into the opponent's court, and each rally begins with a serve. The team that wins a rally is awarded a point and the right to serve. Players must rotate positions after each point. Substitutions are allowed but follow specific rules. The team that first scores 25 point (with some variations) and is leading by at least two points wins a set. The first team to win three sets wins the match.",
+    field_size: "18 meters by 9 meters",
+    field_type: "Hardwood, synthetic, court tile",
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Setter",
+      positions_tag: "S",
+      description_attributes: {
+        overview_of_position: "Quarterback of the team, sets up the attack",
+        primary_objectives: "Setting the ball accurately, orchestrating the offense",
+        strengths: "Setting technique, decision-making, teamwork",
+        weaknesses: "Defensive responsibilities, blocking"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Karch Kiraly",
+        individual_milestones: "3-time Olympic gold medalist, 3-time World Champion",
+        team_trophies_won: "United States",
+        teams_countries: "United States"
+      }
+    },
+    "1" => {
+      positions_name: "Outside Hitter",
+      positions_tag: "OH",
+      description_attributes: {
+        overview_of_position: "Attacker positioned on the left side of the net",
+        primary_objectives: "Spiking, blocking, digging",
+        strengths: "Powerful spike, agility, all-around skills",
+        weaknesses: "Defensive responsibilties, blocking consistency"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Giba",
+        individual_milestones: "3-time Olympic gold medalist, 8-time World Champion",
+        team_trophies_won: "Brazil",
+        teams_countries: "Brazil"
+      }
+    },
+    "2" => {
+      positions_name: "Middle Blocker",
+      positions_tag: "MB",
+      description_attributes: {
+        overview_of_position: "Defensive and offensive player at the net",
+        primary_objectives: "Blocking, quick attacks, defending against spikes",
+        strengths: "Blocking ability, quick footwork, net presence",
+        weaknesses: "Lateral movement, offensive variablity"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Dmitriy Muserskiy",
+        individual_milestones: "2-time Olympic gold medalist, 3-time World Champion",
+        team_trophies_won: "Russia",
+        teams_countries: "Russia"
+      }
+    },
+    "3" => {
+      positions_name: "Opposite Hitter",
+      positions_tag: "Opp",
+      description_attributes: {
+        overview_of_position: "Attacker positioned on the right side of the net",
+        primary_objectives: "Spiking, blocking, serving",
+        strengths: "Versatile attacks, powerful serves, blocking",
+        weaknesses: "Defensive responsibilties, blocking consistency"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Tsvetan Sokolov",
+        individual_milestones: "Olympic silver medalist, World Championship silver medalist",
+        team_trophies_won: "Bulgaria",
+        teams_countries: "Bulgaria"
+      }
+    },
+    "4" => {
+      positions_name: "Libero",
+      positions_tag: "L",
+      description_attributes: {
+        overview_of_position: "Defensive specialist, wears a different color jersey",
+        primary_objectives: "Passing, digging, serve reception",
+        strengths: "Defensive skills, agility, court awareness",
+        weaknesses: "Limited attacking, height restrictions"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Sergio Santos",
+        individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
+        team_trophies_won: "Brazil",
+        teams_countries: "Brazil"
+      }
+    }
+  }
+}
 puts "Creating new sports..."
 [BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL].each do |attributes|
   sport = Sport.create!(attributes)

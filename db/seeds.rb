@@ -1017,14 +1017,14 @@ AMERICAN_FOOTBALL = {
 CURLING = {
   name:"Curling",
   overview_attributes: {
-    short_description: "",
-    game_objective: "",
-    governing_body_url: ""
+    short_description: "Curling is a team sport, played on ice, where two teams take it in turns to slide stones made of granite towards a target. Traditional teams have 4 players of the same gender, where each player throws 2 stones alternatively with the opposition. Mixed doubles is another format where 2 players one male and one female play on a team together",
+    game_objective: "To have as many stones as close to the center of the house over the other team and to stop the other team from scoring any points.",
+    governing_body_url: "worldcurling.org/about/curling/"
   },
   equipment_need_attributes: {
-    footwear: "",
-    required_equipment: "",
-    safety_gear: "",
+    footwear: "Curling shoes, one sole grips the ice, the other one, called a slider, is slippery and allows the curler to slide with a stone",
+    required_equipment: "Set of stones, made of a special type of granite, a brush",
+    safety_gear: "Proper footwear",
     infrastructure: "",
     clothing: ""
   },
@@ -1040,94 +1040,78 @@ CURLING = {
   },
   rule_attributes: {
     game_duration: "",
-    scoring: "",
+    scoring: "The team that has the stone closest to the middle gets a point for every stone closer to the middle until the opposition stone is next.",
     player_per_team: 4,
     referees: 0,
     most_important_rules: "",
-    field_size: "",
+    field_size: "45m long, and a max of 5m wide. ",
     field_type: ""
   },
   positions_attributes: {
     "0" => {
-      positions_name: "",
-      positions_tag: "",
+      positions_name: "Skip",
+      positions_tag: "S",
       description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
+        overview_of_position: "Is the team captain and throws the final 2 stones, makes the final decisions, may have to make any shots dependent on the situation",
+        primary_objectives: "Strategist and plans out the shots, calls the shots for what the other players should do and how to brush, makes the pressure shots at the end of each end.",
         strengths: "",
         weaknesses: ""
       },
       famous_player_attributes: {
-        famous_player_name: "",
+        famous_player_name: "Bruce Moaut",
         individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: ""
+        team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
+        teams_countries: "Great Britain, Scotland as skip of Team Moaut"
       }
     },
       "1" => {
-        positions_name: "",
-      positions_tag: "",
+        positions_name: "Vice",
+      positions_tag: "V",
       description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
+        overview_of_position: "They throw the 5th and 6th stones, while the skip throws their stones they act as the strategist.",
+        primary_objectives: "Will usually throw draws or takeouts, will sweep when the lead or second are throwing their stones.",
         strengths: "",
         weaknesses: ""
       },
       famous_player_attributes: {
-        famous_player_name: "",
+        famous_player_name: "Kaitlyn Lawes",
         individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: ""
+        team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
+        teams_countries: "Canada as part of Team Jones"
       }
     },
       "2" => {
-        positions_name: "",
-      positions_tag: "",
+        positions_name: "Second",
+      positions_tag: "SE",
       description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
-        strengths: "",
-        weaknesses: ""
+        overview_of_position: "Throws the 3rd and 4th stone of for their team, when not throwing the sweep for all other players on their team.",
+        primary_objectives: "Will usually throw takeouts or draws.",
+        strengths: "Needs to throw accurately as can help control the end",
+        weaknesses: "Great Britain, Scotland"
       },
       famous_player_attributes: {
-        famous_player_name: "",
+        famous_player_name: "Rasmus Wranå",
         individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: ""
+        team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's CHampionships",
+        teams_countries: "Sweden as part of Team Edin"
       }
     },
       "3" => {
-        positions_name: "",
-      positions_tag: "",
+        positions_name: "Lead",
+      positions_tag: "L",
       description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
-        strengths: "",
+        overview_of_position: "Throws the first 2 stones of the end for their team and will then sweep for everyone else.",
+        primary_objectives: "Will usually have to throw guards or draws.",
+        strengths: "By throwing well it can give their team a firm footing at the beginning of an end",
         weaknesses: ""
       },
       famous_player_attributes: {
-        famous_player_name: "",
+        famous_player_name: "Hailey Duff",
         individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: ""
+        team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
+        teams_countries: "Great Britain, Scotland as part of Team Muirhead"
       }
-    },
-      "4" => {
-        positions_name: "",
-      positions_tag: "",
-      description_attributes: {
-        overview_of_position: "",
-        primary_objectives: "",
-        strengths: "",
-        weaknesses: ""
-      },
-      famous_player_attributes: {
-        famous_player_name: "",
-        individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: ""
-      }
-    },
+    }
   }
 }
 

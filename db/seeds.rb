@@ -373,7 +373,7 @@ RUGBY_UNION = {
   },
   rule_attributes: {
     game_duration: "80 minutes at professional level",
-    scoring: " When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
+    scoring: "When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
     player_per_team: 15,
     referees: 3,
     most_important_rules: "fill here",
@@ -392,9 +392,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Tendai Mtawarira",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Sharks"
+        individual_milestones: "117 South Africa Appearances",
+        team_trophies_won: "2019 World Cup",
+        teams_countries: "South Africa, Sharks, Old Glory DC"
       }
     },
     "1" => {
@@ -407,10 +407,10 @@ RUGBY_UNION = {
         weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_player_attributes: {
-        famous_player_name: "Keith Wood",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
+        famous_player_name: "Sean Fitzpatrick",
+        individual_milestones: "92 New Zealand Appearances, New Zealand Captain 1992-1997",
+        team_trophies_won: "1987 World Cup, 2x Tri Nations, 9 Bledisloe Cups & a British & Irish Lions series Victory 1993",
+        teams_countries: "New Zealand, Auckland Blues, Auckland"
       }
     },
     "2" => {
@@ -424,8 +424,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Adam Jones",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
+        team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
       }
     },
@@ -440,8 +440,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Martin Johnson",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
+        team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 Premiership Titles & 2 European Cups",
         teams_countries: "British & Irish Lions, England, Leicester Tigers"
       }
     },
@@ -456,8 +456,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Eben Etzebeth",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "119 South Africa Appearances",
+        team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship, 2012 Currie Cup,",
         teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
       }
     },
@@ -472,9 +472,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Siya Kolisi",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Sharks, Racing "
+        individual_milestones: "Captain of back to back world cup winning South African squad, first black captain of South Africa rugby & 83 South Africa appearances",
+        team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship & 2021 British & Irish Lions Series",
+        teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92"
       }
     },
     "6" => {
@@ -488,9 +488,9 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Richie Mccaw",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, Crusaders"
+        individual_milestones: "148 New Zealand Appearances - 110 as captain, World Rugby Hall of Fame",
+        team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
+        teams_countries: "New Zealand, Crusaders, Canterbury"
       }
     },
     "7" => {
@@ -504,8 +504,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Sergio Parisse",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "142 Italy Appearances",
+        team_trophies_won: "2x French Top 14 Champions & 2x European Challenge Cups",
         teams_countries: "Italy, Stade Francais, "
       }
     },
@@ -520,8 +520,8 @@ RUGBY_UNION = {
       },
       famous_player_attributes: {
         famous_player_name: "Antoine Dupont",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "52 French Appearances, 2021 World Rugby Player of the Year, 3x Six Nations Player of the Tournament, 1x European Player of the Year",
+        team_trophies_won: "1x European Rugby Champions Cup, 3x Top 14 titles, 1x Six Nations Championship",
         teams_countries: "France, Toulouse"
       }
     },

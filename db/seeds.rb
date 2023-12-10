@@ -385,10 +385,10 @@ RUGBY_UNION = {
       positions_name: "Loosehead Prop",
       positions_tag: "LH",
       description_attributes: {
-        overview_of_position: "Last line of defense, positioned behind the main defensive line",
-        primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
-        strengths: "High ball catching, kicking, positional play",
-        weaknesses: "Physical duels, tackling in open play"
+        overview_of_position: "Front-row forward, provides stability in scrums on the left/outside of scrum.",
+        primary_objectives: "Scrummaging, supporting in open play, tackling, lifting in the lineout, carrying.",
+        strengths: "Scrummaging technique, physicality, work rate",
+        weaknesses: "Mobility, ball-handling"
       },
       famous_player_attributes: {
         famous_player_name: "Tendai Mtawarira",
@@ -401,10 +401,10 @@ RUGBY_UNION = {
       positions_name: "Hooker",
       positions_tag: "H",
       description_attributes: {
-        overview_of_position: "Speedy winger positioned on the right flank",
-        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
-        strengths: "Pace, try-scoring ability, agility",
-        weaknesses: "Physical marking, defensive responsibilities"
+        overview_of_position: "Front-row forward, throws the ball into lineouts",
+        primary_objectives: "Lineout throwing, scrummaging, tackling",
+        strengths: "Lineout accuracy, physicality, set-piece play",
+        weaknesses: "Open-play mobility, ball-carrying"
       },
       famous_player_attributes: {
         famous_player_name: "Sean Fitzpatrick",
@@ -417,10 +417,10 @@ RUGBY_UNION = {
       positions_name: "Tighthead Prop",
       positions_tag: "TH",
       description_attributes: {
-        overview_of_position: "Midfielder in the backline, often part of attacking plays",
-        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
-        strengths: "Running lines, passing, defensive skills",
-        weaknesses: "Physical collisions, tackling in open play"
+        overview_of_position: "Front-row forward, provides stability in scrums",
+        primary_objectives: "Scrummaging, supporting in open play, tackling",
+        strengths: "Scrummaging technique, physicality, work rate",
+        weaknesses: "Mobility, ball-handling"
       },
       famous_player_attributes: {
         famous_player_name: "Adam Jones",
@@ -433,15 +433,15 @@ RUGBY_UNION = {
       positions_name: "Second Row",
       positions_tag: "SR",
       description_attributes: {
-        overview_of_position: "Key playmaker, responsible for directing the team's attack",
-        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
-        strengths: "Kicking accuracy, tactical awareness, playmaking",
-        weaknesses: "Physical tackling, pressure situations"
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
       },
       famous_player_attributes: {
         famous_player_name: "Martin Johnson",
         individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
-        team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 Premiership Titles & 2 European Cups",
+        team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 English Premiership Titles & 2 European Cups",
         teams_countries: "British & Irish Lions, England, Leicester Tigers"
       }
     },
@@ -449,10 +449,10 @@ RUGBY_UNION = {
       positions_name: "Second Row",
       positions_tag: "SR",
       description_attributes: {
-        overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
-        primary_objectives: "Quick distribution, organizing forwards, defensive work",
-        strengths: "Passing accuracy, speed, game management",
-        weaknesses: "Physical challenges, tackling largers opponents"
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
       },
       famous_player_attributes: {
         famous_player_name: "Eben Etzebeth",
@@ -465,10 +465,10 @@ RUGBY_UNION = {
       positions_name: "Blindside Flanker",
       positions_tag: "BF",
       description_attributes: {
-        overview_of_position: "Midfielder in the backline, often part of attacking plays",
-        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
-        strengths: "Running lines, passing, defensive skills",
-        weaknesses: "Physical collisions, tackling in open play"
+        overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
+        primary_objectives: "Tackling, competing for the ball, supporting in open play",
+        strengths: "Tackling, breakdown work, agility",
+        weaknesses: "Ball-carrying, lineout challenges"
       },
       famous_player_attributes: {
         famous_player_name: "Siya Kolisi",
@@ -481,10 +481,10 @@ RUGBY_UNION = {
       positions_name: "Openside Flanker",
       positions_tag: "OF",
       description_attributes: {
-        overview_of_position: "Speedy winger positioned on the left flank",
-        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
-        strengths: "Pace, try-scoring ability, agility",
-        weaknesses: "Physical marking, defensive responsibilities"
+        overview_of_position: "Back-row forward, specializes in winning turnovers at rucks and disrupting the opposition",
+        primary_objectives: "Tackling, competing for the ball, supporting in open play",
+        strengths: "Tackling, breakdown work, agility",
+        weaknesses: "Ball-carrying, lineout challenges"
       },
       famous_player_attributes: {
         famous_player_name: "Richie Mccaw",
@@ -497,10 +497,10 @@ RUGBY_UNION = {
       positions_name: "Number 8",
       positions_tag: "N8",
       description_attributes: {
-        overview_of_position: "Key playmaker, responsible for directing the team's attack",
-        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
-        strengths: "Kicking accuracy, tactical awareness, playmaking",
-        weaknesses: "Physical tackling, pressure situations"
+        overview_of_position: "Back-row forward, often the primary ball carrier",
+        primary_objectives: "Running with the ball, supporting in the open play, breakdown work",
+        strengths: "Ball-carrying, lineout work, leadership",
+        weaknesses: "Defensive responsiblities, breakdown challenges"
       },
       famous_player_attributes: {
         famous_player_name: "Sergio Parisse",
@@ -513,10 +513,10 @@ RUGBY_UNION = {
       positions_name: "Scrum Half",
       positions_tag: "SH",
       description_attributes: {
-        overview_of_position: "Back-row forward, often the primary ball carrier",
-        primary_objectives: "Running with the ball, supporting in the open play, leading the forward pack",
-        strengths: "Ball-carrying, lineout work, leadership",
-        weaknesses: "Defensive responsiblities, breakdown challenges"
+        overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
+        primary_objectives: "Quick distribution, organizing forwards, defensive work",
+        strengths: "Passing accuracy, speed, game management",
+        weaknesses: "Physical challenges, tackling largers opponents"
       },
       famous_player_attributes: {
         famous_player_name: "Antoine Dupont",
@@ -529,10 +529,10 @@ RUGBY_UNION = {
       positions_name: "Stand Off",
       positions_tag: "SO",
       description_attributes: {
-        overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
-        primary_objectives: "Tackling, competing for the ball, supporting in open play",
-        strengths: "Tackling, breakdown work, agility",
-        weaknesses: "Ball-carrying, lineout challenges"
+        overview_of_position: "Key playmaker, responsible for directing the team's attack",
+        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
+        strengths: "Kicking accuracy, tactical awareness, playmaking",
+        weaknesses: "Physical tackling, pressure situations"
       },
       famous_player_attributes: {
         famous_player_name: "Dan Carter",
@@ -545,10 +545,10 @@ RUGBY_UNION = {
       positions_name: "Left Wing",
       positions_tag: "LW",
       description_attributes: {
-        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
-        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
-        strengths: "Lineout work, physicality, set-piece play",
-        weaknesses: "Mobility, open-play speed"
+        overview_of_position: "Speedy winger positioned on the left flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_player_attributes: {
         famous_player_name: "Jonah Lomu",
@@ -561,10 +561,11 @@ RUGBY_UNION = {
       positions_name: "Inside Centre",
       positions_tag: "IC",
       description_attributes: {
-        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
-        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
-        strengths: "Lineout work, physicality, set-piece play",
-        weaknesses: "Mobility, open-play speed"
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
+
       },
       famous_player_attributes: {
         famous_player_name: "Ma'a Nonu",
@@ -577,10 +578,10 @@ RUGBY_UNION = {
       positions_name: "Outside Centre",
       positions_tag: "OC",
       description_attributes: {
-        overview_of_position: "Front-row forward, provides stability in scrums",
-        primary_objectives: "Scrummaging, supporting in open play, tackling",
-        strengths: "Scrummaging technique, physicality, work rate",
-        weaknesses: "Mobility, ball-handling"
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
       },
       famous_player_attributes: {
         famous_player_name: "Brian O'Driscoll",
@@ -593,10 +594,10 @@ RUGBY_UNION = {
       positions_name: "Right Wing",
       positions_tag: "RW",
       description_attributes: {
-        overview_of_position: "Front-row forward, throws the ball into lineouts",
-        primary_objectives: "Lineout throwing, scrummaging, tackling",
-        strengths: "Lineout accuracy, physicality, set-piece play",
-        weaknesses: "Open-play mobility, ball-carrying"
+        overview_of_position: "Speedy winger positioned on the right flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
       },
       famous_player_attributes: {
         famous_player_name: "Bryan Habana",
@@ -609,10 +610,10 @@ RUGBY_UNION = {
       positions_name: "Fullback",
       positions_tag: "FB",
       description_attributes: {
-        overview_of_position: "Front-row forward, provides stability in scrums",
-        primary_objectives: "Scrummaging, supporting in open play, tackling",
-        strengths: "Scrummaging technique, physicality, work rate",
-        weaknesses: "Mobility, ball-handling"
+        overview_of_position: "Last line of defense, positioned behind the main defensive line" ,
+        primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
+        strengths: "High ball catching, kicking, positional play",
+        weaknesses: "Physical duels, tackling in open play"
       },
       famous_player_attributes: {
         famous_player_name: "Stuart Hogg",
@@ -1012,6 +1013,124 @@ AMERICAN_FOOTBALL = {
     }
   }
 }
+
+CURLING = {
+  name:"Curling",
+  overview_attributes: {
+    short_description: "",
+    game_objective: "",
+    governing_body_url: ""
+  },
+  equipment_need_attributes: {
+    footwear: "",
+    required_equipment: "",
+    safety_gear: "",
+    infrastructure: "",
+    clothing: ""
+  },
+  history_attributes: {
+    invented: "",
+    creator: "",
+    country_of_origin: "",
+    most_successful_teams: "",
+    milestones: ""
+  },
+  terminology_attributes: {
+    most_important_terms: "",
+  },
+  rule_attributes: {
+    game_duration: "",
+    scoring: "",
+    player_per_team: 4,
+    referees: 0,
+    most_important_rules: "",
+    field_size: "",
+    field_type: ""
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "",
+      positions_tag: "",
+      description_attributes: {
+        overview_of_position: "",
+        primary_objectives: "",
+        strengths: "",
+        weaknesses: ""
+      },
+      famous_player_attributes: {
+        famous_player_name: "",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: ""
+      }
+    },
+      "1" => {
+        positions_name: "",
+      positions_tag: "",
+      description_attributes: {
+        overview_of_position: "",
+        primary_objectives: "",
+        strengths: "",
+        weaknesses: ""
+      },
+      famous_player_attributes: {
+        famous_player_name: "",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: ""
+      }
+    },
+      "2" => {
+        positions_name: "",
+      positions_tag: "",
+      description_attributes: {
+        overview_of_position: "",
+        primary_objectives: "",
+        strengths: "",
+        weaknesses: ""
+      },
+      famous_player_attributes: {
+        famous_player_name: "",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: ""
+      }
+    },
+      "3" => {
+        positions_name: "",
+      positions_tag: "",
+      description_attributes: {
+        overview_of_position: "",
+        primary_objectives: "",
+        strengths: "",
+        weaknesses: ""
+      },
+      famous_player_attributes: {
+        famous_player_name: "",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: ""
+      }
+    },
+      "4" => {
+        positions_name: "",
+      positions_tag: "",
+      description_attributes: {
+        overview_of_position: "",
+        primary_objectives: "",
+        strengths: "",
+        weaknesses: ""
+      },
+      famous_player_attributes: {
+        famous_player_name: "",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: ""
+      }
+    },
+  }
+}
+
 puts "Creating new sports..."
 [BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL].each do |attributes|
   sport = Sport.create!(attributes)

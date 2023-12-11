@@ -1135,7 +1135,8 @@ BASEBALL = {
         famous_player_name: "Babe Ruth",
         individual_milestones: "Set the record for most home runs in a season (60) in 1927",
         team_trophies_won: "7-time World Series champion with the New York Yankees",
-        teams_countries: "New York Yankees, Boston Red Sox"
+        teams_countries: "New York Yankees, Boston Red Sox",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1151,7 +1152,8 @@ BASEBALL = {
         famous_player_name: "Johnny Bench",
         individual_milestones: "10-time Gold Glove Award winner",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
-        teams_countries: "Cincinnati Reds"
+        teams_countries: "Cincinnati Reds",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1167,7 +1169,8 @@ BASEBALL = {
         famous_player_name: "Lou Gehrig",
         individual_milestones: "2-time MVP, 7-time All-Star",
         team_trophies_won: "6-time World Series champion with the New York Yankees",
-        teams_countries: "New York Yankees"
+        teams_countries: "New York Yankees",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1183,7 +1186,8 @@ BASEBALL = {
         famous_player_name: "Joe Morgan",
         individual_milestones: "2-time MVP, 10-time All-Star",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
-        teams_countries: "Cincinnati Reds"
+        teams_countries: "Cincinnati Reds",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1199,7 +1203,8 @@ BASEBALL = {
         famous_player_name: "Derek Jeter",
         individual_milestones: "14-time All-Star, 5-time Gold Glove Award winner",
         team_trophies_won: "5-time World Series champion with the New York Yankees",
-        teams_countries: "New York Yankees"
+        teams_countries: "New York Yankees",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "5" => {
@@ -1215,7 +1220,8 @@ BASEBALL = {
         famous_player_name: "Mike Schmidt",
         individual_milestones: "3-time MVP, 10-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the Philadelphia Phillies",
-        teams_countries: "Philadelphia Phillies"
+        teams_countries: "Philadelphia Phillies",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "6" => {
@@ -1231,7 +1237,8 @@ BASEBALL = {
         famous_player_name: "Barry Bonds",
         individual_milestones: "7-time MVP, all-time home run leader",
         team_trophies_won: "1-time World Series champion with the San Francisco Giants",
-        teams_countries: "San Francisco Giants, Pittsburgh Pirates"
+        teams_countries: "San Francisco Giants, Pittsburgh Pirates",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "7" => {
@@ -1247,7 +1254,8 @@ BASEBALL = {
         famous_player_name: "Willie Mays",
         individual_milestones: "24-time All-Star, 12-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the New York/San Francisco Giants",
-        teams_countries: "New York/San Francisco Giants"
+        teams_countries: "New York/San Francisco Giants",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "8" => {
@@ -1263,7 +1271,8 @@ BASEBALL = {
         famous_player_name: "Hank Aaron",
         individual_milestones: "All-time home run leader until 2007",
         team_trophies_won: "1-time World Series champion with the Milwaukee/Atlanta Braves",
-        teams_countries: "Milwaukee/Atlanta Braves"
+        teams_countries: "Milwaukee/Atlanta Braves",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }

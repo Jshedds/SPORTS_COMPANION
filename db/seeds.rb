@@ -179,10 +179,10 @@ FOOTBALL = {
         weaknesses: "Vulnerable to one-on-one situations, handling crosses"
       },
       famous_player_attributes: {
-        famous_player_name: "Manuel Neuer",
+        famous_player_name: "Lev Yashin",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "Bayern Munich, Germany"
+        teams_countries: "LA Lakers, Team USA"
       }
     },
     "1" => {
@@ -195,10 +195,10 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
-        famous_player_name: "Dani Alves",
+        famous_player_name: "Cafú",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "Barcelona, Brazil"
+        teams_countries: "Milan, Brazil"
       }
     },
     "2" => {
@@ -211,7 +211,7 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Franz Beckenbauer",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -227,7 +227,7 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Paolo Maldini",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -243,7 +243,7 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, attacking contribution"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Frank Rijkaard",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -259,7 +259,7 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, defensive responsibilities"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Alfredo Di Stefano",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -275,7 +275,7 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical duels"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Maradona",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -291,7 +291,7 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Lionel Messi",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -307,7 +307,7 @@ FOOTBALL = {
         weaknesses: "Defensive responsibilities, marking by defenders"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Pele",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -323,7 +323,7 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Cristiano Ronaldo",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"
@@ -339,7 +339,7 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Bobby Moore",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA"

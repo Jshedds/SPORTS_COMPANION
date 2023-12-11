@@ -23,6 +23,8 @@
       <%= link_to render_icon("volleyball"), sport_path(favourite.sport) %>
     <% elsif favourite.sport.name == "Ice Hockey" %>
       <%= link_to render_icon("icehockey"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Curling" %>
+      <%= link_to render_icon("curling"), sport_path(favourite.sport) %>
     <% end %>
   <% end %>
 <% else %>

@@ -3,5 +3,5 @@
   <p><strong>INDIVIDUAL MILESTONES:</strong> <%= @position.individual_milestones %></p>
   <p><strong>TEAM TROPHIES WON:</strong> <%= @position.team_trophies_won %></p>
   <p><strong>TEAMS/COUNTRIES REPRESENTED:</strong> <%= @position.teams_countries %></p>
-
+<%= cl_image_tag @position.famous_player.photo.key %>
 </div>

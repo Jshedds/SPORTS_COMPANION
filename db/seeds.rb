@@ -81,7 +81,8 @@ BASKETBALL = {
           famous_player_name: "Michael Jordan",
           individual_milestones: "6x NBA Finals MVP, 5x NBA MVP",
           team_trophies_won: "6x NBA Champion, 2x Olympic gold medal",
-          teams_countries: "Chicago Bulls, Washington Wizards, Team USA"
+          teams_countries: "Chicago Bulls, Washington Wizards, Team USA",
+          photo: { io: File.open(Rails.root.join("app", "assets", "images", "michaeljordan.jpeg")), filename:"michaeljordan.jpeg", content_type: "image/jpeg" }
         }
       },
       "2" => {

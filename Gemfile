@@ -51,11 +51,19 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 
-gem 'simple_token_authentication'
 #API Authentication
+gem 'simple_token_authentication'
+
+# added cloudinary for image uploading
+gem "cloudinary"
+
+# added pundit gem for authorization
+gem "pundit"
+
+# added dotenv-rails gem
+gem "dotenv-rails", groups: [:development, :test]
 
 group :development, :test do
-  gem "dotenv-rails"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
@@ -78,6 +86,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-# added pundit gem for authorization
-gem "pundit"

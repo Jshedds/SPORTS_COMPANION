@@ -1,5 +1,12 @@
-<h1>SPORTS COMPANION</h1>
-<div>
-  <h3>MASTER THE GAME POSITION BY POSITION</h3>
-  <%= link_to "All sports", sports_path %>
+<div id="video-container">
+  <a href="<%= sports_path %>">
+    <video autoplay muted loop id="intro-video">
+      <source src="<%= asset_path('intro.mp4') %>" type="video/mp4">
+    </video>
+
+    <div id="title-text-overlay">
+      <h1><strong>SPORTS COMPANION</strong></h1>
+      <h3>MASTER THE GAME POSITION BY POSITION</h3>
+    </div>
+  </a>
 </div>

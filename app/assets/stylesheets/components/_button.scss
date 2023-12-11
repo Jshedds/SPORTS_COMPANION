@@ -41,3 +41,45 @@
     }
   }
 }
+
+.show-sport-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chatroom-btn {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.favourite-btn {
+  border: 0;
+  margin-right: 20px;
+}
+
+.all-sports-btn {
+  margin-right: 20px;
+}
+
+.admin-add-btn {
+  text-align: right;
+}
+
+.chatroom-btns {
+  text-align: none;
+}
+
+.chatroom-btns-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+#chatroom-back-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bball-send-btn {
+  margin-bottom: 200px;
+}

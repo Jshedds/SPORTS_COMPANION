@@ -12,6 +12,7 @@ puts "Cleaning the database...."
 Chatroom.destroy_all
 Sport.destroy_all
 User.destroy_all
+puts "Cleaning done!"
 User.create!(email: "colerner@me.com", password: "123456", admin: true, username: "Conny")
 User.create!(email: "jamie@jamie.com", password: "123456", admin: true, username: "Jamie")
 User.create!(email: "thomas@thomas.com", password: "123456", admin: true, username: "Thomas")
@@ -139,7 +140,7 @@ FOOTBALL = {
   overview_attributes: {
     short_description: "Score goals",
     game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
-    governing_body_url: "fifa.com"
+    governing_body_url: "https://www.fifa.com/fifaplus/en"
   },
   equipment_need_attributes: {
     footwear: "Studded football boots",
@@ -352,7 +353,7 @@ RUGBY_UNION = {
   overview_attributes: {
     short_description: "Rugby is a game played at all ages and abilities where 2 teams face off and try to score more points than each other. There are 8 forwards and 7 backs on each team as standard. The team that has possession can only pass the ball backwards or can kick tactically to move around the field.",
     game_objective: "To score more points through tries, conversions, penalties and drop goals than the other team.",
-    governing_body_url: "www.world.rugby"
+    governing_body_url: "https://www.world.rugby/"
   },
   equipment_need_attributes: {
     footwear: "Rugby boots that have studs on the bottom for grip",
@@ -1030,121 +1031,12 @@ AMERICAN_FOOTBALL = {
   }
 }
 
-CURLING = {
-  name:"Curling",
-  overview_attributes: {
-    short_description: "Curling is a team sport, played on ice, where two teams take it in turns to slide stones made of granite towards a target. Traditional teams have 4 players of the same gender, where each player throws 2 stones alternatively with the opposition. Mixed doubles is another format where 2 players one male and one female play on a team together. There are usually between 8-10 ends per match.",
-    game_objective: "To have as many stones as close to the center of the house over the other team and to stop the other team from scoring any points.",
-    governing_body_url: "worldcurling.org/about/curling/"
-  },
-  equipment_need_attributes: {
-    footwear: "Curling shoes, one sole grips the ice, the other one, called a slider, is slippery and allows the curler to slide with a stone",
-    required_equipment: "Set of stones, made of a special type of granite, a brush",
-    safety_gear: "Correct footwear",
-    infrastructure: "Push off block. properly prepared ice sheet with all markings",
-    clothing: "Jumper, Short Sleeve, Athletic Trousers"
-  },
-  history_attributes: {
-    invented: "16th Century",
-    creator: "No specific creator",
-    country_of_origin: "Scotland",
-    most_successful_teams: "Canada, Sweden, Switzerland & Scotland/Great Britain",
-    milestones: "Introduced as a medal event to the Winter Olympics in 1998"
-  },
-  terminology_attributes: {
-    most_important_terms: "HOUSE - The circular target area at each end of the ice sheet where scoring takes place. STONE/ROCK - The granite stone used in curling, each team delivers 8 stones per end. END - A segment of the game where each team delivers all of its stones, alternating with the opposing team. HOG LINE - A line on the ice that the stone must cross during the delivery phase, stones not released before the hog line are removed from play. TAKEOUT: A shot aimed at removing an opponent's stone from play by hitting it with significant force. DRAW: A shot that aims to place the stone in the house without hitting other stones, relying on weight and precision. GUARD: A stone placed in front of the house, intended to protect other stones from being removed or to block the opponent's path. HAMMER: The last stone in an end, which provides a strategic advantage as it allows the team to have the final shot.",
-  },
-  rule_attributes: {
-    game_duration: "Between 2 and 2 and a half hours",
-    scoring: "The team that has the stone closest to the middle gets a point for every stone closer to the middle until the opposition stone is next.",
-    player_per_team: 4,
-    referees: 0,
-    most_important_rules: "DELIVERY AND HOG LINE: The stone must be released before reaching the hog line (a specific line on the ice), or it will be removed from play.
-
-    SWEEPING: Teammates can sweep the ice in front of the stone to affect its speed, direction, and curl. However, there are rules regarding when and how sweeping can be done.
-
-    SCORING: Points are awarded based on stone placement in the house (the circular target area). Only stones within the house at the end of an end are counted towards scoring.
-
-    GUARD ZONE & FREE GUARD ZONE RULE: The first four stones of an end can't be removed from play by the opposition until after the fifth stone is delivered (Free Guard Zone Rule).
-
-    STONE PLACEMENT: Stones must come to rest within the playing area and not be touching the backline or outside of the sidelines.",
-    field_size: "45m long, and a max of 5m wide.",
-    field_type: "Ice Sheet"
-  },
-  positions_attributes: {
-    "0" => {
-      positions_name: "Skip",
-      positions_tag: "S",
-      description_attributes: {
-        overview_of_position: "Is the team captain and throws the final 2 stones, makes the final decisions, may have to make any shots dependent on the situation",
-        primary_objectives: "Strategist and plans out the shots, calls the shots for what the other players should do and how to brush, makes the pressure shots at the end of each end.",
-        strengths: "Strategic Acumen, Decision Making, Leadership, Shot Execution, Communication",
-        weaknesses: "Physical Execution, Limited Viewpoint, Pressure & Responsibility, Communication Challenges"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Bruce Moaut",
-        individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
-        team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
-        teams_countries: "Great Britain, Scotland as skip of Team Moaut"
-      }
-    },
-      "1" => {
-        positions_name: "Vice",
-        positions_tag: "V",
-        description_attributes: {
-          overview_of_position: "They throw the 5th and 6th stones, while the skip throws their stones they act as the strategist.",
-          primary_objectives: "Will usually throw draws or takeouts, will sweep when the lead or second are throwing their stones.",
-          strengths: "Supporting Skip's Decisions, Shot Execution, Strategy Understanding, Team Communication, Adaptable & Flexible",
-          weaknesses: "Pressure in Decision Making, Execution Consistency, Dependency on Skip's Decision, Handling Stress"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Kaitlyn Lawes",
-        individual_milestones: "Captained 2008 team to Junior World Championships",
-        team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
-        teams_countries: "Canada as part of Team Jones"
-      }
-    },
-      "2" => {
-        positions_name: "Second",
-      positions_tag: "SE",
-      description_attributes: {
-        overview_of_position: "Throws the 3rd and 4th stone of for their team, when not throwing the sweep for all other players on their team.",
-        primary_objectives: "Will usually throw takeouts or draws.",
-        strengths: "Shot Execution, Sweeping Expertise, Assisting in Strategy, Adaptability, Team Communication",
-        weaknesses: "Pressure In Execution, Decision Making Constraints, Managing Stress, Dependency on Skip's Decision"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Rasmus Wranå",
-        individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
-        team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
-        teams_countries: "Sweden as part of Team Edin"
-      }
-    },
-      "3" => {
-        positions_name: "Lead",
-        positions_tag: "L",
-        description_attributes: {
-          overview_of_position: "Throws the first 2 stones of the end for their team and will then sweep for everyone else.",
-          primary_objectives: "Will usually have to throw guards or draws.",
-          strengths: "Shot Execution, Sweeping Expertise, Drawing Skills, Early Strategy Contributions, Team Communication",
-          weaknesses: "Pressure in Execution, Decision Making Constraints, Limited Role Flexibility, Managing Stress, Dependency on Skip's Decision"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Hailey Duff",
-        individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
-        team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
-        teams_countries: "Great Britain, Scotland as part of Team Muirhead"
-      }
-    }
-  }
-}
-
-Baseball = {
+BASEBALL = {
   name: "Baseball",
   overview_attributes: {
     short_description: "Score runs",
     game_objective: "The aim of baseball is to score more runs than your opponent in a 9-inning playing time frame. The match is split into two halves - the top and bottom of each inning. After the first 9 innings, the team with the most runs wins.",
-    governing_body_url: "mlb.com"
+    governing_body_url: "https://www.mlb.com/"
   },
   equipment_need_attributes: {
     footwear: "Baseball cleats",
@@ -1320,12 +1212,12 @@ Baseball = {
   }
 }
 
-Ice Hockey = {
+ICE_HOCKEY = {
   name: "Ice Hockey",
   overview_attributes: {
     short_description: "Score goals on ice",
     game_objective: "The aim of hockey is to score more goals than your opponent in a 60-minute playing time frame. The match is split into three periods of 20 minutes each. After the first and second periods, there is a 15-minute intermission. The team with the most goals at the end of the game wins.",
-    governing_body_url: "iihf.com"
+    governing_body_url: "https://www.iihf.com/"
   },
   equipment_need_attributes: {
     footwear: "Ice hockey skates",
@@ -1437,12 +1329,12 @@ Ice Hockey = {
   }
 }
 
-Volleyball = {
+VOLLEYBALL = {
   name: "Volleyball",
   overview_attributes: {
     short_description: "Score points by sending the ball over the net",
     game_objective: "The aim of volleyball is to score more points than your opponent by successfully sending the ball over the net and into the opponent's court. A match is typically played best out of five sets, and each set is played of 25 points (with some variations).",
-    governing_body_url: "fivb.com"
+    governing_body_url: "https://www.fivb.com/"
   },
   equipment_need_attributes: {
     footwear: "Volleyball shoes",
@@ -1554,14 +1446,121 @@ Volleyball = {
   }
 }
 
+CURLING = {
+  name:"Curling",
+  overview_attributes: {
+    short_description: "Curling is a team sport, played on ice, where two teams take it in turns to slide stones made of granite towards a target. Traditional teams have 4 players of the same gender, where each player throws 2 stones alternatively with the opposition. Mixed doubles is another format where 2 players one male and one female play on a team together. There are usually between 8-10 ends per match.",
+    game_objective: "To have as many stones as close to the center of the house over the other team and to stop the other team from scoring any points.",
+    governing_body_url: "worldcurling.org/about/curling/"
+  },
+  equipment_need_attributes: {
+    footwear: "Curling shoes, one sole grips the ice, the other one, called a slider, is slippery and allows the curler to slide with a stone",
+    required_equipment: "Set of stones, made of a special type of granite, a brush",
+    safety_gear: "Correct footwear",
+    infrastructure: "Push off block. properly prepared ice sheet with all markings",
+    clothing: "Jumper, Short Sleeve, Athletic Trousers"
+  },
+  history_attributes: {
+    invented: "16th Century",
+    creator: "No specific creator",
+    country_of_origin: "Scotland",
+    most_successful_teams: "Canada, Sweden, Switzerland & Scotland/Great Britain",
+    milestones: "Introduced as a medal event to the Winter Olympics in 1998"
+  },
+  terminology_attributes: {
+    most_important_terms: "HOUSE - The circular target area at each end of the ice sheet where scoring takes place. STONE/ROCK - The granite stone used in curling, each team delivers 8 stones per end. END - A segment of the game where each team delivers all of its stones, alternating with the opposing team. HOG LINE - A line on the ice that the stone must cross during the delivery phase, stones not released before the hog line are removed from play. TAKEOUT: A shot aimed at removing an opponent's stone from play by hitting it with significant force. DRAW: A shot that aims to place the stone in the house without hitting other stones, relying on weight and precision. GUARD: A stone placed in front of the house, intended to protect other stones from being removed or to block the opponent's path. HAMMER: The last stone in an end, which provides a strategic advantage as it allows the team to have the final shot.",
+  },
+  rule_attributes: {
+    game_duration: "Between 2 and 2 and a half hours",
+    scoring: "The team that has the stone closest to the middle gets a point for every stone closer to the middle until the opposition stone is next.",
+    player_per_team: 4,
+    referees: 0,
+    most_important_rules: "DELIVERY AND HOG LINE: The stone must be released before reaching the hog line (a specific line on the ice), or it will be removed from play.
+    SWEEPING: Teammates can sweep the ice in front of the stone to affect its speed, direction, and curl. However, there are rules regarding when and how sweeping can be done.
+    SCORING: Points are awarded based on stone placement in the house (the circular target area). Only stones within the house at the end of an end are counted towards scoring.
+    GUARD ZONE & FREE GUARD ZONE RULE: The first four stones of an end can't be removed from play by the opposition until after the fifth stone is delivered (Free Guard Zone Rule).
+    STONE PLACEMENT: Stones must come to rest within the playing area and not be touching the backline or outside of the sidelines.",
+    field_size: "45m long, and a max of 5m wide.",
+    field_type: "Ice Sheet"
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Skip",
+      positions_tag: "S",
+      description_attributes: {
+        overview_of_position: "Is the team captain and throws the final 2 stones, makes the final decisions, may have to make any shots dependent on the situation",
+        primary_objectives: "Strategist and plans out the shots, calls the shots for what the other players should do and how to brush, makes the pressure shots at the end of each end.",
+        strengths: "Strategic Acumen, Decision Making, Leadership, Shot Execution, Communication",
+        weaknesses: "Physical Execution, Limited Viewpoint, Pressure & Responsibility, Communication Challenges"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Bruce Moaut",
+        individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
+        team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
+        teams_countries: "Great Britain, Scotland as skip of Team Moaut"
+      }
+    },
+      "1" => {
+        positions_name: "Vice",
+        positions_tag: "V",
+        description_attributes: {
+          overview_of_position: "They throw the 5th and 6th stones, while the skip throws their stones they act as the strategist.",
+          primary_objectives: "Will usually throw draws or takeouts, will sweep when the lead or second are throwing their stones.",
+          strengths: "Supporting Skip's Decisions, Shot Execution, Strategy Understanding, Team Communication, Adaptable & Flexible",
+          weaknesses: "Pressure in Decision Making, Execution Consistency, Dependency on Skip's Decision, Handling Stress"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Kaitlyn Lawes",
+        individual_milestones: "Captained 2008 team to Junior World Championships",
+        team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
+        teams_countries: "Canada as part of Team Jones"
+      }
+    },
+      "2" => {
+        positions_name: "Second",
+      positions_tag: "SE",
+      description_attributes: {
+        overview_of_position: "Throws the 3rd and 4th stone of for their team, when not throwing the sweep for all other players on their team.",
+        primary_objectives: "Will usually throw takeouts or draws.",
+        strengths: "Shot Execution, Sweeping Expertise, Assisting in Strategy, Adaptability, Team Communication",
+        weaknesses: "Pressure In Execution, Decision Making Constraints, Managing Stress, Dependency on Skip's Decision"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Rasmus Wranå",
+        individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
+        team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
+        teams_countries: "Sweden as part of Team Edin"
+      }
+    },
+      "3" => {
+        positions_name: "Lead",
+        positions_tag: "L",
+        description_attributes: {
+          overview_of_position: "Throws the first 2 stones of the end for their team and will then sweep for everyone else.",
+          primary_objectives: "Will usually have to throw guards or draws.",
+          strengths: "Shot Execution, Sweeping Expertise, Drawing Skills, Early Strategy Contributions, Team Communication",
+          weaknesses: "Pressure in Execution, Decision Making Constraints, Limited Role Flexibility, Managing Stress, Dependency on Skip's Decision"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Hailey Duff",
+        individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
+        team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
+        teams_countries: "Great Britain, Scotland as part of Team Muirhead"
+      }
+    }
+  }
+}
+
 puts "Creating new sports..."
-[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, CURLING].each do |attributes|
+[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL, CURLING].each do |attributes|
   sport = Sport.create!(attributes)
   puts "Created #{sport.name}"
 end
-puts "finished"
+puts "Finished!"
 
-puts 'Creating Chatroom...'
+puts 'Creating new Chatrooms...'
 Sport.all.each do |sport|
   Chatroom.create(name: "#{sport.name} chatroom", sport_id: sport.id)
+  puts "Created #{sport.name} chatroom"
 end
+puts "Finished!"

@@ -1,14 +1,23 @@
 <h1><strong><%= @position.positions_name.upcase %></strong></h1>
-<br>
-<div class="tab">
-  <h4><STRONG>DESCRIPTION</STRONG></h4>
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>DESCRIPTION</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "descriptions/description" %>
+  </div>
 </div>
-  <%= render "descriptions/description" %>
-<br>
-<div class="tab">
-  <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
+
+
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "famous_players/famous_player" %>
+  </div>
 </div>
-  <%= render "famous_players/famous_player" %>
+
 <%= link_to "Back to Positions", sport_positions_path %>
 <br>
 <%= link_to "Back to #{@sport.name}", sport_path(@sport) %>

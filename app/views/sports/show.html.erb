@@ -8,27 +8,53 @@
 <%= link_to "Chatroom", sport_chatroom_path(@sport, @chatroom) %>
 <br>
 <br>
-<div class="tab">
-  <h4><STRONG>OVERVIEW</STRONG></h4>
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>OVERVIEW</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "overviews/overview" %>
+  </div>
 </div>
-  <%= render "overviews/overview" %>
+
 <div class="tab">
   <h4><STRONG><%= link_to "POSITIONS", sport_positions_path(@sport) %></STRONG></h4>
 </div>
 
-<div class="tab">
-  <h4><STRONG>RULES</STRONG></h4>
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>RULES</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "rules/rule" %>
+  </div>
 </div>
-  <%= render "rules/rule" %>
-<div class="tab">
-  <h4><STRONG>TERMINOLOGY</STRONG></h4>
+
+
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>TERMINOLOGY</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "terminologies/terminology" %>
+  </div>
 </div>
-  <%= render "terminologies/terminology" %>
-<div class="tab">
-  <h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+
+  <div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "equipment_needs/equipment_need" %>
+  </div>
 </div>
-  <%= render "equipment_needs/equipment_need" %>
-<div class="tab">
-  <h4><STRONG>HISTORY</STRONG></h4>
+
+  <div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>HISTORY</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "histories/history" %>
+  </div>
 </div>
-  <%= render "histories/history" %>
+

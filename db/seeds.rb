@@ -191,7 +191,8 @@ FOOTBALL = {
         famous_player_name: "Manuel Neuer",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "Bayern Munich, Germany"
+        teams_countries: "Bayern Munich, Germany",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -207,7 +208,8 @@ FOOTBALL = {
         famous_player_name: "Dani Alves",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "Barcelona, Brazil"
+        teams_countries: "Barcelona, Brazil",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -223,7 +225,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -239,7 +242,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -255,7 +259,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "5" => {
@@ -271,7 +276,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "6" => {
@@ -287,7 +293,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "7" => {
@@ -303,7 +310,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "8" => {
@@ -319,7 +327,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "9" => {
@@ -335,7 +344,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "10" => {
@@ -351,7 +361,8 @@ FOOTBALL = {
         famous_player_name: "Earvin 'Magic' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }
@@ -420,7 +431,8 @@ RUGBY_UNION = {
         famous_player_name: "Tendai Mtawarira",
         individual_milestones: "117 South Africa Appearances",
         team_trophies_won: "2019 World Cup",
-        teams_countries: "South Africa, Sharks, Old Glory DC"
+        teams_countries: "South Africa, Sharks, Old Glory DC",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -436,7 +448,8 @@ RUGBY_UNION = {
         famous_player_name: "Sean Fitzpatrick",
         individual_milestones: "92 New Zealand Appearances, New Zealand Captain 1992-1997",
         team_trophies_won: "1987 World Cup, 2x Tri Nations, 9 Bledisloe Cups & a British & Irish Lions series Victory 1993",
-        teams_countries: "New Zealand, Auckland Blues, Auckland"
+        teams_countries: "New Zealand, Auckland Blues, Auckland",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -452,7 +465,8 @@ RUGBY_UNION = {
         famous_player_name: "Adam Jones",
         individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
         team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
-        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
+        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -468,7 +482,8 @@ RUGBY_UNION = {
         famous_player_name: "Martin Johnson",
         individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
         team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 English Premiership Titles & 2 European Cups",
-        teams_countries: "British & Irish Lions, England, Leicester Tigers"
+        teams_countries: "British & Irish Lions, England, Leicester Tigers",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -484,7 +499,8 @@ RUGBY_UNION = {
         famous_player_name: "Eben Etzebeth",
         individual_milestones: "119 South Africa Appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship, 2012 Currie Cup,",
-        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
+        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "5" => {
@@ -500,7 +516,8 @@ RUGBY_UNION = {
         famous_player_name: "Siya Kolisi",
         individual_milestones: "Captain of back to back world cup winning South African squad, first black captain of South Africa rugby & 83 South Africa appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship & 2021 British & Irish Lions Series",
-        teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92"
+        teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "6" => {
@@ -516,7 +533,8 @@ RUGBY_UNION = {
         famous_player_name: "Richie Mccaw",
         individual_milestones: "148 New Zealand Appearances - 110 as captain",
         team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
-        teams_countries: "New Zealand, Crusaders, Canterbury"
+        teams_countries: "New Zealand, Crusaders, Canterbury",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "7" => {
@@ -532,7 +550,8 @@ RUGBY_UNION = {
         famous_player_name: "Sergio Parisse",
         individual_milestones: "142 Italy Appearances",
         team_trophies_won: "2x French Top 14 Champions & 2x European Challenge Cups",
-        teams_countries: "Italy, Stade Francais, "
+        teams_countries: "Italy, Stade Francais, ",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "8" => {
@@ -548,7 +567,8 @@ RUGBY_UNION = {
         famous_player_name: "Antoine Dupont",
         individual_milestones: "52 French Appearances, 2021 World Rugby Player of the Year, 3x Six Nations Player of the Tournament, 1x European Player of the Year",
         team_trophies_won: "1x European Rugby Champions Cup, 3x Top 14 titles, 1x Six Nations Championship",
-        teams_countries: "France, Toulouse"
+        teams_countries: "France, Toulouse",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "9" => {
@@ -564,7 +584,8 @@ RUGBY_UNION = {
         famous_player_name: "Dan Carter",
         individual_milestones: "112 New Zealand Appearances, 2005/2012/2015 World Rugby Player of the Year, All time International Rugby Leading Points Scorer",
         team_trophies_won: "2011 & 2015 World Cup, 9 Tri Nations/Rugby Championship Titles, 13 Bledisloe Cups British & Irish Lions Series, 3x Super Rugby Titles, 1x Top 14 Title, 1x Top League Title",
-        teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury"
+        teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "10" => {
@@ -580,7 +601,8 @@ RUGBY_UNION = {
         famous_player_name: "Jonah Lomu",
         individual_milestones: "73 New Zealand Appearances, 1995 World Cup player of the tournament. Often attributed as the first true superstar of rugby.",
         team_trophies_won: "1998 Commonwealth Games Gold, New Zealand 7's",
-        teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues"
+        teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "11" => {
@@ -597,7 +619,8 @@ RUGBY_UNION = {
         famous_player_name: "Ma'a Nonu",
         individual_milestones: "103 New Zealand Appearances",
         team_trophies_won: "2011 & 2015 World Cups, 5 Tri Nations/Rugby Championships, 8 Bledisloe Cups, 1x Super Rugby Title, 1x Top 14 Title",
-        teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams "
+        teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams ",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "12" => {
@@ -613,7 +636,8 @@ RUGBY_UNION = {
         famous_player_name: "Brian O'Driscoll",
         individual_milestones: "133 Ireland Appearances, 8 British & Irish Lions Appearances, British & Irish Lions Captain 2005 & Six Nations all Time Top Try Scorer",
         team_trophies_won: "2013 British & Irish Lions Series, 2x Six Nations Titles (1 Grand Slam), 3x European Cups, 1x European Challenge Cups & 4x League Titles",
-        teams_countries: "Ireland, Leinster"
+        teams_countries: "Ireland, Leinster",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "13" => {
@@ -629,7 +653,8 @@ RUGBY_UNION = {
         famous_player_name: "Bryan Habana",
         individual_milestones: "124 South Africa Appearances, 67 International Tries & 3x South Africa Rugby Union Player of the Year",
         team_trophies_won: "2007 World Cup, British & Irish Lions Series, 2x Currie Cup, 2x Super Rugby Title, 1x Tri-Nations Title, 2x European Champions Cup, 1x Top 14 Title",
-        teams_countries: "South Africa, Toulon, Bulls, Stormers "
+        teams_countries: "South Africa, Toulon, Bulls, Stormers ",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "14" => {
@@ -645,7 +670,8 @@ RUGBY_UNION = {
         famous_player_name: "Stuart Hogg",
         individual_milestones: "100 Scotland Appearances, 2 British & Irish Lions Appearances, Six Nations Player of the Championship 2016 & 2017, Scotland Captain, Scotland's record try scorer",
         team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
-        teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
+        teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }
@@ -698,7 +724,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Tom Brady",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "New England Patriots, Tampa Bay Buccaneers"
+        teams_countries: "New England Patriots, Tampa Bay Buccaneers",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -714,7 +741,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Adrian Peterson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "Minnesota Vikings, Arizona Cardinals, Washington Football Team, Detroit Lions"
+        teams_countries: "Minnesota Vikings, Arizona Cardinals, Washington Football Team, Detroit Lions",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -730,7 +758,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Rob Gronkowski",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -746,7 +775,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "DeAndre Hopkins",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -762,7 +792,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Julian Edelman",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "5" => {
@@ -778,7 +809,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Larry Fitzgerald",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "6" => {
@@ -794,7 +826,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Anthony Munoz",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "7" => {
@@ -810,7 +843,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Quenton Nelson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "8" => {
@@ -826,7 +860,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Jason Kelce",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "9" => {
@@ -842,7 +877,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Zack Martin",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "10" => {
@@ -858,7 +894,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Orlando Pace",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "11" => {
@@ -874,7 +911,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Reggie White",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "12" => {
@@ -890,7 +928,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Aaron Donald",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "13" => {
@@ -906,7 +945,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Vince Wilfork",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "14" => {
@@ -922,7 +962,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "J.J. Watt",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "15" => {
@@ -938,7 +979,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Von Miller",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "16" => {
@@ -954,7 +996,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Brian Urlacher",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "17" => {
@@ -970,7 +1013,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Lawrence Taylor",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "18" => {
@@ -986,7 +1030,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Richard Sherman",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "19" => {
@@ -1002,7 +1047,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Darrelle Revis",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "20" => {
@@ -1018,7 +1064,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Earl Thomas",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "21" => {
@@ -1034,7 +1081,8 @@ AMERICAN_FOOTBALL = {
         famous_player_name: "Troy Polamalu",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA"
+        teams_countries: "LA Lakers, Team USA",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }

@@ -1,18 +1,18 @@
 class AthletesController < ApplicationController
   def new
-    authorize @athlete
     @athlete = Athlete.new
+    authorize @athlete
   end
 
   def create
-    authorize @athlete
     @athlete = Athlete.new(athlete_params)
     @athlete.save
+    authorize @athlete
   end
 
   def show
-    authorize @athlete
     @athlete = Athlete.find(params[:id])
+    authorize @athlete
   end
 
   private

@@ -4,3 +4,31 @@
   background-position: center;
   background-size: cover;
 }
+
+.dashcard {
+  text-align: center;
+  height: 150px;
+  padding: 5px;
+  border-radius: 25px;
+  border: solid 10px;
+  border-color: black;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  position: relative;
+  background-color: white;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 8px;
+}
+.dashcard .card-content {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

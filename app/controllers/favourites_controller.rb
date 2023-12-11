@@ -16,11 +16,10 @@ class FavouritesController < ApplicationController
 
   def destroy
     @favourite = Favourite.find(params[:id])
-    # @sport = Sport.find(params[:sport_id])
-    # @favourite.sport = @sport
+    sport = @favourite.sport
     # @favourite.user = current_user
     authorize @favourite
     @favourite.destroy
-    redirect_to sport_path(@favourite.sport), notice: "#{@favourite.sport.name} has successfully been removed from your favourites"
+    redirect_to sport_path(sport), notice: "#{sport.name} has successfully been removed from your favourites"
   end
 end

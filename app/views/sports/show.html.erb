@@ -4,7 +4,7 @@
 <div class="show-sport-btns">
       <div class="favourite-btn">
   <% if @current_user.favourites.exists?(sport_id: @sport.id) %>
-    <%= link_to sport_path ,data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } do %>
+    <%= link_to favourite_path(@favourite), data: { turbo_method: :delete } do %>
     <%= render_icon "unfavourite" %>
     <% end %>
   <% else %>

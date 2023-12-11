@@ -1573,7 +1573,8 @@ CURLING = {
         famous_player_name: "Bruce Moaut",
         individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
         team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
-        teams_countries: "Great Britain, Scotland as skip of Team Moaut"
+        teams_countries: "Great Britain, Scotland as skip of Team Moaut",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
       "1" => {
@@ -1589,7 +1590,8 @@ CURLING = {
         famous_player_name: "Kaitlyn Lawes",
         individual_milestones: "Captained 2008 team to Junior World Championships",
         team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
-        teams_countries: "Canada as part of Team Jones"
+        teams_countries: "Canada as part of Team Jones",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
       "2" => {
@@ -1605,7 +1607,8 @@ CURLING = {
         famous_player_name: "Rasmus Wranå",
         individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
         team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
-        teams_countries: "Sweden as part of Team Edin"
+        teams_countries: "Sweden as part of Team Edin",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
       "3" => {
@@ -1621,7 +1624,8 @@ CURLING = {
         famous_player_name: "Hailey Duff",
         individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
         team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
-        teams_countries: "Great Britain, Scotland as part of Team Muirhead"
+        teams_countries: "Great Britain, Scotland as part of Team Muirhead",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }

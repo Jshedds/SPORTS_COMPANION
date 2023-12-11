@@ -1,3 +1,4 @@
+require "open-uri"
 # This file should ensure the existence of records required to run the application in every environment (production,
 # development, test). The code here should be idempotent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
@@ -65,7 +66,8 @@ BASKETBALL = {
           famous_player_name: "Earvin 'Magic' Johnson",
           individual_milestones: "1st overall pick, 3x NBA Finals MVP, 3x NBA MVP",
           team_trophies_won: "5x NBA Champion, Olympic gold medal",
-          teams_countries: "LA Lakers, Team USA"
+          teams_countries: "LA Lakers, Team USA",
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
       },
       "1" => {
@@ -77,13 +79,16 @@ BASKETBALL = {
           strengths: "Strong shooting skills, often quick and agile",
           weaknesses: "May not be as involved in playmaking as a point guard"
         },
+        # file = URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg")
         famous_player_attributes: {
           famous_player_name: "Michael Jordan",
           individual_milestones: "6x NBA Finals MVP, 5x NBA MVP",
           team_trophies_won: "6x NBA Champion, 2x Olympic gold medal",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA",
-          photo: { io: File.open(Rails.root.join("app", "assets", "images", "michaeljordan.jpeg")), filename:"michaeljordan.jpeg", content_type: "image/jpeg" }
+          photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
+        # famous_player.photo.attach(io: file, filename: "nes.png", content_type: "image/png")
+        # famous_player.save
       },
       "2" => {
         positions_name: "Small Forward",
@@ -98,7 +103,8 @@ BASKETBALL = {
           famous_player_name: "Lebron James",
           individual_milestones: "4x NBA Finals MVP, 4x NBA MVP",
           team_trophies_won: "4x NBA Champion, 2x Olympic gold medal",
-          teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA"
+          teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA",
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
       },
       "3" => {
@@ -114,7 +120,8 @@ BASKETBALL = {
           famous_player_name: "Tim Duncan",
           individual_milestones: "3x NBA Finals MVP, 2x NBA MVP",
           team_trophies_won: "5x NBA Champion",
-          teams_countries: "San Antonio Spurs, Team USA"
+          teams_countries: "San Antonio Spurs, Team USA",
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
       },
       "4" => {
@@ -130,7 +137,8 @@ BASKETBALL = {
           famous_player_name: "Shaquille O'Neal",
           individual_milestones: "3x NBA Finals MVP, NBA MVP",
           team_trophies_won: "4x NBA Champion, Olympic gold medal",
-          teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA"
+          teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA",
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
       }
     }

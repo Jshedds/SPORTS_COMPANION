@@ -668,7 +668,7 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Vulnerable to sacks, heavy defensive pressure"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Tom Brady",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers"

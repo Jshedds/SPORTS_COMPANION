@@ -28,8 +28,23 @@
     <% end %>
   <% end %>
 <% else %>
-  <%= "You haven't added any favourites yet" %>
+  <%= "You haven't added any Sports to you favourites yet" %>
     <%= link_to sports_path do %>
       <%=  render_icon "add" %>
       <% end %>
 <% end%>
+
+<h4> My <%= render_icon("favourite") %> Positions</h4>
+
+<% if @favourite_positions.exists? %>
+  <% @favourite_positions.each do |favourite_position| %>
+  <% if favourite_position.positions_name == "Point Guard" %>
+    <%= link_to render_icon("bball"), sport_position_path(@sport, favourite_position) %>
+    <% end %>
+  <% end %>
+<% else %>
+ <%= "You haven't added any Positions to your favourites yet" %>
+    <%= link_to sports_path do %>
+      <%=  render_icon "add" %>
+    <% end %>
+  <% end %>

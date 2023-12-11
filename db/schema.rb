@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_08_095904) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_11_145338) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -54,6 +54,15 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_08_095904) do
     t.bigint "position_id"
     t.string "individual_milestones"
     t.index ["position_id"], name: "index_famous_players_on_position_id"
+  end
+
+  create_table "favourite_positions", force: :cascade do |t|
+    t.bigint "position_id", null: false
+    t.bigint "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["position_id"], name: "index_favourite_positions_on_position_id"
+    t.index ["user_id"], name: "index_favourite_positions_on_user_id"
   end
 
   create_table "favourites", force: :cascade do |t|
@@ -154,6 +163,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_08_095904) do
   add_foreign_key "descriptions", "positions"
   add_foreign_key "equipment_needs", "sports"
   add_foreign_key "famous_players", "positions"
+  add_foreign_key "favourite_positions", "positions"
+  add_foreign_key "favourite_positions", "users"
   add_foreign_key "favourites", "sports"
   add_foreign_key "favourites", "users"
   add_foreign_key "histories", "sports"

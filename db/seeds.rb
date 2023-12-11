@@ -1325,7 +1325,8 @@ ICE_HOCKEY = {
         famous_player_name: "Patrick Roy",
         individual_milestones: "4-time Stanley Cup champion, 3-time Conn Smythe Trophy winner",
         team_trophies_won: "Montreal Canadiens, Colorado Avalanche",
-        teams_countries: "Canada"
+        teams_countries: "Canada",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1341,7 +1342,8 @@ ICE_HOCKEY = {
         famous_player_name: "Bobby Orr",
         individual_milestones: "8-time Norris Trophy winner, 2-time Stanley Cup Champion",
         team_trophies_won: "Boston Bruins",
-        teams_countries: "Canada"
+        teams_countries: "Canada",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1357,7 +1359,8 @@ ICE_HOCKEY = {
         famous_player_name: "Wayne Gretzky",
         individual_milestones: "All-time leading scorer, 4-time Stanley Cup champion",
         team_trophies_won: "Edmonton Oilers, Los Angeles Kings",
-        teams_countries: "Canada"
+        teams_countries: "Canada",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1373,7 +1376,8 @@ ICE_HOCKEY = {
         famous_player_name: "Jaromir Jagr",
         individual_milestones: "2-time Stanley Cup champion, 5-time Art Ross Trophy winner",
         team_trophies_won: "Pittsburgh Penguins",
-        teams_countries: "Czech Republic"
+        teams_countries: "Czech Republic",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1389,7 +1393,8 @@ ICE_HOCKEY = {
         famous_player_name: "Luc Robitaille",
         individual_milestones: "1-time Stanley Cup champion, 1-time Calder Trophy winner",
         team_trophies_won: "Los Angeles Kings",
-        teams_countries: "Canada"
+        teams_countries: "Canada",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }

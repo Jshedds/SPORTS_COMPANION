@@ -20,6 +20,9 @@
     <% elsif @sport.name == "Volleyball" %>
       <%  court_bg_image = 'volleyball_court.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <% elsif @sport.name == "Curling" %>
+      <%  court_bg_image = 'curling_court.jpg' %>
+        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
   <% end %>
 
   <div class="positions">
@@ -51,6 +54,10 @@
       <% elsif @sport.name == "Rugby Union" %>
         <%= link_to sport_position_path(@sport, position) do %>
           <%= render_icon "rugby_jersey" %>
+        <% end %>
+      <% elsif @sport.name == "Curling" %>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <%= render_icon "curling_jersey" %>
         <% end %>
       <% end %>
     <% end %>

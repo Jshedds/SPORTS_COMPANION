@@ -22,6 +22,8 @@
     <% background_image = 'baseball.jpg' %>
     <% elsif sport.name == "Ice Hockey" %>
     <% background_image = 'icehockey.jpg' %>
+    <% elsif sport.name == "Curling" %>
+    <% background_image = 'curling.jpg' %>
   <% end %>
     <div class="sport-image" style="background-image: url(<%= image_path background_image %>)"><h3><%= sport.name %></h3></div>
   <% end %>

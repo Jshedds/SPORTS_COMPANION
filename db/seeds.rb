@@ -1447,11 +1447,11 @@ VOLLEYBALL = {
 }
 
 CURLING = {
-  name:"Curling",
+  name: "Curling",
   overview_attributes: {
     short_description: "Curling is a team sport, played on ice, where two teams take it in turns to slide stones made of granite towards a target. Traditional teams have 4 players of the same gender, where each player throws 2 stones alternatively with the opposition. Mixed doubles is another format where 2 players one male and one female play on a team together. There are usually between 8-10 ends per match.",
     game_objective: "To have as many stones as close to the center of the house over the other team and to stop the other team from scoring any points.",
-    governing_body_url: "worldcurling.org/about/curling/"
+    governing_body_url: "https://www.worldcurling.org/about/curling/"
   },
   equipment_need_attributes: {
     footwear: "Curling shoes, one sole grips the ice, the other one, called a slider, is slippery and allows the curler to slide with a stone",

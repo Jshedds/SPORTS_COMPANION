@@ -6,25 +6,16 @@
   </div>
 <% end %>
 
-<% @sports.each do |sport| %>
-  <%= link_to sport_path(sport) do %>
-  <% if sport.name == "Basketball" %>
-    <% background_image = 'basketball.jpg' %>
-    <% elsif sport.name == "Football" %>
-    <% background_image = 'soccer.jpg' %>
-    <% elsif sport.name == "Rugby Union" %>
-    <% background_image = 'rugby.jpg' %>
-    <% elsif sport.name == "Volleyball" %>
-    <% background_image = 'volleyball.jpg' %>
-    <% elsif sport.name == "American Football" %>
-    <% background_image = 'football.jpg' %>
-    <% elsif sport.name == "Baseball" %>
-    <% background_image = 'baseball.jpg' %>
-    <% elsif sport.name == "Ice Hockey" %>
-    <% background_image = 'icehockey.jpg' %>
-    <% elsif sport.name == "Curling" %>
-    <% background_image = 'curling.jpg' %>
+<div class='my-grid'>
+  <% @sports.each do |sport| %>
+
+      <%= link_to sport_path(sport) do %>
+        <div class="dashcard">
+          <div class='card-content'>
+            <%= sport.name %>
+          </div>
+         </div>
+      <% end %>
+
   <% end %>
-    <div class="sport-image" style="background-image: url(<%= image_path background_image %>)"><h3><%= sport.name %></h3></div>
-  <% end %>
-<% end %>
+</div>

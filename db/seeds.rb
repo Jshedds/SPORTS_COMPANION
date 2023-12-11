@@ -374,10 +374,26 @@ RUGBY_UNION = {
   },
   rule_attributes: {
     game_duration: "80 minutes at professional level",
-    scoring: " When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
+    scoring: "When a player crosses the try line and touches the ball down they get 5 points for a try, from this a member of the team attempts to kick a conversion worth 2 points if it goes between the posts. If foul play occurs, the team awarded a penalty may try and kick the ball from a tee between the posts which is worth 3 points. In open play a player may do a drop goal where the ball bounces before being kicked through the posts, also worth 3 points",
     player_per_team: 15,
     referees: 3,
-    most_important_rules: "fill here",
+    most_important_rules: "FORWARD PASS: The ball must be passed backward or sideways from the hands. Passing the ball forward is considered illegal and results in a scrum for the opposition.
+
+    OFFSIDE RULE: Players must be behind the hindmost foot of their teammates during open play. Being in front of the hindmost foot is considered offside and can result in penalties.
+
+    SCRUM: Occurs after minor infractions or knock-ons (where the ball is accidentally knocked forward). Forwards from each team bind together and contest for possession of the ball by pushing against each other.
+
+    LINEOUT: When the ball goes out of play, a lineout is awarded to restart play. Players from both teams compete to catch the ball when it's thrown back into play from the sideline.
+
+    RUCK: Forms when a player is tackled and brought to the ground but doesn't release the ball. Players from both teams bind together and attempt to win possession of the ball using their feet.
+
+    MAUL: Similar to a ruck, but players bind together while on their feet after a tackle, with the ball held off the ground. Players can push and drive forward to gain ground while retaining possession of the ball.
+
+    TACKLING RULES: Tackles must be made below the line of the shoulders and without lifting opponents dangerously. High tackles or dangerous tackles can result in penalties or cards.
+
+    ADVANTAGE RULE: Referees can allow play to continue after an infringement if the non-offending team gains an advantage. If no advantage is gained, play is brought back, and a penalty may be awarded.
+
+    FAIR PLAY AND DISCIPLINE: Respect for the referee's decisions, sportsmanship, and discipline are crucial aspects of the game. Foul play, such as deliberate foul play, can result in penalties, yellow cards, or red cards.",
     field_size: "100m long, 70m wide",
     field_type: "Primarily grass, but can also be played on artificial grass"
   },
@@ -386,213 +402,21 @@ RUGBY_UNION = {
       positions_name: "Loosehead Prop",
       positions_tag: "LH",
       description_attributes: {
-        overview_of_position: "Last line of defense, positioned behind the main defensive line",
-        primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
-        strengths: "High ball catching, kicking, positional play",
-        weaknesses: "Physical duels, tackling in open play"
+        overview_of_position: "Front-row forward, provides stability in scrums on the left/outside of scrum.",
+        primary_objectives: "Scrummaging, supporting in open play, tackling, lifting in the lineout, carrying.",
+        strengths: "Scrummaging technique, physicality, work rate",
+        weaknesses: "Mobility, ball-handling"
       },
       famous_player_attributes: {
         famous_player_name: "Tendai Mtawarira",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Sharks"
+        individual_milestones: "117 South Africa Appearances",
+        team_trophies_won: "2019 World Cup",
+        teams_countries: "South Africa, Sharks, Old Glory DC"
       }
     },
     "1" => {
       positions_name: "Hooker",
       positions_tag: "H",
-      description_attributes: {
-        overview_of_position: "Speedy winger positioned on the right flank",
-        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
-        strengths: "Pace, try-scoring ability, agility",
-        weaknesses: "Physical marking, defensive responsibilities"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Keith Wood",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "British & Irish Lions, Ireland, Munster, Harlequins"
-      }
-    },
-    "2" => {
-      positions_name: "Tighthead Prop",
-      positions_tag: "TH",
-      description_attributes: {
-        overview_of_position: "Midfielder in the backline, often part of attacking plays",
-        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
-        strengths: "Running lines, passing, defensive skills",
-        weaknesses: "Physical collisions, tackling in open play"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Adam Jones",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
-      }
-    },
-    "3" => {
-      positions_name: "Second Row",
-      positions_tag: "SR",
-      description_attributes: {
-        overview_of_position: "Key playmaker, responsible for directing the team's attack",
-        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
-        strengths: "Kicking accuracy, tactical awareness, playmaking",
-        weaknesses: "Physical tackling, pressure situations"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Martin Johnson",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "British & Irish Lions, England, Leicester Tigers"
-      }
-    },
-    "4" => {
-      positions_name: "Second Row",
-      positions_tag: "SR",
-      description_attributes: {
-        overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
-        primary_objectives: "Quick distribution, organizing forwards, defensive work",
-        strengths: "Passing accuracy, speed, game management",
-        weaknesses: "Physical challenges, tackling largers opponents"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Eben Etzebeth",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
-      }
-    },
-    "5" => {
-      positions_name: "Blindside Flanker",
-      positions_tag: "BF",
-      description_attributes: {
-        overview_of_position: "Midfielder in the backline, often part of attacking plays",
-        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
-        strengths: "Running lines, passing, defensive skills",
-        weaknesses: "Physical collisions, tackling in open play"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Siya Kolisi",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Sharks, Racing "
-      }
-    },
-    "6" => {
-      positions_name: "Openside Flanker",
-      positions_tag: "OF",
-      description_attributes: {
-        overview_of_position: "Speedy winger positioned on the left flank",
-        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
-        strengths: "Pace, try-scoring ability, agility",
-        weaknesses: "Physical marking, defensive responsibilities"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Richie Mccaw",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, Crusaders"
-      }
-    },
-    "7" => {
-      positions_name: "Number 8",
-      positions_tag: "N8",
-      description_attributes: {
-        overview_of_position: "Key playmaker, responsible for directing the team's attack",
-        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
-        strengths: "Kicking accuracy, tactical awareness, playmaking",
-        weaknesses: "Physical tackling, pressure situations"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Sergio Parisse",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Italy, Stade Francais, "
-      }
-    },
-    "8" => {
-      positions_name: "Scrum Half",
-      positions_tag: "SH",
-      description_attributes: {
-        overview_of_position: "Back-row forward, often the primary ball carrier",
-        primary_objectives: "Running with the ball, supporting in the open play, leading the forward pack",
-        strengths: "Ball-carrying, lineout work, leadership",
-        weaknesses: "Defensive responsiblities, breakdown challenges"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Antoine Dupont",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "France, Toulouse"
-      }
-    },
-    "9" => {
-      positions_name: "Stand Off",
-      positions_tag: "SO",
-      description_attributes: {
-        overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
-        primary_objectives: "Tackling, competing for the ball, supporting in open play",
-        strengths: "Tackling, breakdown work, agility",
-        weaknesses: "Ball-carrying, lineout challenges"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Dan Carter",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Dan Carter, Crusaders, Racing "
-      }
-    },
-    "10" => {
-      positions_name: "Left Wing",
-      positions_tag: "LW",
-      description_attributes: {
-        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
-        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
-        strengths: "Lineout work, physicality, set-piece play",
-        weaknesses: "Mobility, open-play speed"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Jonah Lomu",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, "
-      }
-    },
-    "11" => {
-      positions_name: "Inside Centre",
-      positions_tag: "IC",
-      description_attributes: {
-        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
-        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
-        strengths: "Lineout work, physicality, set-piece play",
-        weaknesses: "Mobility, open-play speed"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Ma'a Nonu",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "New Zealand, Hurricanes, "
-      }
-    },
-    "12" => {
-      positions_name: "Outside Centre",
-      positions_tag: "OC",
-      description_attributes: {
-        overview_of_position: "Front-row forward, provides stability in scrums",
-        primary_objectives: "Scrummaging, supporting in open play, tackling",
-        strengths: "Scrummaging technique, physicality, work rate",
-        weaknesses: "Mobility, ball-handling"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Brian O'Driscoll",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Ireland, Leinster"
-      }
-    },
-    "13" => {
-      positions_name: "Right Wing",
-      positions_tag: "RW",
       description_attributes: {
         overview_of_position: "Front-row forward, throws the ball into lineouts",
         primary_objectives: "Lineout throwing, scrummaging, tackling",
@@ -600,15 +424,15 @@ RUGBY_UNION = {
         weaknesses: "Open-play mobility, ball-carrying"
       },
       famous_player_attributes: {
-        famous_player_name: "Bryan Habana",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "South Africa, Toulon, "
+        famous_player_name: "Sean Fitzpatrick",
+        individual_milestones: "92 New Zealand Appearances, New Zealand Captain 1992-1997",
+        team_trophies_won: "1987 World Cup, 2x Tri Nations, 9 Bledisloe Cups & a British & Irish Lions series Victory 1993",
+        teams_countries: "New Zealand, Auckland Blues, Auckland"
       }
     },
-    "14" => {
-      positions_name: "Fullback",
-      positions_tag: "FB",
+    "2" => {
+      positions_name: "Tighthead Prop",
+      positions_tag: "TH",
       description_attributes: {
         overview_of_position: "Front-row forward, provides stability in scrums",
         primary_objectives: "Scrummaging, supporting in open play, tackling",
@@ -616,9 +440,202 @@ RUGBY_UNION = {
         weaknesses: "Mobility, ball-handling"
       },
       famous_player_attributes: {
+        famous_player_name: "Adam Jones",
+        individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
+        team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
+        teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins"
+      }
+    },
+    "3" => {
+      positions_name: "Second Row",
+      positions_tag: "SR",
+      description_attributes: {
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Martin Johnson",
+        individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
+        team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 English Premiership Titles & 2 European Cups",
+        teams_countries: "British & Irish Lions, England, Leicester Tigers"
+      }
+    },
+    "4" => {
+      positions_name: "Second Row",
+      positions_tag: "SR",
+      description_attributes: {
+        overview_of_position: "Second-row forward, key figure in lineouts and scrums",
+        primary_objectives: "Lineout jumping, scrummaging, ball-carrying",
+        strengths: "Lineout work, physicality, set-piece play",
+        weaknesses: "Mobility, open-play speed"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Eben Etzebeth",
+        individual_milestones: "119 South Africa Appearances",
+        team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship, 2012 Currie Cup,",
+        teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province"
+      }
+    },
+    "5" => {
+      positions_name: "Blindside Flanker",
+      positions_tag: "BF",
+      description_attributes: {
+        overview_of_position: "Back-row forward, specializes in winning possession and disrupting the opposition",
+        primary_objectives: "Tackling, competing for the ball, supporting in open play",
+        strengths: "Tackling, breakdown work, agility",
+        weaknesses: "Ball-carrying, lineout challenges"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Siya Kolisi",
+        individual_milestones: "Captain of back to back world cup winning South African squad, first black captain of South Africa rugby & 83 South Africa appearances",
+        team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship & 2021 British & Irish Lions Series",
+        teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92"
+      }
+    },
+    "6" => {
+      positions_name: "Openside Flanker",
+      positions_tag: "OF",
+      description_attributes: {
+        overview_of_position: "Back-row forward, specializes in winning turnovers at rucks and disrupting the opposition",
+        primary_objectives: "Tackling, competing for the ball, supporting in open play",
+        strengths: "Tackling, breakdown work, agility",
+        weaknesses: "Ball-carrying, lineout challenges"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Richie Mccaw",
+        individual_milestones: "148 New Zealand Appearances - 110 as captain",
+        team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
+        teams_countries: "New Zealand, Crusaders, Canterbury"
+      }
+    },
+    "7" => {
+      positions_name: "Number 8",
+      positions_tag: "N8",
+      description_attributes: {
+        overview_of_position: "Back-row forward, often the primary ball carrier",
+        primary_objectives: "Running with the ball, supporting in the open play, breakdown work",
+        strengths: "Ball-carrying, lineout work, leadership",
+        weaknesses: "Defensive responsiblities, breakdown challenges"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Sergio Parisse",
+        individual_milestones: "142 Italy Appearances",
+        team_trophies_won: "2x French Top 14 Champions & 2x European Challenge Cups",
+        teams_countries: "Italy, Stade Francais, "
+      }
+    },
+    "8" => {
+      positions_name: "Scrum Half",
+      positions_tag: "SH",
+      description_attributes: {
+        overview_of_position: "Link between forwards and backs, delivers the ball from scrums and rucks",
+        primary_objectives: "Quick distribution, organizing forwards, defensive work",
+        strengths: "Passing accuracy, speed, game management",
+        weaknesses: "Physical challenges, tackling largers opponents"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Antoine Dupont",
+        individual_milestones: "52 French Appearances, 2021 World Rugby Player of the Year, 3x Six Nations Player of the Tournament, 1x European Player of the Year",
+        team_trophies_won: "1x European Rugby Champions Cup, 3x Top 14 titles, 1x Six Nations Championship",
+        teams_countries: "France, Toulouse"
+      }
+    },
+    "9" => {
+      positions_name: "Stand Off",
+      positions_tag: "SO",
+      description_attributes: {
+        overview_of_position: "Key playmaker, responsible for directing the team's attack",
+        primary_objectives: "Kicking for territory, orchestrating backline moves, decision-making",
+        strengths: "Kicking accuracy, tactical awareness, playmaking",
+        weaknesses: "Physical tackling, pressure situations"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Dan Carter",
+        individual_milestones: "112 New Zealand Appearances, 2005/2012/2015 World Rugby Player of the Year, All time International Rugby Leading Points Scorer",
+        team_trophies_won: "2011 & 2015 World Cup, 9 Tri Nations/Rugby Championship Titles, 13 Bledisloe Cups British & Irish Lions Series, 3x Super Rugby Titles, 1x Top 14 Title, 1x Top League Title",
+        teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury"
+      }
+    },
+    "10" => {
+      positions_name: "Left Wing",
+      positions_tag: "LW",
+      description_attributes: {
+        overview_of_position: "Speedy winger positioned on the left flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Jonah Lomu",
+        individual_milestones: "73 New Zealand Appearances, 1995 World Cup player of the tournament. Often attributed as the first true superstar of rugby.",
+        team_trophies_won: "1998 Commonwealth Games Gold, New Zealand 7's",
+        teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues"
+      }
+    },
+    "11" => {
+      positions_name: "Inside Centre",
+      positions_tag: "IC",
+      description_attributes: {
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
+
+      },
+      famous_player_attributes: {
+        famous_player_name: "Ma'a Nonu",
+        individual_milestones: "103 New Zealand Appearances",
+        team_trophies_won: "2011 & 2015 World Cups, 5 Tri Nations/Rugby Championships, 8 Bledisloe Cups, 1x Super Rugby Title, 1x Top 14 Title",
+        teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams "
+      }
+    },
+    "12" => {
+      positions_name: "Outside Centre",
+      positions_tag: "OC",
+      description_attributes: {
+        overview_of_position: "Midfielder in the backline, often part of attacking plays",
+        primary_objectives: "Creating attacking opportunities, defending against opposition centers",
+        strengths: "Running lines, passing, defensive skills",
+        weaknesses: "Physical collisions, tackling in open play"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Brian O'Driscoll",
+        individual_milestones: "133 Ireland Appearances, 8 British & Irish Lions Appearances, British & Irish Lions Captain 2005 & Six Nations all Time Top Try Scorer",
+        team_trophies_won: "2013 British & Irish Lions Series, 2x Six Nations Titles (1 Grand Slam), 3x European Cups, 1x European Challenge Cups & 4x League Titles",
+        teams_countries: "Ireland, Leinster"
+      }
+    },
+    "13" => {
+      positions_name: "Right Wing",
+      positions_tag: "RW",
+      description_attributes: {
+        overview_of_position: "Speedy winger positioned on the right flank",
+        primary_objectives: "Finishing tries, supporting attacks, defending against opposition wingers",
+        strengths: "Pace, try-scoring ability, agility",
+        weaknesses: "Physical marking, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Bryan Habana",
+        individual_milestones: "124 South Africa Appearances, 67 International Tries & 3x South Africa Rugby Union Player of the Year",
+        team_trophies_won: "2007 World Cup, British & Irish Lions Series, 2x Currie Cup, 2x Super Rugby Title, 1x Tri-Nations Title, 2x European Champions Cup, 1x Top 14 Title",
+        teams_countries: "South Africa, Toulon, Bulls, Stormers "
+      }
+    },
+    "14" => {
+      positions_name: "Fullback",
+      positions_tag: "FB",
+      description_attributes: {
+        overview_of_position: "Last line of defense, positioned behind the main defensive line" ,
+        primary_objectives: "Fielding kicks, counter-attacking, supporting the backline",
+        strengths: "High ball catching, kicking, positional play",
+        weaknesses: "Physical duels, tackling in open play"
+      },
+      famous_player_attributes: {
         famous_player_name: "Stuart Hogg",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "100 Scotland Appearances, 2 British & Irish Lions Appearances, Six Nations Player of the Championship 2016 & 2017, Scotland Captain, Scotland's record try scorer",
+        team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs"
       }
     }
@@ -1428,8 +1445,114 @@ VOLLEYBALL = {
     }
   }
 }
+
+CURLING = {
+  name:"Curling",
+  overview_attributes: {
+    short_description: "Curling is a team sport, played on ice, where two teams take it in turns to slide stones made of granite towards a target. Traditional teams have 4 players of the same gender, where each player throws 2 stones alternatively with the opposition. Mixed doubles is another format where 2 players one male and one female play on a team together. There are usually between 8-10 ends per match.",
+    game_objective: "To have as many stones as close to the center of the house over the other team and to stop the other team from scoring any points.",
+    governing_body_url: "worldcurling.org/about/curling/"
+  },
+  equipment_need_attributes: {
+    footwear: "Curling shoes, one sole grips the ice, the other one, called a slider, is slippery and allows the curler to slide with a stone",
+    required_equipment: "Set of stones, made of a special type of granite, a brush",
+    safety_gear: "Correct footwear",
+    infrastructure: "Push off block. properly prepared ice sheet with all markings",
+    clothing: "Jumper, Short Sleeve, Athletic Trousers"
+  },
+  history_attributes: {
+    invented: "16th Century",
+    creator: "No specific creator",
+    country_of_origin: "Scotland",
+    most_successful_teams: "Canada, Sweden, Switzerland & Scotland/Great Britain",
+    milestones: "Introduced as a medal event to the Winter Olympics in 1998"
+  },
+  terminology_attributes: {
+    most_important_terms: "HOUSE - The circular target area at each end of the ice sheet where scoring takes place. STONE/ROCK - The granite stone used in curling, each team delivers 8 stones per end. END - A segment of the game where each team delivers all of its stones, alternating with the opposing team. HOG LINE - A line on the ice that the stone must cross during the delivery phase, stones not released before the hog line are removed from play. TAKEOUT: A shot aimed at removing an opponent's stone from play by hitting it with significant force. DRAW: A shot that aims to place the stone in the house without hitting other stones, relying on weight and precision. GUARD: A stone placed in front of the house, intended to protect other stones from being removed or to block the opponent's path. HAMMER: The last stone in an end, which provides a strategic advantage as it allows the team to have the final shot.",
+  },
+  rule_attributes: {
+    game_duration: "Between 2 and 2 and a half hours",
+    scoring: "The team that has the stone closest to the middle gets a point for every stone closer to the middle until the opposition stone is next.",
+    player_per_team: 4,
+    referees: 0,
+    most_important_rules: "DELIVERY AND HOG LINE: The stone must be released before reaching the hog line (a specific line on the ice), or it will be removed from play.
+    SWEEPING: Teammates can sweep the ice in front of the stone to affect its speed, direction, and curl. However, there are rules regarding when and how sweeping can be done.
+    SCORING: Points are awarded based on stone placement in the house (the circular target area). Only stones within the house at the end of an end are counted towards scoring.
+    GUARD ZONE & FREE GUARD ZONE RULE: The first four stones of an end can't be removed from play by the opposition until after the fifth stone is delivered (Free Guard Zone Rule).
+    STONE PLACEMENT: Stones must come to rest within the playing area and not be touching the backline or outside of the sidelines.",
+    field_size: "45m long, and a max of 5m wide.",
+    field_type: "Ice Sheet"
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Skip",
+      positions_tag: "S",
+      description_attributes: {
+        overview_of_position: "Is the team captain and throws the final 2 stones, makes the final decisions, may have to make any shots dependent on the situation",
+        primary_objectives: "Strategist and plans out the shots, calls the shots for what the other players should do and how to brush, makes the pressure shots at the end of each end.",
+        strengths: "Strategic Acumen, Decision Making, Leadership, Shot Execution, Communication",
+        weaknesses: "Physical Execution, Limited Viewpoint, Pressure & Responsibility, Communication Challenges"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Bruce Moaut",
+        individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
+        team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
+        teams_countries: "Great Britain, Scotland as skip of Team Moaut"
+      }
+    },
+      "1" => {
+        positions_name: "Vice",
+        positions_tag: "V",
+        description_attributes: {
+          overview_of_position: "They throw the 5th and 6th stones, while the skip throws their stones they act as the strategist.",
+          primary_objectives: "Will usually throw draws or takeouts, will sweep when the lead or second are throwing their stones.",
+          strengths: "Supporting Skip's Decisions, Shot Execution, Strategy Understanding, Team Communication, Adaptable & Flexible",
+          weaknesses: "Pressure in Decision Making, Execution Consistency, Dependency on Skip's Decision, Handling Stress"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Kaitlyn Lawes",
+        individual_milestones: "Captained 2008 team to Junior World Championships",
+        team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
+        teams_countries: "Canada as part of Team Jones"
+      }
+    },
+      "2" => {
+        positions_name: "Second",
+      positions_tag: "SE",
+      description_attributes: {
+        overview_of_position: "Throws the 3rd and 4th stone of for their team, when not throwing the sweep for all other players on their team.",
+        primary_objectives: "Will usually throw takeouts or draws.",
+        strengths: "Shot Execution, Sweeping Expertise, Assisting in Strategy, Adaptability, Team Communication",
+        weaknesses: "Pressure In Execution, Decision Making Constraints, Managing Stress, Dependency on Skip's Decision"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Rasmus Wranå",
+        individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
+        team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
+        teams_countries: "Sweden as part of Team Edin"
+      }
+    },
+      "3" => {
+        positions_name: "Lead",
+        positions_tag: "L",
+        description_attributes: {
+          overview_of_position: "Throws the first 2 stones of the end for their team and will then sweep for everyone else.",
+          primary_objectives: "Will usually have to throw guards or draws.",
+          strengths: "Shot Execution, Sweeping Expertise, Drawing Skills, Early Strategy Contributions, Team Communication",
+          weaknesses: "Pressure in Execution, Decision Making Constraints, Limited Role Flexibility, Managing Stress, Dependency on Skip's Decision"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Hailey Duff",
+        individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
+        team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
+        teams_countries: "Great Britain, Scotland as part of Team Muirhead"
+      }
+    }
+  }
+}
+
 puts "Creating new sports..."
-[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL].each do |attributes|
+[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL, CURLING].each do |attributes|
   sport = Sport.create!(attributes)
   puts "Created #{sport.name}"
 end

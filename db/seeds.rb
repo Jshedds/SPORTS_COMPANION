@@ -1447,7 +1447,8 @@ VOLLEYBALL = {
         famous_player_name: "Karch Kiraly",
         individual_milestones: "3-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "United States",
-        teams_countries: "United States"
+        teams_countries: "United States",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1463,7 +1464,8 @@ VOLLEYBALL = {
         famous_player_name: "Giba",
         individual_milestones: "3-time Olympic gold medalist, 8-time World Champion",
         team_trophies_won: "Brazil",
-        teams_countries: "Brazil"
+        teams_countries: "Brazil",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1479,7 +1481,8 @@ VOLLEYBALL = {
         famous_player_name: "Dmitriy Muserskiy",
         individual_milestones: "2-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "Russia",
-        teams_countries: "Russia"
+        teams_countries: "Russia",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1495,7 +1498,8 @@ VOLLEYBALL = {
         famous_player_name: "Tsvetan Sokolov",
         individual_milestones: "Olympic silver medalist, World Championship silver medalist",
         team_trophies_won: "Bulgaria",
-        teams_countries: "Bulgaria"
+        teams_countries: "Bulgaria",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1511,7 +1515,8 @@ VOLLEYBALL = {
         famous_player_name: "Sergio Santos",
         individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
         team_trophies_won: "Brazil",
-        teams_countries: "Brazil"
+        teams_countries: "Brazil",
+        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
       }
     }
   }

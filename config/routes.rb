@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   resources :sports do
-    resources :favourites, only: %i[create destroy]
+    resources :favourites, only: %i[create]
     resources :equipment_needs, only: %i[create update]
     resources :histories, only: %i[create update]
     resources :overviews, only: %i[create update]
@@ -25,6 +25,9 @@ Rails.application.routes.draw do
       resources :famous_players, only: %i[create update]
     end
   end
+
+  resources :favourites, only: %i[destroy]
+
   # Defines the root path route ("/")
   # root "posts#index"
   get "dashboard", to: "users#show", as: "dashboard"

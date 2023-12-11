@@ -16,6 +16,7 @@ class FavouritesController < ApplicationController
 
   def destroy
     @favourite = Favourite.find(params[:id])
+    # @sport = Sport.find(params[:sport_id])
     # @favourite.sport = @sport
     # @favourite.user = current_user
     authorize @favourite

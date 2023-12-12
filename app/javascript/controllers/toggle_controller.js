@@ -2,7 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="toggle"
 export default class extends Controller {
-  static targets = ["togglableElement", "searchBar"]
+  static targets = ["togglableElement"]
 
   connect() {
   }
@@ -19,10 +19,6 @@ export default class extends Controller {
         behavior: "smooth"
       });
     }
-  }
-  toggleSearchBar() {
-    const searchBar = this.element.nextElementSibling;
-    searchBar.classList.toggle("d-none");
   }
 }
 

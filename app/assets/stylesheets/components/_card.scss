@@ -67,3 +67,23 @@
     transform: rotateZ(0);
   }
 }
+
+.card-styles {
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+// ^^^ glassmorphism (lifts the grid, looks like tiles)
+
+body {
+  /* Set the background image */
+  background-image: url('american_football_pitch.jpg');
+  /* Specify how the background image should be repeated */
+  background-repeat: no-repeat;
+  /* Specify the size of the background image */
+  background-size: cover;
+}

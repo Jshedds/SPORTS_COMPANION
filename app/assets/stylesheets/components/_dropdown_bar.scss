@@ -1,17 +1,27 @@
 .tab {
   border-radius: 15px;
+  margin-bottom: 10px;
+  border: solid 5px black;
+  text-decoration: none;
+  background: #00000000;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  font-size:x-large;
+  font-family: "Russo One", "sans-serif";
+}
+
+.information{
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 25px;
+  border: 2.5px solid black;
   padding: 5px;
   margin-bottom: 10px;
-  text-align: center;
-  padding: 5px;
-  border: solid 8px;
-  border-color: black;
-  background-size: cover;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  position: relative;
-  background-color: white;
 }
-.information {
 
-}

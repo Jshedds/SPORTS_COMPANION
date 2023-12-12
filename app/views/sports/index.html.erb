@@ -16,7 +16,7 @@
   <div class='my-grid'>
     <% @sports.each do |sport| %>
         <%= link_to sport_path(sport) do %>
-          <div class="dashcard">
+          <div class="dashcard card-styles">
             <div class='card-content'>
               <% icon_name = sport_icons[sport.name] %>
               <div class="sport-sign">

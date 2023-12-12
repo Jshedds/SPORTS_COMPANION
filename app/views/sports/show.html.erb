@@ -27,15 +27,6 @@
     <% end %>
   </div>
 
-
-  <div class="chatroom-btn">
-    <%= link_to render_icon("chatroom"), sport_chatroom_path(@sport, @chatroom) %>
-  </div>
-
-  <div class="all-sports-btn">
-    <%= link_to render_icon("all_sports"), sports_path %>
-  </div>
-
   <% if current_user && policy(Sport).edit? %>
     <div class="edit-btn">
       <%= link_to edit_sport_path do %>

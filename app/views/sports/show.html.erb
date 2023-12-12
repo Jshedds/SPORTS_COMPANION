@@ -1,7 +1,3 @@
-<div class="sport-title">
-  <h1><%= @sport.name %></h1>
-</div>
-
 <div class="show-sport-btns">
   <div class="favourite-btn">
     <% if @current_user && @current_user.favourites.exists?(sport_id: @sport.id) %>
@@ -36,30 +32,58 @@
   <% end %>
 </div>
 
-
-<br>
-<br>
-<div class="tab">
-  <h4><STRONG>OVERVIEW</STRONG></h4>
-</div>
-  <%= render "overviews/overview" %>
-<div class="tab">
-  <h4><STRONG><%= link_to "POSITIONS", sport_positions_path(@sport) %></STRONG></h4>
+<div class="sport-title">
+  <h1><%= @sport.name.upcase %></h1>
 </div>
 
-<div class="tab">
-  <h4><STRONG>RULES</STRONG></h4>
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>OVERVIEW</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "overviews/overview" %>
+  </div>
 </div>
-  <%= render "rules/rule" %>
-<div class="tab">
-  <h4><STRONG>TERMINOLOGY</STRONG></h4>
+
+<%= link_to sport_positions_path(@sport) do %>
+  <div class="tab">
+    <h4><STRONG>POSITIONS</STRONG></h4>
+  </div>
+<% end %>
+
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>RULES</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "rules/rule" %>
+  </div>
 </div>
-  <%= render "terminologies/terminology" %>
-<div class="tab">
-  <h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+
+
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>TERMINOLOGY</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "terminologies/terminology" %>
+  </div>
 </div>
-  <%= render "equipment_needs/equipment_need" %>
-<div class="tab">
-  <h4><STRONG>HISTORY</STRONG></h4>
+
+  <div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "equipment_needs/equipment_need" %>
+  </div>
 </div>
-  <%= render "histories/history" %>
+
+  <div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <h4><STRONG>HISTORY</STRONG></h4>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none">
+    <%= render "histories/history" %>
+  </div>
+</div>

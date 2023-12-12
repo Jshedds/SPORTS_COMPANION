@@ -9,8 +9,9 @@ class SportsController < ApplicationController
 
   def show
     # @sport = Sport.find(params[:id])
-    @favourite = Favourite.new
     @sport = Sport.find(params[:id])
+    @favourite = Favourite.find_by(user: current_user, sport: @sport)
+    @favourite ||= Favourite.new
     authorize @sport
   end
 

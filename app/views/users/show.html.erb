@@ -5,7 +5,7 @@
     </div>
 </div>
 
-<h4> My <%= render_icon("favourite") =%> Sports</h4>
+<h4> My <%= render_icon("unfavourite") =%> Sports</h4>
 
 <% if @favourites.exists? %>
   <% @favourites.each do |favourite| %>
@@ -23,11 +23,20 @@
       <%= link_to render_icon("volleyball"), sport_path(favourite.sport) %>
     <% elsif favourite.sport.name == "Ice Hockey" %>
       <%= link_to render_icon("icehockey"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Curling" %>
+      <%= link_to render_icon("curling"), sport_path(favourite.sport) %>
     <% end %>
   <% end %>
 <% else %>
-  <%= "You haven't added any favourites yet" %>
+  <%= "You haven't added any sports to your favourites yet" %>
     <%= link_to sports_path do %>
       <%=  render_icon "add" %>
       <% end %>
 <% end%>
+
+<h4> My <%= render_icon("unfavourite") %> Positions</h4>
+
+  <%= "You haven't added any positions to your favourites yet" %>
+    <%= link_to sports_path do %>
+      <%=  render_icon "add" %>
+    <% end %>

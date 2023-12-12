@@ -1,3 +1,6 @@
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
 
   <% if @sport.name == "Basketball" %>
       <%  court_bg_image = 'bball_court.jpg' %>
@@ -62,6 +65,3 @@
       <% end %>
     <% end %>
   </div>
-    <%= link_to sport_path(@sport) do %>
-      <%= render_icon "back" %>
-    <% end %>

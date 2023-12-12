@@ -1,5 +1,8 @@
 <div class="show-sport-btns">
   <div class="favourite-btn">
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
     <% if @current_user && @current_user.favourites.exists?(sport_id: @sport.id) %>
       <%= link_to favourite_path(@favourite), data: { turbo_method: :delete } do %>
         <%= render_icon "unfavourite" %>

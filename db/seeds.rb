@@ -912,7 +912,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.profootballhistory.com/wp-content/uploads/2022/06/Reggie-White-scaled.jpg"), filename:"reggie_white.jpg", content_type: "url" }
       }
     },
     "12" => {
@@ -929,7 +929,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/q3KpO6k--J3elhX76WkeUrTR_0I=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23240038/1370407811.jpg"), filename:"aaron_donald.jpg", content_type: "url" }
       }
     },
     "13" => {
@@ -946,7 +946,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.enterprisenews.com/gcdn/authoring/2015/12/09/NENT/ghows-WL-40bd53c6-da12-4e75-b431-4e1befabf8d3-8666e750.jpeg?width=660&height=448&fit=crop&format=pjpg&auto=webp"), filename:"vince_wilfork.jpg", content_type: "url" }
       }
     },
     "14" => {
@@ -963,7 +963,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://i.insider.com/6026eae82edd0f001a8d5a59?width=700"), filename:"jj_watt.img", content_type: "url" }
       }
     },
     "15" => {
@@ -980,7 +980,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.denverpost.com/wp-content/uploads/2020/08/Pick_Six_Bounce-backs__Football_17849.jpg?w=525"), filename:"von_miller.jpg", content_type: "url" }
       }
     },
     "16" => {
@@ -997,7 +997,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://i.cbc.ca/1.1563354.1379049146!/httpImage/image.jpg_gen/derivatives/16x9_780/urlacher-2012.jpg"), filename:"brian_urlacher.jpg", content_type: "url" }
       }
     },
     "17" => {
@@ -1014,7 +1014,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://nypost.com/wp-content/uploads/sites/2/2022/12/lawrence-taylor-giants-commanders.jpg"), filename:"lawrence_taylor.jpg", content_type: "url" }
       }
     },
     "18" => {
@@ -1031,7 +1031,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://compote.slate.com/images/4c2c07c0-cc04-4ad6-a654-4450dcc85eaa.jpg"), filename:"richard_sherman.jpg", content_type: "url" }
       }
     },
     "19" => {
@@ -1048,7 +1048,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.bleacherreport.net/images_root/slides/photos/000/356/789/93484679_original.jpg?1282587232"), filename:"darrelle_revis.jpg", content_type: "url" }
       }
     },
     "20" => {
@@ -1061,11 +1061,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Balancing run support and pass coverage"
       },
       famous_player_attributes: {
-        famous_player_name: "Earl Thomas",
+        famous_player_name: "Ed Reed",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.si.com/.image/t_share/MTY4MjYyODY2MTkwMDgzMzQ5/ed-reedjpg.jpg"), filename:"ed_reed.jpg", content_type: "url" }
       }
     },
     "21" => {
@@ -1082,7 +1082,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://static.clubs.nfl.com/image/private/t_editorial_landscape_mobile/f_auto/steelers/rznu3fiv4ovxaodhbdwo.jpg"), filename:"troy_polamalu.jpg", content_type: "url" }
       }
     }
   }

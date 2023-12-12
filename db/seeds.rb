@@ -1326,7 +1326,7 @@ ICE_HOCKEY = {
         individual_milestones: "4-time Stanley Cup champion, 3-time Conn Smythe Trophy winner",
         team_trophies_won: "Montreal Canadiens, Colorado Avalanche",
         teams_countries: "Canada",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://i.ebayimg.com/images/g/1D4AAOxymHRRxezu/s-l1600.jpg"), filename:"patrick_roy.jpg", content_type: "url" }
       }
     },
     "1" => {
@@ -1343,7 +1343,7 @@ ICE_HOCKEY = {
         individual_milestones: "8-time Norris Trophy winner, 2-time Stanley Cup Champion",
         team_trophies_won: "Boston Bruins",
         teams_countries: "Canada",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.si.com/.image/t_share/MTk1NjA0NDU3MDAwNjA4ODI5/090003787-copy.jpg"), filename:"bobby_orr.jpg", content_type: "url" }
       }
     },
     "2" => {
@@ -1360,7 +1360,7 @@ ICE_HOCKEY = {
         individual_milestones: "All-time leading scorer, 4-time Stanley Cup champion",
         team_trophies_won: "Edmonton Oilers, Los Angeles Kings",
         teams_countries: "Canada",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.britannica.com/72/189172-050-04CF2E70/Wayne-Gretzky-New-York-Rangers.jpg"), filename:"wayne_gretzky.jpg", content_type: "url" }
       }
     },
     "3" => {
@@ -1377,7 +1377,7 @@ ICE_HOCKEY = {
         individual_milestones: "2-time Stanley Cup champion, 5-time Art Ross Trophy winner",
         team_trophies_won: "Pittsburgh Penguins",
         teams_countries: "Czech Republic",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.nhlpa.com/img/assets/nhlpa.com/gallery/15f3ec40-9fb1-4658-a4c7-7f9070a56cc2/GettyImages-626525658.jpg"), filename:"jaromir_jagr.jpg", content_type: "url" }
       }
     },
     "4" => {
@@ -1394,7 +1394,7 @@ ICE_HOCKEY = {
         individual_milestones: "1-time Stanley Cup champion, 1-time Calder Trophy winner",
         team_trophies_won: "Los Angeles Kings",
         teams_countries: "Canada",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.dailybreeze.com/wp-content/uploads/migration/2009/200906/NEWS_906239762_AR_0_0.jpg?w=535"), filename:"luc_robitaille.jpg", content_type: "url" }
       }
     }
   }

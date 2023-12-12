@@ -756,9 +756,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Rob Gronkowski",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "5x Super Bowl champion, 4x First-team All-Pro, 5x Pro Bowl",
+        team_trophies_won: "New England Patriots: 4x Super Bowl champion, Tampa Bay Buccaneers: 1x Super Bowl champion",
+        teams_countries: "New England Patriots, Tampa Bay Buccaneers",
         photo: { io: URI.open("https://img.vavel.com/gronk-1564484577291.jpg"), filename:"rob_gronkowski.jpg", content_type: "url" }
       }
     },
@@ -773,9 +773,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Calvin 'Megatron' Johnson",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "6x Pro Bowl, 3x First-team All-Pro, NFL Offensive Rookie of the Year (2007), 2x NFL receiving yards leader",
+        team_trophies_won: "None",
+        teams_countries: "Detroit Lions",
         photo: { io: URI.open("https://npr.brightspotcdn.com/legacy/sites/michigan/files/201602/calvin-johnson-lions-2015.jpg"), filename:"calvin_johnson.jpg", content_type: "url" }
       }
     },
@@ -790,9 +790,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Jerry Rice",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "13x Pro Bowl, 10x First-team All-Pro, NFL MVP (1987)",
+        team_trophies_won: "San Francisco 49ers: 3x Super Bowl champion",
+        teams_countries: "San Francisco 49ers, Oakland Raiders, Seattle Seahawks, Denver Broncos",
         photo: { io: URI.open("https://hbr.org/resources/images/article_assets/2022/08/R2205P_JERRY_RICE_TOC.jpg"), filename:"jerry_rice.jpg", content_type: "url" }
       }
     },
@@ -807,9 +807,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Larry Fitzgerald",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "11x Pro Bowl, 1x First-team All-Pro, Walter Payton NFL Man of the Year Award (2016)",
+        team_trophies_won: "1x NFC champion (2008)",
+        teams_countries: "Arizona Cardinals",
         photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/kRVkslAtPRqGoKy8fCAfXM3EqXE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22344086/usa_today_14991716.jpg"), filename:"larry_fitzgerald.jpg", content_type: "url" }
       }
     },
@@ -824,9 +824,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Johnathan Ogden",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "11x Pro Bowl, 5x First-team All-Pro, NFL 2000s All-Decade Team",
+        team_trophies_won: "Super Bowl XXXV with the Baltimore Ravens",
+        teams_countries: "Baltimore Ravens",
         photo: { io: URI.open("https://assets.sbnation.com/imported_assets/7317/39872864.jpg"), filename:"johnathan_ogden.jpg", content_type: "url" }
       }
     },
@@ -841,9 +841,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Larry Allen",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "11x Pro Bowl, 7x First-team All-Pro, NFL 1990s All-Decade Team, NFL 2000s All-Decade Team",
+        team_trophies_won: "Super Bowl XXVIII with the Dallas Cowboys",
+        teams_countries: "Dallas Cowboys, San Francisco 49ers",
         photo: { io: URI.open("https://i0.wp.com/insidethestar.com/wp-content/uploads/2017/04/jess-haynie_-65-e1493047199769.jpg?fit=1300%2C793&ssl=1"), filename:"larry_allen.jpg", content_type: "url" }
       }
     },
@@ -858,9 +858,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Jason Kelce",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "4x Pro Bowl, 3x First-team All-Pro",
+        team_trophies_won: "Super Bowl LII with the Philadelphia Eagles",
+        teams_countries: "Philadelphia Eagles",
         photo: { io: URI.open("https://people.com/thmb/Gqn_j6ya4NU34-ETL59orpYsUwo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jason-kelce-020123-1-719c575ec86547029b40f15c142f9303.jpg"), filename:"jason_kelce.jpg", content_type: "url" }
       }
     },
@@ -875,9 +875,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Zack Martin",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "7x Pro Bowl, 4x First-team All-Pro, NFL 2010s All-Decade Team",
+        team_trophies_won: "None",
+        teams_countries: "Dallas Cowboys",
         photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/QV4E-c8eQ6JKskhcAp4Zg7_xL8o=/0x0:2048x2968/1200x800/filters:focal(744x692:1070x1018)/cdn.vox-cdn.com/uploads/chorus_image/image/67561285/usa_today_12003539.0.jpg"), filename:"zack_martin.jpg", content_type: "url" }
       }
     },
@@ -892,9 +892,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Orlando Pace",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "7x Pro Bowl, 3x First-team All-Pro, NFL 2000s All-Decade Team",
+        team_trophies_won: "Super Bowl XXXIV with the St. Louis Rams",
+        teams_countries: "St. Louis Rams, Chicago Bears",
         photo: { io: URI.open("https://i.pinimg.com/originals/84/86/13/8486134bf6418a23ec34c4fe069f7d4b.jpg"), filename:"orlando_pace.jpg", content_type: "url" }
       }
     },

@@ -1,20 +1,30 @@
-<% if current_user && policy(Sport).new? %>
-  <div class="admin-add-btn">
-    <%= link_to new_sport_path do %>
-      <%= render_icon "add" %>
+<% sport_icons = {
+     "Basketball" => "bball_index",
+     "Football" => "football_index",
+     "Rugby Union" => "rugby_index",
+     "American Football" => "american_foot_index",
+     "Baseball" => "baseball_index",
+     "Volleyball" => "volleybal_index",
+     "Ice Hockey" => "icehockey_index",
+     "Curling" => "curling_index"
+   }
+%>
+<div class="sport-index-title">
+  <h1>Your game, your guide, your choice!</h1>
+</div>
+<div class="my-grid-container">
+  <div class='my-grid'>
+    <% @sports.each do |sport| %>
+        <%= link_to sport_path(sport) do %>
+          <div class="dashcard">
+            <div class='card-content'>
+              <% icon_name = sport_icons[sport.name] %>
+              <div class="sport-sign">
+                  <%= render_icon(icon_name) %>
+              </div>
+                </div>
+            </div>
+        <% end %>
     <% end %>
   </div>
-<% end %>
-
-<div class='my-grid'>
-  <% @sports.each do |sport| %>
-
-      <%= link_to sport_path(sport) do %>
-        <div class="dashcard">
-          <div class='card-content'>
-            <%= sport.name %>
-          </div>
-         </div>
-      <% end %>
-  <% end %>
 </div>

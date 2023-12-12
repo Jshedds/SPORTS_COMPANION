@@ -9,12 +9,13 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
-  <body>
-    <% unless controller_name == "pages" && action_name == "home" %>
-      <%= render "shared/navbar" %>
-    <% end %>
-      <%= render "shared/flashes" %>
-      <%= yield %>
-  </body>
+  <div class="container">
+    <body>
+      <% unless controller_name == "pages" && action_name == "home" %>
+        <%= render "shared/navbar" %>
+      <% end %>
+        <%= render "shared/flashes" %>
+        <%= yield %>
+    </body>
+  </div>
 </html>

@@ -4,16 +4,10 @@
     <%= link_to render_icon("home"), root_path, class: "nav-link" %>
     <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
     <%= link_to render_icon("profile"), dashboard_path, class: "nav-link" %>
-    <div data-controller="toggle">
-      <div data-action="click->toggle#fire">
-        <%= "🔍" %>
-      </div>
-      <div data-toggle-target="togglableElement" class="d-none">
-        <div class="row justify-content-center ">
-          <%# <%= render "athletes/new" %> %>
-        </div>
-      </div>
-    </div>
+
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        🔍
+      </button>
     <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
   <% else %>
     <%= link_to "🏠", root_path, class: "nav-link" %>
@@ -21,7 +15,37 @@
     <%= link_to "⚽", sports_path, class: "nav-link" %>
   <% end %>
 </div>
+    <div data-controller="modal">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-modal-target="first">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <%# <%= render "athletes/new" %>
+              <input type="text" data-modal-target="input">
+              <button data-action="click->modal#find">Find</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div class="container">
+       <%# <% if session[:modal] == true %>
+        <div class="modal fade" id="athleteShow" tabindex="-1" aria-labelledby="exampleModalLabel" data-modal-target="second" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" data-modal-target="athlete">
+                <%# <%= render "athletes/ai_response" %>
 
-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <%# <% end %>

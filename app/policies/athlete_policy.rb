@@ -15,4 +15,8 @@ class AthletePolicy < ApplicationPolicy
   def show?
     true
   end
+
+  def find_or_create?
+    true
+  end
 end

@@ -1,7 +1,3 @@
-<div class="sport-title">
-  <h1><%= @sport.name %></h1>
-</div>
-
 <div class="show-sport-btns">
   <div class="favourite-btn">
     <% if @current_user && @current_user.favourites.exists?(sport_id: @sport.id) %>
@@ -45,9 +41,10 @@
   <% end %>
 </div>
 
+<div class="sport-title">
+  <h1><%= @sport.name.upcase %></h1>
+</div>
 
-<br>
-<br>
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
     <h4><STRONG>OVERVIEW</STRONG></h4>
@@ -57,9 +54,11 @@
   </div>
 </div>
 
-<div class="tab">
-  <h4><STRONG><%= link_to "POSITIONS", sport_positions_path(@sport) %></STRONG></h4>
-</div>
+<%= link_to sport_positions_path(@sport) do %>
+  <div class="tab">
+    <h4><STRONG>POSITIONS</STRONG></h4>
+  </div>
+<% end %>
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
@@ -97,4 +96,3 @@
     <%= render "histories/history" %>
   </div>
 </div>
-

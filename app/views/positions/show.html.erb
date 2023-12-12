@@ -1,8 +1,9 @@
 
 
 <h1><strong><%= @position.positions_name.upcase %></strong></h1>
-
-<% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
+<br>
+<div class="show-sport-btns">
+  <% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
     <%= link_to favourite_position_path(@favourite_position), data: { turbo_method: :delete } do %>
       <%= render_icon "unfavourite" %>
     <% end %>
@@ -13,6 +14,7 @@
     <% else %>
       <%= link_to render_icon("favourite"), new_user_session_path %>
   <% end %>
+</div>
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
@@ -21,7 +23,7 @@
   <div data-toggle-target="togglableElement" class="d-none">
     <%= render "descriptions/description" %>
   </div>
-  
+
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
     <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
@@ -35,6 +37,7 @@
 <br>
   <% if @sport.name == "Basketball" %>
     <%= link_to render_icon("bball"), sport_path(@sport) %>
+
   <% elsif @sport.name == "Football" %>
     <%= link_to render_icon("football"), sport_path(@sport) %>
   <% elsif @sport.name == "American Football" %>

@@ -188,7 +188,7 @@ FOOTBALL = {
         weaknesses: "Vulnerable to one-on-one situations, handling crosses"
       },
       famous_player_attributes: {
-        famous_player_name: "Manuel Neuer",
+        famous_player_name: "Lev Yashin",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Bayern Munich, Germany",
@@ -1574,7 +1574,7 @@ CURLING = {
         individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
         team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
         teams_countries: "Great Britain, Scotland as skip of Team Moaut",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://static.independent.co.uk/2022/02/18/12/b0c041fa4450ae43a806e290aa47623cY29udGVudHNlYXJjaGFwaSwxNjQ1MjY0MzU4-2.65365368.jpg"), filename:"bruce_moaut.jpg", content_type: "url" }
       }
     },
       "1" => {
@@ -1591,7 +1591,7 @@ CURLING = {
         individual_milestones: "Captained 2008 team to Junior World Championships",
         team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
         teams_countries: "Canada as part of Team Jones",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTg3NDE5MjMzNjg3MzE2MjM5/22og_lawes_wcf_feature.jpg"), filename:"kaitlyn_lawes.jpg", content_type: "url" }
       }
     },
       "2" => {
@@ -1608,7 +1608,7 @@ CURLING = {
         individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
         team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
         teams_countries: "Sweden as part of Team Edin",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://bloximages.chicago2.vip.townnews.com/kenoshanews.com/content/tncms/assets/v3/editorial/2/dd/2dd34160-0527-5145-923f-c97cc296121f/5a5ad27ed7b4e.image.jpg?resize=750%2C500"), filename:"rasmus_wrana.jpg", content_type: "url" }
       }
     },
       "3" => {
@@ -1625,7 +1625,7 @@ CURLING = {
         individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
         team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
         teams_countries: "Great Britain, Scotland as part of Team Muirhead",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://pbs.twimg.com/profile_images/1464156706917830670/MKNM1Hci_400x400.jpg"), filename:"hailey_duff.jpg", content_type: "url" }
       }
     }
   }

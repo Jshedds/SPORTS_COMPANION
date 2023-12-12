@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'favourite_positions/create'
+  get 'favourite_positions/destroy'
   get 'equipment_needs/new'
   get 'equipment_needs/create'
   devise_for :users
@@ -27,6 +29,12 @@ Rails.application.routes.draw do
   end
 
   resources :favourites, only: %i[destroy]
+
+  resources :positions, only: [] do
+    resources :favourite_positions, only: %i[create]
+  end
+
+  resources :favourite_positions, only: %i[destroy]
 
   # Defines the root path route ("/")
   # root "posts#index"

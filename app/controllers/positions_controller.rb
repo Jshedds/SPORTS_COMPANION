@@ -10,6 +10,8 @@ class PositionsController < ApplicationController
   def show
     @sport = Sport.find(params[:sport_id])
     @position = Position.find(params[:id])
+    @favourite_position = FavouritePosition.find_by(user: current_user, position: @position)
+    @favourite_position ||= FavouritePosition.new
     authorize @position
   end
 

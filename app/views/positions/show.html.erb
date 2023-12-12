@@ -1,4 +1,4 @@
-<div class="show-sport-btns">
+<div class="show-positions-btns">
   <%= link_to render_icon("back"), sport_positions_path(@sport) %>
   <% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
     <%= link_to favourite_position_path(@favourite_position), data: { turbo_method: :delete } do %>

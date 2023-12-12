@@ -50,6 +50,12 @@
   margin-bottom: 10px;
 }
 
+.show-positions-btns {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
 .chatroom-btn {
   text-decoration: none;
   margin-right: 20px;

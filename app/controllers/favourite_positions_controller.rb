@@ -10,11 +10,9 @@ class FavouritePositionsController < ApplicationController
     @sport = @position.sport
     authorize @favourite_position
     if @favourite_position.save
-      # rubocop:disable Layout/LineLength
-      redirect_to sport_position_path(@sport, @position), notice: "#{@position.positions_name} has successfully been added to your favourites"
-      # rubocop:enable Layout/LineLength
+      redirect_to sport_position_path(@sport, @position)
     else
-      redirect_to sport_position_path(@sport, @position), notice: "#{@position.positions_name} has already been added to your favourites"
+      redirect_to sport_position_path(@sport, @position)
     end
   end
 
@@ -24,8 +22,6 @@ class FavouritePositionsController < ApplicationController
     @sport = @position.sport
     authorize @favourite_position
     @favourite_position.destroy
-    # rubocop:disable Layout/LineLength
-    redirect_to sport_position_path(@sport, @position), notice: "#{@position.positions_name} has sucessfully been removed from your favourites"
-    # rubocop:enable Layout/LineLength
+    redirect_to sport_position_path(@sport, @position)
   end
 end

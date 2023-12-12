@@ -1,6 +1,7 @@
 class Position < ApplicationRecord
   has_one :description, dependent: :destroy
   has_one :famous_player, dependent: :destroy
+  belongs_to :sport
 
   validates :positions_name, presence: true
   validates :positions_tag, presence: true

@@ -67,7 +67,7 @@ BASKETBALL = {
           individual_milestones: "1st overall pick, 3x NBA Finals MVP, 3x NBA MVP",
           team_trophies_won: "5x NBA Champion, Olympic gold medal",
           teams_countries: "LA Lakers, Team USA",
-          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"magic_johnson.jpg", content_type: "image/jpg" }
         }
       },
       "1" => {
@@ -85,7 +85,7 @@ BASKETBALL = {
           individual_milestones: "6x NBA Finals MVP, 5x NBA MVP",
           team_trophies_won: "6x NBA Champion, 2x Olympic gold medal",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA",
-          photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/png" }
+          photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/jpeg" }
         }
         # famous_player.photo.attach(io: file, filename: "nes.png", content_type: "image/png")
         # famous_player.save
@@ -104,7 +104,7 @@ BASKETBALL = {
           individual_milestones: "4x NBA Finals MVP, 4x NBA MVP",
           team_trophies_won: "4x NBA Champion, 2x Olympic gold medal",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA",
-          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
+          photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"), filename:"lebron_james.png", content_type: "image/jpg" }
         }
       },
       "3" => {
@@ -121,7 +121,7 @@ BASKETBALL = {
           individual_milestones: "3x NBA Finals MVP, 2x NBA MVP",
           team_trophies_won: "5x NBA Champion",
           teams_countries: "San Antonio Spurs, Team USA",
-          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
+          photo: { io: URI.open("https://www.usatoday.com/gcdn/-mm-/cccaacda38df0eea5050262c546beafa9d46a733/c=0-152-3031-1864/local/-/media/2016/07/11/USATODAY/USATODAY/636038294784773256-c02-refer-0512.jpg?width=3031&height=1712&fit=crop&format=pjpg&auto=webp"), filename:"tim_duncan.jpg", content_type: "image/jpg" }
         }
       },
       "4" => {
@@ -138,7 +138,7 @@ BASKETBALL = {
           individual_milestones: "3x NBA Finals MVP, NBA MVP",
           team_trophies_won: "4x NBA Champion, Olympic gold medal",
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA",
-          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"michael_jordan.png", content_type: "image/png" }
+          photo: { io: URI.open("https://fanatics.frgimages.com/los-angeles-lakers/shaquille-oneal-los-angeles-lakers-unsigned-hardwood-classics-one-handed-dunk-photograph_pi4286000_ff_4286841-12eb589e1ee2e250de46_full.jpg?_hv=2&w=900"), filename:"shaquille_oneal.jpg", content_type: "image/jpg" }
         }
       }
     }
@@ -192,7 +192,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Bayern Munich, Germany",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "1" => {
@@ -209,7 +209,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Barcelona, Brazil",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "2" => {
@@ -226,7 +226,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "3" => {
@@ -243,7 +243,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "4" => {
@@ -260,7 +260,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "5" => {
@@ -277,7 +277,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "6" => {
@@ -294,7 +294,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "7" => {
@@ -311,7 +311,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "8" => {
@@ -328,7 +328,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "9" => {
@@ -345,7 +345,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     },
     "10" => {
@@ -362,7 +362,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
       }
     }
   }
@@ -432,7 +432,7 @@ RUGBY_UNION = {
         individual_milestones: "117 South Africa Appearances",
         team_trophies_won: "2019 World Cup",
         teams_countries: "South Africa, Sharks, Old Glory DC",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.telegraph.co.uk/content/dam/rugby-union/2018/06/15/TELEMMGLPICT000166456965_trans_NvBQzQNjv4BqMjPWPHf5q-JhUxIktoXFkj5f2T7WLORUbRU7GLk1HF4.jpeg"), filename:"tendai_mtawarira.jpeg", content_type: "image/jpeg" }
       }
     },
     "1" => {
@@ -449,7 +449,7 @@ RUGBY_UNION = {
         individual_milestones: "92 New Zealand Appearances, New Zealand Captain 1992-1997",
         team_trophies_won: "1987 World Cup, 2x Tri Nations, 9 Bledisloe Cups & a British & Irish Lions series Victory 1993",
         teams_countries: "New Zealand, Auckland Blues, Auckland",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ILopt5WWX-LHoTtZ9wnlRkbbUXBuuOL8mw&usqp=CAU"), filename:"sean_fitzpatrick.img", content_type: "url" }
       }
     },
     "2" => {
@@ -466,7 +466,7 @@ RUGBY_UNION = {
         individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
         team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://e2.365dm.com/16/10/1600x900/skysports-rugby-adam-jones-harlequins_3805432.jpg"), filename:"adam_jones", content_type: "url" }
       }
     },
     "3" => {
@@ -483,7 +483,7 @@ RUGBY_UNION = {
         individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
         team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 English Premiership Titles & 2 European Cups",
         teams_countries: "British & Irish Lions, England, Leicester Tigers",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.englandrugby.com//dxdam/65/65b2931b-c93c-44da-a557-f42aace5066e/GettyImages-1069518.jpg"), filename:"martin_johnson.jpg", content_type: "url" }
       }
     },
     "4" => {
@@ -500,7 +500,7 @@ RUGBY_UNION = {
         individual_milestones: "119 South Africa Appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship, 2012 Currie Cup,",
         teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.reuters.com/resizer/MWLNSv9hCwfZO2NhgVZCaSs4igc=/1920x2400/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3HG4ZLNVOZOQTBGHKG6X75IGGE.jpg"), filename:"eben_etzebeth.jpg", content_type: "url" }
       }
     },
     "5" => {
@@ -517,7 +517,7 @@ RUGBY_UNION = {
         individual_milestones: "Captain of back to back world cup winning South African squad, first black captain of South Africa rugby & 83 South Africa appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship & 2021 British & Irish Lions Series",
         teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://s3.amazonaws.com/sportgomag.com/live/wp-content/uploads/2019/07/19201004/Siya.jpg"), filename:"siya_koliski.jpg", content_type: "url" }
       }
     },
     "6" => {
@@ -534,7 +534,7 @@ RUGBY_UNION = {
         individual_milestones: "148 New Zealand Appearances - 110 as captain",
         team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
         teams_countries: "New Zealand, Crusaders, Canterbury",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://a.espncdn.com/i/rugby/scrum/120667.jpg"), filename:"richie_mccaw.jpg", content_type: "url" }
       }
     },
     "7" => {
@@ -551,7 +551,7 @@ RUGBY_UNION = {
         individual_milestones: "142 Italy Appearances",
         team_trophies_won: "2x French Top 14 Champions & 2x European Challenge Cups",
         teams_countries: "Italy, Stade Francais, ",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://prod-media.beinsports.com/image/1679832377897_ed353168-aca9-4cd1-90c5-63ce6121671b.jpg"), filename:"sergio_parisse.jpg", content_type: "url" }
       }
     },
     "8" => {
@@ -568,7 +568,7 @@ RUGBY_UNION = {
         individual_milestones: "52 French Appearances, 2021 World Rugby Player of the Year, 3x Six Nations Player of the Tournament, 1x European Player of the Year",
         team_trophies_won: "1x European Rugby Champions Cup, 3x Top 14 titles, 1x Six Nations Championship",
         teams_countries: "France, Toulouse",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://static.independent.co.uk/2023/09/22/14/0575687694f1b82486153fa497637925Y29udGVudHNlYXJjaGFwaSwxNjk1NDc0MjE0-2.73654539.jpg"), filename:"antoine_dupont.jpg", content_type: "url" }
       }
     },
     "9" => {
@@ -585,7 +585,7 @@ RUGBY_UNION = {
         individual_milestones: "112 New Zealand Appearances, 2005/2012/2015 World Rugby Player of the Year, All time International Rugby Leading Points Scorer",
         team_trophies_won: "2011 & 2015 World Cup, 9 Tri Nations/Rugby Championship Titles, 13 Bledisloe Cups British & Irish Lions Series, 3x Super Rugby Titles, 1x Top 14 Title, 1x Top League Title",
         teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://phantom-marca.unidadeditorial.es/07634ea09692830c0b85f3062368b77a/resize/828/f/jpg/assets/multimedia/imagenes/2021/02/20/16138166403279.jpg"), filename:"dan_carter.jpg", content_type: "url" }
       }
     },
     "10" => {
@@ -602,7 +602,7 @@ RUGBY_UNION = {
         individual_milestones: "73 New Zealand Appearances, 1995 World Cup player of the tournament. Often attributed as the first true superstar of rugby.",
         team_trophies_won: "1998 Commonwealth Games Gold, New Zealand 7's",
         teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.nzhalloffame.co.nz/NZSHOF/files/9a/9ac5a35f-0810-4c91-98df-79014baf1100.jpg"), filename:"jonah_lomu.jpg", content_type: "url" }
       }
     },
     "11" => {
@@ -620,7 +620,7 @@ RUGBY_UNION = {
         individual_milestones: "103 New Zealand Appearances",
         team_trophies_won: "2011 & 2015 World Cups, 5 Tri Nations/Rugby Championships, 8 Bledisloe Cups, 1x Super Rugby Title, 1x Top 14 Title",
         teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams ",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2011/02/21/692626-21511189-2560-1440.jpg"), filename:"maa_nonu.jpg", content_type: "url" }
       }
     },
     "12" => {
@@ -637,7 +637,7 @@ RUGBY_UNION = {
         individual_milestones: "133 Ireland Appearances, 8 British & Irish Lions Appearances, British & Irish Lions Captain 2005 & Six Nations all Time Top Try Scorer",
         team_trophies_won: "2013 British & Irish Lions Series, 2x Six Nations Titles (1 Grand Slam), 3x European Cups, 1x European Challenge Cups & 4x League Titles",
         teams_countries: "Ireland, Leinster",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.laureus.com/getmedia/bc7b3dcc-fd6a-4f8a-9891-ce555bb1e12d/o-driscoll2.jpg?width=646&height=646&ext=.jpg?.CleanImageUrl()"), filename:"brian_odriscoll.jpg", content_type: "url" }
       }
     },
     "13" => {
@@ -654,7 +654,7 @@ RUGBY_UNION = {
         individual_milestones: "124 South Africa Appearances, 67 International Tries & 3x South Africa Rugby Union Player of the Year",
         team_trophies_won: "2007 World Cup, British & Irish Lions Series, 2x Currie Cup, 2x Super Rugby Title, 1x Tri-Nations Title, 2x European Champions Cup, 1x Top 14 Title",
         teams_countries: "South Africa, Toulon, Bulls, Stormers ",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/7/2016/08/HABANA.jpg"), filename:"bryan_habana.jpg", content_type: "url" }
       }
     },
     "14" => {
@@ -671,7 +671,7 @@ RUGBY_UNION = {
         individual_milestones: "100 Scotland Appearances, 2 British & Irish Lions Appearances, Six Nations Player of the Championship 2016 & 2017, Scotland Captain, Scotland's record try scorer",
         team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://e0.365dm.com/23/07/768x432/skysports-stuart-hogg-scotland_6213259.jpg?20230709131019"), filename:"stuart_hogg.jpg", content_type: "url" }
       }
     }
   }

@@ -144,230 +144,6 @@ BASKETBALL = {
     }
 }
 
-FOOTBALL = {
-  name: "Football",
-  overview_attributes: {
-    short_description: "Score goals",
-    game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
-    governing_body_url: "https://www.fifa.com/fifaplus/en"
-  },
-  equipment_need_attributes: {
-    footwear: "Studded football boots",
-    required_equipment: "Matching strips",
-    safety_gear: "Shin pads and padded gloves (for goalkeepers)",
-    infrastructure: "A football pitch",
-    clothing: "Matching shirts, shorts and socks"
-  },
-  history_attributes: {
-    invented: "There aree a lot of depictions to multiple football-like sports played by anciet civilizations but the starting concept of modern football was invented in 1862.",
-    creator: "J. C. Thring",
-    country_of_origin: "England",
-    most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
-    milestones: "fill here"
-  },
-  terminology_attributes: {
-    most_important_terms: "Goal, offside, foul, penalty",
-  },
-  rule_attributes: {
-    game_duration: "Two 45 minutes halves plus compensation",
-    scoring: "The ball enters the goal",
-    player_per_team: 11,
-    referees: 4,
-    most_important_rules: "A match consists of two 45 minutes halves with a 15 minute rest period in between. Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player allowed to handle the ball within the 16,5 meters) and a minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
-    field_size: "A pitch can be a minimum of 45 meters in width and 90 meters in length, and a maximum of 90 meters width and 120 meters length.",
-    field_type: "Natural or artificial grass",
-  },
-  positions_attributes: {
-    "0" => {
-      positions_name: "Goalkeeper",
-      positions_tag: "GK",
-      description_attributes: {
-        overview_of_position: "Last line of defense, prevents the opponent from scoring",
-        primary_objectives: "Stopping shots, organizing the defense, distributing the ball",
-        strengths: "Shot-stopping, command of the penalty area, distribution",
-        weaknesses: "Vulnerable to one-on-one situations, handling crosses"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Lev Yashin",
-        individual_milestones: "FIFA Ballon d'Or winner in 1963",
-        team_trophies_won: "1960 European Championship with the Soviet Union",
-        teams_countries: "Dynamo, Moscow, Soviet Union",
-        photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "image/png" }
-      }
-    },
-    "1" => {
-      positions_name: "Right-back",
-      positions_tag: "RB",
-      description_attributes: {
-        overview_of_position: "Defender on the right side of the backline",
-        primary_objectives: "Defending against wingers, supporting attacks, crossing",
-        strengths: "Tackling, positional awareness, crossing",
-        weaknesses: "Facing skillsful wingers, defensive responsiblities"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Cafu",
-        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002)",
-        team_trophies_won: "Multiple Serie A titles with AC Milan",
-        teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
-        photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "image/png" }
-      }
-    },
-    "2" => {
-      positions_name: "Center-back",
-      positions_tag: "CB",
-      description_attributes: {
-        overview_of_position: "Central defender, anchors the defense",
-        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
-        strengths: "Aerial ability, tackling, leadership",
-        weaknesses: "Pace, one-on-one situations"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Franz Beckenbauer",
-        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990)",
-        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich",
-        teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
-        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "image/png" }
-      }
-    },
-    "3" => {
-      positions_name: "Left-back",
-      positions_tag: "LB",
-      description_attributes: {
-        overview_of_position: "Defender on the left side of the backline",
-        primary_objectives: "Defending against wingers, supporting attacks, crossing",
-        strengths: "Tackling, positional awareness, crossing",
-        weaknesses: "Facing skillsful wingers, defensive responsiblities"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Paolo Maldini",
-        individual_milestones: "Most appearances for AC Milan",
-        team_trophies_won: "Multiple Serie A and Champions League titles with AC Milan",
-        teams_countries: "AC Milan, Italy",
-        photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "image/png" }
-      }
-    },
-    "4" => {
-      positions_name: "Defensive Midfielder",
-      positions_tag: "CDM",
-      description_attributes: {
-        overview_of_position: "Midfielder with a focus on defensive duties",
-        primary_objectives: "Breaking up opposition attacks, shielding the defense",
-        strengths: "Tackling, ball-winning, passing",
-        weaknesses: "Limited goal-scoring, attacking contribution"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Frank Rijkaard",
-        individual_milestones: "UEFA Euro 1988 winner with the Netherlands",
-        team_trophies_won: "AC Milan's European Cup in 1989 and 1990",
-        teams_countries: "Ajax, Real Zaragoza, AC Milan, Netherlands",
-        photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "image/png" }
-      }
-    },
-    "5" => {
-      positions_name: "Central Midfielder",
-      positions_tag: "CM",
-      description_attributes: {
-        overview_of_position: "Midfielder inovlved in both defensive and attacking play",
-        primary_objectives: "Distrubiting the ball, controlling the tempo, joining attacks",
-        strengths: "Passing, vision, work rate",
-        weaknesses: "Limited goal-scoring, defensive responsibilities"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Alfredo Di Stefano",
-        individual_milestones: "Five-time Ballon d'Or runner-up",
-        team_trophies_won: "Multiple European Cups/Champions League titles with Real Madrid",
-        teams_countries: "River Plate, Millonaris, Real Madrid, Espanyol, Argentina, Spain",
-        photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "image/png" }
-      }
-    },
-    "6" => {
-      positions_name: "Attacking Midfielder",
-      positions_tag: "CAM",
-      description_attributes: {
-        overview_of_position: "Midfielder focused on creating scoring opportunities",
-        primary_objectives: "Playmaking, scoring goals, providing assists",
-        strengths: "Dribbling, creativity, goal-scoring",
-        weaknesses: "Defensive responsiblities, physical duels"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Diego Maradona",
-        individual_milestones: "FIFA World Cup winner with Argentina in 1986",
-        team_trophies_won: "Serie A titles with Napoli",
-        teams_countries: "Argentinos Juniors, Boca Juniors, Barcelona, Naples, Seville, Newell's Old Boys, Argentina",
-        photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "image/png" }
-      }
-    },
-    "7" => {
-      positions_name: "Right Winger",
-      positions_tag: "RW",
-      description_attributes: {
-        overview_of_position: "Forward positioned on the right flank",
-        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
-        strengths: "Pace, dribbling, cutting inside",
-        weaknesses: "Defensive responsiblities, physical marking"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Lionel Messi",
-        individual_milestones: "Multiple FIFA Ballon d'Or winner",
-        team_trophies_won: "Numerous La Lifa and Champions League titles with Barcelona",
-        teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
-        photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "image/png" }
-      }
-    },
-    "8" => {
-      positions_name: "Striker",
-      positions_tag: "ST",
-      description_attributes: {
-        overview_of_position: "Primary goal-scorer, positioned centrally",
-        primary_objectives: "Scoring goals, creating space, linking up play",
-        strengths: "Finishing, positioning, physicality",
-        weaknesses: "Defensive responsibilities, marking by defenders"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Pele",
-        individual_milestones: "Three-time FIFA World Cup winner with Brazil",
-        team_trophies_won: "Multiple domestic titles with Santos and New York Cosmos",
-        teams_countries: "Santos, NY Cosmos, Brazil",
-        photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "image/png" }
-      }
-    },
-    "9" => {
-      positions_name: "Left Winger",
-      positions_tag: "LW",
-      description_attributes: {
-        overview_of_position: "Forward positioned on the left flank",
-        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
-        strengths: "Pace, dribbling, cutting inside",
-        weaknesses: "Defensive responsiblities, physical marking"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Cristiano Ronaldo",
-        individual_milestones: "Multiple FIFA Ballon d'Or winner",
-        team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
-        teams_countries: "Sporting Portugal, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
-        photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "image/png" }
-      }
-    },
-    "10" => {
-      positions_name: "Center-back",
-      positions_tag: "CB",
-      description_attributes: {
-        overview_of_position: "Central defender, anchors the defense",
-        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
-        strengths: "Aerial ability, tackling, leadership",
-        weaknesses: "Pace, one-on-one situations"
-      },
-      famous_player_attributes: {
-        famous_player_name: "Bobby Moore",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "West Ham, Fulham, SA Thunder, Seattle Sounders, Herning Fremad, Carolina Lightnin', England",
-        photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "image/png" }
-      }
-    }
-  }
-}
-
 RUGBY_UNION = {
   name: "Rugby Union",
   overview_attributes: {
@@ -672,6 +448,229 @@ RUGBY_UNION = {
         team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs",
         photo: { io: URI.open("https://e0.365dm.com/23/07/768x432/skysports-stuart-hogg-scotland_6213259.jpg?20230709131019"), filename:"stuart_hogg.jpg", content_type: "image/png" }
+      }
+    }
+  }
+}
+FOOTBALL = {
+  name: "Football",
+  overview_attributes: {
+    short_description: "Score goals",
+    game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
+    governing_body_url: "https://www.fifa.com/fifaplus/en"
+  },
+  equipment_need_attributes: {
+    footwear: "Studded football boots",
+    required_equipment: "Matching strips",
+    safety_gear: "Shin pads and padded gloves (for goalkeepers)",
+    infrastructure: "A football pitch",
+    clothing: "Matching shirts, shorts and socks"
+  },
+  history_attributes: {
+    invented: "There aree a lot of depictions to multiple football-like sports played by anciet civilizations but the starting concept of modern football was invented in 1862.",
+    creator: "J. C. Thring",
+    country_of_origin: "England",
+    most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
+    milestones: "fill here"
+  },
+  terminology_attributes: {
+    most_important_terms: "Goal, offside, foul, penalty",
+  },
+  rule_attributes: {
+    game_duration: "Two 45 minutes halves plus compensation",
+    scoring: "The ball enters the goal",
+    player_per_team: 11,
+    referees: 4,
+    most_important_rules: "A match consists of two 45 minutes halves with a 15 minute rest period in between. Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player allowed to handle the ball within the 16,5 meters) and a minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
+    field_size: "A pitch can be a minimum of 45 meters in width and 90 meters in length, and a maximum of 90 meters width and 120 meters length.",
+    field_type: "Natural or artificial grass",
+  },
+  positions_attributes: {
+    "0" => {
+      positions_name: "Goalkeeper",
+      positions_tag: "GK",
+      description_attributes: {
+        overview_of_position: "Last line of defense, prevents the opponent from scoring",
+        primary_objectives: "Stopping shots, organizing the defense, distributing the ball",
+        strengths: "Shot-stopping, command of the penalty area, distribution",
+        weaknesses: "Vulnerable to one-on-one situations, handling crosses"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Lev Yashin",
+        individual_milestones: "FIFA Ballon d'Or winner in 1963",
+        team_trophies_won: "1960 European Championship with the Soviet Union",
+        teams_countries: "Dynamo, Moscow, Soviet Union",
+        photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "image/png" }
+      }
+    },
+    "1" => {
+      positions_name: "Right-back",
+      positions_tag: "RB",
+      description_attributes: {
+        overview_of_position: "Defender on the right side of the backline",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing",
+        strengths: "Tackling, positional awareness, crossing",
+        weaknesses: "Facing skillsful wingers, defensive responsiblities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Cafu",
+        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002)",
+        team_trophies_won: "Multiple Serie A titles with AC Milan",
+        teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
+        photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "image/png" }
+      }
+    },
+    "2" => {
+      positions_name: "Center-back",
+      positions_tag: "CB",
+      description_attributes: {
+        overview_of_position: "Central defender, anchors the defense",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
+        strengths: "Aerial ability, tackling, leadership",
+        weaknesses: "Pace, one-on-one situations"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Franz Beckenbauer",
+        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990)",
+        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich",
+        teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
+        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "image/png" }
+      }
+    },
+    "3" => {
+      positions_name: "Left-back",
+      positions_tag: "LB",
+      description_attributes: {
+        overview_of_position: "Defender on the left side of the backline",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing",
+        strengths: "Tackling, positional awareness, crossing",
+        weaknesses: "Facing skillsful wingers, defensive responsiblities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Paolo Maldini",
+        individual_milestones: "Most appearances for AC Milan",
+        team_trophies_won: "Multiple Serie A and Champions League titles with AC Milan",
+        teams_countries: "AC Milan, Italy",
+        photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "image/png" }
+      }
+    },
+    "4" => {
+      positions_name: "Defensive Midfielder",
+      positions_tag: "CDM",
+      description_attributes: {
+        overview_of_position: "Midfielder with a focus on defensive duties",
+        primary_objectives: "Breaking up opposition attacks, shielding the defense",
+        strengths: "Tackling, ball-winning, passing",
+        weaknesses: "Limited goal-scoring, attacking contribution"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Frank Rijkaard",
+        individual_milestones: "UEFA Euro 1988 winner with the Netherlands",
+        team_trophies_won: "AC Milan's European Cup in 1989 and 1990",
+        teams_countries: "Ajax, Real Zaragoza, AC Milan, Netherlands",
+        photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "image/png" }
+      }
+    },
+    "5" => {
+      positions_name: "Central Midfielder",
+      positions_tag: "CM",
+      description_attributes: {
+        overview_of_position: "Midfielder inovlved in both defensive and attacking play",
+        primary_objectives: "Distrubiting the ball, controlling the tempo, joining attacks",
+        strengths: "Passing, vision, work rate",
+        weaknesses: "Limited goal-scoring, defensive responsibilities"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Alfredo Di Stefano",
+        individual_milestones: "Five-time Ballon d'Or runner-up",
+        team_trophies_won: "Multiple European Cups/Champions League titles with Real Madrid",
+        teams_countries: "River Plate, Millonaris, Real Madrid, Espanyol, Argentina, Spain",
+        photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "image/png" }
+      }
+    },
+    "6" => {
+      positions_name: "Attacking Midfielder",
+      positions_tag: "CAM",
+      description_attributes: {
+        overview_of_position: "Midfielder focused on creating scoring opportunities",
+        primary_objectives: "Playmaking, scoring goals, providing assists",
+        strengths: "Dribbling, creativity, goal-scoring",
+        weaknesses: "Defensive responsiblities, physical duels"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Diego Maradona",
+        individual_milestones: "FIFA World Cup winner with Argentina in 1986",
+        team_trophies_won: "Serie A titles with Napoli",
+        teams_countries: "Argentinos Juniors, Boca Juniors, Barcelona, Naples, Seville, Newell's Old Boys, Argentina",
+        photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "image/png" }
+      }
+    },
+    "7" => {
+      positions_name: "Right Winger",
+      positions_tag: "RW",
+      description_attributes: {
+        overview_of_position: "Forward positioned on the right flank",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
+        strengths: "Pace, dribbling, cutting inside",
+        weaknesses: "Defensive responsiblities, physical marking"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Lionel Messi",
+        individual_milestones: "Multiple FIFA Ballon d'Or winner",
+        team_trophies_won: "Numerous La Lifa and Champions League titles with Barcelona",
+        teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
+        photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "image/png" }
+      }
+    },
+    "8" => {
+      positions_name: "Striker",
+      positions_tag: "ST",
+      description_attributes: {
+        overview_of_position: "Primary goal-scorer, positioned centrally",
+        primary_objectives: "Scoring goals, creating space, linking up play",
+        strengths: "Finishing, positioning, physicality",
+        weaknesses: "Defensive responsibilities, marking by defenders"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Pele",
+        individual_milestones: "Three-time FIFA World Cup winner with Brazil",
+        team_trophies_won: "Multiple domestic titles with Santos and New York Cosmos",
+        teams_countries: "Santos, NY Cosmos, Brazil",
+        photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "image/png" }
+      }
+    },
+    "9" => {
+      positions_name: "Left Winger",
+      positions_tag: "LW",
+      description_attributes: {
+        overview_of_position: "Forward positioned on the left flank",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
+        strengths: "Pace, dribbling, cutting inside",
+        weaknesses: "Defensive responsiblities, physical marking"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Cristiano Ronaldo",
+        individual_milestones: "Multiple FIFA Ballon d'Or winner",
+        team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
+        teams_countries: "Sporting Portugal, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
+        photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "image/png" }
+      }
+    },
+    "10" => {
+      positions_name: "Center-back",
+      positions_tag: "CB",
+      description_attributes: {
+        overview_of_position: "Central defender, anchors the defense",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
+        strengths: "Aerial ability, tackling, leadership",
+        weaknesses: "Pace, one-on-one situations"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Bobby Moore",
+        individual_milestones: "fill here",
+        team_trophies_won: "fill here",
+        teams_countries: "West Ham, Fulham, SA Thunder, Seattle Sounders, Herning Fremad, Carolina Lightnin', England",
+        photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "image/png" }
       }
     }
   }
@@ -1632,7 +1631,7 @@ CURLING = {
 }
 
 puts "Creating new sports..."
-[BASKETBALL, FOOTBALL, RUGBY_UNION, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL, CURLING].each do |attributes|
+[BASKETBALL, RUGBY_UNION, FOOTBALL, AMERICAN_FOOTBALL, VOLLEYBALL, ICE_HOCKEY, BASEBALL, CURLING].each do |attributes|
   sport = Sport.create!(attributes)
   puts "Created #{sport.name}"
 end

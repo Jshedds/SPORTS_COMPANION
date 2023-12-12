@@ -67,7 +67,7 @@ BASKETBALL = {
           individual_milestones: "1st overall pick, 3x NBA Finals MVP, 3x NBA MVP",
           team_trophies_won: "5x NBA Champion, Olympic gold medal",
           teams_countries: "LA Lakers, Team USA",
-          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"magic_johnson.jpg", content_type: "image/jpg" }
+          photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"magic_johnson.jpg", content_type: "image/png" }
         }
       },
       "1" => {
@@ -85,7 +85,7 @@ BASKETBALL = {
           individual_milestones: "6x NBA Finals MVP, 5x NBA MVP",
           team_trophies_won: "6x NBA Champion, 2x Olympic gold medal",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA",
-          photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/jpeg" }
+          photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
         # famous_player.photo.attach(io: file, filename: "nes.png", content_type: "image/png")
         # famous_player.save
@@ -104,7 +104,7 @@ BASKETBALL = {
           individual_milestones: "4x NBA Finals MVP, 4x NBA MVP",
           team_trophies_won: "4x NBA Champion, 2x Olympic gold medal",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA",
-          photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"), filename:"lebron_james.png", content_type: "image/jpg" }
+          photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"), filename:"lebron_james.png", content_type: "image/png" }
         }
       },
       "3" => {
@@ -121,7 +121,7 @@ BASKETBALL = {
           individual_milestones: "3x NBA Finals MVP, 2x NBA MVP",
           team_trophies_won: "5x NBA Champion",
           teams_countries: "San Antonio Spurs, Team USA",
-          photo: { io: URI.open("https://www.usatoday.com/gcdn/-mm-/cccaacda38df0eea5050262c546beafa9d46a733/c=0-152-3031-1864/local/-/media/2016/07/11/USATODAY/USATODAY/636038294784773256-c02-refer-0512.jpg?width=3031&height=1712&fit=crop&format=pjpg&auto=webp"), filename:"tim_duncan.jpg", content_type: "image/jpg" }
+          photo: { io: URI.open("https://www.usatoday.com/gcdn/-mm-/cccaacda38df0eea5050262c546beafa9d46a733/c=0-152-3031-1864/local/-/media/2016/07/11/USATODAY/USATODAY/636038294784773256-c02-refer-0512.jpg?width=3031&height=1712&fit=crop&format=pjpg&auto=webp"), filename:"tim_duncan.jpg", content_type: "image/png" }
         }
       },
       "4" => {
@@ -138,7 +138,7 @@ BASKETBALL = {
           individual_milestones: "3x NBA Finals MVP, NBA MVP",
           team_trophies_won: "4x NBA Champion, Olympic gold medal",
           teams_countries: "Boston Celtics, Cleveland Cavaliers, Phoenix Suns, Miami Heat, LA Lakers, Orlando Magic, Team USA",
-          photo: { io: URI.open("https://fanatics.frgimages.com/los-angeles-lakers/shaquille-oneal-los-angeles-lakers-unsigned-hardwood-classics-one-handed-dunk-photograph_pi4286000_ff_4286841-12eb589e1ee2e250de46_full.jpg?_hv=2&w=900"), filename:"shaquille_oneal.jpg", content_type: "image/jpg" }
+          photo: { io: URI.open("https://fanatics.frgimages.com/los-angeles-lakers/shaquille-oneal-los-angeles-lakers-unsigned-hardwood-classics-one-handed-dunk-photograph_pi4286000_ff_4286841-12eb589e1ee2e250de46_full.jpg?_hv=2&w=900"), filename:"shaquille_oneal.jpg", content_type: "image/png" }
         }
       }
     }
@@ -192,7 +192,7 @@ FOOTBALL = {
         individual_milestones: "FIFA Ballon d'Or winner in 1963",
         team_trophies_won: "1960 European Championship with the Soviet Union",
         teams_countries: "Dynamo, Moscow, Soviet Union",
-        photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "url" }
+        photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -209,7 +209,7 @@ FOOTBALL = {
         individual_milestones: "Two-time FIFA World Cup winner (1994, 2002)",
         team_trophies_won: "Multiple Serie A titles with AC Milan",
         teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
-        photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "url" }
+        photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "image/png" }
       }
     },
     "2" => {
@@ -226,7 +226,7 @@ FOOTBALL = {
         individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990)",
         team_trophies_won: "Multiple Bundesliga titles with Bayern Munich",
         teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
-        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "url" }
+        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "image/png" }
       }
     },
     "3" => {
@@ -243,7 +243,7 @@ FOOTBALL = {
         individual_milestones: "Most appearances for AC Milan",
         team_trophies_won: "Multiple Serie A and Champions League titles with AC Milan",
         teams_countries: "AC Milan, Italy",
-        photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "url" }
+        photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "image/png" }
       }
     },
     "4" => {
@@ -260,7 +260,7 @@ FOOTBALL = {
         individual_milestones: "UEFA Euro 1988 winner with the Netherlands",
         team_trophies_won: "AC Milan's European Cup in 1989 and 1990",
         teams_countries: "Ajax, Real Zaragoza, AC Milan, Netherlands",
-        photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "image/png" }
       }
     },
     "5" => {
@@ -277,7 +277,7 @@ FOOTBALL = {
         individual_milestones: "Five-time Ballon d'Or runner-up",
         team_trophies_won: "Multiple European Cups/Champions League titles with Real Madrid",
         teams_countries: "River Plate, Millonaris, Real Madrid, Espanyol, Argentina, Spain",
-        photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "image/png" }
       }
     },
     "6" => {
@@ -294,7 +294,7 @@ FOOTBALL = {
         individual_milestones: "FIFA World Cup winner with Argentina in 1986",
         team_trophies_won: "Serie A titles with Napoli",
         teams_countries: "Argentinos Juniors, Boca Juniors, Barcelona, Naples, Seville, Newell's Old Boys, Argentina",
-        photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "url" }
+        photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "image/png" }
       }
     },
     "7" => {
@@ -311,7 +311,7 @@ FOOTBALL = {
         individual_milestones: "Multiple FIFA Ballon d'Or winner",
         team_trophies_won: "Numerous La Lifa and Champions League titles with Barcelona",
         teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
-        photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "image/png" }
       }
     },
     "8" => {
@@ -328,7 +328,7 @@ FOOTBALL = {
         individual_milestones: "Three-time FIFA World Cup winner with Brazil",
         team_trophies_won: "Multiple domestic titles with Santos and New York Cosmos",
         teams_countries: "Santos, NY Cosmos, Brazil",
-        photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "url" }
+        photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "image/png" }
       }
     },
     "9" => {
@@ -345,7 +345,7 @@ FOOTBALL = {
         individual_milestones: "Multiple FIFA Ballon d'Or winner",
         team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
         teams_countries: "Sporting Lisbon, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
-        photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "url" }
+        photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "image/png" }
       }
     },
     "10" => {
@@ -362,7 +362,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "West Ham, Fulham, SA Thunder, Seattle Sounders, Herning Fremad, Carolina Lightnin', England",
-        photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "image/png" }
       }
     }
   }
@@ -432,7 +432,7 @@ RUGBY_UNION = {
         individual_milestones: "117 South Africa Appearances",
         team_trophies_won: "2019 World Cup",
         teams_countries: "South Africa, Sharks, Old Glory DC",
-        photo: { io: URI.open("https://www.telegraph.co.uk/content/dam/rugby-union/2018/06/15/TELEMMGLPICT000166456965_trans_NvBQzQNjv4BqMjPWPHf5q-JhUxIktoXFkj5f2T7WLORUbRU7GLk1HF4.jpeg"), filename:"tendai_mtawarira.jpeg", content_type: "image/jpeg" }
+        photo: { io: URI.open("https://www.telegraph.co.uk/content/dam/rugby-union/2018/06/15/TELEMMGLPICT000166456965_trans_NvBQzQNjv4BqMjPWPHf5q-JhUxIktoXFkj5f2T7WLORUbRU7GLk1HF4.jpeg"), filename:"tendai_mtawarira.jpeg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -449,7 +449,7 @@ RUGBY_UNION = {
         individual_milestones: "92 New Zealand Appearances, New Zealand Captain 1992-1997",
         team_trophies_won: "1987 World Cup, 2x Tri Nations, 9 Bledisloe Cups & a British & Irish Lions series Victory 1993",
         teams_countries: "New Zealand, Auckland Blues, Auckland",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ILopt5WWX-LHoTtZ9wnlRkbbUXBuuOL8mw&usqp=CAU"), filename:"sean_fitzpatrick.img", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ILopt5WWX-LHoTtZ9wnlRkbbUXBuuOL8mw&usqp=CAU"), filename:"sean_fitzpatrick.img", content_type: "image/png" }
       }
     },
     "2" => {
@@ -466,7 +466,7 @@ RUGBY_UNION = {
         individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
         team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins",
-        photo: { io: URI.open("https://e2.365dm.com/16/10/1600x900/skysports-rugby-adam-jones-harlequins_3805432.jpg"), filename:"adam_jones", content_type: "url" }
+        photo: { io: URI.open("https://e2.365dm.com/16/10/1600x900/skysports-rugby-adam-jones-harlequins_3805432.jpg"), filename:"adam_jones", content_type: "image/png" }
       }
     },
     "3" => {
@@ -483,7 +483,7 @@ RUGBY_UNION = {
         individual_milestones: "84 England, 8 British & Irish Lions & 362 Leicester Tigers Appearances",
         team_trophies_won: "2003 World Cup, 1995 5 Nations Grand Slam (Undefeated), Captain of the victorious British & Irish Lions 1997 series, 4 English Premiership Titles & 2 European Cups",
         teams_countries: "British & Irish Lions, England, Leicester Tigers",
-        photo: { io: URI.open("https://www.englandrugby.com//dxdam/65/65b2931b-c93c-44da-a557-f42aace5066e/GettyImages-1069518.jpg"), filename:"martin_johnson.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.englandrugby.com//dxdam/65/65b2931b-c93c-44da-a557-f42aace5066e/GettyImages-1069518.jpg"), filename:"martin_johnson.jpg", content_type: "image/png" }
       }
     },
     "4" => {
@@ -500,7 +500,7 @@ RUGBY_UNION = {
         individual_milestones: "119 South Africa Appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship, 2012 Currie Cup,",
         teams_countries: "South Africa, Sharks, Toulon, Stormers, Western Province",
-        photo: { io: URI.open("https://www.reuters.com/resizer/MWLNSv9hCwfZO2NhgVZCaSs4igc=/1920x2400/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3HG4ZLNVOZOQTBGHKG6X75IGGE.jpg"), filename:"eben_etzebeth.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.reuters.com/resizer/MWLNSv9hCwfZO2NhgVZCaSs4igc=/1920x2400/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3HG4ZLNVOZOQTBGHKG6X75IGGE.jpg"), filename:"eben_etzebeth.jpg", content_type: "image/png" }
       }
     },
     "5" => {
@@ -517,7 +517,7 @@ RUGBY_UNION = {
         individual_milestones: "Captain of back to back world cup winning South African squad, first black captain of South Africa rugby & 83 South Africa appearances",
         team_trophies_won: "2019 & 2023 World Cup, 2019 Rugby Championship & 2021 British & Irish Lions Series",
         teams_countries: "South Africa, Western Province, Stormers, Sharks, Racing 92",
-        photo: { io: URI.open("https://s3.amazonaws.com/sportgomag.com/live/wp-content/uploads/2019/07/19201004/Siya.jpg"), filename:"siya_koliski.jpg", content_type: "url" }
+        photo: { io: URI.open("https://s3.amazonaws.com/sportgomag.com/live/wp-content/uploads/2019/07/19201004/Siya.jpg"), filename:"siya_koliski.jpg", content_type: "image/png" }
       }
     },
     "6" => {
@@ -534,7 +534,7 @@ RUGBY_UNION = {
         individual_milestones: "148 New Zealand Appearances - 110 as captain",
         team_trophies_won: "2011 & 2015 World Cup, 10 Tri Nations/RUgby CHampionship titles, 4 Super Rugby Titles 11 Bledisloe Cups & a British & Irish Lions Series",
         teams_countries: "New Zealand, Crusaders, Canterbury",
-        photo: { io: URI.open("https://a.espncdn.com/i/rugby/scrum/120667.jpg"), filename:"richie_mccaw.jpg", content_type: "url" }
+        photo: { io: URI.open("https://a.espncdn.com/i/rugby/scrum/120667.jpg"), filename:"richie_mccaw.jpg", content_type: "image/png" }
       }
     },
     "7" => {
@@ -551,7 +551,7 @@ RUGBY_UNION = {
         individual_milestones: "142 Italy Appearances",
         team_trophies_won: "2x French Top 14 Champions & 2x European Challenge Cups",
         teams_countries: "Italy, Stade Francais, ",
-        photo: { io: URI.open("https://prod-media.beinsports.com/image/1679832377897_ed353168-aca9-4cd1-90c5-63ce6121671b.jpg"), filename:"sergio_parisse.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fgywkhck5ptya1.jpg"), filename: "sergio_parisse.jpg", content_type: "image/png" }
       }
     },
     "8" => {
@@ -568,7 +568,7 @@ RUGBY_UNION = {
         individual_milestones: "52 French Appearances, 2021 World Rugby Player of the Year, 3x Six Nations Player of the Tournament, 1x European Player of the Year",
         team_trophies_won: "1x European Rugby Champions Cup, 3x Top 14 titles, 1x Six Nations Championship",
         teams_countries: "France, Toulouse",
-        photo: { io: URI.open("https://static.independent.co.uk/2023/09/22/14/0575687694f1b82486153fa497637925Y29udGVudHNlYXJjaGFwaSwxNjk1NDc0MjE0-2.73654539.jpg"), filename:"antoine_dupont.jpg", content_type: "url" }
+        photo: { io: URI.open("https://static.independent.co.uk/2023/09/22/14/0575687694f1b82486153fa497637925Y29udGVudHNlYXJjaGFwaSwxNjk1NDc0MjE0-2.73654539.jpg"), filename:"antoine_dupont.jpg", content_type: "image/png" }
       }
     },
     "9" => {
@@ -585,7 +585,7 @@ RUGBY_UNION = {
         individual_milestones: "112 New Zealand Appearances, 2005/2012/2015 World Rugby Player of the Year, All time International Rugby Leading Points Scorer",
         team_trophies_won: "2011 & 2015 World Cup, 9 Tri Nations/Rugby Championship Titles, 13 Bledisloe Cups British & Irish Lions Series, 3x Super Rugby Titles, 1x Top 14 Title, 1x Top League Title",
         teams_countries: "New Zealand, Crusaders, Racing 92, Perpignan, Kolbeco Steelers, Canterbury",
-        photo: { io: URI.open("https://phantom-marca.unidadeditorial.es/07634ea09692830c0b85f3062368b77a/resize/828/f/jpg/assets/multimedia/imagenes/2021/02/20/16138166403279.jpg"), filename:"dan_carter.jpg", content_type: "url" }
+        photo: { io: URI.open("https://phantom-marca.unidadeditorial.es/07634ea09692830c0b85f3062368b77a/resize/828/f/jpg/assets/multimedia/imagenes/2021/02/20/16138166403279.jpg"), filename:"dan_carter.jpg", content_type: "image/png" }
       }
     },
     "10" => {
@@ -602,7 +602,7 @@ RUGBY_UNION = {
         individual_milestones: "73 New Zealand Appearances, 1995 World Cup player of the tournament. Often attributed as the first true superstar of rugby.",
         team_trophies_won: "1998 Commonwealth Games Gold, New Zealand 7's",
         teams_countries: "New Zealand, Blues, Chiefs, Hurricanes, Cardiff Blues",
-        photo: { io: URI.open("https://www.nzhalloffame.co.nz/NZSHOF/files/9a/9ac5a35f-0810-4c91-98df-79014baf1100.jpg"), filename:"jonah_lomu.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.nzhalloffame.co.nz/NZSHOF/files/9a/9ac5a35f-0810-4c91-98df-79014baf1100.jpg"), filename:"jonah_lomu.jpg", content_type: "image/png" }
       }
     },
     "11" => {
@@ -620,7 +620,7 @@ RUGBY_UNION = {
         individual_milestones: "103 New Zealand Appearances",
         team_trophies_won: "2011 & 2015 World Cups, 5 Tri Nations/Rugby Championships, 8 Bledisloe Cups, 1x Super Rugby Title, 1x Top 14 Title",
         teams_countries: "New Zealand, Hurricanes, Blues, Highlanders, Toulon, San Diego Legion, Ricoh Black Rams ",
-        photo: { io: URI.open("https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2011/02/21/692626-21511189-2560-1440.jpg"), filename:"maa_nonu.jpg", content_type: "url" }
+        photo: { io: URI.open("https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2011/02/21/692626-21511189-2560-1440.jpg"), filename:"maa_nonu.jpg", content_type: "image/png" }
       }
     },
     "12" => {
@@ -637,7 +637,7 @@ RUGBY_UNION = {
         individual_milestones: "133 Ireland Appearances, 8 British & Irish Lions Appearances, British & Irish Lions Captain 2005 & Six Nations all Time Top Try Scorer",
         team_trophies_won: "2013 British & Irish Lions Series, 2x Six Nations Titles (1 Grand Slam), 3x European Cups, 1x European Challenge Cups & 4x League Titles",
         teams_countries: "Ireland, Leinster",
-        photo: { io: URI.open("https://www.laureus.com/getmedia/bc7b3dcc-fd6a-4f8a-9891-ce555bb1e12d/o-driscoll2.jpg?width=646&height=646&ext=.jpg?.CleanImageUrl()"), filename:"brian_odriscoll.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.laureus.com/getmedia/bc7b3dcc-fd6a-4f8a-9891-ce555bb1e12d/o-driscoll2.jpg?width=646&height=646&ext=.jpg?.CleanImageUrl()"), filename:"brian_odriscoll.jpg", content_type: "image/png" }
       }
     },
     "13" => {
@@ -654,7 +654,7 @@ RUGBY_UNION = {
         individual_milestones: "124 South Africa Appearances, 67 International Tries & 3x South Africa Rugby Union Player of the Year",
         team_trophies_won: "2007 World Cup, British & Irish Lions Series, 2x Currie Cup, 2x Super Rugby Title, 1x Tri-Nations Title, 2x European Champions Cup, 1x Top 14 Title",
         teams_countries: "South Africa, Toulon, Bulls, Stormers ",
-        photo: { io: URI.open("https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/7/2016/08/HABANA.jpg"), filename:"bryan_habana.jpg", content_type: "url" }
+        photo: { io: URI.open("https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/7/2016/08/HABANA.jpg"), filename:"bryan_habana.jpg", content_type: "image/png" }
       }
     },
     "14" => {
@@ -671,7 +671,7 @@ RUGBY_UNION = {
         individual_milestones: "100 Scotland Appearances, 2 British & Irish Lions Appearances, Six Nations Player of the Championship 2016 & 2017, Scotland Captain, Scotland's record try scorer",
         team_trophies_won: "1x European Champions Cup, 1 x English Premiership, 1x Pro12 Championship",
         teams_countries: "Scotland, Glasgow Warriors, Exeter Chiefs",
-        photo: { io: URI.open("https://e0.365dm.com/23/07/768x432/skysports-stuart-hogg-scotland_6213259.jpg?20230709131019"), filename:"stuart_hogg.jpg", content_type: "url" }
+        photo: { io: URI.open("https://e0.365dm.com/23/07/768x432/skysports-stuart-hogg-scotland_6213259.jpg?20230709131019"), filename:"stuart_hogg.jpg", content_type: "image/png" }
       }
     }
   }
@@ -725,7 +725,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "7x Super Bowl champion, 5x Super Bowl MVP, 3x NFL MVP, 14x Pro Bowl",
         team_trophies_won: "New England Patriots: 6x AFC champion, Tampa Bay Buccaneers: 1x Super Bowl champion",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers",
-        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Tom_Brady_2019.jpg/220px-Tom_Brady_2019.jpg"), filename:"tom_brady.jpg", content_type: "url" }
+        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Tom_Brady_2019.jpg/220px-Tom_Brady_2019.jpg"), filename:"tom_brady.jpg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -742,7 +742,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "9x Pro Powl, 7x First-team All-Pro, NFL MVP (1977), NFL Offensive Player of the Year (1977, 1985)",
         team_trophies_won: "Super Bowl XX champion",
         teams_countries: "Chicago Bears",
-        photo: { io: URI.open("https://www.chicagoaudible.com/wp-content/uploads/2016/07/payton-e1469480273364-718x1024.jpg"), filename:"walter_payton.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.chicagoaudible.com/wp-content/uploads/2016/07/payton-e1469480273364-718x1024.jpg"), filename:"walter_payton.jpg", content_type: "image/png" }
       }
     },
     "2" => {
@@ -759,7 +759,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "5x Super Bowl champion, 4x First-team All-Pro, 5x Pro Bowl",
         team_trophies_won: "New England Patriots: 4x Super Bowl champion, Tampa Bay Buccaneers: 1x Super Bowl champion",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers",
-        photo: { io: URI.open("https://img.vavel.com/gronk-1564484577291.jpg"), filename:"rob_gronkowski.jpg", content_type: "url" }
+        photo: { io: URI.open("https://img.vavel.com/gronk-1564484577291.jpg"), filename:"rob_gronkowski.jpg", content_type: "image/png" }
       }
     },
     "3" => {
@@ -776,7 +776,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "6x Pro Bowl, 3x First-team All-Pro, NFL Offensive Rookie of the Year (2007), 2x NFL receiving yards leader",
         team_trophies_won: "None",
         teams_countries: "Detroit Lions",
-        photo: { io: URI.open("https://npr.brightspotcdn.com/legacy/sites/michigan/files/201602/calvin-johnson-lions-2015.jpg"), filename:"calvin_johnson.jpg", content_type: "url" }
+        photo: { io: URI.open("https://npr.brightspotcdn.com/legacy/sites/michigan/files/201602/calvin-johnson-lions-2015.jpg"), filename:"calvin_johnson.jpg", content_type: "image/png" }
       }
     },
     "4" => {
@@ -793,7 +793,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "13x Pro Bowl, 10x First-team All-Pro, NFL MVP (1987)",
         team_trophies_won: "San Francisco 49ers: 3x Super Bowl champion",
         teams_countries: "San Francisco 49ers, Oakland Raiders, Seattle Seahawks, Denver Broncos",
-        photo: { io: URI.open("https://hbr.org/resources/images/article_assets/2022/08/R2205P_JERRY_RICE_TOC.jpg"), filename:"jerry_rice.jpg", content_type: "url" }
+        photo: { io: URI.open("https://hbr.org/resources/images/article_assets/2022/08/R2205P_JERRY_RICE_TOC.jpg"), filename:"jerry_rice.jpg", content_type: "image/png" }
       }
     },
     "5" => {
@@ -810,7 +810,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "11x Pro Bowl, 1x First-team All-Pro, Walter Payton NFL Man of the Year Award (2016)",
         team_trophies_won: "1x NFC champion (2008)",
         teams_countries: "Arizona Cardinals",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/kRVkslAtPRqGoKy8fCAfXM3EqXE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22344086/usa_today_14991716.jpg"), filename:"larry_fitzgerald.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/kRVkslAtPRqGoKy8fCAfXM3EqXE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22344086/usa_today_14991716.jpg"), filename:"larry_fitzgerald.jpg", content_type: "image/png" }
       }
     },
     "6" => {
@@ -827,7 +827,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "11x Pro Bowl, 5x First-team All-Pro, NFL 2000s All-Decade Team",
         team_trophies_won: "Super Bowl XXXV with the Baltimore Ravens",
         teams_countries: "Baltimore Ravens",
-        photo: { io: URI.open("https://assets.sbnation.com/imported_assets/7317/39872864.jpg"), filename:"johnathan_ogden.jpg", content_type: "url" }
+        photo: { io: URI.open("https://assets.sbnation.com/imported_assets/7317/39872864.jpg"), filename:"johnathan_ogden.jpg", content_type: "image/png" }
       }
     },
     "7" => {
@@ -844,7 +844,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "11x Pro Bowl, 7x First-team All-Pro, NFL 1990s All-Decade Team, NFL 2000s All-Decade Team",
         team_trophies_won: "Super Bowl XXVIII with the Dallas Cowboys",
         teams_countries: "Dallas Cowboys, San Francisco 49ers",
-        photo: { io: URI.open("https://i0.wp.com/insidethestar.com/wp-content/uploads/2017/04/jess-haynie_-65-e1493047199769.jpg?fit=1300%2C793&ssl=1"), filename:"larry_allen.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i0.wp.com/insidethestar.com/wp-content/uploads/2017/04/jess-haynie_-65-e1493047199769.jpg?fit=1300%2C793&ssl=1"), filename:"larry_allen.jpg", content_type: "image/png" }
       }
     },
     "8" => {
@@ -861,7 +861,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "4x Pro Bowl, 3x First-team All-Pro",
         team_trophies_won: "Super Bowl LII with the Philadelphia Eagles",
         teams_countries: "Philadelphia Eagles",
-        photo: { io: URI.open("https://people.com/thmb/Gqn_j6ya4NU34-ETL59orpYsUwo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jason-kelce-020123-1-719c575ec86547029b40f15c142f9303.jpg"), filename:"jason_kelce.jpg", content_type: "url" }
+        photo: { io: URI.open("https://people.com/thmb/Gqn_j6ya4NU34-ETL59orpYsUwo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jason-kelce-020123-1-719c575ec86547029b40f15c142f9303.jpg"), filename:"jason_kelce.jpg", content_type: "image/png" }
       }
     },
     "9" => {
@@ -878,7 +878,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "7x Pro Bowl, 4x First-team All-Pro, NFL 2010s All-Decade Team",
         team_trophies_won: "None",
         teams_countries: "Dallas Cowboys",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/QV4E-c8eQ6JKskhcAp4Zg7_xL8o=/0x0:2048x2968/1200x800/filters:focal(744x692:1070x1018)/cdn.vox-cdn.com/uploads/chorus_image/image/67561285/usa_today_12003539.0.jpg"), filename:"zack_martin.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/QV4E-c8eQ6JKskhcAp4Zg7_xL8o=/0x0:2048x2968/1200x800/filters:focal(744x692:1070x1018)/cdn.vox-cdn.com/uploads/chorus_image/image/67561285/usa_today_12003539.0.jpg"), filename:"zack_martin.jpg", content_type: "image/png" }
       }
     },
     "10" => {
@@ -895,7 +895,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "7x Pro Bowl, 3x First-team All-Pro, NFL 2000s All-Decade Team",
         team_trophies_won: "Super Bowl XXXIV with the St. Louis Rams",
         teams_countries: "St. Louis Rams, Chicago Bears",
-        photo: { io: URI.open("https://i.pinimg.com/originals/84/86/13/8486134bf6418a23ec34c4fe069f7d4b.jpg"), filename:"orlando_pace.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i.pinimg.com/originals/84/86/13/8486134bf6418a23ec34c4fe069f7d4b.jpg"), filename:"orlando_pace.jpg", content_type: "image/png" }
       }
     },
     "11" => {
@@ -912,7 +912,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "13x Pro Bowl, 13x First-team All-Pro, NFL 1980s All-Decade Team, NFL 1990s All-Decade Team Team, NFL 100th Anniversary All-Time Team",
         team_trophies_won: "Super Bowl XXXI with the Green Bay Packers",
         teams_countries: "Green Bay Packers, Philadelphia Eagles",
-        photo: { io: URI.open("https://www.profootballhistory.com/wp-content/uploads/2022/06/Reggie-White-scaled.jpg"), filename:"reggie_white.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.profootballhistory.com/wp-content/uploads/2022/06/Reggie-White-scaled.jpg"), filename:"reggie_white.jpg", content_type: "image/png" }
       }
     },
     "12" => {
@@ -922,14 +922,14 @@ AMERICAN_FOOTBALL = {
         overview_of_position: "Interior defensive lineman, lines up on the outside shoulder of the guard",
         primary_objectives: "Tackling runners, disrupting the interior offensive line, pass rushing",
         strengths: "Quickness, strength, penetration ability",
-        weaknesses: "Double-team blocking, lateral movenemtn"
+        weaknesses: "Double-team blocking, lateral movement"
       },
       famous_player_attributes: {
         famous_player_name: "Aaron Donald",
         individual_milestones: "7x Pro Bowl, 6x First-team All-Pro, 3x NFL Defensive Player of the Year",
         team_trophies_won: "Super Bowl LVI with the LA Rams",
         teams_countries: "LA Rams",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/q3KpO6k--J3elhX76WkeUrTR_0I=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23240038/1370407811.jpg"), filename:"aaron_donald.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/q3KpO6k--J3elhX76WkeUrTR_0I=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23240038/1370407811.jpg"), filename:"aaron_donald.jpg", content_type: "image/png" }
       }
     },
     "13" => {
@@ -946,7 +946,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "5x Pro Bowl, 1x First-team All-Pro",
         team_trophies_won: "Super Bowl XXXVIII and Super Bowl XXXIX with the New England Patriots",
         teams_countries: "New England Patriots, Houston Texans",
-        photo: { io: URI.open("https://www.enterprisenews.com/gcdn/authoring/2015/12/09/NENT/ghows-WL-40bd53c6-da12-4e75-b431-4e1befabf8d3-8666e750.jpeg?width=660&height=448&fit=crop&format=pjpg&auto=webp"), filename:"vince_wilfork.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.enterprisenews.com/gcdn/authoring/2015/12/09/NENT/ghows-WL-40bd53c6-da12-4e75-b431-4e1befabf8d3-8666e750.jpeg?width=660&height=448&fit=crop&format=pjpg&auto=webp"), filename:"vince_wilfork.jpg", content_type: "image/png" }
       }
     },
     "14" => {
@@ -963,7 +963,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "5x Pro Bowl, 5x First-team All-Pro, 3x NFL Defensive Player of the Year",
         team_trophies_won: "None",
         teams_countries: "Houston Texans, Arizona Cardinals",
-        photo: { io: URI.open("https://i.insider.com/6026eae82edd0f001a8d5a59?width=700"), filename:"jj_watt.img", content_type: "url" }
+        photo: { io: URI.open("https://i.insider.com/6026eae82edd0f001a8d5a59?width=700"), filename:"jj_watt.img", content_type: "image/png" }
       }
     },
     "15" => {
@@ -980,7 +980,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "8x Pro Bowl, 3x First-team All-Pro, Super Bowl 50 MVP",
         team_trophies_won: "Super Bowl 50 with the Denver Broncos and Super Bowl LVI with the LA Rams",
         teams_countries: "Denver Broncos, LA Rams, Buffalo Bills",
-        photo: { io: URI.open("https://www.denverpost.com/wp-content/uploads/2020/08/Pick_Six_Bounce-backs__Football_17849.jpg?w=525"), filename:"von_miller.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.denverpost.com/wp-content/uploads/2020/08/Pick_Six_Bounce-backs__Football_17849.jpg?w=525"), filename:"von_miller.jpg", content_type: "image/png" }
       }
     },
     "16" => {
@@ -997,7 +997,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "8x Pro Bowl, 5x First-team All-Pro, NFL Defensive Player of the Year (2005)",
         team_trophies_won: "NFC champions (2007)",
         teams_countries: "Chicago Bears",
-        photo: { io: URI.open("https://i.cbc.ca/1.1563354.1379049146!/httpImage/image.jpg_gen/derivatives/16x9_780/urlacher-2012.jpg"), filename:"brian_urlacher.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i.cbc.ca/1.1563354.1379049146!/httpImage/image.jpg_gen/derivatives/16x9_780/urlacher-2012.jpg"), filename:"brian_urlacher.jpg", content_type: "image/png" }
       }
     },
     "17" => {
@@ -1014,7 +1014,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "10x Pro Bowl, 8x First-team All-Pro, 3x NFL Defensive Player of the Year",
         team_trophies_won: "Super Bowl XXI and Super Bowl XXV with the New York Giants",
         teams_countries: "New York Giants",
-        photo: { io: URI.open("https://nypost.com/wp-content/uploads/sites/2/2022/12/lawrence-taylor-giants-commanders.jpg"), filename:"lawrence_taylor.jpg", content_type: "url" }
+        photo: { io: URI.open("https://nypost.com/wp-content/uploads/sites/2/2022/12/lawrence-taylor-giants-commanders.jpg"), filename:"lawrence_taylor.jpg", content_type: "image/png" }
       }
     },
     "18" => {
@@ -1031,7 +1031,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "5x Pro Bowl, 3x First-team All-Pro, Super Bowl XLVIII champion",
         team_trophies_won: "Super Bowl XLVIIII with the Seattle Seahawks",
         teams_countries: "Seattle Seahawks, San Francisco 49ers",
-        photo: { io: URI.open("https://compote.slate.com/images/4c2c07c0-cc04-4ad6-a654-4450dcc85eaa.jpg"), filename:"richard_sherman.jpg", content_type: "url" }
+        photo: { io: URI.open("https://compote.slate.com/images/4c2c07c0-cc04-4ad6-a654-4450dcc85eaa.jpg"), filename:"richard_sherman.jpg", content_type: "image/png" }
       }
     },
     "19" => {
@@ -1048,7 +1048,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "7x Pro Bowl, 4x First-team All-Pro, Super Bowl XLIX champion",
         team_trophies_won: "Super Bowl XLIX with the New England Patriots",
         teams_countries: "New York Jets, New England Patriots, Tampa Bay Buccaneers, Kansas City Chiefs",
-        photo: { io: URI.open("https://cdn.bleacherreport.net/images_root/slides/photos/000/356/789/93484679_original.jpg?1282587232"), filename:"darrelle_revis.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.bleacherreport.net/images_root/slides/photos/000/356/789/93484679_original.jpg?1282587232"), filename:"darrelle_revis.jpg", content_type: "image/png" }
       }
     },
     "20" => {
@@ -1065,7 +1065,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "9x Pro Bowl, 5x First-team All-Pro, NFL Defensive Player of the Year (2004)",
         team_trophies_won: "Super Bowl XXXVIII with the Baltimore Ravens",
         teams_countries: "Baltimore Ravens, Houston Texans, New York Jets",
-        photo: { io: URI.open("https://www.si.com/.image/t_share/MTY4MjYyODY2MTkwMDgzMzQ5/ed-reedjpg.jpg"), filename:"ed_reed.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.si.com/.image/t_share/MTY4MjYyODY2MTkwMDgzMzQ5/ed-reedjpg.jpg"), filename:"ed_reed.jpg", content_type: "image/png" }
       }
     },
     "21" => {
@@ -1082,7 +1082,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "8x Pro Bowl, 4x First-team All-Pro, NFL Defensive Player of the Year (2010)",
         team_trophies_won: "Super Bowl XL and Super Bowl XLIII with the Pittsburgh Steelers",
         teams_countries: "Pittsburgh Steelers",
-        photo: { io: URI.open("https://static.clubs.nfl.com/image/private/t_editorial_landscape_mobile/f_auto/steelers/rznu3fiv4ovxaodhbdwo.jpg"), filename:"troy_polamalu.jpg", content_type: "url" }
+        photo: { io: URI.open("https://static.clubs.nfl.com/image/private/t_editorial_landscape_mobile/f_auto/steelers/rznu3fiv4ovxaodhbdwo.jpg"), filename:"troy_polamalu.jpg", content_type: "image/png" }
       }
     }
   }
@@ -1133,9 +1133,9 @@ BASEBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Randy Johnson",
-        individual_milestones: "",
-        team_trophies_won: "",
-        teams_countries: "",
+        individual_milestones: "10x All-Star, 5x Cy Young Award winner, 4x ERA title, 2x Triple Crown (Wins, Strikeouts, ERA), Perfect Game (May 18, 2004)",
+        team_trophies_won: "World Series championship with the Arizona Diamondbacks (2001)",
+        teams_countries: "Montreal Expos, Seattle Mariners, Houston Astros, Arizona Diamondbacks, New York Yankees, San Francisco Giants",
         photo: { io: URI.open("https://cronkitenews.azpbs.org/wp-content/uploads/2020/04/johnson17ks-800.jpg"), filename:"randy_johnson.jpg", content_type: "image/png" }
       }
     },
@@ -1153,7 +1153,7 @@ BASEBALL = {
         individual_milestones: "10-time Gold Glove Award winner",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
         teams_countries: "Cincinnati Reds",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgk6Gx1C-PxiWFSWEzcrQst_uRfOoP5Zg3ng&usqp=CAU"), filename:"johnny_bench.jpg", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgk6Gx1C-PxiWFSWEzcrQst_uRfOoP5Zg3ng&usqp=CAU"), filename:"johnny_bench.jpg", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1170,7 +1170,7 @@ BASEBALL = {
         individual_milestones: "2-time MVP, 7-time All-Star",
         team_trophies_won: "6-time World Series champion with the New York Yankees",
         teams_countries: "New York Yankees",
-        photo: { io: URI.open("https://assets-global.website-files.com/615f376480c21d748f7cb89b/647a1654ab83d390164c18d9_Lou%20Gehrig.png"), filename:"lou_gehrig.png", content_type: "url" }
+        photo: { io: URI.open("https://assets-global.website-files.com/615f376480c21d748f7cb89b/647a1654ab83d390164c18d9_Lou%20Gehrig.png"), filename:"lou_gehrig.png", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1187,7 +1187,7 @@ BASEBALL = {
         individual_milestones: "2-time MVP, 10-time All-Star",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
         teams_countries: "Cincinnati Reds",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp7h2Ewsi4l0u8Dv6CkV4t6ZgkUKccfEevA&usqp=CAU"), filename:"joe_morgan.img", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp7h2Ewsi4l0u8Dv6CkV4t6ZgkUKccfEevA&usqp=CAU"), filename:"joe_morgan.img", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1204,7 +1204,7 @@ BASEBALL = {
         individual_milestones: "14-time All-Star, 5-time Gold Glove Award winner",
         team_trophies_won: "5-time World Series champion with the New York Yankees",
         teams_countries: "New York Yankees",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCHHqn0xB7Vov8fhZqbtb5ue9zjEVdJi_1g&usqp=CAU"), filename:"derek_jeter.img", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCHHqn0xB7Vov8fhZqbtb5ue9zjEVdJi_1g&usqp=CAU"), filename:"derek_jeter.img", content_type: "image/png" }
       }
     },
     "5" => {
@@ -1221,7 +1221,7 @@ BASEBALL = {
         individual_milestones: "3-time MVP, 10-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the Philadelphia Phillies",
         teams_countries: "Philadelphia Phillies",
-        photo: { io: URI.open("https://www.onthisday.com/images/people/mike-schmidt.jpg?w=360"), filename:"mike_schmidt.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.onthisday.com/images/people/mike-schmidt.jpg?w=360"), filename:"mike_schmidt.jpg", content_type: "image/png" }
       }
     },
     "6" => {
@@ -1238,7 +1238,7 @@ BASEBALL = {
         individual_milestones: "7-time MVP, all-time home run leader",
         team_trophies_won: "1-time World Series champion with the San Francisco Giants",
         teams_countries: "San Francisco Giants, Pittsburgh Pirates",
-        photo: { io: URI.open("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Photos/040421/040421_bonds_vmed_9p.jpg"), filename:"barry_bonds.jpg", content_type: "url" }
+        photo: { io: URI.open("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Photos/040421/040421_bonds_vmed_9p.jpg"), filename:"barry_bonds.jpg", content_type: "image/png" }
       }
     },
     "7" => {
@@ -1255,7 +1255,7 @@ BASEBALL = {
         individual_milestones: "24-time All-Star, 12-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the New York/San Francisco Giants",
         teams_countries: "New York/San Francisco Giants",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPa3vd_h-JQ9R2vZPRUG4qsWTNyLbrqPAig&usqp=CAU"), filename:"willie_mays.img", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPa3vd_h-JQ9R2vZPRUG4qsWTNyLbrqPAig&usqp=CAU"), filename:"willie_mays.img", content_type: "image/png" }
       }
     },
     "8" => {
@@ -1272,7 +1272,7 @@ BASEBALL = {
         individual_milestones: "All-time home run leader until 2007",
         team_trophies_won: "1-time World Series champion with the Milwaukee/Atlanta Braves",
         teams_countries: "Milwaukee/Atlanta Braves",
-        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNTEGeDiNOcpOEgvXxy7RjNY1oRn9vT67Ew&usqp=CAU"), filename:"hank_aaron.img", content_type: "url" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNTEGeDiNOcpOEgvXxy7RjNY1oRn9vT67Ew&usqp=CAU"), filename:"hank_aaron.img", content_type: "image/png" }
       }
     }
   }
@@ -1326,7 +1326,7 @@ ICE_HOCKEY = {
         individual_milestones: "4-time Stanley Cup champion, 3-time Conn Smythe Trophy winner",
         team_trophies_won: "Montreal Canadiens, Colorado Avalanche",
         teams_countries: "Canada",
-        photo: { io: URI.open("https://i.ebayimg.com/images/g/1D4AAOxymHRRxezu/s-l1600.jpg"), filename:"patrick_roy.jpg", content_type: "url" }
+        photo: { io: URI.open("https://i.ebayimg.com/images/g/1D4AAOxymHRRxezu/s-l1600.jpg"), filename:"patrick_roy.jpg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1343,7 +1343,7 @@ ICE_HOCKEY = {
         individual_milestones: "8-time Norris Trophy winner, 2-time Stanley Cup Champion",
         team_trophies_won: "Boston Bruins",
         teams_countries: "Canada",
-        photo: { io: URI.open("https://www.si.com/.image/t_share/MTk1NjA0NDU3MDAwNjA4ODI5/090003787-copy.jpg"), filename:"bobby_orr.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.si.com/.image/t_share/MTk1NjA0NDU3MDAwNjA4ODI5/090003787-copy.jpg"), filename:"bobby_orr.jpg", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1360,7 +1360,7 @@ ICE_HOCKEY = {
         individual_milestones: "All-time leading scorer, 4-time Stanley Cup champion",
         team_trophies_won: "Edmonton Oilers, Los Angeles Kings",
         teams_countries: "Canada",
-        photo: { io: URI.open("https://cdn.britannica.com/72/189172-050-04CF2E70/Wayne-Gretzky-New-York-Rangers.jpg"), filename:"wayne_gretzky.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.britannica.com/72/189172-050-04CF2E70/Wayne-Gretzky-New-York-Rangers.jpg"), filename:"wayne_gretzky.jpg", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1377,7 +1377,7 @@ ICE_HOCKEY = {
         individual_milestones: "2-time Stanley Cup champion, 5-time Art Ross Trophy winner",
         team_trophies_won: "Pittsburgh Penguins",
         teams_countries: "Czech Republic",
-        photo: { io: URI.open("https://cdn.nhlpa.com/img/assets/nhlpa.com/gallery/15f3ec40-9fb1-4658-a4c7-7f9070a56cc2/GettyImages-626525658.jpg"), filename:"jaromir_jagr.jpg", content_type: "url" }
+        photo: { io: URI.open("https://cdn.nhlpa.com/img/assets/nhlpa.com/gallery/15f3ec40-9fb1-4658-a4c7-7f9070a56cc2/GettyImages-626525658.jpg"), filename:"jaromir_jagr.jpg", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1394,7 +1394,7 @@ ICE_HOCKEY = {
         individual_milestones: "1-time Stanley Cup champion, 1-time Calder Trophy winner",
         team_trophies_won: "Los Angeles Kings",
         teams_countries: "Canada",
-        photo: { io: URI.open("https://www.dailybreeze.com/wp-content/uploads/migration/2009/200906/NEWS_906239762_AR_0_0.jpg?w=535"), filename:"luc_robitaille.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.dailybreeze.com/wp-content/uploads/migration/2009/200906/NEWS_906239762_AR_0_0.jpg?w=535"), filename:"luc_robitaille.jpg", content_type: "image/png" }
       }
     }
   }
@@ -1448,7 +1448,7 @@ VOLLEYBALL = {
         individual_milestones: "3-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "United States",
         teams_countries: "United States",
-        photo: { io: URI.open("https://content.production.cdn.art19.com/images/a7/ac/8f/b5/a7ac8fb5-e673-40cf-b511-bd4fd0214edd/44e978141c389df3e023b36a08cba7f2d522a08747b0ef8acb58be8a2ca1636cab841c92b804b34555e439a9213b0884c279e4d2943181818734f6d3ef964498.jpeg"), filename:"karch_kiraly.jpeg", content_type: "url" }
+        photo: { io: URI.open("https://content.production.cdn.art19.com/images/a7/ac/8f/b5/a7ac8fb5-e673-40cf-b511-bd4fd0214edd/44e978141c389df3e023b36a08cba7f2d522a08747b0ef8acb58be8a2ca1636cab841c92b804b34555e439a9213b0884c279e4d2943181818734f6d3ef964498.jpeg"), filename:"karch_kiraly.jpeg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1465,7 +1465,7 @@ VOLLEYBALL = {
         individual_milestones: "3-time Olympic gold medalist, 8-time World Champion",
         team_trophies_won: "Brazil",
         teams_countries: "Brazil",
-        photo: { io: URI.open("https://assets.sentinelassam.com/h-upload/2021/04/11/218346-giba.jpg"), filename:"giba.jpg", content_type: "url" }
+        photo: { io: URI.open("https://assets.sentinelassam.com/h-upload/2021/04/11/218346-giba.jpg"), filename:"giba.jpg", content_type: "image/png" }
       }
     },
     "2" => {
@@ -1482,7 +1482,7 @@ VOLLEYBALL = {
         individual_milestones: "2-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "Russia",
         teams_countries: "Russia",
-        photo: { io: URI.open("https://fancyodds.com/wp-content/uploads/2021/02/Dmitriy-Muserskiy-biography.jpg"), filename:"dmitriy_muserskiy.jpg", content_type: "url" }
+        photo: { io: URI.open("https://fancyodds.com/wp-content/uploads/2021/02/Dmitriy-Muserskiy-biography.jpg"), filename:"dmitriy_muserskiy.jpg", content_type: "image/png" }
       }
     },
     "3" => {
@@ -1499,7 +1499,7 @@ VOLLEYBALL = {
         individual_milestones: "Olympic silver medalist, World Championship silver medalist",
         team_trophies_won: "Bulgaria",
         teams_countries: "Bulgaria",
-        photo: { io: URI.open("https://www.lubevolley.it/public/upload/news/SOKOLOV1.jpg"), filename:"tsvetan_sokolov.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.lubevolley.it/public/upload/news/SOKOLOV1.jpg"), filename:"tsvetan_sokolov.jpg", content_type: "image/png" }
       }
     },
     "4" => {
@@ -1516,7 +1516,7 @@ VOLLEYBALL = {
         individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
         team_trophies_won: "Brazil",
         teams_countries: "Brazil",
-        photo: { io: URI.open("https://editorial01.shutterstock.com/preview-440/5829617f/708d440b/Shutterstock_5829617f.jpg"), filename:"sergio_santos.jpg", content_type: "url" }
+        photo: { io: URI.open("https://editorial01.shutterstock.com/preview-440/5829617f/708d440b/Shutterstock_5829617f.jpg"), filename:"sergio_santos.jpg", content_type: "image/png" }
       }
     }
   }
@@ -1574,7 +1574,7 @@ CURLING = {
         individual_milestones: "Skip of Team Scotland/Team GB on multiple occasions",
         team_trophies_won: "1x Olympic Silver Medal, 1x World Championship, 1x World Mixed Doubles Championship, 4x European Championships, 4x Scottish Championships",
         teams_countries: "Great Britain, Scotland as skip of Team Moaut",
-        photo: { io: URI.open("https://static.independent.co.uk/2022/02/18/12/b0c041fa4450ae43a806e290aa47623cY29udGVudHNlYXJjaGFwaSwxNjQ1MjY0MzU4-2.65365368.jpg"), filename:"bruce_moaut.jpg", content_type: "url" }
+        photo: { io: URI.open("https://static.independent.co.uk/2022/02/18/12/b0c041fa4450ae43a806e290aa47623cY29udGVudHNlYXJjaGFwaSwxNjQ1MjY0MzU4-2.65365368.jpg"), filename:"bruce_moaut.jpg", content_type: "image/png" }
       }
     },
       "1" => {
@@ -1591,7 +1591,7 @@ CURLING = {
         individual_milestones: "Captained 2008 team to Junior World Championships",
         team_trophies_won: "1x Olympic Gold, 1x Olympic Mixed Doubles Gold, 1x World Championship, 2x Canadian Olympic Trials",
         teams_countries: "Canada as part of Team Jones",
-        photo: { io: URI.open("https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTg3NDE5MjMzNjg3MzE2MjM5/22og_lawes_wcf_feature.jpg"), filename:"kaitlyn_lawes.jpg", content_type: "url" }
+        photo: { io: URI.open("https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTg3NDE5MjMzNjg3MzE2MjM5/22og_lawes_wcf_feature.jpg"), filename:"kaitlyn_lawes.jpg", content_type: "image/png" }
       }
     },
       "2" => {
@@ -1608,7 +1608,7 @@ CURLING = {
         individual_milestones: "Part of first and only team to win for consecutive gold medals at the world mens curling championship",
         team_trophies_won: "1x Olympic Gold, 4x World Championships, 3x European Championships, 4x Swedish Men's Championships",
         teams_countries: "Sweden as part of Team Edin",
-        photo: { io: URI.open("https://bloximages.chicago2.vip.townnews.com/kenoshanews.com/content/tncms/assets/v3/editorial/2/dd/2dd34160-0527-5145-923f-c97cc296121f/5a5ad27ed7b4e.image.jpg?resize=750%2C500"), filename:"rasmus_wrana.jpg", content_type: "url" }
+        photo: { io: URI.open("https://bloximages.chicago2.vip.townnews.com/kenoshanews.com/content/tncms/assets/v3/editorial/2/dd/2dd34160-0527-5145-923f-c97cc296121f/5a5ad27ed7b4e.image.jpg?resize=750%2C500"), filename:"rasmus_wrana.jpg", content_type: "image/png" }
       }
     },
       "3" => {
@@ -1625,7 +1625,7 @@ CURLING = {
         individual_milestones: "Appointed Member of the Order of the British Empire (MBE) for services to Curling.",
         team_trophies_won: "1x Olympic Gold Medal, 1x European Championship",
         teams_countries: "Great Britain, Scotland as part of Team Muirhead",
-        photo: { io: URI.open("https://pbs.twimg.com/profile_images/1464156706917830670/MKNM1Hci_400x400.jpg"), filename:"hailey_duff.jpg", content_type: "url" }
+        photo: { io: URI.open("https://pbs.twimg.com/profile_images/1464156706917830670/MKNM1Hci_400x400.jpg"), filename:"hailey_duff.jpg", content_type: "image/png" }
       }
     }
   }

@@ -344,7 +344,7 @@ FOOTBALL = {
         famous_player_name: "Cristiano Ronaldo",
         individual_milestones: "Multiple FIFA Ballon d'Or winner",
         team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
-        teams_countries: "Sporting Lisbon, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
+        teams_countries: "Sporting Portugal, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
         photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "image/png" }
       }
     },

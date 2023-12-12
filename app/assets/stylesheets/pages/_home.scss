@@ -1,6 +1,6 @@
 #video-container {
   // position: relative;
-  // overflow: visible;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
 }
@@ -9,14 +9,25 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  animation-duration: 8s;
 }
 
 #title-text-overlay {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 5%;
   // text-align: center;
   color: white;
   // font-size: 10px;
+  text-shadow: 15px 15px 20px black;
+  // -webkit-text-stroke-width: 0.5px;
+  // -webkit-text-stroke-color: black;
+}
+
+#slogan {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  color: white;
   text-shadow: 15px 15px 20px black;
 }

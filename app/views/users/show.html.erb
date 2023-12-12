@@ -1,13 +1,42 @@
-<h1> My dashboard </h1>
+<div class="profile">
+  <h1><%= @current_user.username %>'s Profile</h1>
+    <div class="edit">
+      <%= render_icon "edit" %>
+    </div>
+</div>
 
-<h4> My Favourites </h4>
+<h4> My <%= render_icon("unfavourite") =%> Sports</h4>
 
 <% if @favourites.exists? %>
   <% @favourites.each do |favourite| %>
-    <%= link_to favourite.sport.name, sport_path(favourite.sport) %>
+    <% if favourite.sport.name == "Basketball" %>
+      <%= link_to render_icon("bball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Football" %>
+      <%= link_to render_icon("football"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Rugby Union" %>
+      <%= link_to render_icon("rugby"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "American Football" %>
+      <%= link_to render_icon("american_foot"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Baseball" %>
+      <%= link_to render_icon("baseball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Volleyball" %>
+      <%= link_to render_icon("volleyball"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Ice Hockey" %>
+      <%= link_to render_icon("icehockey"), sport_path(favourite.sport) %>
+    <% elsif favourite.sport.name == "Curling" %>
+      <%= link_to render_icon("curling"), sport_path(favourite.sport) %>
+    <% end %>
+  <% end %>
+<% else %>
+  <%= "You haven't added any sports to your favourites yet" %>
+    <%= link_to sports_path do %>
+      <%=  render_icon "add" %>
       <% end %>
-    <% else %>
-      <%= "No favourites added yet" %>
-      <%= link_to "start adding favourites", sports_path%>
-<% end %>
+<% end%>
 
+<h4> My <%= render_icon("unfavourite") %> Positions</h4>
+
+  <%= "You haven't added any positions to your favourites yet" %>
+    <%= link_to sports_path do %>
+      <%=  render_icon "add" %>
+    <% end %>

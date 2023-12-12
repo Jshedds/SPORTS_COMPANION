@@ -189,9 +189,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Lev Yashin",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Bayern Munich, Germany",
+        individual_milestones: "FIFA Ballon d'Or winner in 1963",
+        team_trophies_won: "1960 European Championship with the Soviet Union",
+        teams_countries: "Dynamo, Moscow, Soviet Union",
         photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "url" }
       }
     },
@@ -206,9 +206,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Cafu",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Barcelona, Brazil",
+        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002)",
+        team_trophies_won: "Multiple Serie A titles with AC Milan",
+        teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
         photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "url" }
       }
     },
@@ -223,9 +223,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Franz Beckenbauer",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990)",
+        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich",
+        teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
         photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "url" }
       }
     },
@@ -240,9 +240,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Paolo Maldini",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "Most appearances for AC Milan",
+        team_trophies_won: "Multiple Serie A and Champions League titles with AC Milan",
+        teams_countries: "AC Milan, Italy",
         photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "url" }
       }
     },
@@ -257,9 +257,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Frank Rijkaard",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "UEFA Euro 1988 winner with the Netherlands",
+        team_trophies_won: "AC Milan's European Cup in 1989 and 1990",
+        teams_countries: "Ajax, Real Zaragoza, AC Milan, Netherlands",
         photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "url" }
       }
     },
@@ -274,9 +274,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Alfredo Di Stefano",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "Five-time Ballon d'Or runner-up",
+        team_trophies_won: "Multiple European Cups/Champions League titles with Real Madrid",
+        teams_countries: "River Plate, Millonaris, Real Madrid, Espanyol, Argentina, Spain",
         photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "url" }
       }
     },
@@ -291,9 +291,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Diego Maradona",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "FIFA World Cup winner with Argentina in 1986",
+        team_trophies_won: "Serie A titles with Napoli",
+        teams_countries: "Argentinos Juniors, Boca Juniors, Barcelona, Naples, Seville, Newell's Old Boys, Argentina",
         photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "url" }
       }
     },
@@ -308,9 +308,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Lionel Messi",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "Multiple FIFA Ballon d'Or winner",
+        team_trophies_won: "Numerous La Lifa and Champions League titles with Barcelona",
+        teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
         photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "url" }
       }
     },
@@ -325,9 +325,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Pele",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "Three-time FIFA World Cup winner with Brazil",
+        team_trophies_won: "Multiple domestic titles with Santos and New York Cosmos",
+        teams_countries: "Santos, NY Cosmos, Brazil",
         photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "url" }
       }
     },
@@ -342,9 +342,9 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Cristiano Ronaldo",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
+        individual_milestones: "Multiple FIFA Ballon d'Or winner",
+        team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
+        teams_countries: "Sporting Lisbon, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
         photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "url" }
       }
     },
@@ -358,11 +358,11 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Bobby Moore",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
-        teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        teams_countries: "West Ham, Fulham, SA Thunder, Seattle Sounders, Herning Fremad, Carolina Lightnin', England",
+        photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "url" }
       }
     }
   }
@@ -722,8 +722,8 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Tom Brady",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "7x Super Bowl champion, 5x Super Bowl MVP, 3x NFL MVP, 14x Pro Bowl",
+        team_trophies_won: "New England Patriots: 6x AFC champion, Tampa Bay Buccaneers: 1x Super Bowl champion",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers",
         photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Tom_Brady_2019.jpg/220px-Tom_Brady_2019.jpg"), filename:"tom_brady.jpg", content_type: "url" }
       }
@@ -739,9 +739,9 @@ AMERICAN_FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Walter Payton",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
-        teams_countries: "Minnesota Vikings, Arizona Cardinals, Washington Football Team, Detroit Lions",
+        individual_milestones: "9x Pro Powl, 7x First-team All-Pro, NFL MVP (1977), NFL Offensive Player of the Year (1977, 1985)",
+        team_trophies_won: "Super Bowl XX champion",
+        teams_countries: "Chicago Bears",
         photo: { io: URI.open("https://www.chicagoaudible.com/wp-content/uploads/2016/07/payton-e1469480273364-718x1024.jpg"), filename:"walter_payton.jpg", content_type: "url" }
       }
     },

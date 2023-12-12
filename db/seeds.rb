@@ -1132,11 +1132,11 @@ BASEBALL = {
         weaknesses: "Pitch count, vulnerability to hits"
       },
       famous_player_attributes: {
-        famous_player_name: "Babe Ruth",
-        individual_milestones: "Set the record for most home runs in a season (60) in 1927",
-        team_trophies_won: "7-time World Series champion with the New York Yankees",
-        teams_countries: "New York Yankees, Boston Red Sox",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        famous_player_name: "Randy Johnson",
+        individual_milestones: "",
+        team_trophies_won: "",
+        teams_countries: "",
+        photo: { io: URI.open("https://cronkitenews.azpbs.org/wp-content/uploads/2020/04/johnson17ks-800.jpg"), filename:"randy_johnson.jpg", content_type: "image/png" }
       }
     },
     "1" => {
@@ -1153,7 +1153,7 @@ BASEBALL = {
         individual_milestones: "10-time Gold Glove Award winner",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
         teams_countries: "Cincinnati Reds",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgk6Gx1C-PxiWFSWEzcrQst_uRfOoP5Zg3ng&usqp=CAU"), filename:"johnny_bench.jpg", content_type: "url" }
       }
     },
     "2" => {
@@ -1170,7 +1170,7 @@ BASEBALL = {
         individual_milestones: "2-time MVP, 7-time All-Star",
         team_trophies_won: "6-time World Series champion with the New York Yankees",
         teams_countries: "New York Yankees",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://assets-global.website-files.com/615f376480c21d748f7cb89b/647a1654ab83d390164c18d9_Lou%20Gehrig.png"), filename:"lou_gehrig.png", content_type: "url" }
       }
     },
     "3" => {
@@ -1187,7 +1187,7 @@ BASEBALL = {
         individual_milestones: "2-time MVP, 10-time All-Star",
         team_trophies_won: "2-time World Series champion with the Cincinnati Reds",
         teams_countries: "Cincinnati Reds",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp7h2Ewsi4l0u8Dv6CkV4t6ZgkUKccfEevA&usqp=CAU"), filename:"joe_morgan.img", content_type: "url" }
       }
     },
     "4" => {
@@ -1204,7 +1204,7 @@ BASEBALL = {
         individual_milestones: "14-time All-Star, 5-time Gold Glove Award winner",
         team_trophies_won: "5-time World Series champion with the New York Yankees",
         teams_countries: "New York Yankees",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCHHqn0xB7Vov8fhZqbtb5ue9zjEVdJi_1g&usqp=CAU"), filename:"derek_jeter.img", content_type: "url" }
       }
     },
     "5" => {
@@ -1221,7 +1221,7 @@ BASEBALL = {
         individual_milestones: "3-time MVP, 10-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the Philadelphia Phillies",
         teams_countries: "Philadelphia Phillies",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.onthisday.com/images/people/mike-schmidt.jpg?w=360"), filename:"mike_schmidt.jpg", content_type: "url" }
       }
     },
     "6" => {
@@ -1238,7 +1238,7 @@ BASEBALL = {
         individual_milestones: "7-time MVP, all-time home run leader",
         team_trophies_won: "1-time World Series champion with the San Francisco Giants",
         teams_countries: "San Francisco Giants, Pittsburgh Pirates",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Photos/040421/040421_bonds_vmed_9p.jpg"), filename:"barry_bonds.jpg", content_type: "url" }
       }
     },
     "7" => {
@@ -1255,7 +1255,7 @@ BASEBALL = {
         individual_milestones: "24-time All-Star, 12-time Gold Glove Award winner",
         team_trophies_won: "1-time World Series champion with the New York/San Francisco Giants",
         teams_countries: "New York/San Francisco Giants",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPa3vd_h-JQ9R2vZPRUG4qsWTNyLbrqPAig&usqp=CAU"), filename:"willie_mays.img", content_type: "url" }
       }
     },
     "8" => {
@@ -1272,7 +1272,7 @@ BASEBALL = {
         individual_milestones: "All-time home run leader until 2007",
         team_trophies_won: "1-time World Series champion with the Milwaukee/Atlanta Braves",
         teams_countries: "Milwaukee/Atlanta Braves",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNTEGeDiNOcpOEgvXxy7RjNY1oRn9vT67Ew&usqp=CAU"), filename:"hank_aaron.img", content_type: "url" }
       }
     }
   }

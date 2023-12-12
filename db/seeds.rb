@@ -1448,7 +1448,7 @@ VOLLEYBALL = {
         individual_milestones: "3-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "United States",
         teams_countries: "United States",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://content.production.cdn.art19.com/images/a7/ac/8f/b5/a7ac8fb5-e673-40cf-b511-bd4fd0214edd/44e978141c389df3e023b36a08cba7f2d522a08747b0ef8acb58be8a2ca1636cab841c92b804b34555e439a9213b0884c279e4d2943181818734f6d3ef964498.jpeg"), filename:"karch_kiraly.jpeg", content_type: "url" }
       }
     },
     "1" => {
@@ -1465,7 +1465,7 @@ VOLLEYBALL = {
         individual_milestones: "3-time Olympic gold medalist, 8-time World Champion",
         team_trophies_won: "Brazil",
         teams_countries: "Brazil",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://assets.sentinelassam.com/h-upload/2021/04/11/218346-giba.jpg"), filename:"giba.jpg", content_type: "url" }
       }
     },
     "2" => {
@@ -1482,7 +1482,7 @@ VOLLEYBALL = {
         individual_milestones: "2-time Olympic gold medalist, 3-time World Champion",
         team_trophies_won: "Russia",
         teams_countries: "Russia",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://fancyodds.com/wp-content/uploads/2021/02/Dmitriy-Muserskiy-biography.jpg"), filename:"dmitriy_muserskiy.jpg", content_type: "url" }
       }
     },
     "3" => {
@@ -1499,7 +1499,7 @@ VOLLEYBALL = {
         individual_milestones: "Olympic silver medalist, World Championship silver medalist",
         team_trophies_won: "Bulgaria",
         teams_countries: "Bulgaria",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.lubevolley.it/public/upload/news/SOKOLOV1.jpg"), filename:"tsvetan_sokolov.jpg", content_type: "url" }
       }
     },
     "4" => {
@@ -1516,7 +1516,7 @@ VOLLEYBALL = {
         individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
         team_trophies_won: "Brazil",
         teams_countries: "Brazil",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://editorial01.shutterstock.com/preview-440/5829617f/708d440b/Shutterstock_5829617f.jpg"), filename:"sergio_santos.jpg", content_type: "url" }
       }
     }
   }

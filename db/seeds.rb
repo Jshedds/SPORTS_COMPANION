@@ -725,7 +725,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "New England Patriots, Tampa Bay Buccaneers",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Tom_Brady_2019.jpg/220px-Tom_Brady_2019.jpg"), filename:"tom_brady.jpg", content_type: "url" }
       }
     },
     "1" => {
@@ -738,11 +738,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Subject to tackles, heavy contact, and injuries"
       },
       famous_player_attributes: {
-        famous_player_name: "Adrian Peterson",
+        famous_player_name: "Walter Payton",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Minnesota Vikings, Arizona Cardinals, Washington Football Team, Detroit Lions",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://www.chicagoaudible.com/wp-content/uploads/2016/07/payton-e1469480273364-718x1024.jpg"), filename:"walter_payton.jpg", content_type: "url" }
       }
     },
     "2" => {
@@ -759,7 +759,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://img.vavel.com/gronk-1564484577291.jpg"), filename:"rob_gronkowski.jpg", content_type: "url" }
       }
     },
     "3" => {
@@ -772,11 +772,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical press coverage, double-teams"
       },
       famous_player_attributes: {
-        famous_player_name: "DeAndre Hopkins",
+        famous_player_name: "Calvin 'Megatron' Johnson",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://npr.brightspotcdn.com/legacy/sites/michigan/files/201602/calvin-johnson-lions-2015.jpg"), filename:"calvin_johnson.jpg", content_type: "url" }
       }
     },
     "4" => {
@@ -789,11 +789,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Physical coverage, risk of heavy hits in traffic"
       },
       famous_player_attributes: {
-        famous_player_name: "Julian Edelman",
+        famous_player_name: "Jerry Rice",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://hbr.org/resources/images/article_assets/2022/08/R2205P_JERRY_RICE_TOC.jpg"), filename:"jerry_rice.jpg", content_type: "url" }
       }
     },
     "5" => {
@@ -810,7 +810,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/kRVkslAtPRqGoKy8fCAfXM3EqXE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22344086/usa_today_14991716.jpg"), filename:"larry_fitzgerald.jpg", content_type: "url" }
       }
     },
     "6" => {
@@ -823,11 +823,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing elite edge rushers, speed rushers"
       },
       famous_player_attributes: {
-        famous_player_name: "Anthony Munoz",
+        famous_player_name: "Johnathan Ogden",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://assets.sbnation.com/imported_assets/7317/39872864.jpg"), filename:"johnathan_ogden.jpg", content_type: "url" }
       }
     },
     "7" => {
@@ -840,11 +840,11 @@ AMERICAN_FOOTBALL = {
         weaknesses: "Facing powerful defensive tackles, interior pass rush"
       },
       famous_player_attributes: {
-        famous_player_name: "Quenton Nelson",
+        famous_player_name: "Larry Allen",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://i0.wp.com/insidethestar.com/wp-content/uploads/2017/04/jess-haynie_-65-e1493047199769.jpg?fit=1300%2C793&ssl=1"), filename:"larry_allen.jpg", content_type: "url" }
       }
     },
     "8" => {
@@ -861,7 +861,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://people.com/thmb/Gqn_j6ya4NU34-ETL59orpYsUwo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jason-kelce-020123-1-719c575ec86547029b40f15c142f9303.jpg"), filename:"jason_kelce.jpg", content_type: "url" }
       }
     },
     "9" => {
@@ -878,7 +878,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/QV4E-c8eQ6JKskhcAp4Zg7_xL8o=/0x0:2048x2968/1200x800/filters:focal(744x692:1070x1018)/cdn.vox-cdn.com/uploads/chorus_image/image/67561285/usa_today_12003539.0.jpg"), filename:"zack_martin.jpg", content_type: "url" }
       }
     },
     "10" => {
@@ -895,7 +895,7 @@ AMERICAN_FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open(""), filename:"", content_type: "image/png" }
+        photo: { io: URI.open("https://i.pinimg.com/originals/84/86/13/8486134bf6418a23ec34c4fe069f7d4b.jpg"), filename:"orlando_pace.jpg", content_type: "url" }
       }
     },
     "11" => {

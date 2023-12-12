@@ -32,7 +32,9 @@
 
   <div class="messages" data-chatroom-subscription-target="messages">
     <% @chatroom.messages.each do |message| %>
-     <%= render "messages/message", message: message %>
+      <div class="bubble">
+        <%= render "messages/message", message: message %>
+      </div>
     <% end %>
   </div>
 

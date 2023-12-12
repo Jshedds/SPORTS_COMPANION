@@ -3,11 +3,13 @@ class SportsController < ApplicationController
   skip_before_action :authenticate_user!, only: %i[index show]
 
   def index
+    @athlete = Athlete.new
     # @sports = Sport.all
     @sports = policy_scope(Sport)
   end
 
   def show
+    @athlete = Athlete.new
     # @sport = Sport.find(params[:id])
     @sport = Sport.find(params[:id])
     @favourite = Favourite.find_by(user: current_user, sport: @sport)

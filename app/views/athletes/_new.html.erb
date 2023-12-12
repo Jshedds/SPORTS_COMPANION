@@ -1,0 +1,6 @@
+<%= simple_form_for(@athlete, :url => {:controller => 'athletes', :action => 'create', :remote => true }) do |f| %>
+  <%= f.input :name, placeholder: "Athlete Name Here" %>
+  <%= f.submit '🔍' %>
+<% end %>
+
+<%# data: {target: "athleteShow"} %>

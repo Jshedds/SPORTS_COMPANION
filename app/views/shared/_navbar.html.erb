@@ -1,4 +1,5 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+
   <% unless user_signed_in? %>
     <% if params[:controller] == "sports" && params[:action] == "index" %>
       <%= link_to render_icon("login"), new_user_session_path, class: "nav-link" %>
@@ -15,8 +16,10 @@
   <% else  %>
     <% if params[:controller] == "sports" && params[:action] == "index" %>
       <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
-        <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <%= render_icon("search")%>
+      </button>
+      <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% if current_user && policy(Sport).new? %>
         <%= link_to new_sport_path do %>
         <%= render_icon "add" %>
@@ -25,31 +28,75 @@
     <% elsif params[:controller] == "sports" && params[:action] == "show" %>
       <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
         <%= link_to render_icon("chatroom"), sport_chatroom_path(@sport, @chatroom) %>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <%= render_icon("search")%>
+        </button>
         <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
         <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% elsif params[:controller] == "positions" && params[:action] == "index" %>
         <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
         <%= link_to render_icon("chatroom"), sport_chatroom_path(@sport, @chatroom) %>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <%= render_icon("search")%>
+        </button>
         <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
         <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% elsif params[:controller] == "positions" && params[:action] == "show" %>
         <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
         <%= link_to render_icon("chatroom"), sport_chatroom_path(@sport, @chatroom) %>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <%= render_icon("search")%>
+        </button>
         <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
         <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% elsif params[:controller] == "chatrooms" && params[:action] == "show" %>
         <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <%= render_icon("search")%>
+        </button>
         <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
         <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% elsif params[:controller] == "users" && params[:action] == "show" %>
         <%= link_to render_icon("all_sports"), sports_path, class: "nav-link"%>
-        <%= link_to render_icon("search"), dashboard_path, class: "nav-link" %>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <%= render_icon("search")%>
+        </button>
         <%= link_to render_icon("profile"), dashboard_path, class: "nav-link"%>
         <%= link_to render_icon("logout"), destroy_user_session_path, data: {turbo_method: :delete} %>
       <% end %>
     <% end %>
 </div>
+    <div data-controller="modal">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-modal-target="first">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <%# <%= render "athletes/new" %>
+              <input type="text" data-modal-target="input">
+              <button data-action="click->modal#find">Find</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <%# <% if session[:modal] == true %>
+        <div class="modal fade" id="athleteShow" tabindex="-1" aria-labelledby="exampleModalLabel" data-modal-target="second" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" data-modal-target="athlete">
+                <%# <%= render "athletes/ai_response" %>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <%# <% end %>

@@ -242,7 +242,7 @@ RUGBY_UNION = {
         individual_milestones: "95 Wales Appearances, 5 British & Irish Lions Appearances",
         team_trophies_won: "3x 6 Nations Titles, British & Irish Lions Series 2013",
         teams_countries: "British & Irish Lions, Wales, Ospreys, Cardiff Blues, Harlequins",
-        photo: { io: URI.open("https://e2.365dm.com/16/10/1600x900/skysports-rugby-adam-jones-harlequins_3805432.jpg"), filename:"adam_jones", content_type: "image/png" }
+        photo: { io: URI.open("https://e2.365dm.com/16/10/1600x900/skysports-rugby-adam-jones-harlequins_3805432.jpg"), filename:"adam_jones.jpg", content_type: "image/png" }
       }
     },
     "3" => {

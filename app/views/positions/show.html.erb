@@ -1,8 +1,5 @@
-
-
-<h1><strong><%= @position.positions_name.upcase %></strong></h1>
-<br>
 <div class="show-sport-btns">
+  <%= link_to render_icon("back"), sport_positions_path(@sport) %>
   <% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
     <%= link_to favourite_position_path(@favourite_position), data: { turbo_method: :delete } do %>
       <%= render_icon "unfavourite" %>
@@ -14,7 +11,27 @@
     <% else %>
       <%= link_to render_icon("favourite"), new_user_session_path %>
   <% end %>
+  <% if @sport.name == "Basketball" %>
+    <%= link_to render_icon("bball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Football" %>
+    <%= link_to render_icon("football"), sport_path(@sport) %>
+  <% elsif @sport.name == "American Football" %>
+    <%= link_to render_icon("american_foot"), sport_path(@sport) %>
+  <% elsif @sport.name == "Rugby Union" %>
+    <%= link_to render_icon("rugby"), sport_path(@sport) %>
+  <% elsif @sport.name == "Volleyball" %>
+    <%= link_to render_icon("volleyball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Baseball" %>
+    <%= link_to render_icon("baseball"), sport_path(@sport) %>
+  <% elsif @sport.name == "Ice Hockey" %>
+    <%= link_to render_icon("icehockey"), sport_path(@sport) %>
+     <% elsif @sport.name == "Curling" %>
+    <%= link_to render_icon("curling"), sport_path(@sport) %>
+  <% end %>
 </div>
+
+<h1><strong><%= @position.positions_name.upcase %></strong></h1>
+<br>
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
@@ -32,24 +49,4 @@
     <%= render "famous_players/famous_player" %>
   </div>
 </div>
-  <%= render "famous_players/famous_player" %>
-  <%= link_to render_icon("back"), sport_positions_path(@sport) %>
-<br>
-  <% if @sport.name == "Basketball" %>
-    <%= link_to render_icon("bball"), sport_path(@sport) %>
-
-  <% elsif @sport.name == "Football" %>
-    <%= link_to render_icon("football"), sport_path(@sport) %>
-  <% elsif @sport.name == "American Football" %>
-    <%= link_to render_icon("american_foot"), sport_path(@sport) %>
-  <% elsif @sport.name == "Rugby Union" %>
-    <%= link_to render_icon("rugby"), sport_path(@sport) %>
-  <% elsif @sport.name == "Volleyball" %>
-    <%= link_to render_icon("volleyball"), sport_path(@sport) %>
-  <% elsif @sport.name == "Baseball" %>
-    <%= link_to render_icon("baseball"), sport_path(@sport) %>
-  <% elsif @sport.name == "Ice Hockey" %>
-    <%= link_to render_icon("icehockey"), sport_path(@sport) %>
-     <% elsif @sport.name == "Curling" %>
-    <%= link_to render_icon("curling"), sport_path(@sport) %>
-  <% end %>
+    <%= render "famous_players/famous_player" %>

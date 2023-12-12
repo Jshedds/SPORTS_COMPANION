@@ -192,7 +192,7 @@ FOOTBALL = {
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Bayern Munich, Germany",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "url" }
       }
     },
     "1" => {
@@ -205,11 +205,11 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
-        famous_player_name: "Dani Alves",
+        famous_player_name: "Cafu",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "Barcelona, Brazil",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "url" }
       }
     },
     "2" => {
@@ -222,11 +222,11 @@ FOOTBALL = {
         weaknesses: "Pace, one-on-one situations"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Franz Beckenbauer",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "url" }
       }
     },
     "3" => {
@@ -239,11 +239,11 @@ FOOTBALL = {
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Paolo Maldini",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "url" }
       }
     },
     "4" => {
@@ -256,11 +256,11 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, attacking contribution"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Frank Rijkaard",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "url" }
       }
     },
     "5" => {
@@ -273,11 +273,11 @@ FOOTBALL = {
         weaknesses: "Limited goal-scoring, defensive responsibilities"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Alfredo Di Stefano",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "url" }
       }
     },
     "6" => {
@@ -290,11 +290,11 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical duels"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Diego Maradona",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "url" }
       }
     },
     "7" => {
@@ -307,11 +307,11 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Lionel Messi",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "url" }
       }
     },
     "8" => {
@@ -324,11 +324,11 @@ FOOTBALL = {
         weaknesses: "Defensive responsibilities, marking by defenders"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Pele",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "url" }
       }
     },
     "9" => {
@@ -341,11 +341,11 @@ FOOTBALL = {
         weaknesses: "Defensive responsiblities, physical marking"
       },
       famous_player_attributes: {
-        famous_player_name: "Earvin 'Magic' Johnson",
+        famous_player_name: "Cristiano Ronaldo",
         individual_milestones: "fill here",
         team_trophies_won: "fill here",
         teams_countries: "LA Lakers, Team USA",
-        photo: { io: URI.open("https://cdn.vox-cdn.com/thumbor/G8rXIS_2NW4RnhMoQy-9io5jdzc=/0x0:3696x2464/1200x800/filters:focal(1936x344:2526x934)/cdn.vox-cdn.com/uploads/chorus_image/image/56747449/847957074.0.jpg"), filename:"manuel_neuer.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "url" }
       }
     },
     "10" => {

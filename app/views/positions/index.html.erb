@@ -1,6 +1,6 @@
-<div class="positions-container">
+
   <% if @sport.name == "Basketball" %>
-      <%  court_bg_image = 'bball_court.jpg' %>
+      <%  court_background_image = 'bball_court.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
     <% elsif @sport.name == "Football" %>
       <%  court_bg_image = 'soccer_pitch.jpg' %>
@@ -18,7 +18,7 @@
       <%  court_bg_image = 'icehockey_pitch.jpg' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
     <% elsif @sport.name == "Volleyball" %>
-      <%  court_bg_image = 'volleyball_court.jpg' %>
+      <%  court_bg_image = 'volleyball_court.png' %>
         <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
     <% elsif @sport.name == "Curling" %>
       <%  court_bg_image = 'curling_court.jpg' %>
@@ -65,4 +65,3 @@
       <%= render_icon "back" %>
     <% end %>
   </div>
-</div>

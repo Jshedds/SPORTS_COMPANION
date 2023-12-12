@@ -25,6 +25,7 @@ class AthletesController < ApplicationController
   def find_or_create
     @athlete = Athlete.find_or_create_by(name: params[:name])
     puts params
+    # puts @athlete.id
     authorize @athlete
     respond_to do |format|
       format.text { render partial: "athletes/ai_response", locals: {athlete: @athlete}, formats: [:html] }

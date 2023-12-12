@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   resources :athletes do
     collection do
-      post :find_or_create
+      get :find_or_create
     end
   end
   resources :sports do

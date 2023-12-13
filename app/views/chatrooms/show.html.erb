@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <div class="messages" data-chatroom-subscription-target="messages">
+  <div class="messages" data-chatroom-subscription-target="messages" data-aos="fade-up">
     <% @chatroom.messages.each do |message| %>
       <div class="bubble">
         <%= render "messages/message", message: message %>

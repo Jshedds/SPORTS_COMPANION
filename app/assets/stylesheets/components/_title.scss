@@ -1,7 +1,6 @@
 .sport-title {
   text-align: center;
-
-  border-radius: 15px;
+  border-radius: 10px;
   margin-bottom: 40px;
   margin-top: 15px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
@@ -9,11 +8,14 @@
   background-color: black;
   color: white;
   font-weight: 400;
-  font-size:40px;
+  font-size: 28px;
   font-family: "Russo One", "sans-serif";
-  width: max-content;
   padding-left: 20px;
   padding-right: 20px;
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 
@@ -21,4 +23,14 @@
   font-family: system-ui;
   color: black;
   text-align: center;
+}
+
+.home-title {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size:32px;
+  font-family: "Russo One", "sans-serif";
+  padding-left: 20px;
+  padding-right: 20px;
 }

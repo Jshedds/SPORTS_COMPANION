@@ -1,7 +1,9 @@
 <div class="container chatroom" data-controller="chatroom-subscription" data-chatroom-subscription-chatroom-name-value="<%= @chatroom.name %>">
 
 
-
+    <div class="chatroom-title">
+      <%= @sport.name.upcase %> CHATROOM
+    </div>
   <div class="chatroom-btns-container">
 
     <div id="chatroom-back-btn">
@@ -9,9 +11,7 @@
     </div>
   </div>
 
-  <div class="chatroom-title">
-      <%= @sport.name.upcase %> CHATROOM
-    </div>
+
 
   <div class="messages" data-chatroom-subscription-target="messages" data-aos="fade-up">
     <% @chatroom.messages.each do |message| %>
@@ -21,10 +21,11 @@
     <% end %>
   </div>
 
-  <div class="message-board" id="chatroom-div">
-    <div data-chatroom-subscription-target="submit">
+  <div class="message-board w-100" id="chatroom-div">
+    <div data-chatroom-subscription-target="submit" class="w-100">
+
       <%= simple_form_for [@sport, @chatroom, @message],
-        html: {class: "d-flex",
+        html: {class: "d-flex w-100 justify-content-between",
           data: {
             action: "turbo:submit-end->chatroom-subscription#resetForm"
           }

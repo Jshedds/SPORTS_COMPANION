@@ -1,8 +1,5 @@
-
-
-<h1><strong><%= @position.positions_name.upcase %></strong></h1>
-<br>
-<div class="show-sport-btns">
+<div class="show-positions-btns">
+  <%= link_to render_icon("back"), sport_positions_path(@sport) %>
   <% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
     <%= link_to favourite_position_path(@favourite_position), data: { turbo_method: :delete } do %>
       <%= render_icon "unfavourite" %>
@@ -14,30 +11,8 @@
     <% else %>
       <%= link_to render_icon("favourite"), new_user_session_path %>
   <% end %>
-</div>
-
-<div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>DESCRIPTION</STRONG></h4>
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none">
-    <%= render "descriptions/description" %>
-  </div>
-
-<div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none">
-    <%= render "famous_players/famous_player" %>
-  </div>
-</div>
-  <%= render "famous_players/famous_player" %>
-  <%= link_to render_icon("back"), sport_positions_path(@sport) %>
-<br>
   <% if @sport.name == "Basketball" %>
     <%= link_to render_icon("bball"), sport_path(@sport) %>
-
   <% elsif @sport.name == "Football" %>
     <%= link_to render_icon("football"), sport_path(@sport) %>
   <% elsif @sport.name == "American Football" %>
@@ -53,3 +28,32 @@
      <% elsif @sport.name == "Curling" %>
     <%= link_to render_icon("curling"), sport_path(@sport) %>
   <% end %>
+</div>
+<div class="sport-title">
+  <%= @position.positions_name.upcase %>
+</div>
+<br>
+
+
+<h1><strong><%= @position.positions_name.upcase %></strong></h1>
+<br>
+
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    <div class="text">
+      DESCRIPTION
+    </div>
+  </div>
+  <div data-toggle-target="togglableElement" class="d-none information">
+    <%= render "descriptions/description" %>
+  </div>
+</div>
+<div data-controller="toggle">
+  <div data-action="click->toggle#fire" class="tab">
+    FAMOUS PLAYER
+  </div>
+  <div data-toggle-target="togglableElement" class="information">
+    <%= render "famous_players/famous_player" %>
+  </div>
+</div>
+

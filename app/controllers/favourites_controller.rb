@@ -8,9 +8,9 @@ class FavouritesController < ApplicationController
     @favourite.user = current_user
     authorize @favourite
     if @favourite.save
-      redirect_to sport_path(@sport), notice: "#{@sport.name} has successfully been added to your favourites"
+      redirect_to sport_path(@sport)
     else
-      redirect_to sport_path(@sport), notice: "#{@sport.name} has already been added to your favourites"
+      redirect_to sport_path(@sport)
     end
   end
 
@@ -20,6 +20,6 @@ class FavouritesController < ApplicationController
     # @favourite.user = current_user
     authorize @favourite
     @favourite.destroy
-    redirect_to sport_path(sport), notice: "#{sport.name} has successfully been removed from your favourites"
+    redirect_to sport_path(sport)
   end
 end

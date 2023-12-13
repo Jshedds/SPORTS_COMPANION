@@ -1,3 +1,9 @@
 a {
   text-decoration: none;
 }
+
+.form-control {
+  background: #00000000;
+  backdrop-filter: blur( 20px );
+  border: none;
+}

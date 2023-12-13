@@ -9,23 +9,24 @@
      "Curling" => "curling_index"
    }
 %>
-<div class="sport-index-title">
 
+<div class="sport-index-title">
   <h1>Your game, your guide, your choice!</h1>
 </div>
+
 <div class="my-grid-container">
   <div class='my-grid'>
     <% @sports.each do |sport| %>
-        <%= link_to sport_path(sport) do %>
-          <div class="dashcard card-styles">
-            <div class='card-content'>
-              <% icon_name = sport_icons[sport.name] %>
-              <div class="sport-sign">
-                  <%= render_icon(icon_name) %>
-              </div>
-                </div>
+      <%= link_to sport_path(sport) do %>
+        <div class="dashcard card-styles">
+          <div class='card-content'>
+            <% icon_name = sport_icons[sport.name] %>
+            <div class="sport-sign">
+              <%= render_icon(icon_name) %>
             </div>
-        <% end %>
+          </div>
+        </div>
+      <% end %>
     <% end %>
   </div>
 </div>

@@ -521,7 +521,7 @@ FOOTBALL = {
       }
     },
     "2" => {
-      positions_name: "Center-back",
+      positions_name: "Left Center-back",
       positions_tag: "CB",
       description_attributes: {
         overview_of_position: "Central defender, anchors the defense",
@@ -657,7 +657,7 @@ FOOTBALL = {
       }
     },
     "10" => {
-      positions_name: "Center-back",
+      positions_name: "Right Center-back",
       positions_tag: "CB",
       description_attributes: {
         overview_of_position: "Central defender, anchors the defense",

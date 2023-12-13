@@ -2,8 +2,12 @@
   border: solid 2px;
 }
 
-.modal-content {
-
+.ai-search {
+  background: white;
+  backdrop-filter: blur( 20px );
+  border: black solid 5px;
+  border-radius: 15px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .search-loader {
   display: flex;

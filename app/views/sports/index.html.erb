@@ -1,30 +1,32 @@
-<% sport_icons = {
-     "Basketball" => "bball_index",
-     "Football" => "football_index",
-     "Rugby Union" => "rugby_index",
-     "American Football" => "american_foot_index",
-     "Baseball" => "baseball_index",
-     "Volleyball" => "volleybal_index",
-     "Ice Hockey" => "icehockey_index",
-     "Curling" => "curling_index"
-   }
-%>
-<div class="sport-index-title">
-  <h1>Your game, your guide, your choice!</h1>
-</div>
-<div class="my-grid-container">
-  <div class='my-grid'>
-    <% @sports.each do |sport| %>
-        <%= link_to sport_path(sport) do %>
-          <div class="dashcard card-styles">
-            <div class='card-content'>
-              <% icon_name = sport_icons[sport.name] %>
-              <div class="sport-sign">
-                  <%= render_icon(icon_name) %>
-              </div>
+<div class="container">
+  <% sport_icons = {
+      "Basketball" => "bball_index",
+      "Football" => "football_index",
+      "Rugby Union" => "rugby_index",
+      "American Football" => "american_foot_index",
+      "Baseball" => "baseball_index",
+      "Volleyball" => "volleybal_index",
+      "Ice Hockey" => "icehockey_index",
+      "Curling" => "curling_index"
+    }
+  %>
+  <div class="sport-index-title">
+    <h1>Your Game, Your Guide, Your Choice!</h1>
+  </div>
+  <div class="my-grid-container">
+    <div class='my-grid'>
+      <% @sports.each do |sport| %>
+          <%= link_to sport_path(sport) do %>
+            <div class="dashcard card-styles">
+              <div class='card-content'>
+                <% icon_name = sport_icons[sport.name] %>
+                <div class="sport-sign">
+                    <%= render_icon(icon_name) %>
                 </div>
-            </div>
-        <% end %>
-    <% end %>
+                  </div>
+              </div>
+          <% end %>
+      <% end %>
+    </div>
   </div>
 </div>

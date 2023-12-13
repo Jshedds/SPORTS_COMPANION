@@ -1,10 +1,82 @@
-<%  court_bg_image = 'soccer_pitch.jpg' %>
-  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+<div id="bg-container-soccer" style="background-position: center">
 
-      <% @sport.positions.each do |position| %>
-        <% if @sport.name == "Football" %>
-          <%= link_to sport_position_path(@sport, position) do %>
-            <%= render_icon "soccer_jersey" %>
-          <% end %>
+  <%= link_to sport_path(@sport) do %>
+    <%= render_icon "back" %>
+  <% end %>
+
+  <% @sport.positions.each do |position| %>
+
+    <% if position.positions_name == "CB"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="CB1" style="background-image: url('<%= image_path "CB.png" %>');">
+          </div>
         <% end %>
+
+    <% elsif position.positions_name == "CB"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="CB2" style="background-image: url('<%= image_path "CB.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "LB"%>
+      <%= link_to sport_position_path(@sport, position) do %>
+        <div id="LB" style="background-image: url('<%= image_path "LB.png" %>');">
+        </div>
       <% end %>
+
+    <% elsif position.positions_name == "RB"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="RB" style="background-image: url('<%= image_path "RB.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "CDM"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="CDM" style="background-image: url('<%= image_path "CDM.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "CM"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="CM" style="background-image: url('<%= image_path "CM.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "CAM"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="CAM" style="background-image: url('<%= image_path "CAM.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "RW"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="RW" style="background-image: url('<%= image_path "RW.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "LW"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="LW" style="background-image: url('<%= image_path "LW.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "ST"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="ST" style="background-image: url('<%= image_path "ST.png" %>');">
+          </div>
+        <% end %>
+    <% end %>
+  <% end %>
+</div>
+
+
+CB
+CB
+LB
+RB
+CDM
+CM
+CAM
+RW
+LW
+ST

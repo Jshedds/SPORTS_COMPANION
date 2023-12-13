@@ -1,0 +1,10 @@
+<%  court_bg_image = 'soccer_pitch.jpg' %>
+  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+
+      <% @sport.positions.each do |position| %>
+        <% if @sport.name == "Football" %>
+          <%= link_to sport_position_path(@sport, position) do %>
+            <%= render_icon "soccer_jersey" %>
+          <% end %>
+        <% end %>
+      <% end %>

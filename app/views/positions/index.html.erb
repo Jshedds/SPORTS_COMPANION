@@ -3,65 +3,22 @@
     <% end %>
 
   <% if @sport.name == "Basketball" %>
-      <%  court_bg_image = 'bball_court.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Football" %>
-      <%  court_bg_image = 'soccer_pitch.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "American Football" %>
-      <%  court_bg_image = 'american_football_pitch.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Rugby Union" %>
-      <%  court_bg_image = 'rugby_pitch.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Baseball" %>
-      <%  court_bg_image = 'baseball_pitch.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Ice Hockey" %>
-      <%  court_bg_image = 'icehockey_pitch.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Volleyball" %>
-      <%  court_bg_image = 'volleyball_court.png' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
-    <% elsif @sport.name == "Curling" %>
-      <%  court_bg_image = 'curling_court.jpg' %>
-        <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+    <%= render "partials/basketball_pos"%>
+  <% elsif @sport.name == "Football" %>
+    <%= render "partials/football_pos"%>
+  <% elsif @sport.name == "American Football" %>
+    <%= render "partials/amer_football_pos"%>
+  <% elsif @sport.name == "Rugby Union" %>
+    <%= render "partials/rugby_pos"%>
+  <% elsif @sport.name == "Curling" %>
+    <%= render "partials/curling_pos"%>
+  <% elsif @sport.name == "Volleyball" %>
+    <%= render "partials/volleyball_pos"%>
+  <% elsif @sport.name == "Baseball" %>
+    <%= render "partials/baseball_pos"%>
+  <% elsif @sport.name == "Ice Hockey" %>
+    <%= render "partials/icehockey_pos"%>
   <% end %>
 
-  <div class="positions">
-    <% @sport.positions.each do |position| %>
-      <% if @sport.name == "Basketball" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "bball_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Football" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "soccer_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Baseball" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "baseball_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "American Football" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "amer_football_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Ice Hockey" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "icehockey_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Volleyball" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "volleyball_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Rugby Union" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "rugby_jersey" %>
-        <% end %>
-      <% elsif @sport.name == "Curling" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "curling_jersey" %>
-        <% end %>
-      <% end %>
-    <% end %>
+
   </div>

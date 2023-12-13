@@ -37,6 +37,7 @@
         <% end %>
 
     <% elsif position.positions_name == "Wide Reciver - Z" %>
+        <%= link_to sport_position_path(@sport, position) do %>
           <div id="WR-Z" style="background-image: url('<%= image_path "WRZ.png" %>');">
           </div>
         <% end %>
@@ -69,56 +70,67 @@
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="RT" style="background-image: url('<%= image_path "RT.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Left Defensive End"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="LDE" style="background-image: url('<%= image_path "LDE.png" %>');">
           </div>
+          <% end %>
 
     <% elsif position.positions_name == "Defensive Tackle - 3 Tech"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="DT-3T" style="background-image: url('<%= image_path "DT3.png" %>');">
           </div>
+          <% end %>
 
     <% elsif position.positions_name == "Defensive Tackle - Noseguard"%>
         <%= link_to sport_position_path(@sport, position) do %>
-          <div id="DT-Nose" style="background-image: url('<%= image_path "DTN.png" %>');">
+          <div id="DT-Nose" style="background-image: url('<%= image_path "NG.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Right Defensive End"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="RDE" style="background-image: url('<%= image_path "RDE.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Right Outside Linebacker"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="ROLB" style="background-image: url('<%= image_path "ROLB.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Middle Linebacker"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="MLB" style="background-image: url('<%= image_path "MLB.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Left Outside Linebacker"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="LOLB" style="background-image: url('<%= image_path "LOLB.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Left Cornerback"%>
         <%= link_to sport_position_path(@sport, position) do %>
-          <div id="LCB" style="background-image: url('<%= image_path "LCB.png" %>');">
+          <div id="LCB" style="background-image: url('<%= image_path "FLCB.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Right Cornerback"%>
         <%= link_to sport_position_path(@sport, position) do %>
-          <div id="RCB" style="background-image: url('<%= image_path "RCB.png" %>');">
+          <div id="RCB" style="background-image: url('<%= image_path "FRCB.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Free Safety"%>
         <%= link_to sport_position_path(@sport, position) do %>
           <div id="FS" style="background-image: url('<%= image_path "FS.png" %>');">
           </div>
+        <% end %>
 
     <% elsif position.positions_name == "Strong Safety"%>
         <%= link_to sport_position_path(@sport, position) do %>

@@ -1,8 +1,107 @@
 #bg-container-soccer {
-  background-image: url('Football_pitch.jpg');
+  background-image: url('Football_pitch.jpeg');
   height: 100vh;
   width: 100vw;
   overflow: hiddden;
   position: fixed;
   background-size: cover;
+}
+
+#CB1 {
+  position: absolute;
+  height: 77px;
+  width: 61px;
+  background-size: cover;
+  top: 70%;
+  right: 63%;
+}
+
+#CB2 {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 70%;
+  right: 24%;
+}
+
+#LB {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 62%;
+  right: 82%;
+}
+
+#RB {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 62%;
+  right: 3%;
+}
+
+#CDM {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 50%;
+  right: 42%;
+}
+
+#CM {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 40%;
+  right: 68%;
+}
+
+#CAM {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 35%;
+  right: 18%;
+}
+
+#RW {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 21%;
+  right: 2%;
+}
+
+#LW {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 21%;
+  right: 82%;
+}
+
+#ST {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 16%;
+  right: 42%;
+}
+
+#GK {
+  position: absolute;
+  background-size: cover;
+  height: 77px;
+  width: 61px;
+  top: 77%;
+  right: 42%;
 }

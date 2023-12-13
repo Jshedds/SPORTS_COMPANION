@@ -33,29 +33,29 @@
 </div>
 
 <div class="sport-title">
-  <h1><%= @sport.name.upcase %></h1>
+  <%= @sport.name.upcase %>
 </div>
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>OVERVIEW</STRONG></h4>
+    OVERVIEW
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "overviews/overview" %>
   </div>
 </div>
 
 <%= link_to sport_positions_path(@sport) do %>
   <div class="tab">
-    <h4><STRONG>POSITIONS</STRONG></h4>
+    POSITIONS
   </div>
 <% end %>
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>RULES</STRONG></h4>
+    RULES
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "rules/rule" %>
   </div>
 </div>
@@ -63,27 +63,27 @@
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>TERMINOLOGY</STRONG></h4>
+    TERMINOLOGY
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "terminologies/terminology" %>
   </div>
 </div>
 
   <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>EQUIPMENT NEEDS</STRONG></h4>
+    EQUIPMENT NEEDS
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "equipment_needs/equipment_need" %>
   </div>
 </div>
 
   <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>HISTORY</STRONG></h4>
+    HISTORY
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "histories/history" %>
   </div>
 </div>

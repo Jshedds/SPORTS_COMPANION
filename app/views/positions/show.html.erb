@@ -1,7 +1,3 @@
-
-
-<h1><strong><%= @position.positions_name.upcase %></strong></h1>
-<br>
 <div class="show-sport-btns">
   <% if @current_user && @current_user.favourite_positions.exists?(position_id: @position.id) %>
     <%= link_to favourite_position_path(@favourite_position), data: { turbo_method: :delete } do %>
@@ -15,24 +11,31 @@
       <%= link_to render_icon("favourite"), new_user_session_path %>
   <% end %>
 </div>
+<div class="sport-title">
+  <%= @position.positions_name.upcase %>
+</div>
+<br>
+
 
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>DESCRIPTION</STRONG></h4>
+    <div class="text">
+      DESCRIPTION
+    </div>
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="d-none information">
     <%= render "descriptions/description" %>
   </div>
-
+</div>
 <div data-controller="toggle">
   <div data-action="click->toggle#fire" class="tab">
-    <h4><STRONG>FAMOUS PLAYER</STRONG></h4>
+    FAMOUS PLAYER
   </div>
-  <div data-toggle-target="togglableElement" class="d-none">
+  <div data-toggle-target="togglableElement" class="information">
     <%= render "famous_players/famous_player" %>
   </div>
 </div>
-  <%= render "famous_players/famous_player" %>
+
   <%= link_to render_icon("back"), sport_positions_path(@sport) %>
 <br>
   <% if @sport.name == "Basketball" %>

@@ -1,10 +1,45 @@
-<%  court_bg_image = 'bball_court.jpg' %>
-  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+<div class="bg-container" style="background-image: url(<%= image_path 'bball_court.jpg' %>)">
 
-    <% @sport.positions.each do |position| %>
-      <% if @sport.name == "Basketball" %>
-        <%= link_to sport_position_path(@sport, position) do %>
-          <%= render_icon "bball_jersey" %>
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
+
+      <% @sport.positions.each do |position| %>
+
+        <div id="PG">
+        <% if @sport.name == "Basketball" && position.positions_name == "Point Guard"%>
+          <%= link_to sport_position_path(@sport, position) do %>
+            <%= render_icon("bball_jersey") %>
+          <% end %>
+        </div>
+
+        <div id="SG">
+        <% elsif @sport.name == "Basketball" && position.positions_name == "Shooting Guard"%>
+          <%= link_to sport_position_path(@sport, position) do %>
+            <%= render_icon("bball_jersey") %>
+          <% end %>
+        </div>
+
+        <div id="SF">
+        <% elsif @sport.name == "Basketball" && position.positions_name == "Small Forward"%>
+          <%= link_to sport_position_path(@sport, position) do %>
+            <%= render_icon("bball_jersey") %>
+          <% end %>
+        </div>
+
+        <div id="PF">
+          <% elsif @sport.name == "Basketball" && position.positions_name == "Power Forward"%>
+            <%= link_to sport_position_path(@sport, position) do %>
+              <%= render_icon("bball_jersey") %>
+            <% end %>
+        </div>
+
+        <div id="C">
+          <% elsif @sport.name == "Basketball" && position.positions_name == "Center"%>
+            <%= link_to sport_position_path(@sport, position) do %>
+              <%= render_icon("bball_jersey") %>
+            <% end %>
+        </div>
         <% end %>
       <% end %>
-    <% end %>
+</div>

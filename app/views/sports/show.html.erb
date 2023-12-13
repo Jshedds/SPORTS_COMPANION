@@ -27,54 +27,76 @@
     <%= @sport.name.upcase %>
   </div>
 
-  <div data-controller="toggle">
-    <div data-action="click->toggle#fire" class="tab">
-      OVERVIEW
-    </div>
-    <div data-toggle-target="togglableElement" class="d-none information">
-      <%= render "overviews/overview" %>
-    </div>
-  </div>
 
-  <%= link_to sport_positions_path(@sport) do %>
+  <div class="accordion" id="accordionExample">
+    <div>
+      <h2 class="accordion-header" id="headingOne">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          OVERVIEW
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "overviews/overview" %>
+        </div>
+      </div>
+    </div>
+    <%= link_to sport_positions_path(@sport) do %>
     <div class="tab">
       POSITIONS
     </div>
-  <% end %>
-
-  <div data-controller="toggle">
-    <div data-action="click->toggle#fire" class="tab">
-      RULES
+    <% end %>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          RULES
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "rules/rule" %>
+        </div>
+      </div>
     </div>
-    <div data-toggle-target="togglableElement" class="d-none information">
-      <%= render "rules/rule" %>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          TERMINOLOGY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "terminologies/terminology" %>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          EQUIPMENT NEEDS
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "equipment_needs/equipment_need" %>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          HISTORY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "histories/history" %>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div data-controller="toggle">
-    <div data-action="click->toggle#fire" class="tab">
-      TERMINOLOGY
-    </div>
-    <div data-toggle-target="togglableElement" class="d-none information">
-      <%= render "terminologies/terminology" %>
-    </div>
-  </div>
 
-  <div data-controller="toggle">
-    <div data-action="click->toggle#fire" class="tab">
-      EQUIPMENT NEEDS
-    </div>
-    <div data-toggle-target="togglableElement" class="d-none information">
-      <%= render "equipment_needs/equipment_need" %>
-    </div>
-  </div>
 
-  <div data-controller="toggle">
-    <div data-action="click->toggle#fire" class="tab">
-      HISTORY
-    </div>
-    <div data-toggle-target="togglableElement" class="d-none information">
-      <%= render "histories/history" %>
-    </div>
-  </div>
+
 </div>

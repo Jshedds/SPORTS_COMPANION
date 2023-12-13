@@ -6,15 +6,15 @@
 
   <% @sport.positions.each do |position| %>
 
-    <% if position.positions_name == "Center-back"%>
+    <% if position.positions_name == "Left Center-back"%>
         <%= link_to sport_position_path(@sport, position) do %>
-          <div id="CB1" style="background-image: url('<%= image_path "CB.png" %>');">
+          <div id="CB1" style="background-image: url('<%= image_path "RCB.png" %>');">
           </div>
         <% end %>
 
-    <% elsif position.positions_name == "Center-back"%>
+    <% elsif position.positions_name == "Right Center-back"%>
         <%= link_to sport_position_path(@sport, position) do %>
-          <div id="CB2" style="background-image: url('<%= image_path "CB1.png" %>');">
+          <div id="CB2" style="background-image: url('<%= image_path "LCB.png" %>');">
           </div>
         <% end %>
 

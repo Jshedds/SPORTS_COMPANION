@@ -2,7 +2,25 @@
   background-color: rgba( 255, 255, 255, 0.31 );
   border-radius: 10px;
   padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 2px;
   backdrop-filter: blur( 20px );
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-board {
+  display: flex;
+  justify-content: space-between;
+  background: #00000000;
+  backdrop-filter: blur( 20px );
   border: solid 2.5px black;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 90%;
+}
+.message-new {
+  background: #00000000;
+  backdrop-filter: blur( 20px );
 }

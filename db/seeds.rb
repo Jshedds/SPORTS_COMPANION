@@ -27,29 +27,29 @@ BASKETBALL = {
     governing_body_url: "https://videorulebook.nba.com/"
   },
   equipment_need_attributes: {
-    footwear: "Any pair of sport shoes will do",
+    footwear: "Pair of Trainers",
     required_equipment: "A court and basketball",
     safety_gear: "Mouthguard and face masks are optional",
-    infrastructure: "Court with a basket",
-    clothing: "Any type of sports clothing will do"
+    infrastructure: "Court with a basket at either end",
+    clothing: "Shorts and sleeveless top/t/shirt"
   },
   history_attributes: {
     invented: "Year: 1891",
     creator: "James Naismith",
     country_of_origin: "United States of America",
     most_successful_teams: "Los Angeles Lakers, Boston Celtics, Chicago Bulls",
-    milestones: "1892 -> the first official game of basketball is played at the YMCA gym in Albany, New York. 1949 -> the BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 -> The 'Dream Team' wins the Olympics in Barcelona"
+    milestones: "1892 1.The first official game of basketball is played at the YMCA gym in Albany, New York. 1949 2.The BAA merges with the NBL to the create the NBA(National Basketball Association). 1992 3.The 'Dream Team' wins the Olympics in Barcelona"
   },
   terminology_attributes: {
-    most_important_terms: "Air ball -> An unblocked shot that fails to hit the the rim or backboard. Block -> to tip or deflect a players shot. Rebound -> to catch the ball after a missed field goal attempt. Assist -> a pass to a teammate who immediately scores a basket. Steal -> to gain possession of the ball from the opposing team by intercepting a pass. Free throw -> an unopposed attempt to score a basket from the free throw line, usually after a foul was commited",
+    most_important_terms: "1.AIR BALL: An unblocked shot that fails to hit the the rim or backboard. 2.BLOCK: To tip or deflect a players shot. 3.REBOUND: To catch the ball after a missed field goal attempt. 4.ASSIST: A pass to a teammate who immediately scores a basket. 5.STEAL: To gain possession of the ball from the opposing team by intercepting a pass. 6.FREE THROW: An unopposed attempt to score a basket from the free throw line, usually after a foul was commited.",
   },
   rule_attributes: {
-    game_duration: "4 twelve minutes quarters",
-    scoring: "Any basket scored from outside the three point arc is worth three points, baskets scored within the three point arc are worth two points. Free throws are worth one point each",
+    game_duration: "4x 12 minutes period",
+    scoring: "Any basket scored from outside the three point arc is worth three points. Baskets scored within the three point arc are worth two points. Free throws are worth one point each",
     player_per_team: 5,
     referees: 3,
-    most_important_rules: "The ball can only be moved by either dribbling (bouncing the ball) or passing the ball. Each team has 24 seconds to at leasst take a shot at the basket, after that the ball is turned over to the opposing team. After each successfull basket the ball is turned over to the opposing team. Fouls commited are accumulated, if a player reaches 6 fouls he is ejected from the game",
-    field_size: "Rectangular shaped measuring 91 feet long and 50 feet wide",
+    most_important_rules: "The ball can only be moved by either dribbling (bouncing the ball) or passing the ball. Each team has 24 seconds to at least take a shot at the basket, after that the ball is turned over to the opposing team. After each successful basket the ball is turned over to the opposing team. Fouls commited are accumulated, if a player reaches 6 fouls he is ejected from the game.",
+    field_size: "Rectangular shaped measuring 91 feet long and 50 feet wide.",
     field_type: "Polished Wood",
   },
     positions_attributes: {
@@ -57,15 +57,15 @@ BASKETBALL = {
         positions_name: "Point Guard",
         positions_tag: "PG",
         description_attributes: {
-          overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time",
-          primary_objectives: "Facilitate scoring opportunities for their team or sometimes for themselves",
-          strengths: "Best ball handles, passer and decision maker on the team",
-          weaknesses: "Most often the smallest player on the floor"
+          overview_of_position: "Expected to run the teams offense by controlling the ball and making sure that it gets to the right player at the right time.",
+          primary_objectives: "Facilitate scoring opportunities for their team or score themselves.",
+          strengths: "Best ball handles, passer and decision maker on the team.",
+          weaknesses: "Most often the smallest player on the floor."
         },
         famous_player_attributes: {
           famous_player_name: "Earvin 'Magic' Johnson",
           individual_milestones: "1st overall pick, 3x NBA Finals MVP, 3x NBA MVP",
-          team_trophies_won: "5x NBA Champion, Olympic gold medal",
+          team_trophies_won: "5x NBA Champion, Olympic Gold Medal",
           teams_countries: "LA Lakers, Team USA",
           photo: { io: URI.open("https://cdn.nba.com/manage/2021/08/magic-johnson-iso-archive.jpg"), filename:"magic_johnson.jpg", content_type: "image/png" }
         }
@@ -74,16 +74,16 @@ BASKETBALL = {
         positions_name: "Shooting Guard",
         positions_tag: "SG",
         description_attributes: {
-          overview_of_position: "Typically responsible for scoring points by taking shots, especially from long range",
-          primary_objectives: "Excel in scoring, often a team's primary perimeter shooter",
-          strengths: "Strong shooting skills, often quick and agile",
-          weaknesses: "May not be as involved in playmaking as a point guard"
+          overview_of_position: "Typically responsible for scoring points by taking shots, especially from long range.",
+          primary_objectives: "Excel in scoring, often a team's primary perimeter shooter.",
+          strengths: "Strong shooting skills, often quick and agile.",
+          weaknesses: "May not be as involved in playmaking as a point guard."
         },
         # file = URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg")
         famous_player_attributes: {
           famous_player_name: "Michael Jordan",
           individual_milestones: "6x NBA Finals MVP, 5x NBA MVP",
-          team_trophies_won: "6x NBA Champion, 2x Olympic gold medal",
+          team_trophies_won: "6x NBA Champion, 2x Olympic Gold Medal",
           teams_countries: "Chicago Bulls, Washington Wizards, Team USA",
           photo: { io: URI.open("https://csq.com/wp-content/uploads/2017/08/Michael-Jordan-Slam-Dunk-172.jpeg"), filename:"michael_jordan.png", content_type: "image/png" }
         }
@@ -94,15 +94,15 @@ BASKETBALL = {
         positions_name: "Small Forward",
         positions_tag: "SF",
         description_attributes: {
-          overview_of_position: "Versatile player who can contribute both offensively and defensively",
-          primary_objectives: "Score points, rebound, and assist teammates; often considered a team's most well-rounded player",
-          strengths: "Balanced skills in scoring, rebounding, and defense",
-          weaknesses: "May not specialize in a specific aspect of the game"
+          overview_of_position: "Versatile player who can contribute both offensively and defensively.",
+          primary_objectives: "Score points, rebound, and assist teammates. Often considered a team's most well-rounded player.",
+          strengths: "Balanced skills in scoring, rebounding, and defense.",
+          weaknesses: "May not specialize in a specific aspect of the game."
         },
         famous_player_attributes: {
           famous_player_name: "Lebron James",
           individual_milestones: "4x NBA Finals MVP, 4x NBA MVP",
-          team_trophies_won: "4x NBA Champion, 2x Olympic gold medal",
+          team_trophies_won: "4x NBA Champion, 2x Olympic Gold Medal",
           teams_countries: "LA Lakers, Miami Heat, Cleveland Cavaliers, Team USA",
           photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"), filename:"lebron_james.png", content_type: "image/png" }
         }
@@ -111,10 +111,10 @@ BASKETBALL = {
         positions_name: "Power Forward",
         positions_tag: "PF",
         description_attributes: {
-          overview_of_position: "Typically a strong and physical player who plays close to the basket",
-          primary_objectives: "Score points in the post, rebound, and provide interior defense",
-          strengths: "Strong, rebounder, and capable of scoring in and around the paint",
-          weaknesses: "May not have the agility or perimeter skills of smaller players"
+          overview_of_position: "Typically a strong and physical player who plays close to the basket.",
+          primary_objectives: "Score points in the post, rebound, and provide interior defense.",
+          strengths: "Strong, rebounder, and capable of scoring in and around the paint.",
+          weaknesses: "May not have the agility or perimeter skills of smaller players."
         },
         famous_player_attributes: {
           famous_player_name: "Tim Duncan",
@@ -128,10 +128,10 @@ BASKETBALL = {
         positions_name: "Center",
         positions_tag: "C",
         description_attributes: {
-          overview_of_position: "Typically the tallest player on the team, responsible for scoring near the basket and protecting the rim",
-          primary_objectives: "Score point in the post, block shots, and grab rebounds",
-          strengths: "Tall and physically imposing, strong in the paint",
-          weaknesses: "May lack the agility and perimeter skills of smaller players"
+          overview_of_position: "Typically the tallest player on the team. Responsible for scoring near the basket and protecting the rim.",
+          primary_objectives: "Score points in the post, block shots, and grab rebounds.",
+          strengths: "Tall and physically imposing, strong in the paint.",
+          weaknesses: "May lack the agility and perimeter skills of smaller players."
         },
         famous_player_attributes: {
           famous_player_name: "Shaquille O'Neal",
@@ -455,50 +455,50 @@ RUGBY_UNION = {
 FOOTBALL = {
   name: "Football",
   overview_attributes: {
-    short_description: "Score goals",
-    game_objective: "The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.",
+    short_description: "Score goals.",
+    game_objective: "The aim of football is to score more goals then your opponent. The match is split up into 2 halves of 45 minutes, with the potential for extra time in certain competitions.",
     governing_body_url: "https://www.fifa.com/fifaplus/en"
   },
   equipment_need_attributes: {
-    footwear: "Studded football boots",
-    required_equipment: "Matching strips",
-    safety_gear: "Shin pads and padded gloves (for goalkeepers)",
-    infrastructure: "A football pitch",
-    clothing: "Matching shirts, shorts and socks"
+    footwear: "Studded football boots.",
+    required_equipment: "Matching strips.",
+    safety_gear: "Shin pads for all players. Padded gloves for goalkeepers.",
+    infrastructure: "A football pitch.",
+    clothing: "Matching shirts, shorts and socks."
   },
   history_attributes: {
     invented: "There aree a lot of depictions to multiple football-like sports played by anciet civilizations but the starting concept of modern football was invented in 1862.",
-    creator: "J. C. Thring",
-    country_of_origin: "England",
+    creator: "J. C. Thring.",
+    country_of_origin: "England.",
     most_successful_teams: "Colo-Colo, Boca Juniors, Club Olimpia, FCSB, RSC Anderlecht, Liverpool, Galatasaray, Juventus, Ajax, Manchester United, Bayern Munich, Olympiacos FC, SL Benfica, Barcelona, Real Madrid, Celtic, Club Atlético Peñarol, Nacional de Football, Rangers FC",
-    milestones: "fill here"
+    milestones: "First International match took place between England and Scotland in 1872, at West of Scotland Cricket Club in Partick, Glasgow."
   },
   terminology_attributes: {
-    most_important_terms: "Goal, offside, foul, penalty",
+    most_important_terms: "GOAL, OFFSIDE, FOUL, PENALTY",
   },
   rule_attributes: {
-    game_duration: "Two 45 minutes halves plus compensation",
-    scoring: "The ball enters the goal",
+    game_duration: "Two 45 minutes halves plus compensation.",
+    scoring: "The ball enters the goal.",
     player_per_team: 11,
     referees: 4,
-    most_important_rules: "A match consists of two 45 minutes halves with a 15 minute rest period in between. Each team can have a minimum off 11 players (including 1 goalkeeper who is the only player allowed to handle the ball within the 16,5 meters) and a minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
+    most_important_rules: "Each team can have 11 players, including 1 goalkeeper who is the only player allowed to handle the ball within the box. A minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
     field_size: "A pitch can be a minimum of 45 meters in width and 90 meters in length, and a maximum of 90 meters width and 120 meters length.",
-    field_type: "Natural or artificial grass",
+    field_type: "Natural or artificial grass."
   },
   positions_attributes: {
     "0" => {
       positions_name: "Goalkeeper",
       positions_tag: "GK",
       description_attributes: {
-        overview_of_position: "Last line of defense, prevents the opponent from scoring",
-        primary_objectives: "Stopping shots, organizing the defense, distributing the ball",
-        strengths: "Shot-stopping, command of the penalty area, distribution",
-        weaknesses: "Vulnerable to one-on-one situations, handling crosses"
+        overview_of_position: "Last line of defense, prevents the opponent from scoring.",
+        primary_objectives: "Stopping shots, organizing the defense, distributing the ball.",
+        strengths: "Shot-stopping, command of the penalty area, distribution.",
+        weaknesses: "Vulnerable to one-on-one situations, handling crosses."
       },
       famous_player_attributes: {
         famous_player_name: "Lev Yashin",
-        individual_milestones: "FIFA Ballon d'Or winner in 1963",
-        team_trophies_won: "1960 European Championship with the Soviet Union",
+        individual_milestones: "FIFA Ballon d'Or winner in 1963.",
+        team_trophies_won: "1960 European Championship with the Soviet Union.",
         teams_countries: "Dynamo, Moscow, Soviet Union",
         photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "image/png" }
       }
@@ -507,15 +507,15 @@ FOOTBALL = {
       positions_name: "Right-back",
       positions_tag: "RB",
       description_attributes: {
-        overview_of_position: "Defender on the right side of the backline",
-        primary_objectives: "Defending against wingers, supporting attacks, crossing",
-        strengths: "Tackling, positional awareness, crossing",
+        overview_of_position: "Defender on the right side of the backline.",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing.",
+        strengths: "Tackling, positional awareness, crossing.",
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
         famous_player_name: "Cafu",
-        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002)",
-        team_trophies_won: "Multiple Serie A titles with AC Milan",
+        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002).",
+        team_trophies_won: "Multiple Serie A titles with AC Milan.",
         teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
         photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "image/png" }
       }
@@ -524,15 +524,15 @@ FOOTBALL = {
       positions_name: "Left Center-back",
       positions_tag: "CB",
       description_attributes: {
-        overview_of_position: "Central defender, anchors the defense",
-        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
-        strengths: "Aerial ability, tackling, leadership",
-        weaknesses: "Pace, one-on-one situations"
+        overview_of_position: "Central defender, anchors the defense.",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels.",
+        strengths: "Aerial ability, tackling, leadership.",
+        weaknesses: "Pace, one-on-one situations."
       },
       famous_player_attributes: {
         famous_player_name: "Franz Beckenbauer",
-        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990)",
-        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich",
+        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990).",
+        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich.",
         teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
         photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "image/png" }
       }
@@ -558,10 +558,10 @@ FOOTBALL = {
       positions_name: "Defensive Midfielder",
       positions_tag: "CDM",
       description_attributes: {
-        overview_of_position: "Midfielder with a focus on defensive duties",
-        primary_objectives: "Breaking up opposition attacks, shielding the defense",
-        strengths: "Tackling, ball-winning, passing",
-        weaknesses: "Limited goal-scoring, attacking contribution"
+        overview_of_position: "Midfielder with a focus on defensive duties.",
+        primary_objectives: "Breaking up opposition attacks, shielding the defense.",
+        strengths: "Tackling, ball-winning, passing.",
+        weaknesses: "Limited goal-scoring, attacking contribution."
       },
       famous_player_attributes: {
         famous_player_name: "Frank Rijkaard",
@@ -575,10 +575,10 @@ FOOTBALL = {
       positions_name: "Central Midfielder",
       positions_tag: "CM",
       description_attributes: {
-        overview_of_position: "Midfielder inovlved in both defensive and attacking play",
-        primary_objectives: "Distrubiting the ball, controlling the tempo, joining attacks",
-        strengths: "Passing, vision, work rate",
-        weaknesses: "Limited goal-scoring, defensive responsibilities"
+        overview_of_position: "Midfielder inovlved in both defensive and attacking play.",
+        primary_objectives: "Distrubiting the ball, controlling the tempo, joining attacks.",
+        strengths: "Passing, vision, work rate.",
+        weaknesses: "Limited goal-scoring, defensive responsibilities."
       },
       famous_player_attributes: {
         famous_player_name: "Alfredo Di Stefano",
@@ -592,10 +592,10 @@ FOOTBALL = {
       positions_name: "Attacking Midfielder",
       positions_tag: "CAM",
       description_attributes: {
-        overview_of_position: "Midfielder focused on creating scoring opportunities",
-        primary_objectives: "Playmaking, scoring goals, providing assists",
-        strengths: "Dribbling, creativity, goal-scoring",
-        weaknesses: "Defensive responsiblities, physical duels"
+        overview_of_position: "Midfielder focused on creating scoring opportunities.",
+        primary_objectives: "Playmaking, scoring goals, providing assists.",
+        strengths: "Dribbling, creativity, goal-scoring.",
+        weaknesses: "Defensive responsiblities, physical duels."
       },
       famous_player_attributes: {
         famous_player_name: "Diego Maradona",
@@ -609,15 +609,15 @@ FOOTBALL = {
       positions_name: "Right Winger",
       positions_tag: "RW",
       description_attributes: {
-        overview_of_position: "Forward positioned on the right flank",
-        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
-        strengths: "Pace, dribbling, cutting inside",
-        weaknesses: "Defensive responsiblities, physical marking"
+        overview_of_position: "Forward positioned on the right flank.",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders.",
+        strengths: "Pace, dribbling, cutting inside.",
+        weaknesses: "Defensive responsiblities, physical marking."
       },
       famous_player_attributes: {
         famous_player_name: "Lionel Messi",
         individual_milestones: "Multiple FIFA Ballon d'Or winner",
-        team_trophies_won: "Numerous La Lifa and Champions League titles with Barcelona",
+        team_trophies_won: "Numerous La Liga and Champions League titles with Barcelona",
         teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
         photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "image/png" }
       }
@@ -626,10 +626,10 @@ FOOTBALL = {
       positions_name: "Striker",
       positions_tag: "ST",
       description_attributes: {
-        overview_of_position: "Primary goal-scorer, positioned centrally",
-        primary_objectives: "Scoring goals, creating space, linking up play",
-        strengths: "Finishing, positioning, physicality",
-        weaknesses: "Defensive responsibilities, marking by defenders"
+        overview_of_position: "Primary goal-scorer, positioned centrally.",
+        primary_objectives: "Scoring goals, creating space, linking up play.",
+        strengths: "Finishing, positioning, physicality.",
+        weaknesses: "Defensive responsibilities, marking by defenders."
       },
       famous_player_attributes: {
         famous_player_name: "Pele",
@@ -643,10 +643,10 @@ FOOTBALL = {
       positions_name: "Left Winger",
       positions_tag: "LW",
       description_attributes: {
-        overview_of_position: "Forward positioned on the left flank",
-        primary_objectives: "Scoring goals, providing assists, dribbling past defenders",
-        strengths: "Pace, dribbling, cutting inside",
-        weaknesses: "Defensive responsiblities, physical marking"
+        overview_of_position: "Forward positioned on the left flank.",
+        primary_objectives: "Scoring goals, providing assists, dribbling past defenders.",
+        strengths: "Pace, dribbling, cutting inside.",
+        weaknesses: "Defensive responsiblities, physical marking."
       },
       famous_player_attributes: {
         famous_player_name: "Cristiano Ronaldo",
@@ -1329,8 +1329,8 @@ ICE_HOCKEY = {
       }
     },
     "1" => {
-      positions_name: "Defenseman",
-      positions_tag: "D",
+      positions_name: "Right Defenseman",
+      positions_tag: "RD",
       description_attributes: {
         overview_of_position: "Defender, protects the goaltender and initiates offensive plays",
         primary_objectives: "Blocking shots, breaking up plays, moving the puck up the ice",
@@ -1394,6 +1394,23 @@ ICE_HOCKEY = {
         team_trophies_won: "Los Angeles Kings",
         teams_countries: "Canada",
         photo: { io: URI.open("https://www.dailybreeze.com/wp-content/uploads/migration/2009/200906/NEWS_906239762_AR_0_0.jpg?w=535"), filename:"luc_robitaille.jpg", content_type: "image/png" }
+      }
+    },
+    "5" => {
+      positions_name: "Left Defenseman",
+      positions_tag: "LD",
+      description_attributes: {
+        overview_of_position: "Defender, protects the goaltender and initiates offensive plays",
+        primary_objectives: "Blocking shots, breaking up plays, moving the puck up the ice",
+        strengths: "Defensive awareness, physical play, shot blocking",
+        weaknesses: "Skating speed, offensive production"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Nicklas Lidstrom",
+        individual_milestones: "7-time Norris Trophy winner, 2x Viking Award",
+        team_trophies_won: "4x Stanley Cups, 2006 Olympic Gold Medal, 1991 World Champions",
+        teams_countries: "Sweden, Detroit Red Wings",
+        photo: { io: URI.open("https://i.pinimg.com/originals/0d/f8/af/0df8af4591cc45edbcfe6a4f0ae2707c.jpg"), filename:"nikolas_ludstrum.jpg", content_type: "image/jpg" }
       }
     }
   }

@@ -37,24 +37,24 @@
 
   <div class="accordion" id="accordionExample">
     <div>
-      <h2 class="accordion-header" id="headingOne">
-        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           DESCRIPTION
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="information">
           <%= render "descriptions/description" %>
         </div>
       </div>
     </div>
     <div>
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           FAMOUS PLAYER
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
         <div class="information">
           <%= render "famous_players/famous_player" %>
         </div>

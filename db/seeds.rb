@@ -246,7 +246,7 @@ RUGBY_UNION = {
       }
     },
     "3" => {
-      positions_name: "Second Row",
+      positions_name: "Loosehead Lock (Second Row)",
       positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",
@@ -263,7 +263,7 @@ RUGBY_UNION = {
       }
     },
     "4" => {
-      positions_name: "Second Row",
+      positions_name: "Tighthead lock (Second Row)",
       positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",
@@ -698,7 +698,7 @@ AMERICAN_FOOTBALL = {
     milestones: "First Super Bowl held in 1967"
   },
   terminology_attributes: {
-    most_important_terms: "Touchdown, field goal, interception, fumble, kickoff"
+    most_important_terms: "1. TOUCHDOWN: A touchdown is scored in American football when a player carries or catches the ball across the opponent's goal line. 2. FIELD GOAL: A field goal is a scoring play where the ball is kicked between the goalposts. 3. INTERCEPTION: An interception occurs when a defensive player catches a pass inteded for an offensive player, resulting in a change of possession. 4. FUMBLE: A fumble happens in football when a player loses possession of the ball unintentionally, and it becomes free to be recovered by either team. 5. KICKOFF: A kickoff is the method used to start a football game or resume play after a score, with one team kicking the ball to the other to begin the game or following a scoring play."
   },
   rule_attributes: {
     game_duration: "Four quarters of 15 minutes each",

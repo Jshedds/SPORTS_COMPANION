@@ -1,4 +1,283 @@
 #bg-container-football {
-
+  background-image: url('merican_foot_pitch.jpg');
+  height: 100vh;
+  width: 100vw;
+  overflow: hiddden;
+  position: fixed;
+  background-size: cover;
 }
 
+#QB {
+  position: absolute;
+  top: 69%;
+  right: 43%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#fRB {
+  position: absolute;
+  top: 72%;
+  right: 27%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#TE {
+  position: absolute;
+  top: 49%;
+  right: 1%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#WR-X {
+  position: absolute;
+  top: 49%;
+  right: 87%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#WR-Y {
+  position: absolute;
+  top: 65%;
+  right: 81%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#WR-Z {
+  position: absolute;
+  top: 61%;
+  right: 1%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#LT {
+  position: absolute;
+  top: 49%;
+  right: 71%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#LG {
+  position: absolute;
+  top: 49%;
+  right: 57%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#fC {
+  position: absolute;
+  top: 49%;
+  right: 43%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#RG {
+  position: absolute;
+  top: 49%;
+  right: 29%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#RT {
+  position: absolute;
+  top: 49%;
+  right: 15%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#LDE {
+  position: absolute;
+  top: 37%;
+  right: 7%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#DT-3T {
+  position: absolute;
+  top: 37%;
+  right: 23%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#DT-Nose {
+  position: absolute;
+  top: 37%;
+  right: 51%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#RDE {
+  position: absolute;
+  top: 37%;
+  right: 78%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#ROLB {
+  position: absolute;
+  top: 22%;
+  right: 20%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#MLB {
+  position: absolute;
+  top: 22%;
+  right: 43%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#LOLB {
+  position: absolute;
+  top: 22%;
+  right: 66%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#LCB {
+  position: absolute;
+  top: 25%;
+  right: 1%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#RCB {
+  position: absolute;
+  top: 25%;
+  right: 87%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#FS {
+  position: absolute;
+  top: 8%;
+  right: 59%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#SS {
+  position: absolute;
+  top: 8%;
+  right: 26%;
+  height: 63px;
+  width: 48px;
+  background-size: cover;
+  transform: rotate(180deg);
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+<div id="bg-container-curling" style="background-position: center" >
+  <div class="index-btn">
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
+  </div>
+
+  <% @sport.positions.each do |position| %>
+
+    <% if position.positions_name == "Skip"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="skip" style="background-image: url('<%= image_path "skip.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Vice"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="vice" style="background-image: url('<%= image_path "vice.png" %>');">
+          </div>
+        <% end %>
+
+      <% elsif position.positions_name == "Second"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="second" style="background-image: url('<%= image_path "second.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Lead"%>
+      <%= link_to sport_position_path(@sport, position) do %>
+        <div id="lead" style="background-image: url('<%= image_path "lead.png" %>');">
+        </div>
+      <% end %>
+    <% end %>
+  <% end %>
+</div>

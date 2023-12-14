@@ -1,2 +1,66 @@
-<%  court_bg_image = 'baseball_pitch.jpg' %>
-  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+<div id="bg-container-baseball" style="background-position: center" >
+
+  <div class="index-btn">
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
+  </div>
+
+  <% @sport.positions.each do |position| %>
+
+    <% if position.positions_name == "Pitcher"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="bp" style="background-image: url('<%= image_path "bp.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Catcher"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="bc" style="background-image: url('<%= image_path "bc.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "First Baseman"%>
+      <%= link_to sport_position_path(@sport, position) do %>
+        <div id="bfb" style="background-image: url('<%= image_path "bfb.png" %>');">
+        </div>
+      <% end %>
+
+    <% elsif position.positions_name == "Second Baseman"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="bsb" style="background-image: url('<%= image_path "bsb.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Third Baseman"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="btb" style="background-image: url('<%= image_path "btb.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Shortstop"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="bst" style="background-image: url('<%= image_path "bst.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Left Fielder"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="blf" style="background-image: url('<%= image_path "blf.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Center Fielder"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="bcf" style="background-image: url('<%= image_path "bcf.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Right Fielder"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="brf" style="background-image: url('<%= image_path "brf.png" %>');">
+          </div>
+        <% end %>
+    <% end %>
+  <% end %>
+</div>

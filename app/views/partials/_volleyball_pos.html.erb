@@ -1,2 +1,47 @@
-<% court_bg_image = 'volleyball_court.png' %>
-  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+<div id="bg-container-volleyball" style="background-position: center" >
+  <div class="index-btn">
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
+  </div>
+
+  <% @sport.positions.each do |position| %>
+
+    <% if position.positions_name == "Setter"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="v1" style="background-image: url('<%= image_path "v1.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Outside Hitter Left"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="v5" style="background-image: url('<%= image_path "v5.png" %>');">
+          </div>
+        <% end %>
+
+      <% elsif position.positions_name == "Outside Hitter Right"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="v2" style="background-image: url('<%= image_path "v2.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Middle Blocker"%>
+      <%= link_to sport_position_path(@sport, position) do %>
+        <div id="v3" style="background-image: url('<%= image_path "v3.png" %>');">
+        </div>
+      <% end %>
+
+    <% elsif position.positions_name == "Opposite Hitter"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="v4" style="background-image: url('<%= image_path "v4.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Libero"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="v6" style="background-image: url('<%= image_path "v6.png" %>');">
+          </div>
+        <% end %>
+    <% end %>
+  <% end %>
+</div>

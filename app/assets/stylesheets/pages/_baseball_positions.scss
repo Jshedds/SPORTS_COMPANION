@@ -1,0 +1,116 @@
+#bg-container-baseball {
+  background-image: url('baseball_pitch.jpg');
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#bp {
+  position: absolute;
+  top: 38%;
+  right: 42%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#bc {
+  position: absolute;
+  top: 71%;
+  right: 42%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#bfb {
+  position: absolute;
+  top: 38%;
+  right: 3%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#bsb {
+  position: absolute;
+  top: 22%;
+  right: 20%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#btb {
+  position: absolute;
+  top: 38%;
+  right: 79%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#bst {
+  position: absolute;
+  top: 22%;
+  right: 62%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#blf {
+  position: absolute;
+  top: 8%;
+  right: 81%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#bcf {
+  position: absolute;
+  top: 2%;
+  right: 42%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#brf {
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}

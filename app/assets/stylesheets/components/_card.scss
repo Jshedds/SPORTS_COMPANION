@@ -19,7 +19,6 @@
 }
 
 .my-grid-container {
-  height: 100vh;
   margin-top: 40px;
   // margin-bottom: 20px;
 }
@@ -89,29 +88,22 @@ body {
 .favecard {
   text-align: center;
   height: fit-content;
-  border-radius: 25px;
-  border: solid 5px;
-  border-color: black;
-  background-size: cover;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
   position: relative;
-  background-color: white;
   padding:5px;
   width:fit-content;
-  margin-top: 5px;
-  margin-bottom: 10px;
+
 }
 .dash-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 10px;
 }
 .position-card {
   text-align: center;
   height: fit-content;
   border-radius: 25px;
-  border: solid 5px;
+  border: solid 3px;
   border-color: black;
   background-size: cover;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
@@ -124,7 +116,7 @@ body {
 }
 .position-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
 }
 .position-content {
@@ -133,4 +125,15 @@ body {
   // top: 50%;
   // left: 50%;
   // transform: translate(-50%, -50%);
+}
+
+#r3th {
+  background-size: cover;
+  height: 80px;
+  width: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
 }

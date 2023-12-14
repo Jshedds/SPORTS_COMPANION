@@ -1,8 +1,10 @@
 <div id="bg-container-rugby" style="background-position: center">
 
-  <%= link_to sport_path(@sport) do %>
-    <%= render_icon "back" %>
-  <% end %>
+  <div class="index-btn">
+    <%= link_to sport_path(@sport) do %>
+      <%= render_icon "back" %>
+    <% end %>
+  </div>
 
   <% @sport.positions.each do |position| %>
 

@@ -1,0 +1,80 @@
+#bg-container-volleyball {
+  background-image: url('volleyball_court.png');
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#iG {
+  position: absolute;
+  top: 73%;
+  right: 39%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#iRD {
+  position: absolute;
+  top: 54%;
+  right: 14%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#iC {
+  position: absolute;
+  top: 21%;
+  right: 39%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#iRW {
+  position: absolute;
+  top: 32%;
+  right: 10%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#iLW {
+  position: absolute;
+  top: 32%;
+  right: 67%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#iLD {
+  position: absolute;
+  top: 54%;
+  right: 63%;
+  height: 76px;
+  width: 76px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}

@@ -365,7 +365,7 @@ RUGBY_UNION = {
       }
     },
     "10" => {
-      positions_name: "Left Wing",
+      positions_name: "L Winger",
       positions_tag: "LW",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the left flank",
@@ -417,7 +417,7 @@ RUGBY_UNION = {
       }
     },
     "13" => {
-      positions_name: "Right Wing",
+      positions_name: "R Winger",
       positions_tag: "RW",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the right flank",
@@ -1468,7 +1468,7 @@ VOLLEYBALL = {
       }
     },
     "1" => {
-      positions_name: "Outside Hitter",
+      positions_name: "Outside Hitter Left",
       positions_tag: "OH",
       description_attributes: {
         overview_of_position: "Attacker positioned on the left side of the net",
@@ -1521,6 +1521,23 @@ VOLLEYBALL = {
     "4" => {
       positions_name: "Libero",
       positions_tag: "L",
+      description_attributes: {
+        overview_of_position: "Defensive specialist, wears a different color jersey",
+        primary_objectives: "Passing, digging, serve reception",
+        strengths: "Defensive skills, agility, court awareness",
+        weaknesses: "Limited attacking, height restrictions"
+      },
+      famous_player_attributes: {
+        famous_player_name: "Sergio Santos",
+        individual_milestones: "Olympic gold medalist, 3-time World Cup winner",
+        team_trophies_won: "Brazil",
+        teams_countries: "Brazil",
+        photo: { io: URI.open("https://editorial01.shutterstock.com/preview-440/5829617f/708d440b/Shutterstock_5829617f.jpg"), filename:"sergio_santos.jpg", content_type: "image/png" }
+      }
+    },
+    "5" => {
+      positions_name: "Outside Hitter Right",
+      positions_tag: "OHR",
       description_attributes: {
         overview_of_position: "Defensive specialist, wears a different color jersey",
         primary_objectives: "Passing, digging, serve reception",

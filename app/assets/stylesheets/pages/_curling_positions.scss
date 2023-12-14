@@ -1,0 +1,55 @@
+#bg-container-curling {
+  background-image: url('curling_court.jpg');
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-position: center;
+}
+
+#skip {
+  position: absolute;
+  top: 1%;
+  right: 40%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(2, 2, 2, 2);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#vice {
+  position: absolute;
+  top: 76%;
+  right: 40%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#second {
+  position: absolute;
+  top: 62%;
+  right: 25%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#lead {
+  position: absolute;
+  top: 62%;
+  right: 56%;
+  height: 68px;
+  width: 67px;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 #020202;
+  border: solid 2px black;
+  border-radius: 10px;
+}

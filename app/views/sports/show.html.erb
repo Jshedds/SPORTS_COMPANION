@@ -3,7 +3,7 @@
     <% elsif @sport.name == "Football" %>
       <div class="pitch-bg" style="background-image: url( <%= asset_path 'Football_pitch.jpeg' %>)" >
     <% elsif @sport.name == "American Football" %>
-      <div class="pitch-bg" style="background-image: url( <%= asset_path 'american_football_pitch.jpg' %>)" >
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'merican_foot_pitch.jpeg' %>)" >
     <% elsif @sport.name == "Rugby Union" %>
       <div class="pitch-bg" style="background-image: url( <%= asset_path 'rugby_pitch.jpg' %>)" >
     <% elsif @sport.name == "Curling" %>
@@ -15,6 +15,7 @@
     <% elsif @sport.name == "Ice Hockey" %>
       <div class="pitch-bg" style="background-image: url( <%= asset_path 'icehockey_pitch.jpg' %>)" >
     <% end %>
+
 <div class="container">
   <div class="show-sport-btns">
     <%= link_to sports_path do %>

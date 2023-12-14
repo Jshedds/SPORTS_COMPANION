@@ -1,0 +1,10 @@
+<% if favourite_position.position.positions_name == "Left Center-back"%>
+          <%= link_to sport_position_path(@sport, position) do %>
+            <div class="position-card card-styles">
+              <div class='position-content'>
+                <div id="CB1" style="background-image: url('<%= image_path "RCB.png" %>');"></div>
+              </div>
+            </div>
+          <% end %>
+
+        <% end %>

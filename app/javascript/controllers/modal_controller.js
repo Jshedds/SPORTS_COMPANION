@@ -2,12 +2,13 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="modal"
 export default class extends Controller {
-  static targets = ["first", "input", "second", "athlete"]
+  static targets = ["first", "input", "second", "athlete", "loader"]
   connect() {
 
     this.first_modal = new bootstrap.Modal(this.firstTarget)
   }
   find() {
+    this.loaderTarget.classList.remove('d-none')
     const url = `/athletes/find_or_create?name=${this.inputTarget.value}`
     fetch(url, {
       method: "GET",

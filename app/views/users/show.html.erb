@@ -1,39 +1,59 @@
-<div class="profile">
-  <h1><%= @current_user.username %>'s Profile</h1>
-</div>
+<div class="container">
+  <div class="profile">
+    <h1><%= @current_user.username %>'s Profile</h1>
+  </div>
 
-<h4> My <%= render_icon("unfavourite") =%> Sports</h4>
-
-<% if @favourites.exists? %>
-  <% @favourites.each do |favourite| %>
-    <% if favourite.sport.name == "Basketball" %>
-      <%= link_to render_icon("bball"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Football" %>
-      <%= link_to render_icon("football"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Rugby Union" %>
-      <%= link_to render_icon("rugby"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "American Football" %>
-      <%= link_to render_icon("american_foot"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Baseball" %>
-      <%= link_to render_icon("baseball"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Volleyball" %>
-      <%= link_to render_icon("volleyball"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Ice Hockey" %>
-      <%= link_to render_icon("icehockey"), sport_path(favourite.sport) %>
-    <% elsif favourite.sport.name == "Curling" %>
-      <%= link_to render_icon("curling"), sport_path(favourite.sport) %>
-    <% end %>
-  <% end %>
-<% else %>
-  <%= "You haven't added any sports to your favourites yet" %>
-    <%= link_to sports_path do %>
-      <%=  render_icon "add" %>
+  <h4> My <%= render_icon("unfavourite") =%> Sports</h4>
+  <div class='dash-grid'>
+    <% if @favourites.exists? %>
+      <% @favourites.each do |favourite| %>
+        <div class="favecard card-styles">
+          <div class='card-content'>
+            <% if favourite.sport.name == "Basketball" %>
+              <%= link_to render_icon("dash_bball"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Football" %>
+              <%= link_to render_icon("dash_football"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Rugby Union" %>
+              <%= link_to render_icon("dash_rugby"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "American Football" %>
+              <%= link_to render_icon("dash_american_foot"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Baseball" %>
+              <%= link_to render_icon("dash_baseball"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Volleyball" %>
+              <%= link_to render_icon("dash_volleyball"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Ice Hockey" %>
+              <%= link_to render_icon("dash_icehockey"), sport_path(favourite.sport) %>
+            <% elsif favourite.sport.name == "Curling" %>
+              <%= link_to render_icon("dash_curling"), sport_path(favourite.sport) %>
+            <% end %>
+          </div>
+        </div>
       <% end %>
-<% end%>
-
-<h4> My <%= render_icon("unfavourite") %> Positions</h4>
-
-  <%= "You haven't added any positions to your favourites yet" %>
-    <%= link_to sports_path do %>
-      <%=  render_icon "add" %>
-    <% end %>
+    <% else %>
+      <%= "You haven't added any sports to your favourites yet" %>
+        <%= link_to sports_path do %>
+          <%=  render_icon "add" %>
+          <% end %>
+    <% end%>
+  </div>
+  <h4> My <%= render_icon("unfavourite") %> Positions</h4>
+  <%# <div class='dash-grid'> %>
+    <%# <% if @favourite_positions.exists? %>
+      <%# <% @favourite_positions.each do |favourite_position| %>
+        <%# <div class="favecard card-styles"> %>
+          <%# <div class='card-content'> %>
+            <!-- Display the position info here -->
+            <%# <%= link_to favourite_position.position.positions_name, sport_position_path(favourite_position.position.sport, favourite_position.position) %>
+            <!-- Adjust the above code according to your position's attributes -->
+          <%# </div> %>
+        <%# </div> %>
+      <%# <% end %>
+    <%# <% else %>
+      <!-- If the user has no favorite positions -->
+      <%# <%= "You haven't added any positions to your favourites yet" %>
+      <%# <%= link_to sports_path do %>
+        <%# <%= render_icon "add" %>
+      <%# <% end %>
+    <%# <% end %>
+  <%# </div> %>
+</div>

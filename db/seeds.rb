@@ -497,8 +497,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Lev Yashin",
-        individual_milestones: "FIFA Ballon d'Or winner in 1963.",
-        team_trophies_won: "1960 European Championship with the Soviet Union.",
+        individual_milestones: "1x Ballon d'Or 1963, 9x European GoalKeeper of the Year",
+        team_trophies_won: "1960 European Championship, Olympic Gold Medal, 5x Soviet Top League, 3x Soviet Cup",
         teams_countries: "Dynamo, Moscow, Soviet Union",
         photo: { io: URI.open("https://64.media.tumblr.com/af8b73d9efffc55cb5ef85cb2662cd95/tumblr_mh2fvjfl1y1rmxfeao1_1280.jpg"), filename:"lev_yashin.jpg", content_type: "image/png" }
       }
@@ -514,8 +514,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Cafu",
-        individual_milestones: "Two-time FIFA World Cup winner (1994, 2002).",
-        team_trophies_won: "Multiple Serie A titles with AC Milan.",
+        individual_milestones: "4x South American Team of the Year, Ballon d'Or Dream Team 2020",
+        team_trophies_won: "2x FIFA World Cup, 2x Serie A Titles, 1x Champions League, multiple more",
         teams_countries: "St. Paul, Real Zaragoza, Palmeiras, Rome, AC Milan, Brazil",
         photo: { io: URI.open("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltd590ca0cafa50652/63fdcdff24864445770c53a5/cafu.jpg?auto=webp&format=pjpg&width=3840&quality=60"), filename:"cafu.jpg", content_type: "image/png" }
       }
@@ -531,8 +531,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Franz Beckenbauer",
-        individual_milestones: "FIFA World Cup winner as both a player (1974) and coach (1990).",
-        team_trophies_won: "Multiple Bundesliga titles with Bayern Munich.",
+        individual_milestones: "World Cup Winner as player and coach, 2 x Ballon d'or, 4x German Footballer of the Year",
+        team_trophies_won: "5x Bundesliga Titles, 1x FIFA World Cup, 3x European Cups.",
         teams_countries: "Bayern Munich, NY Cosmos, Hamburg, West Germany",
         photo: { io: URI.open("https://upload.wikimedia.org/wikipedia/commons/5/56/Franz_Beckenbauer_%281975%29.jpg"), filename:"franz_beckenbauer.jpg", content_type: "image/png" }
       }
@@ -541,15 +541,15 @@ FOOTBALL = {
       positions_name: "Left-back",
       positions_tag: "LB",
       description_attributes: {
-        overview_of_position: "Defender on the left side of the backline",
-        primary_objectives: "Defending against wingers, supporting attacks, crossing",
-        strengths: "Tackling, positional awareness, crossing",
+        overview_of_position: "Defender on the left side of the backline.",
+        primary_objectives: "Defending against wingers, supporting attacks, crossing.",
+        strengths: "Tackling, positional awareness, crossing.",
         weaknesses: "Facing skillsful wingers, defensive responsiblities"
       },
       famous_player_attributes: {
         famous_player_name: "Paolo Maldini",
         individual_milestones: "Most appearances for AC Milan",
-        team_trophies_won: "Multiple Serie A and Champions League titles with AC Milan",
+        team_trophies_won: "5x European Cup/Champions League, 7x Serie A Title, 4x European Super Cup, 1x FIFA Club Word Cup",
         teams_countries: "AC Milan, Italy",
         photo: { io: URI.open("https://tmssl.akamaized.net/images/foto/galerie/paolo-maldini-1478613561-6474.jpg?lm=1483606201"), filename:"paolo_maldini.jpg", content_type: "image/png" }
       }
@@ -565,8 +565,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Frank Rijkaard",
-        individual_milestones: "UEFA Euro 1988 winner with the Netherlands",
-        team_trophies_won: "AC Milan's European Cup in 1989 and 1990",
+        individual_milestones: "2x Dutch Golden Shoe, 1988 European Championship Team of the Tournament",
+        team_trophies_won: "3x European Cup/Champions League, 1x European Championship, 2x Serie A Titles, 5x Eredivisie Titles",
         teams_countries: "Ajax, Real Zaragoza, AC Milan, Netherlands",
         photo: { io: URI.open("https://i.dailymail.co.uk/1s/2019/01/10/17/6708812-6433405-Rijkaard_in_action_for_Holland-a-15_1547140819631.jpg"), filename:"frank_rijkaard.jpg", content_type: "image/png" }
       }
@@ -582,8 +582,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Alfredo Di Stefano",
-        individual_milestones: "Five-time Ballon d'Or runner-up",
-        team_trophies_won: "Multiple European Cups/Champions League titles with Real Madrid",
+        individual_milestones: "2x Ballon d'Or",
+        team_trophies_won: "1x South American Championship, 8x La Liga Titles, 5x Champions League",
         teams_countries: "River Plate, Millonaris, Real Madrid, Espanyol, Argentina, Spain",
         photo: { io: URI.open("https://i.pinimg.com/1200x/3f/b6/86/3fb6863b48789f4c7623cf23304d7000.jpg"), filename:"alfredo_distefano.jpg", content_type: "image/png" }
       }
@@ -599,8 +599,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Diego Maradona",
-        individual_milestones: "FIFA World Cup winner with Argentina in 1986",
-        team_trophies_won: "Serie A titles with Napoli",
+        individual_milestones: "FIFA Player of the Century 2000, 1x FIFA World Cup Golden Ball",
+        team_trophies_won: "1x FIFA World Cup, 2x Serie A Titles, 1x Coppa Italia",
         teams_countries: "Argentinos Juniors, Boca Juniors, Barcelona, Naples, Seville, Newell's Old Boys, Argentina",
         photo: { io: URI.open("https://ew.com/thmb/jHyIrAxwlJVRDDwVqji_gnruRp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1016702318-bbc229bb439047958484b42fc7e20809.jpg"), filename:"diego_maradona.jpg", content_type: "image/png" }
       }
@@ -616,8 +616,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Lionel Messi",
-        individual_milestones: "Multiple FIFA Ballon d'Or winner",
-        team_trophies_won: "Numerous La Liga and Champions League titles with Barcelona",
+        individual_milestones: "8x Ballon d'Or, 6x European Golden Shoe, FIFA World Player of the Year 2009",
+        team_trophies_won: "1x FIFA World Cup, 10x La Liga Titles, 4x Champions League, 3x FIFA Clup World Cup, 2x Ligue 1 Titles",
         teams_countries: "Barcelona, PSG, Inter Miami, Argentina",
         photo: { io: URI.open("https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg"), filename:"lionel_messi.jpg", content_type: "image/png" }
       }
@@ -633,8 +633,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Pele",
-        individual_milestones: "Three-time FIFA World Cup winner with Brazil",
-        team_trophies_won: "Multiple domestic titles with Santos and New York Cosmos",
+        individual_milestones: "7x Ballon d'Or, Ballon d'Or Dream Team 2020, 11x Campeonato Paulista Top Scorer",
+        team_trophies_won: "3x FIFA World Cups, 6x Campenonato Brasileiro Serie A Titles, 2x Intercontinental Cups",
         teams_countries: "Santos, NY Cosmos, Brazil",
         photo: { io: URI.open("https://hollywoodlife.com/wp-content/uploads/2022/12/Pele-Soccer-5-Things-SS-embed-2.jpg"), filename:"pele.jpg", content_type: "image/png" }
       }
@@ -650,8 +650,8 @@ FOOTBALL = {
       },
       famous_player_attributes: {
         famous_player_name: "Cristiano Ronaldo",
-        individual_milestones: "Multiple FIFA Ballon d'Or winner",
-        team_trophies_won: "Multiple Premier League and Champions League titles with Manchester United and Real Madrid",
+        individual_milestones: "5x Ballon d'Or",
+        team_trophies_won: "3x Premier League, 2x La Liga, 2x Serie A, 5x Champions League, 1x European Championship, 1x Nations League",
         teams_countries: "Sporting Portugal, Manchester United, Real Madrid, Juventus, Al-Nassr, Portugal",
         photo: { io: URI.open("https://robbreport.com/wp-content/uploads/2023/04/cristianorinaldo.jpg?w=1000"), filename:"cristiano_ronaldo.jpg", content_type: "image/png" }
       }
@@ -660,15 +660,15 @@ FOOTBALL = {
       positions_name: "Right Center-back",
       positions_tag: "CB",
       description_attributes: {
-        overview_of_position: "Central defender, anchors the defense",
-        primary_objectives: "Marking forwards, intercepting passes, aerial duels",
-        strengths: "Aerial ability, tackling, leadership",
-        weaknesses: "Pace, one-on-one situations"
+        overview_of_position: "Central defender, anchors the defense.",
+        primary_objectives: "Marking forwards, intercepting passes, aerial duels.",
+        strengths: "Aerial ability, tackling, leadership.",
+        weaknesses: "Pace, one-on-one situations."
       },
       famous_player_attributes: {
         famous_player_name: "Bobby Moore",
-        individual_milestones: "fill here",
-        team_trophies_won: "fill here",
+        individual_milestones: "1x FIFA World Cup All-Star Team 1966, 4x West Ham Player of the Year",
+        team_trophies_won: "1x FIFA World Cup, 1x FA Cup",
         teams_countries: "West Ham, Fulham, SA Thunder, Seattle Sounders, Herning Fremad, Carolina Lightnin', England",
         photo: { io: URI.open("https://cdn.whufc.com/sites/default/files/inline-images/Webp.net-resizeimage-7_21.jpg"), filename:"bobby_moore.jpg", content_type: "image/png" }
       }

@@ -698,7 +698,7 @@ AMERICAN_FOOTBALL = {
     milestones: "First Super Bowl held in 1967"
   },
   terminology_attributes: {
-    most_important_terms: "1. TOUCHDOWN: A touchdown is scored in American football when a player carries or catches the ball across the opponent's goal line. 2. FIELD GOAL: A field goal is a scoring play where the ball is kicked between the goalposts. 3. INTERCEPTION: An interception occurs when a defensive player catches a pass inteded for an offensive player, resulting in a change of possession. 4. FUMBLE: A fumble happens in football when a player loses possession of the ball unintentionally, and it becomes free to be recovered by either team. 5. KICKOFF: A kickoff is the method used to start a football game or resume play after a score, with one team kicking the ball to the other to begin the game or following a scoring play."
+    most_important_terms: "1.TOUCHDOWN: A touchdown is scored in American football when a player carries or catches the ball across the opponent's goal line. 2.FIELD GOAL: A field goal is a scoring play where the ball is kicked between the goalposts. 3.INTERCEPTION: An interception occurs when a defensive player catches a pass inteded for an offensive player, resulting in a change of possession. 4.FUMBLE: A fumble happens in football when a player loses possession of the ball unintentionally, and it becomes free to be recovered by either team. 5.KICKOFF: A kickoff is the method used to start a football game or resume play after a score, with one team kicking the ball to the other to begin the game or following a scoring play."
   },
   rule_attributes: {
     game_duration: "Four quarters of 15 minutes each",
@@ -847,7 +847,7 @@ AMERICAN_FOOTBALL = {
       }
     },
     "8" => {
-      positions_name: "Center",
+      positions_name: "Centre",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Snaps the ball to the quarterback, anchors the offensive line",
@@ -1346,7 +1346,7 @@ ICE_HOCKEY = {
       }
     },
     "2" => {
-      positions_name: "Center",
+      positions_name: "Center Ice",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Plays in the middle of the forward line, involved in both ends of the ice",

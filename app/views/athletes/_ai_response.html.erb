@@ -1,2 +1,4 @@
 <h3><%= athlete.name %></h3>
-<p><%= athlete.details %></p>
+<% athlete.details.split("\n").each do |text| %>
+  <p><%= text %></p>
+<% end %>

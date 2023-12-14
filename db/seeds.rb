@@ -847,7 +847,7 @@ AMERICAN_FOOTBALL = {
       }
     },
     "8" => {
-      positions_name: "Center",
+      positions_name: "Centre",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Snaps the ball to the quarterback, anchors the offensive line",
@@ -1346,7 +1346,7 @@ ICE_HOCKEY = {
       }
     },
     "2" => {
-      positions_name: "Center",
+      positions_name: "Center Ice",
       positions_tag: "C",
       description_attributes: {
         overview_of_position: "Plays in the middle of the forward line, involved in both ends of the ice",

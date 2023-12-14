@@ -1,26 +1,12 @@
+    <% if @sport.name == "Basketball" %>
+    <%= render "sport_partials/bball_partial"%>
+    <% end %>
 <div class="container">
   <div class="show-sport-btns">
     <%= link_to sports_path do %>
       <%= render_icon "back" %>
     <% end %>
     <div>
-    <% if @sport.name == "Basketball" %>
-    <%= render "sport_partials/bball_partial"%>
-  <% elsif @sport.name == "Football" %>
-    <%= render "partials/football_pos"%>
-  <% elsif @sport.name == "American Football" %>
-    <%= render "partials/amer_football_pos"%>
-  <% elsif @sport.name == "Rugby Union" %>
-    <%= render "partials/rugby_pos"%>
-  <% elsif @sport.name == "Curling" %>
-    <%= render "partials/curling_pos"%>
-  <% elsif @sport.name == "Volleyball" %>
-    <%= render "partials/volleyball_pos"%>
-  <% elsif @sport.name == "Baseball" %>
-    <%= render "partials/baseball_pos"%>
-  <% elsif @sport.name == "Ice Hockey" %>
-    <%= render "partials/icehockey_pos"%>
-  <% end %>
       <% if @current_user && @current_user.favourites.exists?(sport_id: @sport.id) %>
         <%= link_to favourite_path(@favourite), data: { turbo_method: :delete } do %>
           <%= render_icon "unfavourite", classes:"icon-favourite" %>

@@ -474,11 +474,11 @@ FOOTBALL = {
     milestones: "First International match took place between England and Scotland in 1872, at West of Scotland Cricket Club in Partick, Glasgow."
   },
   terminology_attributes: {
-    most_important_terms: "GOAL, OFFSIDE, FOUL, PENALTY",
+    most_important_terms: "1.GOAL: When a ball crosses the line into the goals legally., 2.OFFSIDE: When an attacking player is further up the field than the last defending player of the other team without the ball., 3.FOUL: When a player commits an illegal act, the opposition will then get a free-kick., 4.PENALTY: When a foul is committed inside the box, the attacking team is rewarded with a free shot at goal from the penalty spot.",
   },
   rule_attributes: {
     game_duration: "Two 45 minutes halves plus compensation.",
-    scoring: "The ball enters the goal.",
+    scoring: "1 point when the ball enters the goal.",
     player_per_team: 11,
     referees: 4,
     most_important_rules: "Each team can have 11 players, including 1 goalkeeper who is the only player allowed to handle the ball within the box. A minimum of 7 players are needed to constitute a match. The pitch must be marked with a rectangular shape around the outside showing out of bounds, two 5,5 meter boxes, two 16,5 meter boxes and a centre circle. A spot for a penalty placed 11 meters out of both goals and centre circle must also be visible. Each game must include one referee and two assistant referee's (linesmen). It's the job of the referee to act as time keeper and make any decisions which may need to be made such as fouls, free kicks, throw ins, penalties and added on time at the end of each half. The referee may consult the assistant referees at any time in the match regarding a decision. It's the assistant referee's job to spot offside's in the match, throw ins for either team and also assist the referee in all decision making processes where appropriate. If the game needs to head to extra time as a result of both teams being level in a match then 30 minutes will be added in the form of two 15 minute halves after the allotted 90 minutes. If teams are still level after extra time then a penalty shootout must take place. The whole ball must cross the goal line for it to constitute as a goal. For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced. If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.",
@@ -1410,7 +1410,7 @@ ICE_HOCKEY = {
         individual_milestones: "7-time Norris Trophy winner, 2x Viking Award",
         team_trophies_won: "4x Stanley Cups, 2006 Olympic Gold Medal, 1991 World Champions",
         teams_countries: "Sweden, Detroit Red Wings",
-        photo: { io: URI.open("https://i.pinimg.com/originals/0d/f8/af/0df8af4591cc45edbcfe6a4f0ae2707c.jpg"), filename:"nikolas_ludstrum.jpg", content_type: "image/jpg" }
+        photo: { io: URI.open("https://i.pinimg.com/originals/0d/f8/af/0df8af4591cc45edbcfe6a4f0ae2707c.jpg"), filename:"nikolas_ludstrum.jpg", content_type: "image/png" }
       }
     }
   }

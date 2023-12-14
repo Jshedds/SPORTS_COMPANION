@@ -12,23 +12,6 @@
           <% else %>
         <%= link_to render_icon("favourite"), new_user_session_path %>
     <% end %>
-    <% if @sport.name == "Basketball" %>
-      <%= link_to render_icon("bball"), sport_path(@sport) %>
-    <% elsif @sport.name == "Football" %>
-      <%= link_to render_icon("football"), sport_path(@sport) %>
-    <% elsif @sport.name == "American Football" %>
-      <%= link_to render_icon("american_foot"), sport_path(@sport) %>
-    <% elsif @sport.name == "Rugby Union" %>
-      <%= link_to render_icon("rugby"), sport_path(@sport) %>
-    <% elsif @sport.name == "Volleyball" %>
-      <%= link_to render_icon("volleyball"), sport_path(@sport) %>
-    <% elsif @sport.name == "Baseball" %>
-      <%= link_to render_icon("baseball"), sport_path(@sport) %>
-    <% elsif @sport.name == "Ice Hockey" %>
-      <%= link_to render_icon("icehockey"), sport_path(@sport) %>
-      <% elsif @sport.name == "Curling" %>
-      <%= link_to render_icon("curling"), sport_path(@sport) %>
-    <% end %>
   </div>
 
   <div class="sport-title">

@@ -365,7 +365,7 @@ RUGBY_UNION = {
       }
     },
     "10" => {
-      positions_name: "Left Wing",
+      positions_name: "L Winger",
       positions_tag: "LW",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the left flank",
@@ -417,7 +417,7 @@ RUGBY_UNION = {
       }
     },
     "13" => {
-      positions_name: "Right Wing",
+      positions_name: "R Winger",
       positions_tag: "RW",
       description_attributes: {
         overview_of_position: "Speedy winger positioned on the right flank",

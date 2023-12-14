@@ -107,3 +107,30 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
 }
+.position-card {
+  text-align: center;
+  height: fit-content;
+  border-radius: 25px;
+  border: solid 5px;
+  border-color: black;
+  background-size: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  position: relative;
+  background-color: white;
+  padding:10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.position-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.position-content {
+  // color: black;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+}

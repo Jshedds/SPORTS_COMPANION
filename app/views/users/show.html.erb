@@ -37,23 +37,20 @@
     <% end%>
   </div>
   <h4> My <%= render_icon("unfavourite") %> Positions</h4>
-  <%# <div class='dash-grid'> %>
-    <%# <% if @favourite_positions.exists? %>
-      <%# <% @favourite_positions.each do |favourite_position| %>
-        <%# <div class="favecard card-styles"> %>
-          <%# <div class='card-content'> %>
-            <!-- Display the position info here -->
-            <%# <%= link_to favourite_position.position.positions_name, sport_position_path(favourite_position.position.sport, favourite_position.position) %>
-            <!-- Adjust the above code according to your position's attributes -->
-          <%# </div> %>
-        <%# </div> %>
-      <%# <% end %>
-    <%# <% else %>
-      <!-- If the user has no favorite positions -->
-      <%# <%= "You haven't added any positions to your favourites yet" %>
-      <%# <%= link_to sports_path do %>
-        <%# <%= render_icon "add" %>
-      <%# <% end %>
-    <%# <% end %>
-  <%# </div> %>
+  <div class='position-grid'>
+    <% if @favourite_positions.exists? %>
+      <% @favourite_positions.each do |favourite_position| %>
+         <div class="position-card card-styles">
+          <div class='position-content'>
+            <%= link_to  "#{favourite_position.position.sport.name.upcase} #{favourite_position.position.positions_tag.upcase}", sport_position_path(favourite_position.position.sport, favourite_position.position) %>
+          </div>
+        </div>
+      <% end %>
+    <% else %>
+      <%= "You haven't added any positions to your favourites yet" %>
+        <%= link_to sports_path do %>
+          <%= render_icon "add" %>
+      <% end %>
+    <% end %>
+  </div>
 </div>

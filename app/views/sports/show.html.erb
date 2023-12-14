@@ -1,4 +1,5 @@
-<div class="show-sport-btns">
+<div class="container">
+  <div class="show-sport-btns">
     <%= link_to sports_path do %>
       <%= render_icon "back" %>
     <% end %>
@@ -6,75 +7,92 @@
       <% if @current_user && @current_user.favourites.exists?(sport_id: @sport.id) %>
         <%= link_to favourite_path(@favourite), data: { turbo_method: :delete } do %>
           <%= render_icon "unfavourite", classes:"icon-favourite" %>
-        <% end %>
+      <% end %>
       <% elsif @current_user %>
-      <%= link_to sport_favourites_path(@sport), data: { turbo_method: :post } do %>
+        <%= link_to sport_favourites_path(@sport), data: { turbo_method: :post } do %>
           <%= render_icon("favourite") %>
-        <% end %>
+      <% end %>
       <% else %>
         <%= link_to render_icon("favourite"), new_user_session_path %>
       <% end %>
-  </div>
+    </div>
     <% if current_user && policy(Sport).edit? %>
-        <%= link_to edit_sport_path do %>
-          <%= render_icon "edit" %>
-        <% end %>
+      <%= link_to edit_sport_path do %>
+        <%= render_icon "edit" %>
+      <% end %>
     <% end %>
-</div>
+  </div>
+
+  <div class="sport-title">
+    <%= @sport.name.upcase %>
+  </div>
 
 
-<div class="sport-title">
-  <%= @sport.name.upcase %>
-</div>
-
-<div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    OVERVIEW
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none information">
-    <%= render "overviews/overview" %>
-  </div>
-</div>
-
-<%= link_to sport_positions_path(@sport) do %>
-  <div class="tab">
-    POSITIONS
-  </div>
-<% end %>
-
-<div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    RULES
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none information">
-    <%= render "rules/rule" %>
-  </div>
-</div>
-
-
-<div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    TERMINOLOGY
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none information">
-    <%= render "terminologies/terminology" %>
-  </div>
-</div>
-
-  <div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    EQUIPMENT NEEDS
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none information">
-    <%= render "equipment_needs/equipment_need" %>
-  </div>
-</div>
-
-  <div data-controller="toggle">
-  <div data-action="click->toggle#fire" class="tab">
-    HISTORY
-  </div>
-  <div data-toggle-target="togglableElement" class="d-none information">
-    <%= render "histories/history" %>
+  <div class="accordion" id="accordionExample">
+    <div>
+      <h2 class="accordion-header" id="headingOne">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          OVERVIEW
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "overviews/overview" %>
+        </div>
+      </div>
+    </div>
+    <%= link_to sport_positions_path(@sport) do %>
+    <div class="tab">
+      POSITIONS
+    </div>
+    <% end %>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          RULES
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "rules/rule" %>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          TERMINOLOGY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "terminologies/terminology" %>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          EQUIPMENT NEEDS
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "equipment_needs/equipment_need" %>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="tab" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          HISTORY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="information">
+          <%= render "histories/history" %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

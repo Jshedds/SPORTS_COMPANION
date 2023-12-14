@@ -15,7 +15,7 @@ class Athlete < ApplicationRecord
     client = OpenAI::Client.new
     chaptgpt_response = client.chat(parameters: {
       model: "gpt-3.5-turbo",
-      messages: [{ role: "user", content: "For #{name}, in bullet point form give me their 5 strengths and their 5 weaknesses, without any extra text"}]
+      messages: [{ role: "user", content: "For #{name},  with Strengths & Weaknesses headers which are all caps and bold ,  give me their 5 strengths and their 5 weaknesses numbered under each header, without any extra text, with the headers on seperate lines from the numbered strengths and weaknesses"}]
     })
       puts chaptgpt_response["choices"][0]["message"]["content"]
     new_details = chaptgpt_response["choices"][0]["message"]["content"]

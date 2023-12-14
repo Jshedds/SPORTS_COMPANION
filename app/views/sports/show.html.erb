@@ -1,3 +1,6 @@
+    <% if @sport.name == "Basketball" %>
+    <%= render "sport_partials/bball_partial"%>
+    <% end %>
 <div class="container">
   <div class="show-sport-btns">
     <%= link_to sports_path do %>

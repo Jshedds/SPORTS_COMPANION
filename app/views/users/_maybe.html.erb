@@ -1,10 +1,216 @@
 <% if favourite_position.position.positions_name == "Left Center-back"%>
-          <%= link_to sport_position_path(@sport, position) do %>
-            <div class="position-card card-styles">
-              <div class='position-content'>
-                <div id="CB1" style="background-image: url('<%= image_path "RCB.png" %>');"></div>
-              </div>
-            </div>
-          <% end %>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RCB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Center-back"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LCB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left-back"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right-back"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Defensive Midfielder"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "CDM.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Central Midfielder"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "CM.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Attacking Midfielder"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "CAM.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Winger"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RW.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Winger"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LW.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Striker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "ST.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Goalkeeper"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "GK.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Point Guard"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "PG.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Shooting Guard"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "SG.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Small Forward"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "SF.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Power Forward"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "PF.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Center"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "C.png" %>');"></div>
+  <% end %>
 
-        <% end %>
+<% elsif favourite_position.position.positions_name == "Loosehead Prop"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "1.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Hooker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "2.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Tighthead Prop"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "3.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Loosehead Lock (Second Row)"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "4.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Blindside Flanker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "6.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Tighthead lock (Second Row)"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "5.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Openside Flanker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "7.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Number 8"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "8.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Scrum Half"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "9.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Stand Off"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "10.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Wing"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "11.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Inside Centre"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "12.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Outside Centre"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "13.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Wing"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "14.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Fullback"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "15.png" %>');"></div>
+  <% end %>
+
+
+<% elsif favourite_position.position.positions_name == "Quarterback"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "QB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Runningback"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "FRB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Tight End"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "TE.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Wide Receiver - X"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "WRX.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Wide Receiver - Y"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "WRY.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Wide Reciver - Z"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "WRZ.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Tackle"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LT.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Guard"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LG.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Center"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "FootC.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Guard"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RG.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Tackle"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RT.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Defensive End"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LDE.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Defensive Tackle - 3 Tech"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "DT3.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Defensive Tackle - Noseguard"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "NG.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Defensive End"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "RDE.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Outside Linebacker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "ROLB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Middle Linebacker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "MLB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Outside Linebacker"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "LOLB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Left Cornerback"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "FLCB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Right Cornerback"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "FRCB.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Free Safety"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "FS.png" %>');"></div>
+  <% end %>
+<% elsif favourite_position.position.positions_name == "Strong Safety"%>
+  <%= link_to sport_position_path(favourite_position.position.sport, favourite_position.position) do %>
+        <div id="r3th" style="background-image: url('<%= image_path "SS.png" %>');"></div>
+  <% end %>
+<% end %>

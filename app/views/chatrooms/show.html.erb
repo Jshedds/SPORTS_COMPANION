@@ -1,3 +1,21 @@
+    <% if @sport.name == "Basketball" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'bball_court.jpg' %>)" >
+    <% elsif @sport.name == "Football" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'Football_pitch.jpeg' %>)" >
+    <% elsif @sport.name == "American Football" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'merican_foot_pitch.jpeg' %>)" >
+    <% elsif @sport.name == "Rugby Union" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'rugby_pitch.jpg' %>)" >
+    <% elsif @sport.name == "Curling" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'curling_court.jpg' %>)" >
+    <% elsif @sport.name == "Volleyball" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'volleyball_court.png' %>)" >
+    <% elsif @sport.name == "Baseball" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'baseball_pitch.jpg' %>)" >
+    <% elsif @sport.name == "Ice Hockey" %>
+      <div class="pitch-bg" style="background-image: url( <%= asset_path 'icehockey_pitch.jpg' %>)" >
+    <% end %>
+
 <div class="container-chatroom" data-controller="chatroom-subscription" data-chatroom-subscription-chatroom-name-value="<%= @chatroom.name %>">
 
 

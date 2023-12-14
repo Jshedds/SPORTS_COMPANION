@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= favicon_link_tag %>
     <title>SportsCompanion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
@@ -20,4 +21,5 @@
         <%= render "shared/flashes" %>
         <%= yield %>
     </body>
+    <!-- app/views/layouts/application.html.erb -->
 </html>

@@ -18,9 +18,20 @@
   margin: 10px;
   border-radius: 10px;
   padding: 5px;
-  width: 90%;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8vh;
+  position:fixed;
+  z-index: 999;
+  bottom: 75px;
+  left: 5px;
+  right: 5px;
 }
 .message-new {
   background: #00000000;
-  backdrop-filter: blur( 20px );
+  width:100%;
+}
+.messages{
+  margin-top: 60px;
 }

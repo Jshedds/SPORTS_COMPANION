@@ -1,2 +1,100 @@
-<%  court_bg_image = 'rugby_pitch.jpg' %>
-  <%= image_tag(court_bg_image, alt: "Basketball Court", class:"court-bg") %>
+<div id="bg-container-rugby" style="background-position: center">
+
+  <%= link_to sport_path(@sport) do %>
+    <%= render_icon "back" %>
+  <% end %>
+
+  <% @sport.positions.each do |position| %>
+
+    <% if position.positions_name == "Loosehead Prop"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r1" style="background-image: url('<%= image_path "1.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Hooker"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r2" style="background-image: url('<%= image_path "2.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Tighthead Prop"%>
+      <%= link_to sport_position_path(@sport, position) do %>
+        <div id="r3" style="background-image: url('<%= image_path "3.png" %>');">
+        </div>
+      <% end %>
+
+    <% elsif position.positions_name == "Loosehead Lock (Second Row)"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r4" style="background-image: url('<%= image_path "4.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Tighthead lock (Second Row)"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r5" style="background-image: url('<%= image_path "5.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Blindside Flanker"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r6" style="background-image: url('<%= image_path "6.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Openside Flanker"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r7" style="background-image: url('<%= image_path "7.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Number 8"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r8" style="background-image: url('<%= image_path "8.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Scrum Half"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r9" style="background-image: url('<%= image_path "9.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Stand Off"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r10" style="background-image: url('<%= image_path "10.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Left Wing"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r11" style="background-image: url('<%= image_path "11.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Inside Centre"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r12" style="background-image: url('<%= image_path "12.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Outside Centre"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r13" style="background-image: url('<%= image_path "13.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Right Wing"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r14" style="background-image: url('<%= image_path "14.png" %>');">
+          </div>
+        <% end %>
+
+    <% elsif position.positions_name == "Fullback"%>
+        <%= link_to sport_position_path(@sport, position) do %>
+          <div id="r15" style="background-image: url('<%= image_path "15.png" %>');">
+          </div>
+        <% end %>
+    <% end %>
+  <% end %>
+</div>

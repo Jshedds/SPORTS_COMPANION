@@ -246,7 +246,7 @@ RUGBY_UNION = {
       }
     },
     "3" => {
-      positions_name: "Second Row",
+      positions_name: "Loosehead Lock (Second Row)",
       positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",
@@ -263,7 +263,7 @@ RUGBY_UNION = {
       }
     },
     "4" => {
-      positions_name: "Second Row",
+      positions_name: "Tighthead lock (Second Row)",
       positions_tag: "SR",
       description_attributes: {
         overview_of_position: "Second-row forward, key figure in lineouts and scrums",

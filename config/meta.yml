@@ -1,0 +1,11 @@
+    # config/meta.yml
+
+    meta_product_name: "Sports Companion"
+
+    meta_title: "Sports Companion – A sports guide for sports fans"
+
+    meta_description: "A perfect guide for your sports knowledge needs"
+
+    meta_image: "cover.png" # should exist in `app/assets/images/`
+
+    # twitter_account: "@product_twitter_account" # required for Twitter Cards
